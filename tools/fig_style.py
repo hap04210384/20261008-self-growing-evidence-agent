@@ -55,39 +55,61 @@ def clean_spines(ax, keep=("left", "bottom")):
     ax.tick_params(direction="out", length=3.5, width=0.8)
 
 
+def _measure_text_pt(fig, s, fontsize, linespacing=1.4):
+    """用渲染器实测字符串宽度/高度（pt）：临时挂一个透明文本到 figure 上。"""
+    t = fig.text(0, 0, s, fontsize=fontsize, alpha=0, linespacing=linespacing)
+    fig.canvas.draw()
+    bb = t.get_window_extent(fig.canvas.get_renderer())
+    t.remove()
+    return bb.width / fig.dpi * 72.0, bb.height / fig.dpi * 72.0
+
+
+def _greedy_wrap(fig, text, fontsize, width_pt, linespacing=1.4):
+    """按实测字宽做贪心换行，行宽尽量贴近 width_pt（排满到右边界）。"""
+    lines, cur = [], ""
+    for word in text.split():
+        cand = word if not cur else cur + " " + word
+        w, _ = _measure_text_pt(fig, cand, fontsize, linespacing)
+        if w <= width_pt or not cur:
+            cur = cand
+        else:
+            lines.append(cur)
+            cur = word
+    if cur:
+        lines.append(cur)
+    return "\n".join(lines)
+
+
 def add_footnote(fig, axes, text, fontsize=7.8, color=None, bottom=0.012,
                  gap=0.022, linespacing=1.4, top=None):
-    """底部通栏脚注：独立窄 axes 承载自动换行文本，左右与主图区拉通。
+    """底部通栏脚注：按图区真实宽度实测换行，左右与主图区拉通。
 
-    两遍排版：先按图区宽度测出换行后的实际行高，再用 tight_layout 给
-    脚注预留恰好高度（省下的底部留白自动回收），最后把脚注贴到图底。
+    不用 matplotlib wrap=True（其换行边界比坐标区窄一截，右侧留大空），
+    改为渲染器实测字宽的贪心换行；再按实际行高用 tight_layout 给脚注
+    预留恰好高度，省下的底部留白自动回收。
     """
     if color is None:
         color = SUB
     top_arg = 1 if top is None else top
     axes = list(axes)
+    fig_w_in, fig_h_in = fig.get_size_inches()
     fig.tight_layout(rect=[0, 0.02, 1, top_arg])
-    pos0 = min(a.get_position().x0 for a in axes)
-    pos1 = max(a.get_position().x1 for a in axes)
 
-    def _measure():
-        tmp = fig.add_axes([pos0, 0, pos1 - pos0, 1])
-        tmp.axis("off")
-        t = tmp.text(0, 0, text, fontsize=fontsize, color=color, ha="left",
-                     va="bottom", wrap=True, linespacing=linespacing)
-        fig.canvas.draw()
-        bb = t.get_window_extent(fig.canvas.get_renderer())
-        h = bb.height / (fig.dpi * fig.get_size_inches()[1])
-        fig.delaxes(tmp)
-        return h
+    def _layout():
+        pos0 = min(a.get_position().x0 for a in axes)
+        pos1 = max(a.get_position().x1 for a in axes)
+        width_pt = (pos1 - pos0) * fig_w_in * 72.0
+        wrapped = _greedy_wrap(fig, text, fontsize, width_pt, linespacing)
+        _, h_pt = _measure_text_pt(fig, wrapped, fontsize, linespacing)
+        return pos0, pos1, wrapped, h_pt / 72.0 / fig_h_in
 
-    h = _measure()
+    fig.canvas.draw()
+    pos0, pos1, wrapped, h = _layout()
     fig.tight_layout(rect=[0, bottom + h + gap, 1, top_arg])
-    pos0 = min(a.get_position().x0 for a in axes)
-    pos1 = max(a.get_position().x1 for a in axes)
-    h = _measure()          # 宽度不变，重测仅为稳妥
+    fig.canvas.draw()
+    pos0, pos1, wrapped, h = _layout()   # 高度变化后图区宽度不变，重算稳妥
     fax = fig.add_axes([pos0, bottom, pos1 - pos0, h])
     fax.axis("off")
-    fax.text(0, 0, text, fontsize=fontsize, color=color, ha="left",
-             va="bottom", wrap=True, linespacing=linespacing)
+    fax.text(0, 0, wrapped, fontsize=fontsize, color=color, ha="left",
+             va="bottom", linespacing=linespacing)
     return fax
