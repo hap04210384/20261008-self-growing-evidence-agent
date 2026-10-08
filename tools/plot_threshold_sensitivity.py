@@ -12,7 +12,7 @@ import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fig_style import (AMBER, INK, ORANGE, PANEL, PURPLE, SUB, TEAL,
-                       TEAL_DARK, apply_style, clean_spines)
+                       TEAL_DARK, add_footnote, apply_style, clean_spines)
 
 import matplotlib.pyplot as plt
 
@@ -92,13 +92,14 @@ ax.grid(True, which="both")
 ax.legend(loc="lower center", bbox_to_anchor=(0.5, 1.005), ncol=5,
           columnspacing=1.4, handlelength=1.6)
 clean_spines(ax)
-# 底部给三行脚注预留 ~10.5% 高度，保证脚注与横坐标标签之间有明显间隙
-fig.tight_layout(rect=[0, 0.105, 1, 0.945])
-fig.text(0.065, 0.012,
-         "Shaded band: low-threshold regime — runtime swings of orders of magnitude within a single 2×\n"
-         "threshold step; with no plateau, no fixed threshold is a safe default across industrial deployments.\n"
-         "Annotations give the threshold-ratio → runtime-ratio measured for each dataset.",
-         fontsize=7.8, color=SUB, ha="left", va="bottom", linespacing=1.4)
+# 底部通栏脚注：左右与图区拉通，按实际行数预留高度（多余留白自动回收）
+add_footnote(fig, [ax],
+             "Shaded band: low-threshold regime — runtime swings of orders of "
+             "magnitude within a single 2× threshold step; with no plateau, no "
+             "fixed threshold is a safe default across industrial deployments. "
+             "Annotations give the threshold-ratio → runtime-ratio measured for "
+             "each dataset.",
+             fontsize=7.8, color=SUB, linespacing=1.4, top=0.945)
 fig.savefig(OUT + ".svg", format="svg")
 fig.savefig(OUT + ".png", dpi=220)
 print("saved", OUT + ".png")

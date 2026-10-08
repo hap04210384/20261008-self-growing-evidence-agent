@@ -12,7 +12,8 @@ from collections import defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT := os.path.dirname(
     os.path.dirname(os.path.abspath(__file__))), "tools"))
-from fig_style import AMBER, INK, ORANGE, PANEL, SUB, TEAL, TEAL_DARK, apply_style, clean_spines
+from fig_style import (AMBER, INK, ORANGE, PANEL, SUB, TEAL, TEAL_DARK,
+                       add_footnote, apply_style, clean_spines)
 from exp_llm_diagnosis import GROUPS, parse_json, load_group
 
 import matplotlib.pyplot as plt
@@ -143,14 +144,15 @@ ax2.annotate(f"GLM-4-Air: ≈{round((1 - glm_faith) * glm_ncite)} of {glm_ncite}
 ax2.set_title("(b) every claim auditable", fontsize=9.5, loc="left")
 ax1.set_title("(a) evidence improves diagnosis", fontsize=9.5, loc="left")
 
-fig.tight_layout(rect=[0, 0.11, 1, 0.95])
-fig.text(0.065, 0.014,
-         "60 balanced windows per condition (normal/faulty; ten per class from SKAB valve-1, valve-2, "
-         "and other-fault runs); frozen\nprompts, decoding temperature 0. +pp = percentage-point gain "
-         "of the same model with vs. without the mined library. Without the library,\nGLM-4-Air "
-         "fabricated citations in 32/60 windows; with the library, the single unverifiable citation "
-         "is annotated in panel (b).",
-         fontsize=7.3, color=SUB, ha="left", va="bottom", linespacing=1.35)
+# 底部通栏脚注：左右与双面板拉通，按实际行数预留高度
+add_footnote(fig, [ax1, ax2],
+             "60 balanced windows per condition (normal/faulty; ten per class "
+             "from SKAB valve-1, valve-2, and other-fault runs); frozen prompts, "
+             "decoding temperature 0. +pp = percentage-point gain of the same "
+             "model with vs. without the mined library. Without the library, "
+             "GLM-4-Air fabricated citations in 32/60 windows; with the library, "
+             "the single unverifiable citation is annotated in panel (b).",
+             fontsize=7.3, color=SUB, linespacing=1.35, top=0.95)
 fig.savefig(FIG + ".svg", format="svg")
 fig.savefig(FIG + ".png", dpi=220)
 print("saved", FIG + ".png")

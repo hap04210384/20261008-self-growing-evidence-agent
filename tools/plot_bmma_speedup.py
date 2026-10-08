@@ -11,8 +11,8 @@ import sys
 import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from fig_style import (AMBER, HAIR, INK, PANEL, SUB, TEAL_DARK, apply_style,
-                       clean_spines)
+from fig_style import (AMBER, HAIR, INK, PANEL, SUB, TEAL_DARK, add_footnote,
+                       apply_style, clean_spines)
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -147,12 +147,13 @@ ax.annotate(f"heavy configs (baseline ≥ 10 ms):\nmedian ×{med_heavy:.1f}",
             xytext=(first_heavy + 1.4, 2.2), fontsize=8.4, color=INK,
             arrowprops=dict(arrowstyle="->", color=SUB, lw=1.0))
 
-fig.tight_layout(rect=[0, 0.052, 1, 1])
-fig.text(0.065, 0.012,
-         "Bars: median over ≥5 runs per configuration (13 for HAI@0.10); whiskers: IQR. Bold ×N: BMMA speedup vs. "
-         "baseline of\nthe same configuration (green = faster, gray = slower). Seconds annotated on heavy "
-         "configurations (baseline ≥ 10 ms).",
-         fontsize=7.8, color=SUB, ha="left", va="bottom", linespacing=1.4)
+# 底部通栏脚注：左右与图区拉通，按实际行数预留高度（多余留白自动回收）
+add_footnote(fig, [ax],
+             "Bars: median over ≥5 runs per configuration (13 for HAI@0.10); "
+             "whiskers: IQR. Bold ×N: BMMA speedup vs. baseline of the same "
+             "configuration (green = faster, gray = slower). Seconds annotated "
+             "on heavy configurations (baseline ≥ 10 ms).",
+             fontsize=7.8, color=SUB, linespacing=1.4)
 fig.savefig(OUT + ".svg", format="svg")
 fig.savefig(OUT + ".png", dpi=220)
 print("saved", OUT + ".png")

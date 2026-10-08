@@ -12,7 +12,7 @@ import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fig_style import (AMBER, BLUE, INK, ORANGE, PANEL, SUB, TEAL, TEAL_DARK,
-                       apply_style, clean_spines)
+                       add_footnote, apply_style, clean_spines)
 
 import matplotlib.pyplot as plt
 
@@ -74,13 +74,14 @@ ax.set_yticks([0.0, 0.25, 0.5, 0.75, 1.0])
 ax.grid(True)
 ax.legend(loc="upper left")
 clean_spines(ax)
-# 底部给三行脚注预留 ~10.5% 高度，保证脚注与横坐标标签之间有明显间隙
-fig.tight_layout(rect=[0, 0.105, 1, 1])
-fig.text(0.065, 0.012,
-         "Guarantees: coverage is monotone non-decreasing by construction — earlier prefixes remain valid\n"
-         "after resumption; 44/45 stages bit-identical to exhaustive MFI mining at the per-stage support\n"
-         "threshold (single exception: a tied-support stage — a direct illustration of anytime semantics).",
-         fontsize=7.8, color=SUB, ha="left", va="bottom", linespacing=1.4)
+# 底部通栏脚注：左右与图区拉通，按实际行数预留高度（多余留白自动回收）
+add_footnote(fig, [ax],
+             "Guarantees: coverage is monotone non-decreasing by construction — "
+             "earlier prefixes remain valid after resumption; 44/45 stages "
+             "bit-identical to exhaustive MFI mining at the per-stage support "
+             "threshold (single exception: a tied-support stage — a direct "
+             "illustration of anytime semantics).",
+             fontsize=7.8, color=SUB, linespacing=1.4)
 fig.savefig(OUT + ".svg", format="svg")
 fig.savefig(OUT + ".png", dpi=220)
 print("saved", OUT + ".png")

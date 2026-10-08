@@ -53,3 +53,41 @@ def clean_spines(ax, keep=("left", "bottom")):
     for side in ("top", "right", "left", "bottom"):
         ax.spines[side].set_visible(side in keep)
     ax.tick_params(direction="out", length=3.5, width=0.8)
+
+
+def add_footnote(fig, axes, text, fontsize=7.8, color=None, bottom=0.012,
+                 gap=0.022, linespacing=1.4, top=None):
+    """底部通栏脚注：独立窄 axes 承载自动换行文本，左右与主图区拉通。
+
+    两遍排版：先按图区宽度测出换行后的实际行高，再用 tight_layout 给
+    脚注预留恰好高度（省下的底部留白自动回收），最后把脚注贴到图底。
+    """
+    if color is None:
+        color = SUB
+    top_arg = 1 if top is None else top
+    axes = list(axes)
+    fig.tight_layout(rect=[0, 0.02, 1, top_arg])
+    pos0 = min(a.get_position().x0 for a in axes)
+    pos1 = max(a.get_position().x1 for a in axes)
+
+    def _measure():
+        tmp = fig.add_axes([pos0, 0, pos1 - pos0, 1])
+        tmp.axis("off")
+        t = tmp.text(0, 0, text, fontsize=fontsize, color=color, ha="left",
+                     va="bottom", wrap=True, linespacing=linespacing)
+        fig.canvas.draw()
+        bb = t.get_window_extent(fig.canvas.get_renderer())
+        h = bb.height / (fig.dpi * fig.get_size_inches()[1])
+        fig.delaxes(tmp)
+        return h
+
+    h = _measure()
+    fig.tight_layout(rect=[0, bottom + h + gap, 1, top_arg])
+    pos0 = min(a.get_position().x0 for a in axes)
+    pos1 = max(a.get_position().x1 for a in axes)
+    h = _measure()          # 宽度不变，重测仅为稳妥
+    fax = fig.add_axes([pos0, bottom, pos1 - pos0, h])
+    fax.axis("off")
+    fax.text(0, 0, text, fontsize=fontsize, color=color, ha="left",
+             va="bottom", wrap=True, linespacing=linespacing)
+    return fax

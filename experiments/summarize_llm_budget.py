@@ -20,7 +20,8 @@ sys.path.insert(0, HERE)
 from exp_llm_diagnosis import parse_json  # noqa: E402
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 from fig_style import (apply_style, clean_spines, INK, SUB, HAIR, PAPER,
-                       TEAL, TEAL_DARK, AMBER, BLUE, ORANGE)  # noqa: E402
+                       TEAL, TEAL_DARK, AMBER, BLUE, ORANGE,
+                       add_footnote)  # noqa: E402
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
@@ -232,11 +233,12 @@ ax.grid(axis="y")
 clean_spines(ax)
 ax.legend(loc="upper left", bbox_to_anchor=(0.015, 0.985), ncol=1,
           handlelength=1.8)
-fig.tight_layout(rect=(0, 0.075, 1, 1))
-fig.text(0.055, 0.018,
-         "60 balanced SKAB windows per model \u00b7 frozen prompts, decoding temperature 0\n"
-         "whiskers: Wilson 95% CI \u00b7 dashed line: chance (0.5) \u00b7 p: paired McNemar, peak vs. k = 0",
-         fontsize=7.4, color=SUB, ha="left", va="bottom", linespacing=1.5)
+# 底部通栏脚注：左右与图区拉通，按实际行数预留高度（多余留白自动回收）
+add_footnote(fig, [ax],
+             "60 balanced SKAB windows per model · frozen prompts, decoding "
+             "temperature 0 · whiskers: Wilson 95% CI · dashed line: chance "
+             "(0.5) · p: paired McNemar, peak vs. k = 0",
+             fontsize=7.4, color=SUB, linespacing=1.5)
 fig.savefig(os.path.join(FIGDIR, "fig7_llm_budget.png"), dpi=300)
 print("saved", os.path.join(FIGDIR, "fig7_llm_budget.png"))
 
