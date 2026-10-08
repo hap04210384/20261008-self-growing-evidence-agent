@@ -11,8 +11,8 @@ import sys
 import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from fig_style import (AMBER, INK, PANEL, SUB, TEAL, TEAL_DARK, apply_style,
-                       clean_spines)
+from fig_style import (AMBER, INK, ORANGE, PANEL, PURPLE, SUB, TEAL,
+                       TEAL_DARK, apply_style, clean_spines)
 
 import matplotlib.pyplot as plt
 
@@ -26,9 +26,9 @@ base = (runs[runs["engine"] == "baseline"]
         .reset_index().rename(columns={"secs": "med_total_s"}))
 
 STYLE = {
-    "hai": ("HAI", AMBER, "o"),
+    "hai": ("HAI", ORANGE, "o"),
     "skab_valve1": ("SKAB valve-1", TEAL, "s"),
-    "ai4i": ("AI4I 2020", TEAL_DARK, "^"),
+    "ai4i": ("AI4I 2020", PURPLE, "^"),
     "cmapss": ("C-MAPSS", INK, "D"),
     "cwru": ("CWRU", SUB, "v"),
 }
@@ -37,7 +37,7 @@ apply_style()
 fig, ax = plt.subplots(figsize=(6.9, 4.0))
 
 # 低阈值危险区
-ax.axvspan(0.008, 0.05, color=AMBER, alpha=0.07, zorder=0)
+ax.axvspan(0.008, 0.05, color=ORANGE, alpha=0.07, zorder=0)
 
 for key, (lbl, color, mk) in STYLE.items():
     sub = base[base["dataset"] == key].sort_values("thr")
@@ -67,8 +67,8 @@ for key, (lbl, color, mk) in STYLE.items():
 # HAI 的极端不稳定标注：阈值 0.1→0.2（2×），耗时 18.8s→0.039s（≈490×）
 ax.annotate("2× threshold → ≈490× time\n(18.8 s → 0.039 s)",
             xy=(0.1, 18.82), xytext=(0.016, 3.2),
-            fontsize=8.5, color=AMBER, linespacing=1.3,
-            arrowprops=dict(arrowstyle="->", color=AMBER, lw=1.1,
+            fontsize=8.5, color=ORANGE, linespacing=1.3,
+            arrowprops=dict(arrowstyle="->", color=ORANGE, lw=1.1,
                             connectionstyle="arc3,rad=0.18"))
 
 # 1 s 在线更新预算参考线
@@ -92,7 +92,8 @@ ax.grid(True, which="both")
 ax.legend(loc="lower center", bbox_to_anchor=(0.5, 1.005), ncol=5,
           columnspacing=1.4, handlelength=1.6)
 clean_spines(ax)
-fig.tight_layout(rect=[0, 0.052, 1, 0.945])
+# 底部给三行脚注预留 ~10.5% 高度，保证脚注与横坐标标签之间有明显间隙
+fig.tight_layout(rect=[0, 0.105, 1, 0.945])
 fig.text(0.065, 0.012,
          "Shaded band: low-threshold regime — runtime swings of orders of magnitude within a single 2×\n"
          "threshold step; with no plateau, no fixed threshold is a safe default across industrial deployments.\n"

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """fig_style.py —— 全篇插图统一视觉语言（与 Figure 1 框架图一致）。
 
-配色：墨 ink / 青 teal（引擎①）/ 琥珀 amber（引擎②·引用）/ 纸底 paper。
+配色：墨 ink / 绿 green（主色·引擎①）/ 红 red（辅色·引擎②）/ 纯白底 paper。
 字体：Arial。所有绘图脚本 import 本模块后调用 apply_style()。
 """
 import matplotlib
@@ -18,6 +18,9 @@ TEAL = "#1E8449"
 TEAL_DARK = "#145A32"
 AMBER = "#C0392B"
 AMBER_PALE = "#F5D5D0"
+BLUE = "#2F6690"     # 钢蓝（与 AMBER 红错开，图2/图6 使用）
+ORANGE = "#C0662A"   # 赭橙（图3 HAI / 图6 Qwen）
+PURPLE = "#6E4A8E"   # 灰紫（图3 AI4I）
 DARK = "#242932"
 
 

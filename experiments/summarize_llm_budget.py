@@ -20,7 +20,7 @@ sys.path.insert(0, HERE)
 from exp_llm_diagnosis import parse_json  # noqa: E402
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 from fig_style import (apply_style, clean_spines, INK, SUB, HAIR, PAPER,
-                       TEAL, TEAL_DARK, AMBER)  # noqa: E402
+                       TEAL, TEAL_DARK, AMBER, BLUE, ORANGE)  # noqa: E402
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
@@ -34,7 +34,7 @@ os.makedirs(FIGDIR, exist_ok=True)
 MODEL_ORDER = ["deepseek-chat", "qwen-plus", "glm-4-air"]
 MODEL_LABEL = {"deepseek-chat": "DeepSeek-V3", "qwen-plus": "Qwen-Plus",
                "glm-4-air": "GLM-4-Air"}
-MODEL_COLOR = {"deepseek-chat": TEAL, "qwen-plus": AMBER,
+MODEL_COLOR = {"deepseek-chat": BLUE, "qwen-plus": ORANGE,
                "glm-4-air": TEAL_DARK}
 MODEL_MARK = {"deepseek-chat": "o", "qwen-plus": "s", "glm-4-air": "^"}
 MODEL_DODGE = {"deepseek-chat": -0.16, "qwen-plus": 0.0, "glm-4-air": 0.16}

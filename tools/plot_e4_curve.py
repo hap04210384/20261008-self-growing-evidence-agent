@@ -11,8 +11,8 @@ import sys
 import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from fig_style import (AMBER, INK, PANEL, SUB, TEAL, TEAL_DARK, apply_style,
-                       clean_spines)
+from fig_style import (AMBER, BLUE, INK, PANEL, SUB, TEAL, TEAL_DARK,
+                       apply_style, clean_spines)
 
 import matplotlib.pyplot as plt
 
@@ -30,7 +30,7 @@ ax.text(9.2, 0.87, "normal-operation states only — coverage 0",
         ha="center", fontsize=8.4, color=SUB)
 
 dfs = {}
-for group, color, off in (("valve1", TEAL, (-8, 10)), ("valve2", AMBER, (-66, 10))):
+for group, color, off in (("valve1", TEAL, (-8, 10)), ("valve2", BLUE, (-66, 10))):
     df = pd.read_csv(os.path.join(RES, f"e4_coverage_{group}.csv"))
     dfs[group] = df
     lbl = "SKAB valve-1" if group == "valve1" else "SKAB valve-2"
@@ -55,8 +55,8 @@ v2 = dfs["valve2"]
 lift = int(v2[v2["coverage"] > 0].iloc[0]["stage"])
 ax.annotate(f"fault-characteristic states\nenter the stream ($k$={lift})",
             xy=(lift, 0.015), xytext=(lift - 4.8, 0.40),
-            fontsize=8.3, color=AMBER, ha="left", va="center",
-            arrowprops=dict(arrowstyle="->", color=AMBER, lw=1.0,
+            fontsize=8.3, color=BLUE, ha="left", va="center",
+            arrowprops=dict(arrowstyle="->", color=BLUE, lw=1.0,
                             connectionstyle="arc3,rad=-0.25"))
 
 # anytime 语义框（左下零覆盖区内的空白带）
@@ -74,7 +74,8 @@ ax.set_yticks([0.0, 0.25, 0.5, 0.75, 1.0])
 ax.grid(True)
 ax.legend(loc="upper left")
 clean_spines(ax)
-fig.tight_layout(rect=[0, 0.052, 1, 1])
+# 底部给三行脚注预留 ~10.5% 高度，保证脚注与横坐标标签之间有明显间隙
+fig.tight_layout(rect=[0, 0.105, 1, 1])
 fig.text(0.065, 0.012,
          "Guarantees: coverage is monotone non-decreasing by construction — earlier prefixes remain valid\n"
          "after resumption; 44/45 stages bit-identical to exhaustive MFI mining at the per-stage support\n"
