@@ -59,32 +59,40 @@ exact outputs reported in the manuscript; every command regenerates them.
 
 | Paper output | Experiment | Command |
 |---|---|---|
-| §3.1 pattern–fault cross-check | E1 | `python code/pipeline/exp_e1_crosscheck.py` |
+| §4.1 pattern–fault cross-check | E1 | `python code/pipeline/exp_e1_crosscheck.py` |
 | Fig. 2 anytime coverage curve | E4 | `python code/pipeline/exp_e4_anytime.py` then `python tools/plot_e4_curve.py` |
 | Fig. 3 threshold sensitivity | E5 data | `python code/pipeline/exp_e5_efficiency.py` then `python tools/plot_threshold_sensitivity.py` |
-| Fig. 4 + Table 2 BMMA speedup | E5 | `python tools/plot_bmma_speedup.py` |
-| §3.3 cross-dataset patterns | spike | `python code/pipeline/multi_dataset_spike.py --data data --out results/spike_v2` |
+| Fig. 4 + Table 3 BMMA speedup (incl. CPU-vectorization baseline) | E5 + E6-CPU | `python tools/plot_bmma_speedup.py` (E5) and `python code/pipeline/exp_e6_cpuvec.py` (CPU vec) |
+| §4.3 cross-dataset patterns | spike | `python code/pipeline/multi_dataset_spike.py --data data --out results/spike_v2` |
 | Fig. 5 LLM diagnosis ablation | E-LLM | see below |
-| Fig. 6 discretizer & window ablation | E6/E7 | `python experiments/exp_e6e7_ablation.py` then `python tools/plot_e6e7.py` |
-| Fig. 1 framework schematic | — | `python tools/plot_framework_fig.py` |
+| Fig. 6 evidence-budget ablation + Table 4 | E-LLM budget | see below |
+| Fig. 7 discretizer & window ablation | E6/E7 | `python experiments/exp_e6e7_ablation.py` then `python tools/plot_e6e7.py` |
+| Table 5 discretization-granularity ablation | E8 | `python experiments/exp_e8_granularity.py` |
+| Fig. 1 framework schematic | — | design source under the manuscript workspace (`figures/fig1_framework/`) |
 
 Auxiliary: `python code/pipeline/exp_export_datasets.py` re-exports the raw
 datasets into the integer-transaction files under `data/fimi/` that the
 engines consume; `python code/pipeline/validate_mine_mfi.py` cross-checks the
 reference Python miner against both engines on gold datasets.
 
-### LLM diagnosis (Fig. 5)
+### LLM diagnosis (Fig. 5, Fig. 6, Table 4)
 
 ```bash
 cp experiments/.env.example experiments/.env   # fill in your own keys
-python experiments/exp_llm_diagnosis.py        # 360 calls, ~minutes with keys
-python experiments/summarize_llm_diag.py       # aggregates to results/llm_diag/summary.json
+python experiments/exp_llm_scaleup.py          # 198 windows: 1188 diagnosis calls
+                                               # + 2970 budget-ablation calls
+python experiments/summarize_llm_diag.py       # Fig. 5 data + summary.json
+python experiments/summarize_llm_budget.py     # Fig. 6 data + budget_stats.json (Table 4)
 ```
 
 Three providers are used exactly as in the paper (DeepSeek-V3, Qwen-Plus,
 GLM-4-Air); all calls go through standard OpenAI-compatible chat endpoints.
-The frozen prompt, sampling (60 balanced SKAB windows, seed 42), and parsing
-logic are embedded in the script for reviewer inspection.
+The frozen prompt, sampling (198 balanced SKAB windows — 33 normal and 33
+faulty per valve-1, valve-2, and other-fault run, seed 42), retry policy
+(transport/parse errors only, never resampling answers), and parsing logic
+are embedded in the scripts for reviewer inspection. `experiments/exp_llm_diagnosis.py`
+is the earlier 60-window pilot retained for provenance; the paper reports
+the 198-window run.
 
 ## License
 

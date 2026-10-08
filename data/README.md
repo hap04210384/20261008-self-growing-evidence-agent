@@ -19,9 +19,15 @@ data/
 └── ai4i/ai4i2020.csv
 ```
 
-`data/fimi/` (already committed) holds the exported integer-transaction files
-used by the mining engines directly; regenerate them at any time with
-`python code/pipeline/exp_export_datasets.py` after the raw data are in place.
+`data/fimi/` holds the exported integer-transaction files used by the mining
+engines directly. These transaction files are **not** committed: they are
+derived from the public benchmark datasets above, which we do not
+redistribute — please download them from their original sources. Regenerate
+the transactions at any time with
+`python code/pipeline/exp_export_datasets.py` after the raw data are in
+place. What is committed under `data/fimi/` are only the item/label mappings
+and the engine output (`*=Results.txt`) files needed to audit the reported
+results.
 
 ## Sources
 

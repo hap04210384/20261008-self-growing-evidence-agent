@@ -39,3 +39,7 @@ figures/
 # OS
 .DS_Store
 Thumbs.db
+
+# Derived FIMI transactions (regenerate with code/pipeline/exp_export_datasets.py)
+data/fimi/*.txt
+!data/fimi/*=Results.txt
