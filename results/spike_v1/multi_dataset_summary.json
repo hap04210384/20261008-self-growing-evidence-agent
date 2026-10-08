@@ -1,0 +1,51 @@
+{
+  "cmapss": {
+    "windows": 1917,
+    "anom": 312,
+    "mfi": 4800,
+    "top": {
+      "pattern": "s17=2 ∧ s19=0 ∧ s5=0 ∧ s6=0",
+      "len": 4,
+      "count": 696,
+      "sup_0": 0.241,
+      "sup_1": 0.99,
+      "lift": 4.095041322314049
+    }
+  },
+  "ai4i": {
+    "rows": 10000,
+    "fail": 339,
+    "mfi": 886,
+    "top": {
+      "pattern": "Air temperature=2 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=L",
+      "len": 5,
+      "count": 146,
+      "sup_0": 0.011,
+      "sup_1": 0.121,
+      "lift": 10.166666666666666
+    }
+  },
+  "cwru": {
+    "windows": 292,
+    "classes": {
+      "IR007": 58,
+      "IR014": 58,
+      "IR021": 58,
+      "normal": 118
+    },
+    "mfi": 194
+  },
+  "hai": {
+    "windows": 499,
+    "attack": 19,
+    "mfi": 111,
+    "top": {
+      "pattern": "P1_B3004=2 ∧ P1_B4002=2 ∧ P1_FCV01D=1 ∧ P1_FCV02D=0",
+      "len": 4,
+      "count": 194,
+      "sup_0": 0.377,
+      "sup_1": 0.684,
+      "lift": 1.8121693121693123
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+ "n_truth": 15,
+ "base_rate": 0.383,
+ "lift_cap": 2.611,
+ "practical_depth": 22,
+ "truth": {
+  "Accelerometer1RMS=1 & Pressure=1 & Temperature=2 & Volume Flow RateRMS=0": {
+   "cnt": 32,
+   "pos": 32,
+   "lift": 2.611
+  },
+  "Accelerometer1RMS=1 & Current=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 33,
+   "pos": 33,
+   "lift": 2.611
+  },
+  "Accelerometer2RMS=1 & Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 37,
+   "pos": 37,
+   "lift": 2.611
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 52,
+   "pos": 52,
+   "lift": 2.611
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 34,
+   "pos": 34,
+   "lift": 2.611
+  },
+  "Pressure=1 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 33,
+   "pos": 33,
+   "lift": 2.611
+  },
+  "Accelerometer2RMS=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 58,
+   "pos": 58,
+   "lift": 2.611
+  },
+  "Pressure=1 & Temperature=2 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 43,
+   "pos": 43,
+   "lift": 2.611
+  },
+  "Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 80,
+   "pos": 80,
+   "lift": 2.611
+  },
+  "Accelerometer1RMS=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 62,
+   "pos": 62,
+   "lift": 2.611
+  },
+  "Accelerometer1RMS=1 & Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 36,
+   "pos": 36,
+   "lift": 2.611
+  },
+  "Current=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 40,
+   "pos": 40,
+   "lift": 2.611
+  },
+  "Pressure=1 & Volume Flow RateRMS=0": {
+   "cnt": 87,
+   "pos": 87,
+   "lift": 2.611
+  },
+  "Accelerometer1RMS=1 & Pressure=1 & Temperature=2 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 31,
+   "pos": 31,
+   "lift": 2.611
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Current=1 & Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 22,
+   "pos": 22,
+   "lift": 2.611
+  }
+ }
+}

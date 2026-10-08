@@ -1,0 +1,91 @@
+==================================================================
+GPU 0: NVIDIA GeForce RTX 3060 Ti
+     Multi-Processor Count: 38
+     Max Threads Per Multi-Processor: 1536
+     Warp Size: 32
+     Max Threads Per Block: 1024
+     Compute Capability: 8.6
+     Number of Multi-Processors: 38
+     Number of CUDA Cores Per SM: 128
+     Total Number of CUDA Cores: 4864
+
+CPU: 12th Gen Intel(R) Core(TM) i9-12900
+     Number of Physical Cores: 16
+     Number of Logical Cores: 24
+
+Visual Studio: 2022 (v143), MSC_VER: 1944
+CUDA Version: 12.5
+==================================================================
+transSetFile: E:\20261003-paper-application of AnyFIM and TensorFIM-03\kimi_word\data\fimi\skab_valve1.txt
+dimension: 23
+transNum: 1187
+itemIDmin: 1
+itemIDmax: 19
+transLengthMin: 8
+transLengthMax: 8
+transLengthMean: 8
+
+supportThreshold: 0.111205
+
+dimensionReduced: 19
+transNumReduced: 1187
+transLengthReducedMin: 7
+transLengthReducedMax: 8
+transLengthReducedMean: 7.94356
+
+GPUtaskPercentage: 0.0674274%
+==================================================================
+preprocessing_time(s): 0
+computation_time(s): 0.0006403
+total_time(s): 0.0006403
+
+MFIsNumber: 47
+============================List of MFIs:=============================
+1th: 5 { 13 10 7 4 2 }   support: 0.224937  frequency: 267
+2th: 5 { 22 13 7 4 2 }   support: 0.203033  frequency: 241
+3th: 5 { 14 13 7 4 2 }   support: 0.175232  frequency: 208
+4th: 5 { 19 13 7 4 2 }   support: 0.160067  frequency: 190
+5th: 5 { 13 7 6 4 2 }   support: 0.158382  frequency: 188
+6th: 5 { 13 7 5 4 2 }   support: 0.155855  frequency: 185
+7th: 4 { 19 10 7 4 }   support: 0.15417  frequency: 183
+8th: 5 { 15 13 7 4 2 }   support: 0.149115  frequency: 177
+9th: 5 { 22 13 10 7 4 }   support: 0.144903  frequency: 172
+10th: 4 { 10 7 6 4 }   support: 0.144061  frequency: 171
+11th: 4 { 10 8 7 4 }   support: 0.142376  frequency: 169
+12th: 5 { 18 13 7 4 2 }   support: 0.136479  frequency: 162
+13th: 5 { 13 8 7 4 2 }   support: 0.136479  frequency: 162
+14th: 4 { 13 12 7 4 }   support: 0.134794  frequency: 160
+15th: 4 { 8 7 6 4 }   support: 0.133951  frequency: 159
+16th: 4 { 17 10 7 4 }   support: 0.133951  frequency: 159
+17th: 5 { 13 7 4 3 2 }   support: 0.131424  frequency: 156
+18th: 4 { 22 15 7 4 }   support: 0.130581  frequency: 155
+19th: 4 { 22 14 7 4 }   support: 0.130581  frequency: 155
+20th: 4 { 18 7 6 4 }   support: 0.130581  frequency: 155
+21th: 5 { 17 13 7 4 2 }   support: 0.128054  frequency: 152
+22th: 4 { 19 17 7 4 }   support: 0.126369  frequency: 150
+23th: 5 { 22 13 7 5 4 }   support: 0.125527  frequency: 149
+24th: 4 { 13 9 7 4 }   support: 0.124684  frequency: 148
+25th: 3 { 15 5 4 }   support: 0.123842  frequency: 147
+26th: 5 { 15 13 10 7 4 }   support: 0.123842  frequency: 147
+27th: 5 { 22 13 7 6 4 }   support: 0.122157  frequency: 145
+28th: 4 { 22 18 7 4 }   support: 0.118787  frequency: 141
+29th: 4 { 15 14 7 4 }   support: 0.117944  frequency: 140
+30th: 4 { 17 15 7 4 }   support: 0.117102  frequency: 139
+31th: 3 { 17 14 4 }   support: 0.117102  frequency: 139
+32th: 4 { 7 6 5 4 }   support: 0.116259  frequency: 138
+33th: 4 { 19 13 10 4 }   support: 0.116259  frequency: 138
+34th: 3 { 22 19 4 }   support: 0.115417  frequency: 137
+35th: 5 { 13 10 7 5 4 }   support: 0.115417  frequency: 137
+36th: 5 { 18 13 10 7 4 }   support: 0.114575  frequency: 136
+37th: 5 { 22 10 7 4 2 }   support: 0.114575  frequency: 136
+38th: 4 { 13 10 6 4 }   support: 0.11289  frequency: 134
+39th: 3 { 22 12 4 }   support: 0.11289  frequency: 134
+40th: 3 { 22 11 4 }   support: 0.112047  frequency: 133
+41th: 5 { 19 14 13 7 4 }   support: 0.112047  frequency: 133
+42th: 5 { 14 13 10 7 4 }   support: 0.111205  frequency: 132
+43th: 3 { 7 4 1 }   support: 0.111205  frequency: 132
+44th: 3 { 18 8 4 }   support: 0.111205  frequency: 132
+45th: 4 { 22 7 4 3 }   support: 0.111205  frequency: 132
+46th: 4 { 22 15 13 4 }   support: 0.111205  frequency: 132
+47th: 5 { 13 11 7 4 2 }   support: 0.111205  frequency: 132
+==================================================================

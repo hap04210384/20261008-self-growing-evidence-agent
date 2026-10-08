@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets — never commit API keys
+.env
+
+# Raw datasets (download instructions in data/README.md)
+data/SKAB_raw/
+data/cmapss/
+data/cwru/
+data/hai/
+data/ai4i/
+
+# Engine benchmark datasets (FIMI repository, see engines/*/data/DOWNLOAD.md)
+code/engine_anyfim/datasets/
+code/engine_tensorfim/data/*.txt
+code/engine_tensorfim/data/*.dat
+
+# Build artifacts
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.pdb
+*.ipdb
+*.iobj
+*.obj
+*.tlog
+*.recipe
+*.exp
+*.lib
+
+# Generated figures
+figures/
+
+# OS
+.DS_Store
+Thumbs.db

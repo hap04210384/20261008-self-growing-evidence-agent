@@ -1,0 +1,185 @@
+{
+ "valve1": {
+  "windows": 1187,
+  "anomaly_windows": 449,
+  "practical_depth": 22,
+  "pool_size": 419,
+  "n_truth_patterns": 57,
+  "top10": [
+   {
+    "pattern": "Pressure=1 & Volume Flow RateRMS=0",
+    "cnt": 334,
+    "pos": 332,
+    "lift": 2.628
+   },
+   {
+    "pattern": "Pressure=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 312,
+    "pos": 310,
+    "lift": 2.627
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 & Pressure=1 & Volume Flow RateRMS=0",
+    "cnt": 266,
+    "pos": 265,
+    "lift": 2.634
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 246,
+    "pos": 245,
+    "lift": 2.633
+   },
+   {
+    "pattern": "Current=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 159,
+    "pos": 158,
+    "lift": 2.627
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 152,
+    "pos": 151,
+    "lift": 2.626
+   },
+   {
+    "pattern": "Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 150,
+    "pos": 150,
+    "lift": 2.644
+   },
+   {
+    "pattern": "Pressure=1 & Thermocouple=1 & Volume Flow RateRMS=0",
+    "cnt": 150,
+    "pos": 150,
+    "lift": 2.644
+   },
+   {
+    "pattern": "Pressure=1 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 139,
+    "pos": 139,
+    "lift": 2.644
+   },
+   {
+    "pattern": "Pressure=1 & Temperature=1 & Volume Flow RateRMS=0",
+    "cnt": 139,
+    "pos": 139,
+    "lift": 2.644
+   }
+  ],
+  "anomaly_window_coverage": 0.7394,
+  "normal_window_false_rate": 0.0027
+ },
+ "valve2": {
+  "windows": 282,
+  "anomaly_windows": 108,
+  "practical_depth": 22,
+  "pool_size": 327,
+  "n_truth_patterns": 15,
+  "top10": [
+   {
+    "pattern": "Pressure=1 & Volume Flow RateRMS=0",
+    "cnt": 87,
+    "pos": 87,
+    "lift": 2.611
+   },
+   {
+    "pattern": "Pressure=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 80,
+    "pos": 80,
+    "lift": 2.611
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 62,
+    "pos": 62,
+    "lift": 2.611
+   },
+   {
+    "pattern": "Accelerometer2RMS=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 58,
+    "pos": 58,
+    "lift": 2.611
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 52,
+    "pos": 52,
+    "lift": 2.611
+   },
+   {
+    "pattern": "Pressure=1 & Temperature=2 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 43,
+    "pos": 43,
+    "lift": 2.611
+   },
+   {
+    "pattern": "Current=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 40,
+    "pos": 40,
+    "lift": 2.611
+   },
+   {
+    "pattern": "Accelerometer2RMS=1 & Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 37,
+    "pos": 37,
+    "lift": 2.611
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 & Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 36,
+    "pos": 36,
+    "lift": 2.611
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 34,
+    "pos": 34,
+    "lift": 2.611
+   }
+  ],
+  "anomaly_window_coverage": 0.8056,
+  "normal_window_false_rate": 0.0
+ },
+ "other": {
+  "windows": 975,
+  "anomaly_windows": 370,
+  "practical_depth": 22,
+  "pool_size": 558,
+  "n_truth_patterns": 5,
+  "top10": [
+   {
+    "pattern": "Accelerometer1RMS=2 & Accelerometer2RMS=2 & Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 25,
+    "pos": 25,
+    "lift": 2.635
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 & Current=1 & Pressure=1 & Temperature=0 & Voltage=1 & Volume Flow RateRMS=2",
+    "cnt": 23,
+    "pos": 23,
+    "lift": 2.635
+   },
+   {
+    "pattern": "Accelerometer1RMS=0 & Accelerometer2RMS=2 & Pressure=1 & Thermocouple=2 & Voltage=1 & Volume Flow RateRMS=2",
+    "cnt": 23,
+    "pos": 22,
+    "lift": 2.521
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 & Accelerometer2RMS=2 & Pressure=1 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 22,
+    "pos": 22,
+    "lift": 2.635
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 & Current=1 & Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 21,
+    "pos": 20,
+    "lift": 2.51
+   }
+  ],
+  "anomaly_window_coverage": 0.2297,
+  "normal_window_false_rate": 0.0033
+ }
+}

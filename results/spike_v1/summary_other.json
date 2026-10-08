@@ -1,0 +1,142 @@
+[
+  {
+    "file": "1.csv",
+    "rows": 745,
+    "windows": 48,
+    "anom_windows": 12,
+    "n_mfi": 418,
+    "anom_base_rate": 0.25,
+    "top_lift": 750000001.0,
+    "top_pattern": "Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0"
+  },
+  {
+    "file": "10.csv",
+    "rows": 1327,
+    "windows": 87,
+    "anom_windows": 41,
+    "n_mfi": 442,
+    "anom_base_rate": 0.471,
+    "top_lift": 682926830.27,
+    "top_pattern": "Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2"
+  },
+  {
+    "file": "11.csv",
+    "rows": 1190,
+    "windows": 78,
+    "anom_windows": 32,
+    "n_mfi": 416,
+    "anom_base_rate": 0.41,
+    "top_lift": 687500001.0,
+    "top_pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2"
+  },
+  {
+    "file": "12.csv",
+    "rows": 1048,
+    "windows": 68,
+    "anom_windows": 23,
+    "n_mfi": 418,
+    "anom_base_rate": 0.338,
+    "top_lift": 652173914.04,
+    "top_pattern": "Accelerometer1RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0"
+  },
+  {
+    "file": "13.csv",
+    "rows": 923,
+    "windows": 60,
+    "anom_windows": 19,
+    "n_mfi": 476,
+    "anom_base_rate": 0.317,
+    "top_lift": 526315790.47,
+    "top_pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2"
+  },
+  {
+    "file": "14.csv",
+    "rows": 905,
+    "windows": 59,
+    "anom_windows": 22,
+    "n_mfi": 426,
+    "anom_base_rate": 0.373,
+    "top_lift": 909090910.09,
+    "top_pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2"
+  },
+  {
+    "file": "2.csv",
+    "rows": 780,
+    "windows": 51,
+    "anom_windows": 28,
+    "n_mfi": 291,
+    "anom_base_rate": 0.549,
+    "top_lift": 285714286.71,
+    "top_pattern": "Accelerometer1RMS=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1"
+  },
+  {
+    "file": "3.csv",
+    "rows": 1137,
+    "windows": 74,
+    "anom_windows": 29,
+    "n_mfi": 366,
+    "anom_base_rate": 0.392,
+    "top_lift": 896551725.14,
+    "top_pattern": "Pressure=1 ∧ Volume Flow RateRMS=0"
+  },
+  {
+    "file": "4.csv",
+    "rows": 1191,
+    "windows": 78,
+    "anom_windows": 26,
+    "n_mfi": 386,
+    "anom_base_rate": 0.333,
+    "top_lift": 884615385.62,
+    "top_pattern": "Volume Flow RateRMS=0"
+  },
+  {
+    "file": "5.csv",
+    "rows": 1155,
+    "windows": 76,
+    "anom_windows": 29,
+    "n_mfi": 406,
+    "anom_base_rate": 0.382,
+    "top_lift": 758620690.66,
+    "top_pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=1"
+  },
+  {
+    "file": "6.csv",
+    "rows": 1147,
+    "windows": 75,
+    "anom_windows": 28,
+    "n_mfi": 390,
+    "anom_base_rate": 0.373,
+    "top_lift": 678571429.57,
+    "top_pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=0"
+  },
+  {
+    "file": "7.csv",
+    "rows": 1090,
+    "windows": 71,
+    "anom_windows": 25,
+    "n_mfi": 368,
+    "anom_base_rate": 0.352,
+    "top_lift": 560000001.0,
+    "top_pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=0"
+  },
+  {
+    "file": "8.csv",
+    "rows": 1147,
+    "windows": 75,
+    "anom_windows": 28,
+    "n_mfi": 330,
+    "anom_base_rate": 0.373,
+    "top_lift": 500000001.0,
+    "top_pattern": "Accelerometer1RMS=0 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1"
+  },
+  {
+    "file": "9.csv",
+    "rows": 1144,
+    "windows": 75,
+    "anom_windows": 28,
+    "n_mfi": 372,
+    "anom_base_rate": 0.373,
+    "top_lift": 714285715.29,
+    "top_pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0"
+  }
+]

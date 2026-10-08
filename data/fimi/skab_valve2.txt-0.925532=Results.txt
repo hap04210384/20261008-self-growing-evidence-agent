@@ -1,0 +1,44 @@
+==================================================================
+GPU 0: NVIDIA GeForce RTX 3060 Ti
+     Multi-Processor Count: 38
+     Max Threads Per Multi-Processor: 1536
+     Warp Size: 32
+     Max Threads Per Block: 1024
+     Compute Capability: 8.6
+     Number of Multi-Processors: 38
+     Number of CUDA Cores Per SM: 128
+     Total Number of CUDA Cores: 4864
+
+CPU: 12th Gen Intel(R) Core(TM) i9-12900
+     Number of Physical Cores: 16
+     Number of Logical Cores: 24
+
+Visual Studio: 2022 (v143), MSC_VER: 1944
+CUDA Version: 12.5
+==================================================================
+transSetFile: E:\20261003-paper-application of AnyFIM and TensorFIM-03\kimi_word\data\fimi\skab_valve2.txt
+dimension: 22
+transNum: 282
+itemIDmin: 1
+itemIDmax: 1
+transLengthMin: 8
+transLengthMax: 8
+transLengthMean: 8
+
+supportThreshold: 0.925532
+
+dimensionReduced: 1
+transNumReduced: 282
+transLengthReducedMin: 1
+transLengthReducedMax: 2
+transLengthReducedMean: 1.92553
+
+GPUtaskPercentage: 0.0501371%
+==================================================================
+preprocessing_time(s): 0
+computation_time(s): 0.0002016
+total_time(s): 0.0002016
+
+MFIsNumber: 0
+============================List of MFIs:=============================
+==================================================================

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper."
+authors:
+  - family-names: Yang
+    given-names: Jun
+  - family-names: Zhang
+    given-names: Xinjiang
+  - family-names: Yu
+    given-names: Wei
+  - family-names: Zhang
+    given-names: Yalong
+title: "Self-Growing Sensor Evidence for Interpretable IIoT Fault Diagnosis: Anytime Threshold-Free Pattern Mining with Evidence-Grounded LLM Attribution"
+type: article
+journal: "Sensors (MDPI)"
+year: 2026
+note: "Manuscript submitted for peer review. Code repository released for reproducibility."
+url: "https://github.com/YOUR-USERNAME/self-growing-evidence"

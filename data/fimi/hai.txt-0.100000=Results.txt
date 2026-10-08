@@ -1,0 +1,1039 @@
+==================================================================
+GPU 0: NVIDIA GeForce RTX 3060 Ti
+     Multi-Processor Count: 38
+     Max Threads Per Multi-Processor: 1536
+     Warp Size: 32
+     Max Threads Per Block: 1024
+     Compute Capability: 8.6
+     Number of Multi-Processors: 38
+     Number of CUDA Cores Per SM: 128
+     Total Number of CUDA Cores: 4864
+
+CPU: 12th Gen Intel(R) Core(TM) i9-12900
+     Number of Physical Cores: 16
+     Number of Logical Cores: 24
+
+Visual Studio: 2022 (v143), MSC_VER: 1944
+CUDA Version: 12.5
+==================================================================
+transSetFile: E:\20261003-paper-application of AnyFIM and TensorFIM-03\kimi_word\data\fimi\hai.txt
+dimension: 71
+transNum: 499
+itemIDmin: 1
+itemIDmax: 70
+transLengthMin: 25
+transLengthMax: 25
+transLengthMean: 25
+
+supportThreshold: 0.1
+
+dimensionReduced: 71
+transNumReduced: 499
+transLengthReducedMin: 25
+transLengthReducedMax: 25
+transLengthReducedMean: 25
+
+GPUtaskPercentage: 0.2367%
+==================================================================
+preprocessing_time(s): 0
+computation_time(s): 27.3526
+total_time(s): 27.3526
+
+MFIsNumber: 995
+============================List of MFIs:=============================
+1th: 9 { 53 52 51 50 49 48 40 29 9 }   support: 0.154309  frequency: 77
+2th: 3 { 34 28 9 }   support: 0.138277  frequency: 69
+3th: 9 { 53 52 51 50 49 48 40 34 9 }   support: 0.138277  frequency: 69
+4th: 14 { 65 64 63 62 61 43 37 24 16 15 9 7 5 4 }   support: 0.130261  frequency: 65
+5th: 7 { 53 34 23 22 9 3 1 }   support: 0.126253  frequency: 63
+6th: 9 { 53 52 51 50 49 48 40 36 9 }   support: 0.126253  frequency: 63
+7th: 6 { 23 22 21 9 3 1 }   support: 0.122244  frequency: 61
+8th: 12 { 25 24 16 15 10 9 8 7 5 4 3 1 }   support: 0.122244  frequency: 61
+9th: 11 { 55 54 47 46 24 16 15 9 7 5 4 }   support: 0.12024  frequency: 60
+10th: 7 { 18 17 9 7 4 3 1 }   support: 0.12024  frequency: 60
+11th: 5 { 19 9 6 3 1 }   support: 0.12024  frequency: 60
+12th: 3 { 34 29 9 }   support: 0.118236  frequency: 59
+13th: 22 { 53 52 51 50 49 48 40 39 23 22 20 19 18 17 14 13 12 11 9 3 2 1 }   support: 0.118236  frequency: 59
+14th: 14 { 60 59 58 57 56 47 46 24 9 8 7 4 3 1 }   support: 0.118236  frequency: 59
+15th: 9 { 24 23 22 9 8 7 4 3 1 }   support: 0.118236  frequency: 59
+16th: 10 { 60 59 25 24 16 15 9 7 5 4 }   support: 0.118236  frequency: 59
+17th: 16 { 60 59 58 56 47 46 27 26 21 10 9 7 6 4 3 1 }   support: 0.118236  frequency: 59
+18th: 5 { 34 24 9 7 4 }   support: 0.118236  frequency: 59
+19th: 11 { 58 47 46 24 16 15 10 9 7 5 4 }   support: 0.116232  frequency: 58
+20th: 15 { 60 59 58 56 27 26 21 10 9 8 7 6 4 3 1 }   support: 0.116232  frequency: 58
+21th: 9 { 28 24 16 15 10 9 7 5 4 }   support: 0.116232  frequency: 58
+22th: 6 { 69 68 64 43 34 9 }   support: 0.114228  frequency: 57
+23th: 6 { 28 9 7 4 3 1 }   support: 0.114228  frequency: 57
+24th: 23 { 71 70 69 68 67 66 64 62 61 53 52 51 50 49 48 45 44 42 41 40 35 30 9 }   support: 0.114228  frequency: 57
+25th: 9 { 69 68 67 65 64 63 9 7 4 }   support: 0.114228  frequency: 57
+26th: 13 { 67 65 64 63 43 37 24 16 15 9 7 5 4 }   support: 0.114228  frequency: 57
+27th: 9 { 55 54 47 46 25 24 9 7 4 }   support: 0.114228  frequency: 57
+28th: 11 { 55 47 46 25 24 16 15 9 7 5 4 }   support: 0.114228  frequency: 57
+29th: 6 { 28 25 24 9 7 4 }   support: 0.114228  frequency: 57
+30th: 8 { 67 64 45 44 42 41 34 9 }   support: 0.112224  frequency: 56
+31th: 5 { 36 21 9 3 1 }   support: 0.112224  frequency: 56
+32th: 10 { 58 54 24 16 15 10 9 7 5 4 }   support: 0.112224  frequency: 56
+33th: 9 { 57 54 24 16 15 9 7 5 4 }   support: 0.112224  frequency: 56
+34th: 12 { 60 59 58 56 55 54 21 9 7 4 3 1 }   support: 0.112224  frequency: 56
+35th: 14 { 60 59 58 57 56 47 46 21 9 7 6 4 3 1 }   support: 0.112224  frequency: 56
+36th: 8 { 65 64 63 54 37 9 7 4 }   support: 0.112224  frequency: 56
+37th: 14 { 60 59 58 57 56 47 46 10 9 8 7 4 3 1 }   support: 0.112224  frequency: 56
+38th: 12 { 58 57 56 24 10 9 8 7 6 4 3 1 }   support: 0.112224  frequency: 56
+39th: 12 { 24 21 16 15 10 9 8 7 5 4 3 1 }   support: 0.112224  frequency: 56
+40th: 11 { 65 64 63 45 44 43 42 37 9 7 4 }   support: 0.112224  frequency: 56
+41th: 9 { 24 14 13 9 8 7 4 3 1 }   support: 0.112224  frequency: 56
+42th: 7 { 36 10 9 7 4 3 1 }   support: 0.112224  frequency: 56
+43th: 16 { 29 28 23 22 20 19 18 17 14 13 12 11 9 3 2 1 }   support: 0.112224  frequency: 56
+44th: 6 { 65 64 63 34 10 9 }   support: 0.112224  frequency: 56
+45th: 10 { 60 59 55 54 47 46 24 9 7 4 }   support: 0.112224  frequency: 56
+46th: 12 { 60 59 58 56 55 54 10 9 7 4 3 1 }   support: 0.11022  frequency: 55
+47th: 7 { 32 10 9 7 4 3 1 }   support: 0.11022  frequency: 55
+48th: 9 { 55 47 46 25 24 10 9 7 4 }   support: 0.11022  frequency: 55
+49th: 11 { 58 56 54 24 10 9 8 7 4 3 1 }   support: 0.11022  frequency: 55
+50th: 8 { 11 10 9 8 7 4 3 1 }   support: 0.11022  frequency: 55
+51th: 14 { 60 59 58 57 56 47 46 9 8 7 6 4 3 1 }   support: 0.11022  frequency: 55
+52th: 13 { 65 64 63 43 37 25 24 16 15 9 7 5 4 }   support: 0.11022  frequency: 55
+53th: 4 { 34 10 9 4 }   support: 0.11022  frequency: 55
+54th: 14 { 60 59 58 56 24 16 15 9 8 7 5 4 3 1 }   support: 0.11022  frequency: 55
+55th: 14 { 60 59 58 57 56 47 46 21 9 8 7 4 3 1 }   support: 0.11022  frequency: 55
+56th: 10 { 58 55 24 16 15 10 9 7 5 4 }   support: 0.11022  frequency: 55
+57th: 16 { 60 59 58 56 47 46 27 26 21 10 9 8 7 4 3 1 }   support: 0.11022  frequency: 55
+58th: 10 { 60 59 55 24 16 15 9 7 5 4 }   support: 0.11022  frequency: 55
+59th: 6 { 60 59 37 9 7 4 }   support: 0.11022  frequency: 55
+60th: 13 { 58 57 56 47 46 24 9 8 7 6 4 3 1 }   support: 0.11022  frequency: 55
+61th: 7 { 65 64 63 43 42 10 9 }   support: 0.11022  frequency: 55
+62th: 10 { 58 25 24 16 15 10 9 7 5 4 }   support: 0.11022  frequency: 55
+63th: 14 { 60 59 58 56 47 46 24 9 8 7 6 4 3 1 }   support: 0.11022  frequency: 55
+64th: 12 { 60 59 58 56 54 21 10 9 7 4 3 1 }   support: 0.11022  frequency: 55
+65th: 13 { 60 59 58 56 55 54 47 46 9 7 4 3 1 }   support: 0.11022  frequency: 55
+66th: 6 { 58 37 10 9 7 4 }   support: 0.11022  frequency: 55
+67th: 7 { 54 33 32 31 9 7 4 }   support: 0.11022  frequency: 55
+68th: 3 { 30 29 9 }   support: 0.11022  frequency: 55
+69th: 10 { 57 47 46 24 16 15 9 7 5 4 }   support: 0.11022  frequency: 55
+70th: 10 { 69 68 65 64 63 37 10 9 7 4 }   support: 0.11022  frequency: 55
+71th: 14 { 60 59 58 56 24 21 10 9 8 7 6 4 3 1 }   support: 0.11022  frequency: 55
+72th: 10 { 65 64 63 45 44 43 41 9 7 4 }   support: 0.108216  frequency: 54
+73th: 13 { 58 56 47 46 24 10 9 8 7 6 4 3 1 }   support: 0.108216  frequency: 54
+74th: 9 { 57 54 47 46 24 10 9 7 4 }   support: 0.108216  frequency: 54
+75th: 13 { 69 68 67 66 64 62 61 45 44 43 42 41 9 }   support: 0.108216  frequency: 54
+76th: 12 { 60 59 58 56 54 21 9 7 6 4 3 1 }   support: 0.108216  frequency: 54
+77th: 9 { 65 64 63 43 41 37 9 7 4 }   support: 0.108216  frequency: 54
+78th: 9 { 69 68 64 45 44 42 9 7 4 }   support: 0.108216  frequency: 54
+79th: 9 { 33 32 31 27 26 10 9 7 4 }   support: 0.108216  frequency: 54
+80th: 12 { 58 56 55 54 47 46 9 7 6 4 3 1 }   support: 0.108216  frequency: 54
+81th: 6 { 37 28 10 9 7 4 }   support: 0.108216  frequency: 54
+82th: 10 { 65 64 63 45 44 37 10 9 7 4 }   support: 0.108216  frequency: 54
+83th: 13 { 58 57 56 47 46 10 9 8 7 6 4 3 1 }   support: 0.108216  frequency: 54
+84th: 9 { 24 19 10 9 8 7 4 3 1 }   support: 0.108216  frequency: 54
+85th: 13 { 60 59 58 56 54 47 46 21 9 7 4 3 1 }   support: 0.108216  frequency: 54
+86th: 5 { 54 28 9 7 4 }   support: 0.108216  frequency: 54
+87th: 13 { 60 59 58 57 56 55 24 9 8 7 4 3 1 }   support: 0.108216  frequency: 54
+88th: 14 { 60 59 58 56 24 16 15 10 9 7 5 4 3 1 }   support: 0.108216  frequency: 54
+89th: 11 { 60 59 58 55 47 46 24 10 9 7 4 }   support: 0.108216  frequency: 54
+90th: 11 { 60 59 58 57 55 47 46 10 9 7 4 }   support: 0.108216  frequency: 54
+91th: 13 { 66 65 64 63 43 37 24 16 15 9 7 5 4 }   support: 0.108216  frequency: 54
+92th: 7 { 33 32 31 9 8 7 4 }   support: 0.108216  frequency: 54
+93th: 12 { 67 65 64 63 25 24 16 15 9 7 5 4 }   support: 0.108216  frequency: 54
+94th: 12 { 60 59 58 57 56 55 21 9 7 4 3 1 }   support: 0.108216  frequency: 54
+95th: 11 { 58 56 54 24 21 9 8 7 4 3 1 }   support: 0.108216  frequency: 54
+96th: 7 { 66 65 64 63 43 10 9 }   support: 0.108216  frequency: 54
+97th: 9 { 69 68 65 64 63 45 44 43 9 }   support: 0.108216  frequency: 54
+98th: 14 { 60 59 58 56 55 47 46 10 9 8 7 4 3 1 }   support: 0.106212  frequency: 53
+99th: 10 { 65 64 63 45 44 42 41 9 7 4 }   support: 0.106212  frequency: 53
+100th: 15 { 36 23 22 20 19 18 17 14 13 12 11 9 3 2 1 }   support: 0.106212  frequency: 53
+101th: 9 { 47 46 16 15 9 7 6 5 4 }   support: 0.106212  frequency: 53
+102th: 8 { 60 59 58 57 15 9 7 4 }   support: 0.106212  frequency: 53
+103th: 8 { 66 65 64 63 45 44 42 9 }   support: 0.106212  frequency: 53
+104th: 9 { 60 59 25 24 15 10 9 7 4 }   support: 0.106212  frequency: 53
+105th: 13 { 58 56 47 46 24 21 9 8 7 6 4 3 1 }   support: 0.106212  frequency: 53
+106th: 11 { 66 65 64 63 62 61 43 24 9 7 4 }   support: 0.106212  frequency: 53
+107th: 14 { 60 59 58 56 55 27 26 21 10 9 7 4 3 1 }   support: 0.106212  frequency: 53
+108th: 8 { 23 22 16 15 9 7 5 4 }   support: 0.106212  frequency: 53
+109th: 8 { 65 64 63 45 44 43 10 9 }   support: 0.106212  frequency: 53
+110th: 14 { 69 68 65 64 63 62 61 24 16 15 9 7 5 4 }   support: 0.106212  frequency: 53
+111th: 7 { 66 65 64 63 43 41 9 }   support: 0.106212  frequency: 53
+112th: 11 { 58 56 54 24 9 8 7 6 4 3 1 }   support: 0.106212  frequency: 53
+113th: 13 { 60 59 58 56 54 47 46 10 9 7 4 3 1 }   support: 0.106212  frequency: 53
+114th: 13 { 60 59 58 56 55 24 10 9 8 7 4 3 1 }   support: 0.106212  frequency: 53
+115th: 7 { 65 64 63 55 9 7 4 }   support: 0.106212  frequency: 53
+116th: 7 { 55 47 46 37 9 7 4 }   support: 0.106212  frequency: 53
+117th: 12 { 58 56 55 54 47 46 10 9 7 4 3 1 }   support: 0.106212  frequency: 53
+118th: 12 { 60 59 58 56 55 54 24 9 7 4 3 1 }   support: 0.106212  frequency: 53
+119th: 11 { 55 47 46 24 16 15 10 9 7 5 4 }   support: 0.106212  frequency: 53
+120th: 6 { 21 18 17 9 3 1 }   support: 0.106212  frequency: 53
+121th: 4 { 39 27 26 9 }   support: 0.106212  frequency: 53
+122th: 9 { 65 64 63 43 42 41 9 7 4 }   support: 0.106212  frequency: 53
+123th: 8 { 33 32 9 8 7 4 3 1 }   support: 0.106212  frequency: 53
+124th: 14 { 69 68 65 64 63 43 37 24 16 15 9 7 5 4 }   support: 0.106212  frequency: 53
+125th: 12 { 24 21 16 15 9 8 7 6 5 4 3 1 }   support: 0.106212  frequency: 53
+126th: 5 { 65 64 63 57 9 }   support: 0.106212  frequency: 53
+127th: 13 { 58 57 56 47 46 24 21 9 8 7 4 3 1 }   support: 0.106212  frequency: 53
+128th: 9 { 52 51 50 49 48 40 39 36 9 }   support: 0.106212  frequency: 53
+129th: 9 { 25 24 16 15 9 7 6 5 4 }   support: 0.106212  frequency: 53
+130th: 5 { 12 9 7 3 1 }   support: 0.106212  frequency: 53
+131th: 14 { 60 59 58 56 47 46 24 21 9 7 6 4 3 1 }   support: 0.106212  frequency: 53
+132th: 13 { 58 57 56 47 46 21 9 8 7 6 4 3 1 }   support: 0.106212  frequency: 53
+133th: 3 { 54 34 9 }   support: 0.106212  frequency: 53
+134th: 10 { 69 68 66 65 64 63 37 9 7 4 }   support: 0.106212  frequency: 53
+135th: 13 { 60 59 58 57 56 54 47 46 9 7 4 3 1 }   support: 0.106212  frequency: 53
+136th: 6 { 54 37 10 9 7 4 }   support: 0.106212  frequency: 53
+137th: 15 { 60 59 58 56 27 26 24 21 10 9 8 7 4 3 1 }   support: 0.106212  frequency: 53
+138th: 8 { 24 11 10 9 7 4 3 1 }   support: 0.106212  frequency: 53
+139th: 12 { 60 59 58 47 46 24 16 15 9 7 5 4 }   support: 0.106212  frequency: 53
+140th: 11 { 60 59 58 55 54 47 46 10 9 7 4 }   support: 0.106212  frequency: 53
+141th: 9 { 65 64 63 43 41 24 9 7 4 }   support: 0.106212  frequency: 53
+142th: 11 { 60 59 58 56 33 32 9 7 4 3 1 }   support: 0.106212  frequency: 53
+143th: 8 { 69 68 65 64 63 43 42 9 }   support: 0.106212  frequency: 53
+144th: 6 { 64 45 44 43 34 9 }   support: 0.106212  frequency: 53
+145th: 3 { 64 29 9 }   support: 0.106212  frequency: 53
+146th: 12 { 58 57 56 55 54 47 46 9 7 4 3 1 }   support: 0.106212  frequency: 53
+147th: 13 { 60 59 58 56 55 24 21 9 8 7 4 3 1 }   support: 0.106212  frequency: 53
+148th: 11 { 66 64 62 61 24 16 15 9 7 5 4 }   support: 0.106212  frequency: 53
+149th: 13 { 58 57 56 27 26 21 10 9 8 7 4 3 1 }   support: 0.106212  frequency: 53
+150th: 10 { 58 57 24 16 15 10 9 7 5 4 }   support: 0.106212  frequency: 53
+151th: 7 { 66 65 64 63 10 9 4 }   support: 0.106212  frequency: 53
+152th: 9 { 69 68 65 64 63 43 10 9 4 }   support: 0.106212  frequency: 53
+153th: 14 { 60 59 58 56 55 47 46 24 9 8 7 4 3 1 }   support: 0.106212  frequency: 53
+154th: 6 { 36 28 11 9 3 1 }   support: 0.106212  frequency: 53
+155th: 13 { 58 56 24 16 15 9 8 7 6 5 4 3 1 }   support: 0.106212  frequency: 53
+156th: 13 { 58 57 56 55 47 46 24 9 8 7 4 3 1 }   support: 0.106212  frequency: 53
+157th: 10 { 58 57 55 47 46 24 10 9 7 4 }   support: 0.106212  frequency: 53
+158th: 8 { 69 68 67 64 24 9 7 4 }   support: 0.106212  frequency: 53
+159th: 4 { 42 41 36 9 }   support: 0.106212  frequency: 53
+160th: 13 { 58 57 56 47 46 27 26 10 9 7 4 3 1 }   support: 0.106212  frequency: 53
+161th: 11 { 64 45 44 42 24 16 15 9 7 5 4 }   support: 0.106212  frequency: 53
+162th: 9 { 60 59 58 33 32 31 9 7 4 }   support: 0.104208  frequency: 52
+163th: 5 { 64 41 34 30 9 }   support: 0.104208  frequency: 52
+164th: 12 { 57 56 24 16 15 9 8 7 5 4 3 1 }   support: 0.104208  frequency: 52
+165th: 5 { 64 43 42 34 9 }   support: 0.104208  frequency: 52
+166th: 12 { 60 59 58 47 46 16 15 10 9 7 5 4 }   support: 0.104208  frequency: 52
+167th: 13 { 60 59 58 57 56 54 24 9 8 7 4 3 1 }   support: 0.104208  frequency: 52
+168th: 7 { 57 54 15 10 9 7 4 }   support: 0.104208  frequency: 52
+169th: 9 { 57 55 47 46 27 26 10 9 4 }   support: 0.104208  frequency: 52
+170th: 7 { 64 62 61 45 37 9 7 }   support: 0.104208  frequency: 52
+171th: 14 { 60 59 58 57 56 27 26 21 10 9 7 4 3 1 }   support: 0.104208  frequency: 52
+172th: 8 { 64 62 61 45 44 41 34 9 }   support: 0.104208  frequency: 52
+173th: 10 { 16 15 11 10 9 7 5 4 3 1 }   support: 0.104208  frequency: 52
+174th: 7 { 24 23 22 15 9 7 4 }   support: 0.104208  frequency: 52
+175th: 13 { 60 59 58 56 55 21 9 8 7 6 4 3 1 }   support: 0.104208  frequency: 52
+176th: 9 { 37 28 24 16 15 9 7 5 4 }   support: 0.104208  frequency: 52
+177th: 7 { 65 64 63 27 26 10 9 }   support: 0.104208  frequency: 52
+178th: 7 { 65 64 63 43 41 10 9 }   support: 0.104208  frequency: 52
+179th: 9 { 65 64 63 43 37 28 9 7 4 }   support: 0.104208  frequency: 52
+180th: 7 { 65 64 63 55 43 9 4 }   support: 0.104208  frequency: 52
+181th: 14 { 60 59 58 56 55 47 46 9 8 7 6 4 3 1 }   support: 0.104208  frequency: 52
+182th: 8 { 57 47 46 15 10 9 7 4 }   support: 0.104208  frequency: 52
+183th: 8 { 65 64 63 54 43 9 7 4 }   support: 0.104208  frequency: 52
+184th: 11 { 65 64 63 45 44 43 42 24 9 7 4 }   support: 0.104208  frequency: 52
+185th: 11 { 65 64 63 62 61 43 25 24 9 7 4 }   support: 0.104208  frequency: 52
+186th: 5 { 11 9 6 3 1 }   support: 0.104208  frequency: 52
+187th: 13 { 65 64 63 62 61 25 24 16 15 9 7 5 4 }   support: 0.104208  frequency: 52
+188th: 8 { 32 31 9 8 7 4 3 1 }   support: 0.104208  frequency: 52
+189th: 6 { 32 24 9 8 7 4 }   support: 0.104208  frequency: 52
+190th: 6 { 33 24 9 8 7 4 }   support: 0.104208  frequency: 52
+191th: 7 { 55 33 32 31 9 7 4 }   support: 0.104208  frequency: 52
+192th: 7 { 33 32 31 9 7 6 4 }   support: 0.104208  frequency: 52
+193th: 15 { 60 59 58 56 55 47 46 21 10 9 7 6 4 3 1 }   support: 0.104208  frequency: 52
+194th: 8 { 33 32 31 9 7 6 3 1 }   support: 0.104208  frequency: 52
+195th: 12 { 56 21 16 15 9 8 7 6 5 4 3 1 }   support: 0.104208  frequency: 52
+196th: 11 { 56 24 21 10 9 8 7 5 4 3 1 }   support: 0.104208  frequency: 52
+197th: 10 { 55 54 24 16 15 10 9 7 5 4 }   support: 0.104208  frequency: 52
+198th: 10 { 55 54 25 24 16 15 9 7 5 4 }   support: 0.104208  frequency: 52
+199th: 14 { 60 59 58 57 56 47 46 21 10 9 7 4 3 1 }   support: 0.104208  frequency: 52
+200th: 5 { 20 9 6 3 1 }   support: 0.104208  frequency: 52
+201th: 14 { 60 59 58 57 56 47 46 10 9 7 6 4 3 1 }   support: 0.104208  frequency: 52
+202th: 10 { 19 16 15 10 9 7 5 4 3 1 }   support: 0.104208  frequency: 52
+203th: 12 { 60 59 58 56 54 24 21 9 7 4 3 1 }   support: 0.104208  frequency: 52
+204th: 12 { 60 59 58 56 54 21 9 8 7 4 3 1 }   support: 0.104208  frequency: 52
+205th: 9 { 60 59 54 27 26 10 9 7 4 }   support: 0.104208  frequency: 52
+206th: 8 { 60 59 57 24 15 9 7 4 }   support: 0.104208  frequency: 52
+207th: 7 { 36 27 26 10 9 7 4 }   support: 0.104208  frequency: 52
+208th: 13 { 60 59 58 56 54 47 46 9 8 7 4 3 1 }   support: 0.104208  frequency: 52
+209th: 7 { 23 22 15 9 8 7 4 }   support: 0.104208  frequency: 52
+210th: 13 { 60 59 58 56 54 47 46 9 7 6 4 3 1 }   support: 0.104208  frequency: 52
+211th: 9 { 23 22 14 13 9 7 4 3 1 }   support: 0.104208  frequency: 52
+212th: 7 { 21 20 19 11 9 3 1 }   support: 0.104208  frequency: 52
+213th: 10 { 60 59 55 47 46 25 24 9 7 4 }   support: 0.104208  frequency: 52
+214th: 10 { 60 59 27 26 25 24 10 9 7 4 }   support: 0.104208  frequency: 52
+215th: 7 { 67 66 64 62 61 9 7 }   support: 0.104208  frequency: 52
+216th: 11 { 60 59 56 10 9 7 6 5 4 3 1 }   support: 0.104208  frequency: 52
+217th: 8 { 67 66 64 45 44 42 34 9 }   support: 0.104208  frequency: 52
+218th: 10 { 60 59 55 47 46 24 15 9 7 4 }   support: 0.104208  frequency: 52
+219th: 10 { 67 66 64 24 16 15 9 7 5 4 }   support: 0.104208  frequency: 52
+220th: 10 { 67 66 65 64 63 43 24 9 7 4 }   support: 0.104208  frequency: 52
+221th: 14 { 60 59 58 56 27 26 24 9 8 7 6 4 3 1 }   support: 0.104208  frequency: 52
+222th: 14 { 67 65 64 63 62 61 43 24 16 15 9 7 5 4 }   support: 0.104208  frequency: 52
+223th: 8 { 47 46 33 32 31 9 7 4 }   support: 0.104208  frequency: 52
+224th: 8 { 47 46 25 24 9 7 6 4 }   support: 0.104208  frequency: 52
+225th: 11 { 60 59 55 47 46 16 15 9 7 5 4 }   support: 0.104208  frequency: 52
+226th: 13 { 60 59 58 56 24 21 15 10 9 7 4 3 1 }   support: 0.104208  frequency: 52
+227th: 8 { 47 46 24 15 9 7 6 4 }   support: 0.104208  frequency: 52
+228th: 8 { 67 64 45 44 42 37 9 7 }   support: 0.104208  frequency: 52
+229th: 12 { 60 59 56 24 21 10 9 7 5 4 3 1 }   support: 0.104208  frequency: 52
+230th: 14 { 60 59 58 56 25 24 10 9 8 7 6 4 3 1 }   support: 0.104208  frequency: 52
+231th: 14 { 60 59 58 56 25 24 21 10 9 8 7 4 3 1 }   support: 0.104208  frequency: 52
+232th: 9 { 60 59 55 54 24 10 9 7 4 }   support: 0.104208  frequency: 52
+233th: 9 { 60 59 54 16 15 9 7 5 4 }   support: 0.104208  frequency: 52
+234th: 14 { 60 59 58 56 16 15 10 9 8 7 5 4 3 1 }   support: 0.104208  frequency: 52
+235th: 11 { 60 59 58 57 55 47 46 24 9 7 4 }   support: 0.104208  frequency: 52
+236th: 12 { 60 59 58 57 56 55 10 9 7 4 3 1 }   support: 0.104208  frequency: 52
+237th: 12 { 60 59 58 57 56 55 54 9 7 4 3 1 }   support: 0.104208  frequency: 52
+238th: 14 { 60 59 58 57 56 27 26 21 9 8 7 4 3 1 }   support: 0.104208  frequency: 52
+239th: 5 { 66 64 43 34 9 }   support: 0.104208  frequency: 52
+240th: 8 { 66 64 45 44 42 9 7 4 }   support: 0.104208  frequency: 52
+241th: 7 { 66 65 64 63 43 42 9 }   support: 0.104208  frequency: 52
+242th: 7 { 66 65 64 63 41 9 4 }   support: 0.104208  frequency: 52
+243th: 8 { 66 65 64 63 45 44 43 9 }   support: 0.104208  frequency: 52
+244th: 10 { 66 65 64 63 43 25 24 9 7 4 }   support: 0.104208  frequency: 52
+245th: 10 { 58 55 47 46 16 15 9 7 5 4 }   support: 0.104208  frequency: 52
+246th: 9 { 69 68 67 64 45 44 42 34 9 }   support: 0.104208  frequency: 52
+247th: 7 { 69 68 67 64 37 9 7 }   support: 0.104208  frequency: 52
+248th: 9 { 69 68 66 64 62 61 9 7 4 }   support: 0.104208  frequency: 52
+249th: 11 { 69 68 66 64 24 16 15 9 7 5 4 }   support: 0.104208  frequency: 52
+250th: 7 { 69 68 67 66 64 9 7 }   support: 0.104208  frequency: 52
+251th: 8 { 69 68 67 66 64 43 30 9 }   support: 0.104208  frequency: 52
+252th: 9 { 69 68 64 45 44 24 9 7 4 }   support: 0.104208  frequency: 52
+253th: 8 { 69 68 64 62 61 45 9 7 }   support: 0.104208  frequency: 52
+254th: 9 { 69 68 64 62 61 45 44 34 9 }   support: 0.104208  frequency: 52
+255th: 3 { 42 28 9 }   support: 0.104208  frequency: 52
+256th: 3 { 42 29 9 }   support: 0.104208  frequency: 52
+257th: 8 { 58 47 46 33 32 9 7 4 }   support: 0.104208  frequency: 52
+258th: 11 { 58 27 26 24 16 15 10 9 7 5 4 }   support: 0.104208  frequency: 52
+259th: 8 { 58 54 25 24 10 9 7 4 }   support: 0.104208  frequency: 52
+260th: 9 { 58 55 54 16 15 9 7 5 4 }   support: 0.104208  frequency: 52
+261th: 6 { 58 55 32 9 7 4 }   support: 0.104208  frequency: 52
+262th: 10 { 58 55 54 47 46 24 10 9 7 4 }   support: 0.104208  frequency: 52
+263th: 12 { 58 56 55 25 24 10 9 8 7 4 3 1 }   support: 0.104208  frequency: 52
+264th: 13 { 58 56 55 47 46 24 10 9 8 7 4 3 1 }   support: 0.104208  frequency: 52
+265th: 12 { 58 56 54 47 46 21 9 7 6 4 3 1 }   support: 0.104208  frequency: 52
+266th: 13 { 58 56 47 46 25 24 10 9 8 7 4 3 1 }   support: 0.104208  frequency: 52
+267th: 13 { 58 56 47 46 24 16 15 9 7 5 4 3 1 }   support: 0.104208  frequency: 52
+268th: 14 { 58 56 47 46 27 26 24 21 10 9 7 4 3 1 }   support: 0.104208  frequency: 52
+269th: 15 { 58 56 47 46 27 26 21 10 9 8 7 6 4 3 1 }   support: 0.104208  frequency: 52
+270th: 13 { 58 56 47 46 16 15 9 8 7 5 4 3 1 }   support: 0.104208  frequency: 52
+271th: 10 { 58 56 33 32 21 9 7 4 3 1 }   support: 0.104208  frequency: 52
+272th: 5 { 58 34 9 7 4 }   support: 0.104208  frequency: 52
+273th: 7 { 58 33 32 10 9 7 4 }   support: 0.104208  frequency: 52
+274th: 13 { 58 57 56 27 26 10 9 8 7 6 4 3 1 }   support: 0.104208  frequency: 52
+275th: 13 { 58 57 56 27 26 21 9 8 7 6 4 3 1 }   support: 0.104208  frequency: 52
+276th: 13 { 58 57 56 27 26 24 21 9 8 7 4 3 1 }   support: 0.104208  frequency: 52
+277th: 8 { 58 57 55 27 26 9 7 4 }   support: 0.104208  frequency: 52
+278th: 12 { 58 57 56 54 47 46 9 7 6 4 3 1 }   support: 0.104208  frequency: 52
+279th: 13 { 58 57 56 47 46 21 10 9 8 7 4 3 1 }   support: 0.104208  frequency: 52
+280th: 13 { 58 57 56 54 47 46 24 9 8 7 4 3 1 }   support: 0.104208  frequency: 52
+281th: 11 { 58 56 21 15 10 9 7 6 4 3 1 }   support: 0.104208  frequency: 52
+282th: 11 { 58 56 21 15 9 8 7 6 4 3 1 }   support: 0.104208  frequency: 52
+283th: 12 { 58 56 24 15 10 9 8 7 6 4 3 1 }   support: 0.104208  frequency: 52
+284th: 13 { 58 56 25 24 21 10 9 8 7 6 4 3 1 }   support: 0.104208  frequency: 52
+285th: 13 { 58 56 27 26 16 15 10 9 7 5 4 3 1 }   support: 0.104208  frequency: 52
+286th: 5 { 28 9 8 7 4 }   support: 0.104208  frequency: 52
+287th: 5 { 64 30 9 7 4 }   support: 0.104208  frequency: 52
+288th: 8 { 59 57 16 15 9 7 5 4 }   support: 0.102204  frequency: 51
+289th: 11 { 60 59 58 47 46 24 15 10 9 7 4 }   support: 0.102204  frequency: 51
+290th: 9 { 60 59 58 55 15 10 9 7 4 }   support: 0.102204  frequency: 51
+291th: 14 { 60 59 58 57 56 55 47 46 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+292th: 8 { 57 55 54 24 10 9 7 4 }   support: 0.102204  frequency: 51
+293th: 14 { 60 59 58 57 56 55 47 46 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+294th: 13 { 60 59 58 56 55 24 9 8 7 6 4 3 1 }   support: 0.102204  frequency: 51
+295th: 12 { 60 59 58 56 54 10 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+296th: 14 { 60 59 58 57 56 47 46 24 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+297th: 7 { 57 54 25 24 9 7 4 }   support: 0.102204  frequency: 51
+298th: 8 { 57 54 47 46 15 9 7 4 }   support: 0.102204  frequency: 51
+299th: 9 { 57 47 46 25 24 10 9 7 4 }   support: 0.102204  frequency: 51
+300th: 14 { 60 59 58 57 56 27 26 10 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+301th: 14 { 60 59 58 57 56 47 46 24 21 9 7 4 3 1 }   support: 0.102204  frequency: 51
+302th: 6 { 57 15 9 7 6 4 }   support: 0.102204  frequency: 51
+303th: 12 { 60 59 58 56 55 54 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+304th: 7 { 57 25 24 15 9 7 4 }   support: 0.102204  frequency: 51
+305th: 12 { 60 59 58 56 55 54 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+306th: 9 { 55 54 47 46 24 9 8 7 4 }   support: 0.102204  frequency: 51
+307th: 8 { 55 27 26 24 10 9 7 4 }   support: 0.102204  frequency: 51
+308th: 7 { 55 54 46 37 9 7 4 }   support: 0.102204  frequency: 51
+309th: 15 { 60 59 58 56 55 47 46 27 26 10 9 7 4 3 1 }   support: 0.102204  frequency: 51
+310th: 11 { 58 56 55 27 26 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+311th: 7 { 58 55 15 9 8 7 4 }   support: 0.102204  frequency: 51
+312th: 5 { 66 64 34 30 9 }   support: 0.102204  frequency: 51
+313th: 12 { 60 59 47 46 24 16 15 10 9 7 5 4 }   support: 0.102204  frequency: 51
+314th: 9 { 67 64 62 61 45 44 42 34 9 }   support: 0.102204  frequency: 51
+315th: 13 { 58 56 55 47 46 10 9 8 7 6 4 3 1 }   support: 0.102204  frequency: 51
+316th: 11 { 66 65 64 63 62 61 24 16 9 7 4 }   support: 0.102204  frequency: 51
+317th: 13 { 58 56 55 47 46 24 9 8 7 6 4 3 1 }   support: 0.102204  frequency: 51
+318th: 14 { 58 56 55 47 46 27 26 10 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+319th: 9 { 58 56 54 15 9 7 4 3 1 }   support: 0.102204  frequency: 51
+320th: 10 { 58 56 47 46 32 9 7 4 3 1 }   support: 0.102204  frequency: 51
+321th: 11 { 58 56 54 21 10 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+322th: 14 { 60 59 58 56 24 21 16 15 9 7 5 4 3 1 }   support: 0.102204  frequency: 51
+323th: 14 { 60 59 58 56 21 16 15 10 9 7 5 4 3 1 }   support: 0.102204  frequency: 51
+324th: 12 { 60 59 56 24 21 9 8 7 5 4 3 1 }   support: 0.102204  frequency: 51
+325th: 6 { 66 64 43 41 9 4 }   support: 0.102204  frequency: 51
+326th: 12 { 58 56 54 47 46 10 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+327th: 10 { 66 64 62 61 43 24 16 9 7 4 }   support: 0.102204  frequency: 51
+328th: 9 { 67 64 45 44 42 24 9 7 4 }   support: 0.102204  frequency: 51
+329th: 10 { 69 68 64 52 51 50 49 48 43 9 }   support: 0.102204  frequency: 51
+330th: 8 { 67 64 45 42 37 9 7 4 }   support: 0.102204  frequency: 51
+331th: 6 { 34 18 17 9 3 1 }   support: 0.102204  frequency: 51
+332th: 7 { 66 64 62 61 37 9 7 }   support: 0.102204  frequency: 51
+333th: 12 { 58 56 47 46 15 10 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+334th: 8 { 66 65 64 63 42 9 7 4 }   support: 0.102204  frequency: 51
+335th: 10 { 58 56 33 32 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+336th: 12 { 66 65 64 63 25 24 16 15 9 7 5 4 }   support: 0.102204  frequency: 51
+337th: 10 { 69 68 64 62 61 43 37 9 7 4 }   support: 0.102204  frequency: 51
+338th: 8 { 67 64 45 44 37 9 7 4 }   support: 0.102204  frequency: 51
+339th: 6 { 58 36 10 9 7 4 }   support: 0.102204  frequency: 51
+340th: 11 { 69 68 64 62 61 45 44 43 42 30 9 }   support: 0.102204  frequency: 51
+341th: 8 { 58 33 32 27 26 9 7 4 }   support: 0.102204  frequency: 51
+342th: 11 { 58 57 56 33 32 31 9 7 4 3 1 }   support: 0.102204  frequency: 51
+343th: 13 { 69 68 64 62 61 43 24 16 15 9 7 5 4 }   support: 0.102204  frequency: 51
+344th: 9 { 47 46 24 15 10 9 8 7 4 }   support: 0.102204  frequency: 51
+345th: 13 { 58 57 56 27 26 21 10 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+346th: 12 { 60 59 58 24 16 15 10 9 8 7 5 4 }   support: 0.102204  frequency: 51
+347th: 12 { 60 59 58 57 47 46 24 10 9 8 7 4 }   support: 0.102204  frequency: 51
+348th: 13 { 58 57 56 27 26 24 10 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+349th: 13 { 60 59 58 56 24 21 15 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+350th: 12 { 60 59 58 57 56 54 21 9 7 4 3 1 }   support: 0.102204  frequency: 51
+351th: 9 { 53 28 23 22 14 13 9 3 1 }   support: 0.102204  frequency: 51
+352th: 11 { 58 57 56 54 21 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+353th: 11 { 58 57 56 54 10 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+354th: 7 { 58 57 54 15 9 7 4 }   support: 0.102204  frequency: 51
+355th: 12 { 60 59 58 56 21 15 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+356th: 12 { 58 57 56 55 54 24 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+357th: 8 { 59 57 24 15 9 8 7 4 }   support: 0.102204  frequency: 51
+358th: 10 { 69 68 65 64 63 45 42 9 7 4 }   support: 0.102204  frequency: 51
+359th: 13 { 58 57 56 47 46 21 10 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+360th: 11 { 60 59 56 21 9 7 6 5 4 3 1 }   support: 0.102204  frequency: 51
+361th: 12 { 60 59 27 26 24 16 15 10 9 7 5 4 }   support: 0.102204  frequency: 51
+362th: 9 { 67 65 64 63 37 28 9 7 4 }   support: 0.102204  frequency: 51
+363th: 9 { 67 65 64 63 42 37 9 7 4 }   support: 0.102204  frequency: 51
+364th: 13 { 58 57 56 47 46 27 26 21 9 7 4 3 1 }   support: 0.102204  frequency: 51
+365th: 13 { 53 39 29 18 17 14 13 12 11 9 3 2 1 }   support: 0.102204  frequency: 51
+366th: 9 { 67 65 64 63 42 24 9 7 4 }   support: 0.102204  frequency: 51
+367th: 9 { 67 65 64 63 45 37 9 7 4 }   support: 0.102204  frequency: 51
+368th: 11 { 58 57 56 55 24 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+369th: 11 { 58 57 56 55 21 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+370th: 11 { 58 57 56 55 21 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+371th: 10 { 58 57 55 54 47 46 10 9 7 4 }   support: 0.102204  frequency: 51
+372th: 10 { 58 57 55 54 47 46 24 9 7 4 }   support: 0.102204  frequency: 51
+373th: 12 { 58 57 56 55 47 46 21 9 7 4 3 1 }   support: 0.102204  frequency: 51
+374th: 14 { 60 59 58 56 27 26 24 10 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+375th: 11 { 53 29 23 22 18 17 14 13 9 3 1 }   support: 0.102204  frequency: 51
+376th: 11 { 58 56 21 15 9 7 6 5 4 3 1 }   support: 0.102204  frequency: 51
+377th: 9 { 68 65 64 63 43 10 9 7 4 }   support: 0.102204  frequency: 51
+378th: 13 { 58 56 16 15 10 9 8 7 6 5 4 3 1 }   support: 0.102204  frequency: 51
+379th: 12 { 58 56 24 21 15 10 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+380th: 13 { 58 56 24 21 16 15 10 9 7 5 4 3 1 }   support: 0.102204  frequency: 51
+381th: 13 { 58 56 24 21 16 15 9 8 7 5 4 3 1 }   support: 0.102204  frequency: 51
+382th: 11 { 68 65 64 63 62 61 43 37 9 7 4 }   support: 0.102204  frequency: 51
+383th: 8 { 67 65 64 63 10 9 7 4 }   support: 0.102204  frequency: 51
+384th: 12 { 58 56 25 24 15 10 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+385th: 14 { 68 65 64 63 62 61 43 24 16 15 9 7 5 4 }   support: 0.102204  frequency: 51
+386th: 9 { 58 57 47 46 24 15 9 7 4 }   support: 0.102204  frequency: 51
+387th: 13 { 58 56 27 26 25 24 10 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+388th: 7 { 68 67 64 37 9 7 4 }   support: 0.102204  frequency: 51
+389th: 11 { 69 68 66 64 62 61 45 44 43 30 9 }   support: 0.102204  frequency: 51
+390th: 14 { 60 59 58 56 27 26 24 21 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+391th: 11 { 60 59 58 56 32 21 9 7 4 3 1 }   support: 0.102204  frequency: 51
+392th: 10 { 58 57 24 16 15 9 8 7 5 4 }   support: 0.102204  frequency: 51
+393th: 6 { 67 66 64 42 9 7 }   support: 0.102204  frequency: 51
+394th: 10 { 60 59 24 16 15 9 7 6 5 4 }   support: 0.102204  frequency: 51
+395th: 7 { 69 68 66 64 45 9 7 }   support: 0.102204  frequency: 51
+396th: 9 { 60 59 58 57 54 10 9 7 4 }   support: 0.102204  frequency: 51
+397th: 10 { 58 24 16 15 10 9 7 6 5 4 }   support: 0.102204  frequency: 51
+398th: 5 { 64 43 41 34 9 }   support: 0.102204  frequency: 51
+399th: 13 { 60 59 58 56 27 26 15 10 9 7 4 3 1 }   support: 0.102204  frequency: 51
+400th: 8 { 64 45 44 42 41 37 9 7 }   support: 0.102204  frequency: 51
+401th: 8 { 64 45 44 41 24 9 7 4 }   support: 0.102204  frequency: 51
+402th: 9 { 64 45 44 43 42 41 9 7 4 }   support: 0.102204  frequency: 51
+403th: 10 { 60 59 57 54 47 46 24 9 7 4 }   support: 0.102204  frequency: 51
+404th: 6 { 64 62 61 41 9 7 }   support: 0.102204  frequency: 51
+405th: 8 { 59 58 57 24 15 9 7 4 }   support: 0.102204  frequency: 51
+406th: 9 { 69 68 66 64 43 37 9 7 4 }   support: 0.102204  frequency: 51
+407th: 10 { 64 62 61 45 44 42 24 9 7 4 }   support: 0.102204  frequency: 51
+408th: 11 { 64 62 61 45 24 16 15 9 7 5 4 }   support: 0.102204  frequency: 51
+409th: 11 { 58 47 46 24 16 15 9 8 7 5 4 }   support: 0.102204  frequency: 51
+410th: 7 { 54 27 26 24 9 7 4 }   support: 0.102204  frequency: 51
+411th: 7 { 54 25 24 9 8 7 4 }   support: 0.102204  frequency: 51
+412th: 8 { 24 20 19 9 7 4 3 1 }   support: 0.102204  frequency: 51
+413th: 8 { 24 19 16 9 7 4 3 1 }   support: 0.102204  frequency: 51
+414th: 6 { 54 37 24 9 7 4 }   support: 0.102204  frequency: 51
+415th: 10 { 60 59 57 55 54 47 46 9 7 4 }   support: 0.102204  frequency: 51
+416th: 9 { 54 47 46 24 15 10 9 7 4 }   support: 0.102204  frequency: 51
+417th: 11 { 24 21 15 10 9 8 7 6 4 3 1 }   support: 0.102204  frequency: 51
+418th: 11 { 24 21 10 9 8 7 6 5 4 3 1 }   support: 0.102204  frequency: 51
+419th: 9 { 60 59 55 25 24 10 9 7 4 }   support: 0.102204  frequency: 51
+420th: 13 { 60 59 58 56 47 46 15 10 9 7 4 3 1 }   support: 0.102204  frequency: 51
+421th: 9 { 21 19 10 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+422th: 6 { 37 33 32 31 9 7 }   support: 0.102204  frequency: 51
+423th: 7 { 45 44 42 10 9 7 4 }   support: 0.102204  frequency: 51
+424th: 13 { 60 59 58 56 47 46 15 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+425th: 6 { 65 64 63 43 30 9 }   support: 0.102204  frequency: 51
+426th: 6 { 65 64 63 43 34 9 }   support: 0.102204  frequency: 51
+427th: 6 { 66 64 41 9 7 4 }   support: 0.102204  frequency: 51
+428th: 6 { 65 64 63 30 9 4 }   support: 0.102204  frequency: 51
+429th: 11 { 69 68 66 64 45 44 43 42 41 30 9 }   support: 0.102204  frequency: 51
+430th: 8 { 21 11 10 9 7 4 3 1 }   support: 0.102204  frequency: 51
+431th: 9 { 58 54 47 46 15 9 7 5 4 }   support: 0.102204  frequency: 51
+432th: 10 { 60 59 47 46 24 15 9 8 7 4 }   support: 0.102204  frequency: 51
+433th: 7 { 21 14 13 11 9 3 1 }   support: 0.102204  frequency: 51
+434th: 8 { 60 59 57 15 9 7 5 4 }   support: 0.102204  frequency: 51
+435th: 8 { 58 55 54 27 26 9 7 4 }   support: 0.102204  frequency: 51
+436th: 10 { 54 46 25 24 16 15 9 7 5 4 }   support: 0.102204  frequency: 51
+437th: 16 { 60 59 58 56 47 46 27 26 10 9 8 7 6 4 3 1 }   support: 0.102204  frequency: 51
+438th: 8 { 23 22 18 17 9 7 3 1 }   support: 0.102204  frequency: 51
+439th: 9 { 66 65 64 63 45 44 9 7 4 }   support: 0.102204  frequency: 51
+440th: 9 { 23 22 16 15 9 7 4 3 1 }   support: 0.102204  frequency: 51
+441th: 8 { 23 22 10 9 7 4 3 1 }   support: 0.102204  frequency: 51
+442th: 7 { 36 29 18 17 9 3 1 }   support: 0.102204  frequency: 51
+443th: 10 { 65 64 63 45 44 41 37 9 7 4 }   support: 0.102204  frequency: 51
+444th: 12 { 60 59 58 56 54 10 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+445th: 13 { 65 64 63 43 37 24 16 15 10 9 7 5 4 }   support: 0.102204  frequency: 51
+446th: 21 { 52 51 50 49 48 39 28 23 22 20 19 18 17 14 13 12 11 9 3 2 1 }   support: 0.102204  frequency: 51
+447th: 13 { 65 64 63 45 44 37 24 16 15 9 7 5 4 }   support: 0.102204  frequency: 51
+448th: 9 { 58 55 54 47 46 9 8 7 4 }   support: 0.102204  frequency: 51
+449th: 8 { 52 51 50 49 48 34 30 9 }   support: 0.102204  frequency: 51
+450th: 11 { 69 68 66 65 64 63 43 24 9 7 4 }   support: 0.102204  frequency: 51
+451th: 11 { 65 64 63 62 61 45 44 24 9 7 4 }   support: 0.102204  frequency: 51
+452th: 13 { 65 64 63 45 44 43 24 16 15 9 7 5 4 }   support: 0.102204  frequency: 51
+453th: 6 { 58 55 33 9 7 4 }   support: 0.102204  frequency: 51
+454th: 10 { 59 58 47 46 24 15 9 8 7 4 }   support: 0.102204  frequency: 51
+455th: 9 { 52 51 50 49 48 40 36 29 9 }   support: 0.102204  frequency: 51
+456th: 8 { 69 68 67 64 62 61 9 7 }   support: 0.102204  frequency: 51
+457th: 7 { 31 10 9 7 4 3 1 }   support: 0.102204  frequency: 51
+458th: 9 { 58 55 47 46 24 15 9 7 4 }   support: 0.102204  frequency: 51
+459th: 10 { 58 55 47 46 15 10 9 7 5 4 }   support: 0.102204  frequency: 51
+460th: 7 { 33 10 9 7 4 3 1 }   support: 0.102204  frequency: 51
+461th: 8 { 19 9 8 7 5 4 3 1 }   support: 0.102204  frequency: 51
+462th: 13 { 60 59 58 56 21 15 10 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+463th: 8 { 19 11 10 9 7 4 3 1 }   support: 0.102204  frequency: 51
+464th: 7 { 32 24 9 7 4 3 1 }   support: 0.102204  frequency: 51
+465th: 8 { 20 15 10 9 7 4 3 1 }   support: 0.102204  frequency: 51
+466th: 8 { 58 55 27 26 24 9 7 4 }   support: 0.102204  frequency: 51
+467th: 9 { 20 16 15 9 7 5 4 3 1 }   support: 0.102204  frequency: 51
+468th: 9 { 20 19 10 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+469th: 9 { 20 19 14 13 9 7 4 3 1 }   support: 0.102204  frequency: 51
+470th: 7 { 18 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+471th: 8 { 20 19 11 9 7 4 3 1 }   support: 0.102204  frequency: 51
+472th: 11 { 56 21 15 10 9 8 7 6 4 3 1 }   support: 0.102204  frequency: 51
+473th: 10 { 54 47 46 16 15 10 9 7 5 4 }   support: 0.102204  frequency: 51
+474th: 12 { 56 21 16 15 10 9 8 7 5 4 3 1 }   support: 0.102204  frequency: 51
+475th: 11 { 56 24 21 16 10 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+476th: 11 { 58 56 55 24 21 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+477th: 9 { 14 13 10 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+478th: 13 { 56 47 46 24 16 15 9 8 7 5 4 3 1 }   support: 0.102204  frequency: 51
+479th: 10 { 56 47 46 15 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+480th: 9 { 56 32 31 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+481th: 9 { 56 32 21 9 7 6 4 3 1 }   support: 0.102204  frequency: 51
+482th: 8 { 56 54 9 7 5 4 3 1 }   support: 0.102204  frequency: 51
+483th: 8 { 56 54 32 9 7 4 3 1 }   support: 0.102204  frequency: 51
+484th: 11 { 56 27 26 15 10 9 8 7 4 3 1 }   support: 0.102204  frequency: 51
+485th: 7 { 37 27 26 10 9 7 4 }   support: 0.102204  frequency: 51
+486th: 13 { 56 27 26 21 16 15 10 9 7 5 4 3 1 }   support: 0.102204  frequency: 51
+487th: 8 { 14 13 11 9 7 4 3 1 }   support: 0.102204  frequency: 51
+488th: 9 { 58 57 55 24 10 9 8 7 4 }   support: 0.102204  frequency: 51
+489th: 13 { 59 58 56 55 47 46 21 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+490th: 8 { 59 58 55 25 24 9 7 4 }   support: 0.1002  frequency: 50
+491th: 14 { 59 58 56 24 16 15 10 9 8 7 5 4 3 1 }   support: 0.1002  frequency: 50
+492th: 15 { 59 58 56 55 47 46 27 26 21 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+493th: 10 { 59 58 54 47 46 24 9 8 7 4 }   support: 0.1002  frequency: 50
+494th: 9 { 59 58 47 46 25 24 9 7 4 }   support: 0.1002  frequency: 50
+495th: 10 { 59 58 47 46 24 10 9 7 5 4 }   support: 0.1002  frequency: 50
+496th: 11 { 59 58 47 46 16 15 9 8 7 5 4 }   support: 0.1002  frequency: 50
+497th: 10 { 59 58 55 54 47 46 24 9 7 4 }   support: 0.1002  frequency: 50
+498th: 8 { 21 20 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+499th: 9 { 60 54 47 46 24 10 9 7 4 }   support: 0.1002  frequency: 50
+500th: 9 { 60 54 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+501th: 3 { 55 28 9 }   support: 0.1002  frequency: 50
+502th: 12 { 57 56 47 46 24 21 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+503th: 4 { 66 64 38 9 }   support: 0.1002  frequency: 50
+504th: 7 { 66 64 62 61 45 34 9 }   support: 0.1002  frequency: 50
+505th: 7 { 57 55 15 10 9 7 4 }   support: 0.1002  frequency: 50
+506th: 7 { 57 55 25 24 9 7 4 }   support: 0.1002  frequency: 50
+507th: 10 { 66 64 62 61 45 44 43 42 30 9 }   support: 0.1002  frequency: 50
+508th: 9 { 66 64 52 51 50 49 48 34 9 }   support: 0.1002  frequency: 50
+509th: 9 { 66 64 52 51 50 49 48 43 9 }   support: 0.1002  frequency: 50
+510th: 7 { 66 64 61 45 44 34 9 }   support: 0.1002  frequency: 50
+511th: 10 { 66 64 61 43 24 16 9 7 5 4 }   support: 0.1002  frequency: 50
+512th: 10 { 66 64 61 43 24 16 15 9 7 4 }   support: 0.1002  frequency: 50
+513th: 11 { 57 56 54 47 46 21 9 7 4 3 1 }   support: 0.1002  frequency: 50
+514th: 10 { 57 56 54 24 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+515th: 10 { 57 56 54 21 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+516th: 7 { 66 64 45 43 9 7 4 }   support: 0.1002  frequency: 50
+517th: 7 { 66 64 45 44 43 9 4 }   support: 0.1002  frequency: 50
+518th: 8 { 57 55 27 26 10 9 7 4 }   support: 0.1002  frequency: 50
+519th: 8 { 57 55 47 46 26 9 7 4 }   support: 0.1002  frequency: 50
+520th: 8 { 57 55 47 46 27 9 7 4 }   support: 0.1002  frequency: 50
+521th: 9 { 57 55 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+522th: 11 { 57 56 55 46 21 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+523th: 8 { 57 55 54 46 9 7 6 4 }   support: 0.1002  frequency: 50
+524th: 7 { 26 16 10 9 7 6 4 }   support: 0.1002  frequency: 50
+525th: 8 { 26 15 10 9 7 6 5 4 }   support: 0.1002  frequency: 50
+526th: 8 { 26 25 24 15 10 9 7 4 }   support: 0.1002  frequency: 50
+527th: 8 { 26 24 15 10 9 8 7 4 }   support: 0.1002  frequency: 50
+528th: 5 { 57 34 9 7 4 }   support: 0.1002  frequency: 50
+529th: 8 { 66 65 64 63 45 42 9 4 }   support: 0.1002  frequency: 50
+530th: 8 { 26 25 24 16 10 9 7 4 }   support: 0.1002  frequency: 50
+531th: 10 { 26 21 15 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+532th: 9 { 26 25 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+533th: 6 { 57 54 27 26 10 9 }   support: 0.1002  frequency: 50
+534th: 7 { 57 54 27 26 9 7 4 }   support: 0.1002  frequency: 50
+535th: 8 { 57 47 46 27 26 10 9 6 }   support: 0.1002  frequency: 50
+536th: 11 { 66 65 64 63 61 24 16 9 7 5 4 }   support: 0.1002  frequency: 50
+537th: 11 { 66 65 64 63 61 24 16 15 9 7 4 }   support: 0.1002  frequency: 50
+538th: 11 { 66 65 64 63 61 43 24 16 9 7 4 }   support: 0.1002  frequency: 50
+539th: 10 { 26 24 21 16 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+540th: 7 { 34 23 22 18 9 3 1 }   support: 0.1002  frequency: 50
+541th: 10 { 26 24 21 15 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+542th: 6 { 46 32 10 9 7 4 }   support: 0.1002  frequency: 50
+543th: 7 { 46 33 32 9 7 3 1 }   support: 0.1002  frequency: 50
+544th: 10 { 26 24 21 10 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+545th: 8 { 34 23 22 14 13 9 3 1 }   support: 0.1002  frequency: 50
+546th: 7 { 57 25 24 9 7 6 4 }   support: 0.1002  frequency: 50
+547th: 8 { 57 24 15 10 9 8 7 4 }   support: 0.1002  frequency: 50
+548th: 7 { 55 54 24 9 7 6 4 }   support: 0.1002  frequency: 50
+549th: 9 { 55 54 47 46 15 10 9 7 4 }   support: 0.1002  frequency: 50
+550th: 7 { 69 68 66 64 61 34 9 }   support: 0.1002  frequency: 50
+551th: 6 { 55 54 32 9 7 4 }   support: 0.1002  frequency: 50
+552th: 9 { 69 68 66 64 61 24 9 7 4 }   support: 0.1002  frequency: 50
+553th: 10 { 55 54 47 46 27 26 10 9 7 4 }   support: 0.1002  frequency: 50
+554th: 8 { 55 25 24 15 10 9 7 4 }   support: 0.1002  frequency: 50
+555th: 5 { 29 24 9 7 4 }   support: 0.1002  frequency: 50
+556th: 10 { 69 68 66 64 45 44 42 41 34 9 }   support: 0.1002  frequency: 50
+557th: 8 { 55 24 16 15 9 8 7 4 }   support: 0.1002  frequency: 50
+558th: 8 { 55 16 15 9 8 7 5 4 }   support: 0.1002  frequency: 50
+559th: 8 { 14 13 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+560th: 9 { 20 16 10 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+561th: 9 { 19 16 15 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+562th: 6 { 62 61 10 9 7 4 }   support: 0.1002  frequency: 50
+563th: 22 { 52 51 50 49 48 40 39 29 23 22 20 19 18 17 14 13 12 11 9 3 2 1 }   support: 0.1002  frequency: 50
+564th: 20 { 52 51 50 49 48 40 39 28 20 19 18 17 14 13 12 11 9 3 2 1 }   support: 0.1002  frequency: 50
+565th: 21 { 52 51 50 49 48 40 39 28 23 22 20 18 17 14 13 12 11 9 3 2 1 }   support: 0.1002  frequency: 50
+566th: 6 { 69 68 64 41 9 4 }   support: 0.1002  frequency: 50
+567th: 8 { 52 51 50 49 48 39 34 9 }   support: 0.1002  frequency: 50
+568th: 8 { 69 68 64 45 42 37 9 7 }   support: 0.1002  frequency: 50
+569th: 8 { 69 68 64 45 44 34 30 9 }   support: 0.1002  frequency: 50
+570th: 15 { 40 39 36 20 19 18 17 14 13 12 11 9 3 2 1 }   support: 0.1002  frequency: 50
+571th: 17 { 40 39 28 23 22 20 19 18 17 14 13 12 11 9 3 2 1 }   support: 0.1002  frequency: 50
+572th: 9 { 69 68 64 45 44 43 9 7 4 }   support: 0.1002  frequency: 50
+573th: 8 { 69 68 64 61 45 44 9 7 }   support: 0.1002  frequency: 50
+574th: 8 { 69 68 64 61 45 9 7 4 }   support: 0.1002  frequency: 50
+575th: 9 { 69 68 64 61 45 44 42 34 9 }   support: 0.1002  frequency: 50
+576th: 10 { 69 68 64 61 43 37 24 9 7 4 }   support: 0.1002  frequency: 50
+577th: 3 { 36 30 9 }   support: 0.1002  frequency: 50
+578th: 6 { 23 9 8 7 5 4 }   support: 0.1002  frequency: 50
+579th: 6 { 36 28 20 9 3 1 }   support: 0.1002  frequency: 50
+580th: 6 { 23 10 9 8 7 4 }   support: 0.1002  frequency: 50
+581th: 7 { 23 16 15 9 8 7 4 }   support: 0.1002  frequency: 50
+582th: 13 { 69 68 64 62 61 37 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+583th: 7 { 69 68 65 64 63 41 9 }   support: 0.1002  frequency: 50
+584th: 8 { 23 15 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+585th: 9 { 23 16 15 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+586th: 9 { 23 22 15 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+587th: 8 { 23 22 18 17 9 4 3 1 }   support: 0.1002  frequency: 50
+588th: 9 { 69 68 65 64 63 45 43 9 4 }   support: 0.1002  frequency: 50
+589th: 6 { 27 26 19 9 3 1 }   support: 0.1002  frequency: 50
+590th: 10 { 69 68 65 64 63 45 44 42 9 4 }   support: 0.1002  frequency: 50
+591th: 11 { 69 68 65 64 63 45 44 37 9 7 4 }   support: 0.1002  frequency: 50
+592th: 11 { 69 68 65 64 63 61 43 37 9 7 4 }   support: 0.1002  frequency: 50
+593th: 8 { 27 26 25 24 15 9 7 4 }   support: 0.1002  frequency: 50
+594th: 13 { 69 68 65 64 63 61 37 24 16 15 9 7 4 }   support: 0.1002  frequency: 50
+595th: 13 { 69 68 65 64 63 62 61 37 24 16 9 7 4 }   support: 0.1002  frequency: 50
+596th: 13 { 69 68 65 64 63 62 61 43 24 16 9 7 4 }   support: 0.1002  frequency: 50
+597th: 8 { 27 26 25 24 16 9 7 4 }   support: 0.1002  frequency: 50
+598th: 14 { 69 68 65 64 63 61 43 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+599th: 4 { 68 64 28 9 }   support: 0.1002  frequency: 50
+600th: 8 { 68 64 62 61 45 44 9 7 }   support: 0.1002  frequency: 50
+601th: 8 { 68 64 62 61 45 9 7 4 }   support: 0.1002  frequency: 50
+602th: 9 { 68 64 62 61 45 44 42 34 9 }   support: 0.1002  frequency: 50
+603th: 11 { 68 64 62 61 43 37 24 16 9 7 4 }   support: 0.1002  frequency: 50
+604th: 12 { 68 64 61 43 37 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+605th: 5 { 68 64 41 9 7 }   support: 0.1002  frequency: 50
+606th: 6 { 68 65 64 63 54 9 }   support: 0.1002  frequency: 50
+607th: 9 { 68 64 45 24 16 15 9 7 4 }   support: 0.1002  frequency: 50
+608th: 7 { 68 64 42 24 9 7 4 }   support: 0.1002  frequency: 50
+609th: 9 { 68 65 64 63 45 24 9 7 4 }   support: 0.1002  frequency: 50
+610th: 9 { 68 65 64 63 45 43 9 7 4 }   support: 0.1002  frequency: 50
+611th: 9 { 68 65 64 63 45 44 43 9 4 }   support: 0.1002  frequency: 50
+612th: 9 { 68 65 64 63 45 44 43 42 9 }   support: 0.1002  frequency: 50
+613th: 9 { 27 25 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+614th: 10 { 68 65 64 63 45 44 42 9 7 4 }   support: 0.1002  frequency: 50
+615th: 3 { 45 29 9 }   support: 0.1002  frequency: 50
+616th: 11 { 68 65 64 63 61 43 37 24 9 7 4 }   support: 0.1002  frequency: 50
+617th: 6 { 68 66 64 45 9 4 }   support: 0.1002  frequency: 50
+618th: 14 { 68 65 64 63 62 61 37 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+619th: 5 { 21 12 9 3 1 }   support: 0.1002  frequency: 50
+620th: 7 { 68 66 64 45 44 9 7 }   support: 0.1002  frequency: 50
+621th: 7 { 68 66 64 61 45 34 9 }   support: 0.1002  frequency: 50
+622th: 7 { 68 66 64 62 61 34 9 }   support: 0.1002  frequency: 50
+623th: 9 { 68 66 64 62 61 24 9 7 4 }   support: 0.1002  frequency: 50
+624th: 10 { 68 66 65 64 63 43 37 9 7 4 }   support: 0.1002  frequency: 50
+625th: 6 { 68 67 64 42 9 7 }   support: 0.1002  frequency: 50
+626th: 6 { 68 67 66 64 34 9 }   support: 0.1002  frequency: 50
+627th: 7 { 68 67 66 64 9 7 4 }   support: 0.1002  frequency: 50
+628th: 5 { 45 44 42 36 9 }   support: 0.1002  frequency: 50
+629th: 7 { 68 67 64 43 9 7 4 }   support: 0.1002  frequency: 50
+630th: 8 { 68 67 64 24 15 9 7 4 }   support: 0.1002  frequency: 50
+631th: 9 { 68 67 65 64 63 24 9 7 4 }   support: 0.1002  frequency: 50
+632th: 7 { 68 67 64 61 43 30 9 }   support: 0.1002  frequency: 50
+633th: 8 { 68 67 64 62 61 9 7 4 }   support: 0.1002  frequency: 50
+634th: 8 { 21 20 19 14 13 9 3 1 }   support: 0.1002  frequency: 50
+635th: 12 { 21 16 15 10 9 8 7 6 5 4 3 1 }   support: 0.1002  frequency: 50
+636th: 10 { 27 26 15 10 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+637th: 12 { 27 26 25 24 21 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+638th: 12 { 27 26 16 15 10 9 8 7 5 4 3 1 }   support: 0.1002  frequency: 50
+639th: 7 { 58 47 46 31 9 7 4 }   support: 0.1002  frequency: 50
+640th: 5 { 54 27 26 9 6 }   support: 0.1002  frequency: 50
+641th: 7 { 54 47 46 37 9 7 4 }   support: 0.1002  frequency: 50
+642th: 9 { 58 47 46 15 10 9 7 6 4 }   support: 0.1002  frequency: 50
+643th: 5 { 61 41 9 7 4 }   support: 0.1002  frequency: 50
+644th: 8 { 54 47 46 24 9 7 6 4 }   support: 0.1002  frequency: 50
+645th: 7 { 58 54 33 32 9 7 4 }   support: 0.1002  frequency: 50
+646th: 9 { 54 24 16 15 9 8 7 5 4 }   support: 0.1002  frequency: 50
+647th: 8 { 58 54 46 24 15 9 7 4 }   support: 0.1002  frequency: 50
+648th: 7 { 67 66 64 61 9 7 4 }   support: 0.1002  frequency: 50
+649th: 10 { 58 54 47 46 27 26 10 9 7 4 }   support: 0.1002  frequency: 50
+650th: 9 { 58 54 46 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+651th: 8 { 67 66 64 62 61 43 30 9 }   support: 0.1002  frequency: 50
+652th: 8 { 58 55 54 10 9 8 7 4 }   support: 0.1002  frequency: 50
+653th: 9 { 67 66 65 64 63 37 9 7 4 }   support: 0.1002  frequency: 50
+654th: 9 { 58 55 54 15 10 9 7 5 4 }   support: 0.1002  frequency: 50
+655th: 10 { 67 66 64 45 44 43 42 41 30 9 }   support: 0.1002  frequency: 50
+656th: 9 { 58 55 54 24 15 9 7 5 4 }   support: 0.1002  frequency: 50
+657th: 7 { 67 65 64 63 42 41 9 }   support: 0.1002  frequency: 50
+658th: 9 { 58 55 47 46 24 9 7 5 4 }   support: 0.1002  frequency: 50
+659th: 9 { 67 65 64 63 45 24 9 7 4 }   support: 0.1002  frequency: 50
+660th: 9 { 67 65 64 63 43 41 9 7 4 }   support: 0.1002  frequency: 50
+661th: 11 { 67 65 64 63 45 44 43 42 9 7 4 }   support: 0.1002  frequency: 50
+662th: 10 { 67 65 64 63 61 43 37 9 7 4 }   support: 0.1002  frequency: 50
+663th: 9 { 58 55 47 46 16 10 9 7 4 }   support: 0.1002  frequency: 50
+664th: 7 { 67 64 41 24 9 7 4 }   support: 0.1002  frequency: 50
+665th: 12 { 67 65 64 63 43 25 24 16 15 9 7 4 }   support: 0.1002  frequency: 50
+666th: 14 { 67 65 64 63 62 61 37 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+667th: 7 { 47 46 33 9 7 3 1 }   support: 0.1002  frequency: 50
+668th: 9 { 58 56 55 16 9 7 4 3 1 }   support: 0.1002  frequency: 50
+669th: 10 { 58 56 55 15 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+670th: 9 { 47 46 27 26 16 10 9 7 4 }   support: 0.1002  frequency: 50
+671th: 11 { 58 56 55 24 21 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+672th: 11 { 58 56 55 24 10 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+673th: 10 { 47 46 26 16 15 10 9 7 5 4 }   support: 0.1002  frequency: 50
+674th: 10 { 47 46 27 26 15 10 9 7 5 4 }   support: 0.1002  frequency: 50
+675th: 12 { 58 56 55 27 21 10 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+676th: 12 { 58 56 55 26 21 10 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+677th: 8 { 47 46 16 10 9 8 7 4 }   support: 0.1002  frequency: 50
+678th: 11 { 58 56 55 54 21 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+679th: 11 { 58 56 55 54 10 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+680th: 8 { 67 64 45 24 16 9 7 4 }   support: 0.1002  frequency: 50
+681th: 9 { 47 46 15 10 9 8 7 5 4 }   support: 0.1002  frequency: 50
+682th: 9 { 67 64 45 44 42 41 9 7 4 }   support: 0.1002  frequency: 50
+683th: 5 { 67 64 61 38 9 }   support: 0.1002  frequency: 50
+684th: 8 { 67 64 62 61 45 44 9 7 }   support: 0.1002  frequency: 50
+685th: 13 { 58 56 55 47 46 26 21 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+686th: 13 { 58 56 55 47 46 27 21 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+687th: 8 { 67 64 62 61 45 42 9 7 }   support: 0.1002  frequency: 50
+688th: 7 { 67 64 61 45 9 7 4 }   support: 0.1002  frequency: 50
+689th: 10 { 58 56 54 27 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+690th: 10 { 58 56 54 26 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+691th: 10 { 67 64 62 61 43 37 24 9 7 4 }   support: 0.1002  frequency: 50
+692th: 12 { 67 64 61 43 37 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+693th: 9 { 54 47 46 24 10 9 7 5 4 }   support: 0.1002  frequency: 50
+694th: 7 { 61 42 24 9 7 5 4 }   support: 0.1002  frequency: 50
+695th: 9 { 53 52 51 50 49 48 39 29 9 }   support: 0.1002  frequency: 50
+696th: 9 { 60 25 24 15 10 9 7 5 4 }   support: 0.1002  frequency: 50
+697th: 12 { 58 56 54 47 46 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+698th: 9 { 60 25 24 16 15 10 9 7 4 }   support: 0.1002  frequency: 50
+699th: 12 { 58 56 54 27 26 21 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+700th: 12 { 58 56 47 46 24 16 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+701th: 12 { 58 56 47 46 24 15 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+702th: 13 { 58 56 47 46 27 24 21 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+703th: 13 { 58 56 47 46 26 24 21 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+704th: 7 { 53 34 14 13 9 3 1 }   support: 0.1002  frequency: 50
+705th: 8 { 53 39 29 23 22 9 3 1 }   support: 0.1002  frequency: 50
+706th: 13 { 58 56 47 46 24 15 9 8 7 5 4 3 1 }   support: 0.1002  frequency: 50
+707th: 12 { 53 29 20 18 17 14 13 12 11 9 3 1 }   support: 0.1002  frequency: 50
+708th: 10 { 54 47 46 25 24 15 9 7 5 4 }   support: 0.1002  frequency: 50
+709th: 9 { 60 58 47 46 25 24 9 7 4 }   support: 0.1002  frequency: 50
+710th: 14 { 58 56 47 46 27 26 24 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+711th: 10 { 60 58 47 46 24 10 9 7 5 4 }   support: 0.1002  frequency: 50
+712th: 8 { 60 58 55 25 24 9 7 4 }   support: 0.1002  frequency: 50
+713th: 13 { 58 56 47 46 16 15 10 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+714th: 8 { 60 58 55 10 9 7 5 4 }   support: 0.1002  frequency: 50
+715th: 10 { 60 58 55 54 47 46 24 9 7 4 }   support: 0.1002  frequency: 50
+716th: 11 { 60 59 58 16 15 10 9 7 6 5 4 }   support: 0.1002  frequency: 50
+717th: 6 { 58 31 10 9 7 4 }   support: 0.1002  frequency: 50
+718th: 6 { 58 28 24 9 7 4 }   support: 0.1002  frequency: 50
+719th: 9 { 60 59 58 25 24 15 9 7 4 }   support: 0.1002  frequency: 50
+720th: 12 { 60 59 58 27 26 16 15 10 9 7 5 4 }   support: 0.1002  frequency: 50
+721th: 8 { 60 59 58 54 15 9 7 4 }   support: 0.1002  frequency: 50
+722th: 9 { 58 56 31 21 9 7 4 3 1 }   support: 0.1002  frequency: 50
+723th: 10 { 60 59 58 55 54 24 9 8 7 4 }   support: 0.1002  frequency: 50
+724th: 8 { 58 33 31 27 26 9 7 4 }   support: 0.1002  frequency: 50
+725th: 8 { 58 33 32 31 27 9 7 4 }   support: 0.1002  frequency: 50
+726th: 9 { 60 59 58 55 24 15 9 7 4 }   support: 0.1002  frequency: 50
+727th: 8 { 58 32 31 27 26 9 7 4 }   support: 0.1002  frequency: 50
+728th: 10 { 60 59 58 55 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+729th: 13 { 60 59 58 56 55 10 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+730th: 13 { 60 59 58 56 55 21 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+731th: 14 { 60 59 58 56 55 47 46 27 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+732th: 14 { 60 59 58 56 55 47 46 26 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+733th: 14 { 60 59 58 56 55 27 26 21 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+734th: 14 { 60 59 58 56 55 27 26 10 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+735th: 13 { 58 57 56 27 26 24 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+736th: 15 { 60 59 58 56 55 47 46 26 21 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+737th: 12 { 58 57 56 24 15 9 8 7 5 4 3 1 }   support: 0.1002  frequency: 50
+738th: 12 { 58 57 56 24 16 15 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+739th: 15 { 60 59 58 56 55 47 46 27 26 21 9 7 4 3 1 }   support: 0.1002  frequency: 50
+740th: 15 { 60 59 58 56 55 47 46 27 21 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+741th: 12 { 58 57 56 54 47 46 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+742th: 11 { 58 57 56 54 24 21 9 7 4 3 1 }   support: 0.1002  frequency: 50
+743th: 11 { 60 59 58 56 54 26 9 7 4 3 1 }   support: 0.1002  frequency: 50
+744th: 11 { 60 59 58 56 54 27 9 7 4 3 1 }   support: 0.1002  frequency: 50
+745th: 11 { 58 57 56 54 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+746th: 14 { 60 59 58 56 47 46 27 24 21 9 7 4 3 1 }   support: 0.1002  frequency: 50
+747th: 12 { 60 59 58 56 54 24 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+748th: 13 { 60 59 58 56 54 47 46 24 9 7 4 3 1 }   support: 0.1002  frequency: 50
+749th: 14 { 60 59 58 56 47 46 24 10 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+750th: 14 { 60 59 58 56 47 46 26 24 21 9 7 4 3 1 }   support: 0.1002  frequency: 50
+751th: 15 { 60 59 58 56 47 46 27 26 24 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+752th: 16 { 60 59 58 56 47 46 26 21 10 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+753th: 16 { 60 59 58 56 47 46 27 26 21 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+754th: 16 { 60 59 58 56 47 46 27 21 10 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+755th: 13 { 58 57 56 47 46 26 21 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+756th: 13 { 58 57 56 47 46 27 26 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+757th: 13 { 58 57 56 47 46 27 26 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+758th: 13 { 60 59 58 56 47 46 24 15 9 7 4 3 1 }   support: 0.1002  frequency: 50
+759th: 14 { 60 59 58 56 47 46 16 15 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+760th: 13 { 58 57 56 47 46 27 21 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+761th: 15 { 60 59 58 56 47 46 24 21 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+762th: 11 { 60 59 58 56 33 21 9 7 4 3 1 }   support: 0.1002  frequency: 50
+763th: 11 { 60 59 58 56 33 31 9 7 4 3 1 }   support: 0.1002  frequency: 50
+764th: 10 { 58 57 55 47 46 10 9 7 6 4 }   support: 0.1002  frequency: 50
+765th: 12 { 60 59 58 56 26 16 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+766th: 11 { 58 57 56 55 24 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+767th: 13 { 60 59 58 56 27 26 10 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+768th: 13 { 60 59 58 56 26 15 10 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+769th: 11 { 60 59 58 56 32 31 9 7 4 3 1 }   support: 0.1002  frequency: 50
+770th: 14 { 60 59 58 56 27 24 10 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+771th: 14 { 60 59 58 56 27 24 21 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+772th: 14 { 60 59 58 56 26 24 10 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+773th: 13 { 58 57 56 55 47 46 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+774th: 13 { 58 57 56 55 47 46 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+775th: 10 { 58 56 21 16 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+776th: 14 { 60 59 58 56 26 24 21 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+777th: 12 { 60 59 58 56 24 15 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+778th: 13 { 60 59 58 56 21 15 9 8 7 5 4 3 1 }   support: 0.1002  frequency: 50
+779th: 12 { 58 56 21 16 15 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+780th: 12 { 58 56 21 15 10 9 8 7 5 4 3 1 }   support: 0.1002  frequency: 50
+781th: 11 { 58 56 24 16 10 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+782th: 13 { 60 59 58 56 21 16 15 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+783th: 14 { 60 59 58 56 24 16 15 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+784th: 14 { 60 59 58 56 24 15 10 9 8 7 5 4 3 1 }   support: 0.1002  frequency: 50
+785th: 13 { 60 59 58 56 15 10 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+786th: 12 { 58 56 24 15 10 9 7 6 5 4 3 1 }   support: 0.1002  frequency: 50
+787th: 10 { 60 59 58 57 55 10 9 8 7 4 }   support: 0.1002  frequency: 50
+788th: 13 { 60 59 58 56 16 15 9 7 6 5 4 3 1 }   support: 0.1002  frequency: 50
+789th: 13 { 60 59 58 57 56 24 21 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+790th: 11 { 58 56 26 24 16 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+791th: 11 { 58 56 26 24 15 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+792th: 11 { 58 56 26 24 10 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+793th: 14 { 60 59 58 57 56 24 21 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+794th: 11 { 58 56 26 15 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+795th: 13 { 58 56 26 25 24 21 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+796th: 13 { 58 56 26 21 16 15 10 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+797th: 14 { 60 59 58 57 56 21 10 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+798th: 9 { 58 57 47 46 15 9 7 5 4 }   support: 0.1002  frequency: 50
+799th: 9 { 58 57 54 24 10 9 8 7 4 }   support: 0.1002  frequency: 50
+800th: 10 { 58 57 47 46 26 10 9 7 6 4 }   support: 0.1002  frequency: 50
+801th: 10 { 58 57 47 46 27 10 9 7 6 4 }   support: 0.1002  frequency: 50
+802th: 12 { 58 56 27 26 21 16 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+803th: 12 { 60 59 58 57 56 26 24 9 7 4 3 1 }   support: 0.1002  frequency: 50
+804th: 13 { 58 56 27 26 21 15 10 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+805th: 14 { 60 59 58 57 56 47 46 24 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+806th: 10 { 60 59 58 57 24 10 9 7 6 4 }   support: 0.1002  frequency: 50
+807th: 10 { 60 59 58 57 27 26 24 9 7 4 }   support: 0.1002  frequency: 50
+808th: 14 { 58 56 27 26 24 21 10 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+809th: 12 { 60 59 58 57 56 27 24 9 7 4 3 1 }   support: 0.1002  frequency: 50
+810th: 14 { 60 59 58 57 56 25 24 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+811th: 13 { 60 59 58 57 56 27 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+812th: 11 { 60 59 58 57 47 46 27 10 9 7 4 }   support: 0.1002  frequency: 50
+813th: 4 { 64 42 36 9 }   support: 0.1002  frequency: 50
+814th: 4 { 64 41 36 9 }   support: 0.1002  frequency: 50
+815th: 11 { 60 59 58 57 47 46 27 26 9 7 4 }   support: 0.1002  frequency: 50
+816th: 11 { 60 59 58 57 47 46 26 10 9 7 4 }   support: 0.1002  frequency: 50
+817th: 9 { 60 59 57 55 24 10 9 7 4 }   support: 0.1002  frequency: 50
+818th: 10 { 60 59 57 54 47 46 9 8 7 4 }   support: 0.1002  frequency: 50
+819th: 11 { 60 59 57 55 47 46 24 9 8 7 4 }   support: 0.1002  frequency: 50
+820th: 11 { 60 59 57 47 46 27 26 10 9 7 4 }   support: 0.1002  frequency: 50
+821th: 12 { 60 59 56 16 9 8 7 6 5 4 3 1 }   support: 0.1002  frequency: 50
+822th: 7 { 64 42 41 24 9 7 4 }   support: 0.1002  frequency: 50
+823th: 7 { 64 42 41 37 9 7 4 }   support: 0.1002  frequency: 50
+824th: 9 { 64 45 44 42 37 24 9 7 4 }   support: 0.1002  frequency: 50
+825th: 12 { 60 59 56 15 9 8 7 6 5 4 3 1 }   support: 0.1002  frequency: 50
+826th: 9 { 64 45 44 43 41 37 9 7 4 }   support: 0.1002  frequency: 50
+827th: 9 { 64 45 42 37 16 15 9 7 4 }   support: 0.1002  frequency: 50
+828th: 12 { 60 59 56 24 15 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+829th: 10 { 64 43 42 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+830th: 9 { 64 52 51 50 49 48 43 41 9 }   support: 0.1002  frequency: 50
+831th: 12 { 64 45 44 43 37 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+832th: 10 { 64 42 37 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+833th: 9 { 64 41 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+834th: 7 { 64 61 45 37 9 7 4 }   support: 0.1002  frequency: 50
+835th: 7 { 64 61 45 44 37 9 7 }   support: 0.1002  frequency: 50
+836th: 12 { 60 59 56 24 21 16 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+837th: 6 { 64 62 61 38 9 7 }   support: 0.1002  frequency: 50
+838th: 8 { 64 61 42 24 16 9 7 4 }   support: 0.1002  frequency: 50
+839th: 8 { 64 61 45 44 42 41 34 9 }   support: 0.1002  frequency: 50
+840th: 8 { 64 61 45 44 43 41 30 9 }   support: 0.1002  frequency: 50
+841th: 9 { 64 61 45 44 43 24 9 7 4 }   support: 0.1002  frequency: 50
+842th: 12 { 60 59 56 24 21 16 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+843th: 13 { 60 59 56 21 16 15 9 8 7 5 4 3 1 }   support: 0.1002  frequency: 50
+844th: 9 { 64 62 61 45 44 43 9 7 4 }   support: 0.1002  frequency: 50
+845th: 12 { 60 59 56 24 9 8 7 6 5 4 3 1 }   support: 0.1002  frequency: 50
+846th: 11 { 64 61 45 44 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+847th: 11 { 64 62 61 45 44 24 16 9 7 5 4 }   support: 0.1002  frequency: 50
+848th: 11 { 64 62 61 45 44 24 16 15 9 7 4 }   support: 0.1002  frequency: 50
+849th: 13 { 60 59 56 24 16 10 9 8 7 5 4 3 1 }   support: 0.1002  frequency: 50
+850th: 10 { 60 59 56 31 21 9 7 4 3 1 }   support: 0.1002  frequency: 50
+851th: 11 { 60 59 56 33 32 31 9 7 4 3 1 }   support: 0.1002  frequency: 50
+852th: 14 { 60 59 58 57 56 27 26 21 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+853th: 6 { 24 23 9 7 5 4 }   support: 0.1002  frequency: 50
+854th: 8 { 24 21 19 9 7 4 3 1 }   support: 0.1002  frequency: 50
+855th: 14 { 60 59 58 57 56 27 26 10 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+856th: 8 { 24 19 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+857th: 8 { 24 19 15 9 7 4 3 1 }   support: 0.1002  frequency: 50
+858th: 13 { 60 59 58 57 56 26 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+859th: 8 { 60 59 57 16 15 9 7 4 }   support: 0.1002  frequency: 50
+860th: 9 { 24 14 13 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+861th: 8 { 60 59 57 15 9 8 7 4 }   support: 0.1002  frequency: 50
+862th: 9 { 24 20 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+863th: 8 { 60 59 57 15 10 9 7 4 }   support: 0.1002  frequency: 50
+864th: 7 { 24 23 16 15 9 7 4 }   support: 0.1002  frequency: 50
+865th: 10 { 24 21 16 10 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+866th: 5 { 37 34 9 7 4 }   support: 0.1002  frequency: 50
+867th: 9 { 60 59 55 24 15 10 9 7 4 }   support: 0.1002  frequency: 50
+868th: 10 { 60 59 55 47 46 24 9 7 5 4 }   support: 0.1002  frequency: 50
+869th: 10 { 60 59 55 47 46 24 9 7 6 4 }   support: 0.1002  frequency: 50
+870th: 10 { 60 59 55 47 46 24 16 9 7 4 }   support: 0.1002  frequency: 50
+871th: 11 { 59 58 55 47 46 24 10 9 8 7 4 }   support: 0.1002  frequency: 50
+872th: 10 { 60 59 55 16 15 10 9 7 5 4 }   support: 0.1002  frequency: 50
+873th: 11 { 60 59 55 47 46 24 10 9 8 7 4 }   support: 0.1002  frequency: 50
+874th: 8 { 60 59 55 54 15 9 7 4 }   support: 0.1002  frequency: 50
+875th: 8 { 16 14 13 9 7 4 3 1 }   support: 0.1002  frequency: 50
+876th: 9 { 60 59 54 24 15 9 7 5 4 }   support: 0.1002  frequency: 50
+877th: 9 { 60 59 54 24 10 9 8 7 4 }   support: 0.1002  frequency: 50
+878th: 9 { 60 59 54 47 46 15 9 7 4 }   support: 0.1002  frequency: 50
+879th: 6 { 65 64 63 34 9 4 }   support: 0.1002  frequency: 50
+880th: 10 { 60 59 54 47 46 24 9 8 7 4 }   support: 0.1002  frequency: 50
+881th: 10 { 60 59 47 46 25 24 10 9 7 4 }   support: 0.1002  frequency: 50
+882th: 9 { 60 59 47 46 15 9 7 6 4 }   support: 0.1002  frequency: 50
+883th: 7 { 65 64 63 41 10 9 4 }   support: 0.1002  frequency: 50
+884th: 10 { 60 59 47 46 15 9 8 7 5 4 }   support: 0.1002  frequency: 50
+885th: 10 { 60 59 47 46 16 15 9 8 7 4 }   support: 0.1002  frequency: 50
+886th: 8 { 65 64 63 28 10 9 7 4 }   support: 0.1002  frequency: 50
+887th: 9 { 65 64 63 42 37 10 9 7 4 }   support: 0.1002  frequency: 50
+888th: 7 { 60 59 32 10 9 7 4 }   support: 0.1002  frequency: 50
+889th: 6 { 60 59 28 9 7 4 }   support: 0.1002  frequency: 50
+890th: 9 { 60 59 25 24 16 10 9 7 4 }   support: 0.1002  frequency: 50
+891th: 9 { 59 25 24 15 10 9 7 5 4 }   support: 0.1002  frequency: 50
+892th: 9 { 59 25 24 16 15 10 9 7 4 }   support: 0.1002  frequency: 50
+893th: 10 { 60 55 47 46 24 16 15 9 7 4 }   support: 0.1002  frequency: 50
+894th: 8 { 65 64 63 55 47 46 9 4 }   support: 0.1002  frequency: 50
+895th: 10 { 60 55 47 46 24 15 9 7 5 4 }   support: 0.1002  frequency: 50
+896th: 7 { 60 54 15 10 9 7 4 }   support: 0.1002  frequency: 50
+897th: 8 { 65 64 63 47 46 43 9 4 }   support: 0.1002  frequency: 50
+898th: 8 { 65 64 63 47 46 9 7 4 }   support: 0.1002  frequency: 50
+899th: 7 { 60 55 54 9 7 5 4 }   support: 0.1002  frequency: 50
+900th: 10 { 65 64 63 42 37 16 15 9 7 4 }   support: 0.1002  frequency: 50
+901th: 10 { 65 64 63 28 24 16 15 9 7 4 }   support: 0.1002  frequency: 50
+902th: 9 { 65 64 63 45 44 42 10 9 4 }   support: 0.1002  frequency: 50
+903th: 9 { 65 64 63 61 45 43 9 7 4 }   support: 0.1002  frequency: 50
+904th: 10 { 65 64 63 45 42 37 24 9 7 4 }   support: 0.1002  frequency: 50
+905th: 7 { 59 54 15 10 9 7 4 }   support: 0.1002  frequency: 50
+906th: 10 { 65 64 63 45 44 43 42 41 9 4 }   support: 0.1002  frequency: 50
+907th: 7 { 59 55 54 9 7 5 4 }   support: 0.1002  frequency: 50
+908th: 9 { 59 54 47 46 24 10 9 7 4 }   support: 0.1002  frequency: 50
+909th: 9 { 59 54 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+910th: 9 { 65 64 63 61 42 24 9 7 4 }   support: 0.1002  frequency: 50
+911th: 10 { 65 64 63 62 61 45 42 9 7 4 }   support: 0.1002  frequency: 50
+912th: 9 { 59 47 46 24 16 9 8 7 4 }   support: 0.1002  frequency: 50
+913th: 9 { 59 47 46 15 10 9 8 7 4 }   support: 0.1002  frequency: 50
+914th: 10 { 59 55 47 46 24 16 15 9 7 4 }   support: 0.1002  frequency: 50
+915th: 11 { 65 64 63 45 44 42 24 16 9 7 4 }   support: 0.1002  frequency: 50
+916th: 11 { 65 64 63 45 44 42 16 9 7 5 4 }   support: 0.1002  frequency: 50
+917th: 11 { 65 64 63 45 44 42 16 15 9 7 4 }   support: 0.1002  frequency: 50
+918th: 10 { 59 55 47 46 24 15 9 7 5 4 }   support: 0.1002  frequency: 50
+919th: 8 { 59 57 54 47 46 10 9 4 }   support: 0.1002  frequency: 50
+920th: 11 { 65 64 63 45 44 43 37 24 9 7 4 }   support: 0.1002  frequency: 50
+921th: 11 { 65 64 63 54 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+922th: 12 { 65 64 63 45 42 24 16 15 9 7 5 4 }   support: 0.1002  frequency: 50
+923th: 8 { 59 57 55 54 24 9 7 4 }   support: 0.1002  frequency: 50
+924th: 11 { 59 56 21 10 9 8 7 5 4 3 1 }   support: 0.1002  frequency: 50
+925th: 12 { 65 64 63 61 43 25 24 16 15 9 7 4 }   support: 0.1002  frequency: 50
+926th: 9 { 59 57 56 15 9 7 4 3 1 }   support: 0.1002  frequency: 50
+927th: 8 { 59 57 24 16 15 9 7 4 }   support: 0.1002  frequency: 50
+928th: 8 { 59 57 24 15 9 7 5 4 }   support: 0.1002  frequency: 50
+929th: 10 { 59 58 57 55 54 47 46 9 7 4 }   support: 0.1002  frequency: 50
+930th: 5 { 12 9 4 3 1 }   support: 0.1002  frequency: 50
+931th: 10 { 59 58 57 54 47 46 9 8 7 4 }   support: 0.1002  frequency: 50
+932th: 6 { 31 24 9 8 7 4 }   support: 0.1002  frequency: 50
+933th: 10 { 59 58 57 54 47 46 24 9 7 4 }   support: 0.1002  frequency: 50
+934th: 11 { 59 58 57 47 46 27 26 10 9 7 4 }   support: 0.1002  frequency: 50
+935th: 11 { 59 58 57 55 47 46 24 9 8 7 4 }   support: 0.1002  frequency: 50
+936th: 13 { 59 58 57 56 55 47 46 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+937th: 7 { 33 21 9 7 6 3 1 }   support: 0.1002  frequency: 50
+938th: 13 { 59 58 57 56 55 47 46 24 9 7 4 3 1 }   support: 0.1002  frequency: 50
+939th: 12 { 59 58 57 56 26 24 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+940th: 7 { 33 32 31 24 9 7 4 }   support: 0.1002  frequency: 50
+941th: 12 { 59 58 57 56 27 26 24 9 7 4 3 1 }   support: 0.1002  frequency: 50
+942th: 12 { 59 58 57 56 27 24 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+943th: 12 { 59 58 57 56 47 46 26 9 7 4 3 1 }   support: 0.1002  frequency: 50
+944th: 12 { 59 58 57 56 47 46 27 9 7 4 3 1 }   support: 0.1002  frequency: 50
+945th: 8 { 33 31 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+946th: 13 { 59 58 57 56 27 21 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+947th: 13 { 59 58 57 56 26 21 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+948th: 4 { 38 9 7 4 }   support: 0.1002  frequency: 50
+949th: 13 { 59 58 57 56 24 21 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+950th: 14 { 59 58 57 56 47 46 24 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+951th: 7 { 18 17 14 9 4 3 1 }   support: 0.1002  frequency: 50
+952th: 7 { 59 58 57 16 9 7 4 }   support: 0.1002  frequency: 50
+953th: 8 { 18 17 14 13 9 7 3 1 }   support: 0.1002  frequency: 50
+954th: 10 { 56 21 16 10 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+955th: 11 { 56 21 15 10 9 7 6 5 4 3 1 }   support: 0.1002  frequency: 50
+956th: 8 { 59 58 57 15 9 8 7 4 }   support: 0.1002  frequency: 50
+957th: 11 { 56 21 10 9 8 7 6 5 4 3 1 }   support: 0.1002  frequency: 50
+958th: 8 { 59 58 57 15 9 7 5 4 }   support: 0.1002  frequency: 50
+959th: 12 { 59 58 56 24 21 16 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+960th: 12 { 59 58 56 24 21 10 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+961th: 12 { 56 24 21 16 9 8 7 6 5 4 3 1 }   support: 0.1002  frequency: 50
+962th: 12 { 56 24 21 16 15 9 7 6 5 4 3 1 }   support: 0.1002  frequency: 50
+963th: 12 { 56 24 21 15 9 8 7 6 5 4 3 1 }   support: 0.1002  frequency: 50
+964th: 13 { 56 24 16 15 10 9 8 7 6 5 4 3 1 }   support: 0.1002  frequency: 50
+965th: 13 { 59 58 56 21 16 15 9 8 7 5 4 3 1 }   support: 0.1002  frequency: 50
+966th: 3 { 39 9 4 }   support: 0.1002  frequency: 50
+967th: 12 { 59 58 56 27 26 16 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+968th: 11 { 56 47 46 21 15 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+969th: 13 { 59 58 56 27 26 15 10 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+970th: 12 { 59 58 56 26 21 15 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+971th: 8 { 56 46 33 9 7 4 3 1 }   support: 0.1002  frequency: 50
+972th: 8 { 56 33 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+973th: 8 { 56 32 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+974th: 13 { 59 58 56 26 16 15 10 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+975th: 12 { 59 58 56 47 46 24 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+976th: 9 { 56 33 31 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+977th: 12 { 59 58 56 47 46 21 15 9 7 4 3 1 }   support: 0.1002  frequency: 50
+978th: 14 { 59 58 56 47 46 27 24 21 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+979th: 10 { 56 33 32 31 21 9 7 4 3 1 }   support: 0.1002  frequency: 50
+980th: 10 { 56 54 10 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+981th: 10 { 56 54 21 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+982th: 10 { 56 55 54 46 21 9 7 4 3 1 }   support: 0.1002  frequency: 50
+983th: 8 { 56 55 32 9 7 4 3 1 }   support: 0.1002  frequency: 50
+984th: 10 { 56 26 15 10 9 7 6 4 3 1 }   support: 0.1002  frequency: 50
+985th: 14 { 59 58 56 47 46 27 26 24 21 9 7 4 3 1 }   support: 0.1002  frequency: 50
+986th: 11 { 56 27 26 16 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+987th: 3 { 39 37 9 }   support: 0.1002  frequency: 50
+988th: 12 { 56 26 16 15 10 9 8 7 5 4 3 1 }   support: 0.1002  frequency: 50
+989th: 14 { 59 58 56 47 46 26 24 21 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+990th: 11 { 25 24 15 10 9 8 7 6 4 3 1 }   support: 0.1002  frequency: 50
+991th: 11 { 59 58 56 54 27 26 9 7 4 3 1 }   support: 0.1002  frequency: 50
+992th: 8 { 59 58 55 10 9 7 5 4 }   support: 0.1002  frequency: 50
+993th: 13 { 59 58 56 55 47 46 24 10 9 7 4 3 1 }   support: 0.1002  frequency: 50
+994th: 11 { 25 24 21 15 10 9 8 7 4 3 1 }   support: 0.1002  frequency: 50
+995th: 13 { 56 27 26 24 16 15 10 9 7 5 4 3 1 }   support: 0.1002  frequency: 50
+==================================================================

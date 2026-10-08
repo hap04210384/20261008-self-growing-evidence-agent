@@ -1,0 +1,86 @@
+==================================================================
+GPU 0: NVIDIA GeForce RTX 3060 Ti
+     Multi-Processor Count: 38
+     Max Threads Per Multi-Processor: 1536
+     Warp Size: 32
+     Max Threads Per Block: 1024
+     Compute Capability: 8.6
+     Number of Multi-Processors: 38
+     Number of CUDA Cores Per SM: 128
+     Total Number of CUDA Cores: 4864
+
+CPU: 12th Gen Intel(R) Core(TM) i9-12900
+     Number of Physical Cores: 16
+     Number of Logical Cores: 24
+
+Visual Studio: 2022 (v143), MSC_VER: 1944
+CUDA Version: 12.5
+==================================================================
+transSetFile: E:\20261003-paper-application of AnyFIM and TensorFIM-03\kimi_word\data\fimi\skab_valve1.txt
+dimension: 23
+transNum: 1187
+itemIDmin: 1
+itemIDmax: 18
+transLengthMin: 8
+transLengthMax: 8
+transLengthMean: 8
+
+supportThreshold: 0.118787
+
+dimensionReduced: 18
+transNumReduced: 1187
+transLengthReducedMin: 6
+transLengthReducedMax: 8
+transLengthReducedMean: 7.83235
+
+GPUtaskPercentage: 0.0621678%
+==================================================================
+preprocessing_time(s): 0
+computation_time(s): 0.0009445
+total_time(s): 0.0009445
+
+MFIsNumber: 42
+============================List of MFIs:=============================
+1th: 5 { 13 10 7 4 2 }   support: 0.224937  frequency: 267
+2th: 5 { 22 13 7 4 2 }   support: 0.203033  frequency: 241
+3th: 4 { 13 11 7 4 }   support: 0.183656  frequency: 218
+4th: 5 { 14 13 7 4 2 }   support: 0.175232  frequency: 208
+5th: 4 { 18 10 7 4 }   support: 0.163437  frequency: 194
+6th: 5 { 19 13 7 4 2 }   support: 0.160067  frequency: 190
+7th: 5 { 13 7 6 4 2 }   support: 0.158382  frequency: 188
+8th: 5 { 13 7 5 4 2 }   support: 0.155855  frequency: 185
+9th: 4 { 19 10 7 4 }   support: 0.15417  frequency: 183
+10th: 5 { 15 13 7 4 2 }   support: 0.149115  frequency: 177
+11th: 4 { 14 10 7 4 }   support: 0.148273  frequency: 176
+12th: 4 { 10 7 5 4 }   support: 0.144903  frequency: 172
+13th: 5 { 22 13 10 7 4 }   support: 0.144903  frequency: 172
+14th: 4 { 10 7 6 4 }   support: 0.144061  frequency: 171
+15th: 4 { 10 8 7 4 }   support: 0.142376  frequency: 169
+16th: 4 { 19 14 7 4 }   support: 0.139006  frequency: 165
+17th: 4 { 11 7 4 2 }   support: 0.137321  frequency: 163
+18th: 5 { 18 13 7 4 2 }   support: 0.136479  frequency: 162
+19th: 5 { 13 8 7 4 2 }   support: 0.136479  frequency: 162
+20th: 4 { 13 12 7 4 }   support: 0.134794  frequency: 160
+21th: 4 { 17 10 7 4 }   support: 0.133951  frequency: 159
+22th: 4 { 8 7 6 4 }   support: 0.133951  frequency: 159
+23th: 5 { 13 7 4 3 2 }   support: 0.131424  frequency: 156
+24th: 4 { 18 7 6 4 }   support: 0.130581  frequency: 155
+25th: 4 { 22 15 7 4 }   support: 0.130581  frequency: 155
+26th: 4 { 22 14 7 4 }   support: 0.130581  frequency: 155
+27th: 5 { 17 13 7 4 2 }   support: 0.128054  frequency: 152
+28th: 4 { 19 17 7 4 }   support: 0.126369  frequency: 150
+29th: 3 { 17 15 4 }   support: 0.126369  frequency: 150
+30th: 3 { 15 14 4 }   support: 0.126369  frequency: 150
+31th: 5 { 22 13 7 5 4 }   support: 0.125527  frequency: 149
+32th: 4 { 13 9 7 4 }   support: 0.124684  frequency: 148
+33th: 4 { 13 10 5 4 }   support: 0.124684  frequency: 148
+34th: 5 { 15 13 10 7 4 }   support: 0.123842  frequency: 147
+35th: 3 { 15 5 4 }   support: 0.123842  frequency: 147
+36th: 5 { 22 13 7 6 4 }   support: 0.122157  frequency: 145
+37th: 4 { 18 13 10 4 }   support: 0.120472  frequency: 143
+38th: 3 { 6 5 4 }   support: 0.118787  frequency: 141
+39th: 4 { 22 18 7 4 }   support: 0.118787  frequency: 141
+40th: 2 { 4 1 }   support: 0.118787  frequency: 141
+41th: 4 { 14 13 10 4 }   support: 0.118787  frequency: 141
+42th: 4 { 13 11 4 2 }   support: 0.118787  frequency: 141
+==================================================================

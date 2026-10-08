@@ -1,0 +1,22 @@
+{
+ "valve1": {
+  "n_stages": 23,
+  "practical_depth": 22,
+  "n_truth": 57,
+  "final_coverage": 1.0,
+  "monotone": true,
+  "first_truth_stage": 14,
+  "total_time_s": 0.009187,
+  "identical_stages": "23/23"
+ },
+ "valve2": {
+  "n_stages": 22,
+  "practical_depth": 22,
+  "n_truth": 15,
+  "final_coverage": 1.0,
+  "monotone": true,
+  "first_truth_stage": 13,
+  "total_time_s": 0.00785,
+  "identical_stages": "21/22"
+ }
+}

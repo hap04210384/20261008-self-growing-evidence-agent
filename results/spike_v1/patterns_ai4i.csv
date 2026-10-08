@@ -1,0 +1,887 @@
+﻿pattern,len,count,sup_0,sup_1,lift
+Air temperature=2 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=L,5,146,0.011,0.121,10.166666666666666
+Air temperature=2 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,5,196,0.015,0.147,9.25
+Air temperature=2 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,4,234,0.019,0.162,8.15
+Air temperature=2 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Type=L,4,184,0.015,0.127,8.0
+Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,5,178,0.014,0.115,7.733333333333334
+Air temperature=2 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Type=L,4,237,0.019,0.153,7.7
+Air temperature=2 ∧ Process temperature=1 ∧ Torque=2 ∧ Type=L,4,184,0.015,0.121,7.625
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,6,146,0.012,0.097,7.538461538461538
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,5,175,0.014,0.112,7.533333333333334
+Air temperature=2 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=1,4,104,0.008,0.065,7.333333333333333
+Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,5,207,0.017,0.13,7.277777777777777
+Rotational speed=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,4,547,0.045,0.33,7.195652173913044
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Type=L,5,172,0.014,0.1,6.733333333333334
+Air temperature=0 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,5,145,0.012,0.086,6.692307692307692
+Air temperature=2 ∧ Process temperature=1 ∧ Tool wear=1 ∧ Torque=2,4,107,0.009,0.065,6.600000000000001
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,6,120,0.01,0.071,6.545454545454545
+Air temperature=2 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=L,4,547,0.046,0.304,6.48936170212766
+Process temperature=2 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,4,258,0.022,0.145,6.3478260869565215
+Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Type=L,4,246,0.021,0.133,6.090909090909091
+Process temperature=1 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,4,220,0.019,0.118,5.949999999999999
+Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Type=L,4,220,0.019,0.118,5.949999999999999
+Rotational speed=0 ∧ Tool wear=2 ∧ Type=L,3,669,0.057,0.339,5.862068965517241
+Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,5,162,0.014,0.086,5.8
+Tool wear=2 ∧ Torque=2 ∧ Type=L,3,695,0.06,0.351,5.770491803278689
+Air temperature=2 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,5,172,0.015,0.088,5.5625
+Air temperature=2 ∧ Rotational speed=0 ∧ Type=L,3,667,0.058,0.319,5.423728813559322
+Air temperature=2 ∧ Torque=2 ∧ Type=L,3,684,0.06,0.319,5.245901639344263
+Air temperature=1 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,5,206,0.018,0.097,5.157894736842105
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=L,5,401,0.035,0.183,5.111111111111111
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,6,103,0.009,0.05,5.100000000000001
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Type=L,5,157,0.014,0.074,5.0
+Air temperature=2 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=L,4,205,0.018,0.094,5.0
+Air temperature=2 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=M,4,259,0.023,0.118,4.958333333333333
+Air temperature=0 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Type=L,4,190,0.017,0.088,4.944444444444444
+Air temperature=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,4,191,0.017,0.088,4.944444444444444
+Air temperature=2 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=M,4,107,0.009,0.047,4.800000000000001
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,5,162,0.014,0.071,4.8
+Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Type=L,4,203,0.018,0.088,4.684210526315789
+Air temperature=2 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Type=M,4,105,0.009,0.044,4.500000000000001
+Air temperature=2 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=M,4,103,0.009,0.044,4.500000000000001
+Process temperature=2 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=L,4,560,0.05,0.227,4.470588235294118
+Process temperature=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,4,217,0.019,0.088,4.449999999999999
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Type=L,4,483,0.043,0.192,4.386363636363637
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,6,133,0.012,0.056,4.384615384615384
+Air temperature=2 ∧ Process temperature=2 ∧ Torque=2 ∧ Type=L,4,500,0.045,0.198,4.326086956521739
+Air temperature=1 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Type=L,4,242,0.022,0.097,4.260869565217392
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Type=L,5,122,0.011,0.05,4.25
+Air temperature=2 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,4,219,0.02,0.088,4.238095238095237
+Process temperature=1 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=L,4,520,0.047,0.198,4.145833333333333
+Air temperature=2 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,5,179,0.016,0.068,4.0588235294117645
+Air temperature=1 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,4,270,0.024,0.1,4.04
+Air temperature=2 ∧ Rotational speed=0 ∧ Type=M,3,336,0.03,0.124,4.032258064516129
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=L,5,157,0.014,0.059,4.0
+Air temperature=2 ∧ Torque=2 ∧ Type=M,3,329,0.03,0.121,3.935483870967742
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,5,132,0.012,0.05,3.923076923076923
+Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,5,178,0.016,0.065,3.8823529411764706
+Process temperature=2 ∧ Rotational speed=0 ∧ Type=L,3,682,0.062,0.236,3.761904761904762
+Process temperature=2 ∧ Torque=2 ∧ Type=L,3,709,0.065,0.245,3.727272727272727
+Rotational speed=0 ∧ Torque=2 ∧ Type=L,3,1600,0.147,0.537,3.6351351351351355
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,5,166,0.015,0.056,3.5625
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=M,5,197,0.018,0.065,3.473684210526316
+Process temperature=1 ∧ Rotational speed=0 ∧ Type=L,3,650,0.06,0.204,3.360655737704918
+Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=M,5,100,0.009,0.032,3.3000000000000007
+Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=L,4,216,0.02,0.068,3.2857142857142856
+Process temperature=2 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=M,4,109,0.01,0.035,3.2727272727272734
+Air temperature=2 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=L,4,225,0.021,0.071,3.272727272727272
+Process temperature=1 ∧ Torque=2 ∧ Type=L,3,660,0.061,0.201,3.2580645161290325
+Air temperature=1 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=2,4,117,0.011,0.038,3.25
+Air temperature=2 ∧ Process temperature=1 ∧ Tool wear=2 ∧ Type=L,4,191,0.018,0.059,3.1578947368421053
+Air temperature=2 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,4,231,0.022,0.068,3.0000000000000004
+Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Type=M,4,118,0.011,0.035,3.0000000000000004
+Process temperature=2 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,4,228,0.021,0.065,3.0
+Air temperature=1 ∧ Process temperature=2 ∧ Tool wear=2 ∧ Torque=2,4,127,0.012,0.038,2.9999999999999996
+Rotational speed=0 ∧ Type=L,2,1974,0.185,0.555,2.9892473118279574
+Torque=2 ∧ Type=L,2,2027,0.19,0.56,2.93717277486911
+Air temperature=2 ∧ Process temperature=2 ∧ Torque=2 ∧ Type=M,4,250,0.023,0.068,2.875
+Air temperature=2 ∧ Process temperature=1 ∧ Type=M,3,227,0.021,0.062,2.8636363636363633
+Air temperature=1 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=L,5,159,0.015,0.044,2.8125
+Process temperature=2 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=M,4,281,0.026,0.074,2.7777777777777777
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Type=M,4,262,0.025,0.071,2.7692307692307687
+Air temperature=2 ∧ Tool wear=2 ∧ Type=L,3,720,0.068,0.189,2.753623188405797
+Process temperature=1 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=M,4,122,0.011,0.032,2.75
+Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=M,4,120,0.011,0.032,2.75
+Air temperature=2 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=M,5,102,0.01,0.029,2.7272727272727275
+Air temperature=2 ∧ Process temperature=1 ∧ Type=L,3,533,0.05,0.136,2.686274509803922
+Process temperature=1 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=M,4,261,0.025,0.068,2.6538461538461537
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=2 ∧ Type=L,4,529,0.05,0.13,2.568627450980392
+Air temperature=2 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=M,4,124,0.012,0.032,2.5384615384615383
+Rotational speed=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=M,4,238,0.023,0.059,2.5
+Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,5,169,0.016,0.041,2.4705882352941178
+Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,5,173,0.016,0.041,2.4705882352941178
+Rotational speed=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,4,527,0.05,0.124,2.4509803921568625
+Rotational speed=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=M,4,274,0.026,0.065,2.4444444444444446
+Process temperature=2 ∧ Tool wear=2 ∧ Type=L,3,757,0.072,0.174,2.3972602739726026
+Air temperature=2 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=M,4,129,0.012,0.029,2.3076923076923075
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,6,122,0.012,0.029,2.3076923076923075
+Process temperature=2 ∧ Torque=2 ∧ Type=M,3,348,0.033,0.077,2.2941176470588234
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=L,5,390,0.037,0.086,2.289473684210526
+Air temperature=1 ∧ Process temperature=2 ∧ Torque=2 ∧ Type=L,4,209,0.02,0.047,2.2857142857142856
+Air temperature=1 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=L,4,576,0.055,0.127,2.2857142857142856
+Air temperature=0 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=L,4,477,0.046,0.106,2.276595744680851
+Rotational speed=0 ∧ Tool wear=2 ∧ Type=H,3,102,0.01,0.024,2.272727272727273
+Process temperature=2 ∧ Torque=2 ∧ Type=H,3,105,0.01,0.024,2.272727272727273
+Process temperature=2 ∧ Rotational speed=0 ∧ Type=H,3,107,0.01,0.024,2.272727272727273
+Process temperature=2 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=M,4,108,0.01,0.024,2.272727272727273
+Tool wear=2 ∧ Torque=2 ∧ Type=H,3,108,0.01,0.024,2.272727272727273
+Air temperature=1 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Type=L,4,199,0.019,0.044,2.25
+Process temperature=2 ∧ Rotational speed=0 ∧ Type=M,3,361,0.035,0.08,2.25
+Air temperature=2 ∧ Process temperature=1 ∧ Tool wear=0 ∧ Type=L,4,154,0.015,0.035,2.25
+Process temperature=1 ∧ Rotational speed=0 ∧ Type=M,3,328,0.031,0.071,2.25
+Rotational speed=0 ∧ Tool wear=2 ∧ Type=M,3,312,0.03,0.068,2.2258064516129035
+Tool wear=2 ∧ Torque=2 ∧ Type=M,3,310,0.03,0.068,2.2258064516129035
+Process temperature=0 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=L,4,520,0.05,0.112,2.215686274509804
+Air temperature=2 ∧ Process temperature=1 ∧ Tool wear=1 ∧ Type=L,4,188,0.018,0.041,2.210526315789474
+Process temperature=1 ∧ Tool wear=2 ∧ Type=L,3,669,0.064,0.142,2.1999999999999997
+Tool wear=2 ∧ Type=L,2,2046,0.197,0.431,2.1818181818181817
+Rotational speed=0 ∧ Torque=2 ∧ Type=M,3,798,0.077,0.168,2.166666666666667
+Process temperature=1 ∧ Torque=2 ∧ Type=M,3,327,0.031,0.068,2.15625
+Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=L,4,208,0.02,0.044,2.142857142857143
+Air temperature=0 ∧ Process temperature=1 ∧ Torque=2 ∧ Type=L,4,112,0.011,0.024,2.0833333333333335
+Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=M,4,116,0.011,0.024,2.0833333333333335
+Rotational speed=0 ∧ Tool wear=0 ∧ Type=L,3,645,0.062,0.13,2.0793650793650795
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=L,5,154,0.015,0.032,2.0625
+Air temperature=0 ∧ Tool wear=2 ∧ Type=L,3,583,0.056,0.115,2.0350877192982457
+Air temperature=1 ∧ Process temperature=0 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=L,5,130,0.013,0.027,2.0000000000000004
+Air temperature=0 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Type=L,4,108,0.01,0.021,2.0000000000000004
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=L,5,287,0.028,0.056,1.9655172413793103
+Rotational speed=0 ∧ Torque=2 ∧ Type=H,3,256,0.025,0.05,1.9615384615384615
+Air temperature=1 ∧ Process temperature=2 ∧ Tool wear=2 ∧ Type=L,4,228,0.022,0.044,1.9565217391304348
+Rotational speed=0 ∧ Tool wear=1 ∧ Type=M,3,339,0.033,0.065,1.9411764705882353
+Tool wear=1 ∧ Torque=2 ∧ Type=M,3,337,0.033,0.065,1.9411764705882353
+Process temperature=1 ∧ Rotational speed=0 ∧ Type=H,3,123,0.012,0.024,1.923076923076923
+Process temperature=1 ∧ Torque=2 ∧ Type=H,3,123,0.012,0.024,1.923076923076923
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=2 ∧ Type=L,4,487,0.047,0.091,1.9166666666666665
+Process temperature=1 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,4,216,0.021,0.041,1.909090909090909
+Process temperature=0 ∧ Tool wear=2 ∧ Type=L,3,620,0.06,0.115,1.9016393442622952
+Tool wear=0 ∧ Torque=2 ∧ Type=L,3,668,0.065,0.124,1.8939393939393938
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,5,159,0.015,0.029,1.875
+Air temperature=0 ∧ Rotational speed=0 ∧ Type=L,3,600,0.058,0.109,1.8644067796610169
+Process temperature=0 ∧ Rotational speed=0 ∧ Type=L,3,642,0.062,0.115,1.8412698412698414
+Air temperature=1 ∧ Torque=2 ∧ Type=L,3,736,0.072,0.133,1.8356164383561646
+Air temperature=0 ∧ Torque=2 ∧ Type=L,3,607,0.059,0.109,1.8333333333333335
+Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,5,175,0.017,0.032,1.8333333333333333
+Air temperature=1 ∧ Rotational speed=0 ∧ Type=L,3,707,0.069,0.127,1.8285714285714285
+Rotational speed=0 ∧ Type=M,2,1011,0.098,0.18,1.828282828282828
+Process temperature=1 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,4,224,0.022,0.041,1.8260869565217392
+Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=L,4,222,0.022,0.041,1.8260869565217392
+Air temperature=2 ∧ Type=L,2,2054,0.2,0.366,1.825870646766169
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=0 ∧ Type=L,4,492,0.048,0.088,1.8163265306122447
+Torque=2 ∧ Type=M,2,1001,0.097,0.177,1.8163265306122447
+Air temperature=1 ∧ Process temperature=0 ∧ Tool wear=2 ∧ Type=L,4,133,0.013,0.024,1.785714285714286
+Process temperature=0 ∧ Torque=2 ∧ Type=L,3,658,0.064,0.115,1.7846153846153847
+Air temperature=0 ∧ Process temperature=0 ∧ Torque=2 ∧ Type=L,4,495,0.048,0.086,1.7755102040816324
+Air temperature=1 ∧ Process temperature=0 ∧ Torque=2 ∧ Type=L,4,163,0.016,0.029,1.7647058823529411
+Air temperature=1 ∧ Tool wear=2 ∧ Type=L,3,743,0.072,0.127,1.7534246575342467
+Air temperature=1 ∧ Process temperature=0 ∧ Rotational speed=0 ∧ Type=L,4,150,0.015,0.027,1.75
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=M,5,103,0.01,0.018,1.7272727272727273
+Air temperature=1 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=H,4,103,0.01,0.018,1.7272727272727273
+Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=M,5,106,0.01,0.018,1.7272727272727273
+Air temperature=1 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=M,4,127,0.012,0.021,1.6923076923076923
+Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=M,4,127,0.012,0.021,1.6923076923076923
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=L,5,168,0.016,0.027,1.6470588235294117
+Air temperature=2 ∧ Tool wear=1 ∧ Type=M,3,363,0.036,0.059,1.6216216216216217
+Air temperature=2 ∧ Tool wear=2 ∧ Type=M,3,339,0.033,0.053,1.588235294117647
+Rotational speed=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,4,526,0.052,0.083,1.5849056603773586
+Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=M,4,114,0.011,0.018,1.5833333333333333
+Process temperature=1 ∧ Tool wear=2 ∧ Type=H,3,116,0.011,0.018,1.5833333333333333
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Type=L,4,358,0.035,0.056,1.5833333333333333
+Air temperature=1 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=M,5,115,0.011,0.018,1.5833333333333333
+Process temperature=1 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=M,4,113,0.011,0.018,1.5833333333333333
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=2 ∧ Type=L,4,382,0.037,0.059,1.5789473684210527
+Air temperature=2 ∧ Tool wear=0 ∧ Type=L,3,666,0.065,0.103,1.5757575757575757
+Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=L,4,220,0.022,0.035,1.5652173913043481
+Process temperature=2 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,4,223,0.022,0.035,1.5652173913043481
+Rotational speed=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=M,4,286,0.028,0.044,1.5517241379310343
+Torque=2 ∧ Type=H,2,325,0.032,0.05,1.5454545454545454
+Air temperature=1 ∧ Process temperature=1 ∧ Torque=2 ∧ Type=L,4,364,0.036,0.056,1.5405405405405406
+Air temperature=2 ∧ Process temperature=2 ∧ Type=L,3,1521,0.149,0.23,1.54
+Air temperature=2 ∧ Type=M,2,1032,0.101,0.156,1.5392156862745097
+Rotational speed=0 ∧ Type=H,2,337,0.033,0.05,1.5
+Air temperature=0 ∧ Process temperature=1 ∧ Tool wear=2,3,166,0.016,0.024,1.4705882352941175
+Air temperature=0 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Torque=2,4,163,0.016,0.024,1.4705882352941175
+Air temperature=1 ∧ Process temperature=2 ∧ Tool wear=2 ∧ Torque=0,4,126,0.012,0.018,1.4615384615384615
+Rotational speed=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=H,4,102,0.01,0.015,1.4545454545454546
+Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=M,5,101,0.01,0.015,1.4545454545454546
+Air temperature=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=M,4,105,0.01,0.015,1.4545454545454546
+Process temperature=2 ∧ Type=L,2,2134,0.211,0.292,1.3820754716981132
+Rotational speed=1 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=L,4,148,0.015,0.021,1.375
+Air temperature=1 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Type=M,4,135,0.013,0.018,1.3571428571428572
+Air temperature=1 ∧ Torque=2 ∧ Type=H,3,134,0.013,0.018,1.3571428571428572
+Air temperature=1 ∧ Rotational speed=0 ∧ Type=H,3,131,0.013,0.018,1.3571428571428572
+Process temperature=2 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=M,4,131,0.013,0.018,1.3571428571428572
+Process temperature=2 ∧ Tool wear=2 ∧ Type=M,3,370,0.037,0.05,1.342105263157895
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=2 ∧ Type=M,4,259,0.026,0.035,1.3333333333333335
+Process temperature=1 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=M,4,116,0.011,0.015,1.3333333333333333
+Air temperature=1 ∧ Process temperature=2 ∧ Tool wear=2 ∧ Type=M,4,111,0.011,0.015,1.3333333333333333
+Process temperature=0 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=M,4,109,0.011,0.015,1.3333333333333333
+Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Type=M,4,116,0.011,0.015,1.3333333333333333
+Air temperature=1 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0,5,113,0.011,0.015,1.3333333333333333
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=0 ∧ Type=L,4,512,0.051,0.068,1.326923076923077
+Air temperature=2 ∧ Tool wear=0 ∧ Type=M,3,330,0.033,0.044,1.3235294117647058
+Rotational speed=0 ∧ Tool wear=1 ∧ Type=L,3,660,0.065,0.086,1.3181818181818181
+Tool wear=1 ∧ Torque=2 ∧ Type=L,3,664,0.066,0.086,1.298507462686567
+Rotational speed=0 ∧ Tool wear=0 ∧ Type=M,3,360,0.036,0.047,1.2972972972972974
+Air temperature=2 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=L,4,237,0.023,0.029,1.25
+Tool wear=0 ∧ Torque=2 ∧ Type=M,3,354,0.035,0.044,1.2499999999999998
+Air temperature=1 ∧ Tool wear=2 ∧ Type=H,3,120,0.012,0.015,1.2307692307692306
+Air temperature=2 ∧ Rotational speed=0 ∧ Torque=1 ∧ Type=L,4,120,0.012,0.015,1.2307692307692306
+Process temperature=1 ∧ Type=L,2,1984,0.197,0.242,1.2272727272727273
+Air temperature=0 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,5,175,0.017,0.021,1.222222222222222
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=M,5,202,0.02,0.024,1.1904761904761905
+Process temperature=2 ∧ Rotational speed=1 ∧ Torque=2 ∧ Type=L,4,148,0.015,0.018,1.1875
+Air temperature=2 ∧ Tool wear=1 ∧ Type=H,3,103,0.01,0.012,1.181818181818182
+Air temperature=2 ∧ Tool wear=2 ∧ Type=H,3,100,0.01,0.012,1.181818181818182
+Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Type=M,4,100,0.01,0.012,1.181818181818182
+Air temperature=0 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=L,5,102,0.01,0.012,1.181818181818182
+Air temperature=2 ∧ Process temperature=2 ∧ Type=M,3,805,0.08,0.094,1.1728395061728394
+Air temperature=2 ∧ Process temperature=2 ∧ Type=H,3,227,0.023,0.027,1.1666666666666667
+Type=L,1,6000,0.597,0.693,1.160535117056856
+Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=L,4,247,0.025,0.029,1.1538461538461537
+Tool wear=1 ∧ Torque=2 ∧ Type=H,3,126,0.013,0.015,1.142857142857143
+Rotational speed=0 ∧ Tool wear=1 ∧ Type=H,3,128,0.013,0.015,1.142857142857143
+Process temperature=2 ∧ Tool wear=0 ∧ Type=L,3,705,0.07,0.08,1.140845070422535
+Process temperature=1 ∧ Tool wear=2 ∧ Type=M,3,313,0.031,0.035,1.125
+Air temperature=0 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,5,164,0.016,0.018,1.1176470588235292
+Air temperature=0 ∧ Process temperature=0 ∧ Torque=2 ∧ Type=M,4,258,0.026,0.029,1.1111111111111112
+Air temperature=2 ∧ Tool wear=1 ∧ Type=L,3,668,0.067,0.074,1.102941176470588
+Air temperature=0 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,4,194,0.019,0.021,1.1
+Process temperature=2 ∧ Tool wear=1 ∧ Type=H,3,111,0.011,0.012,1.0833333333333335
+Air temperature=1 ∧ Rotational speed=0 ∧ Tool wear=2 ∧ Type=M,4,109,0.011,0.012,1.0833333333333335
+Rotational speed=0 ∧ Tool wear=0 ∧ Type=H,3,107,0.011,0.012,1.0833333333333335
+Air temperature=2 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Type=M,4,107,0.011,0.012,1.0833333333333335
+Air temperature=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=M,4,109,0.011,0.012,1.0833333333333335
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=0 ∧ Type=M,4,271,0.027,0.029,1.0714285714285714
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=1 ∧ Type=M,4,275,0.027,0.029,1.0714285714285714
+Tool wear=2 ∧ Type=M,2,989,0.099,0.106,1.0699999999999998
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,6,139,0.014,0.015,1.0666666666666667
+Air temperature=2 ∧ Rotational speed=1 ∧ Torque=2 ∧ Type=L,4,137,0.014,0.015,1.0666666666666667
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Torque=2,4,166,0.017,0.018,1.0555555555555554
+Air temperature=1 ∧ Process temperature=1 ∧ Type=H,3,201,0.02,0.021,1.0476190476190477
+Process temperature=0 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=M,4,256,0.026,0.027,1.037037037037037
+Air temperature=0 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=M,4,258,0.026,0.027,1.037037037037037
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=0 ∧ Type=M,4,256,0.026,0.027,1.037037037037037
+Air temperature=2 ∧ Type=H,2,309,0.031,0.032,1.03125
+Process temperature=2 ∧ Type=M,2,1094,0.109,0.112,1.0272727272727273
+Air temperature=1 ∧ Process temperature=2 ∧ Type=L,3,613,0.061,0.062,1.0161290322580645
+Air temperature=0 ∧ Process temperature=1 ∧ Type=L,3,353,0.035,0.035,1.0
+Air temperature=1 ∧ Tool wear=2 ∧ Type=M,3,352,0.035,0.035,1.0
+Air temperature=0 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=L,4,214,0.021,0.021,1.0
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=2 ∧ Type=M,4,180,0.018,0.018,1.0
+Air temperature=0 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Type=L,4,120,0.012,0.012,1.0
+Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,5,176,0.018,0.018,1.0
+Process temperature=1 ∧ Tool wear=1 ∧ Type=M,3,350,0.035,0.035,1.0
+Air temperature=2 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=M,5,118,0.012,0.012,1.0
+Tool wear=2 ∧ Type=H,2,330,0.033,0.032,0.9705882352941176
+Air temperature=0 ∧ Torque=2 ∧ Type=M,3,328,0.033,0.032,0.9705882352941176
+Process temperature=0 ∧ Torque=2 ∧ Type=M,3,326,0.033,0.032,0.9705882352941176
+Air temperature=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,4,215,0.022,0.021,0.9565217391304349
+Air temperature=0 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Type=L,4,190,0.019,0.018,0.95
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,5,161,0.016,0.015,0.9411764705882353
+Process temperature=1 ∧ Type=M,2,971,0.097,0.091,0.9387755102040816
+Air temperature=0 ∧ Process temperature=1 ∧ Torque=0 ∧ Type=L,4,126,0.013,0.012,0.9285714285714287
+Air temperature=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=M,4,134,0.013,0.012,0.9285714285714287
+Air temperature=1 ∧ Process temperature=0 ∧ Type=L,3,408,0.041,0.038,0.9285714285714285
+Air temperature=0 ∧ Rotational speed=0 ∧ Type=M,3,320,0.032,0.029,0.9090909090909092
+Process temperature=0 ∧ Rotational speed=0 ∧ Type=M,3,322,0.032,0.029,0.9090909090909092
+Air temperature=2 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=M,4,321,0.032,0.029,0.9090909090909092
+Process temperature=0 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=M,4,103,0.01,0.009,0.909090909090909
+Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=M,4,103,0.01,0.009,0.909090909090909
+Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=M,5,104,0.01,0.009,0.909090909090909
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=M,5,104,0.01,0.009,0.909090909090909
+Air temperature=1 ∧ Process temperature=2 ∧ Tool wear=0 ∧ Torque=2,4,103,0.01,0.009,0.909090909090909
+Air temperature=1 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=0,4,102,0.01,0.009,0.909090909090909
+Process temperature=2 ∧ Tool wear=2 ∧ Type=H,3,102,0.01,0.009,0.909090909090909
+Air temperature=1 ∧ Tool wear=2 ∧ Torque=2 ∧ Type=M,4,102,0.01,0.009,0.909090909090909
+Process temperature=0 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,4,201,0.02,0.018,0.9047619047619047
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,5,169,0.017,0.015,0.8888888888888888
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=L,5,174,0.017,0.015,0.8888888888888888
+Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,5,173,0.017,0.015,0.8888888888888888
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Torque=1,4,165,0.017,0.015,0.8888888888888888
+Air temperature=0 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,5,169,0.017,0.015,0.8888888888888888
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,6,137,0.014,0.012,0.8666666666666668
+Process temperature=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=M,4,138,0.014,0.012,0.8666666666666668
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=M,5,143,0.014,0.012,0.8666666666666668
+Air temperature=2 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=M,4,141,0.014,0.012,0.8666666666666668
+Air temperature=1 ∧ Rotational speed=0 ∧ Torque=2 ∧ Type=M,4,281,0.028,0.024,0.8620689655172414
+Air temperature=0 ∧ Type=L,2,1827,0.184,0.156,0.8486486486486486
+Process temperature=2 ∧ Type=H,2,320,0.032,0.027,0.8484848484848485
+Process temperature=2 ∧ Tool wear=1 ∧ Type=M,3,375,0.038,0.032,0.8461538461538461
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=M,5,250,0.025,0.021,0.8461538461538461
+Air temperature=1 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Type=L,4,247,0.025,0.021,0.8461538461538461
+Air temperature=1 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,5,180,0.018,0.015,0.8421052631578948
+Process temperature=0 ∧ Type=L,2,1882,0.189,0.159,0.8421052631578947
+Process temperature=2 ∧ Tool wear=0 ∧ Type=M,3,349,0.035,0.029,0.8333333333333333
+Air temperature=2 ∧ Tool wear=0 ∧ Type=H,3,106,0.011,0.009,0.8333333333333331
+Air temperature=0 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=M,4,108,0.011,0.009,0.8333333333333331
+Air temperature=0 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=M,4,114,0.011,0.009,0.8333333333333331
+Air temperature=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=M,4,112,0.011,0.009,0.8333333333333331
+Air temperature=1 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=M,5,105,0.011,0.009,0.8333333333333331
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,6,113,0.011,0.009,0.8333333333333331
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=M,5,105,0.011,0.009,0.8333333333333331
+Air temperature=1 ∧ Process temperature=2 ∧ Tool wear=1 ∧ Torque=2,4,113,0.011,0.009,0.8333333333333331
+Process temperature=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=M,4,110,0.011,0.009,0.8333333333333331
+Air temperature=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=M,4,111,0.011,0.009,0.8333333333333331
+Process temperature=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=M,4,107,0.011,0.009,0.8333333333333331
+Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Type=L,4,221,0.022,0.018,0.8260869565217391
+Air temperature=1 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,5,214,0.022,0.018,0.8260869565217391
+Process temperature=0 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,4,216,0.022,0.018,0.8260869565217391
+Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=L,4,221,0.022,0.018,0.8260869565217391
+Air temperature=0 ∧ Process temperature=0 ∧ Type=L,3,1474,0.148,0.121,0.8187919463087249
+Process temperature=1 ∧ Tool wear=1 ∧ Type=L,3,648,0.065,0.053,0.8181818181818181
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=M,5,146,0.015,0.012,0.8125
+Type=M,1,2997,0.302,0.245,0.8118811881188119
+Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=M,4,300,0.03,0.024,0.8064516129032259
+Air temperature=1 ∧ Type=L,2,2119,0.213,0.171,0.8037383177570094
+Air temperature=1 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,5,190,0.019,0.015,0.8
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Type=M,4,190,0.019,0.015,0.8
+Air temperature=0 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,4,191,0.019,0.015,0.8
+Process temperature=2 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=M,4,337,0.034,0.027,0.7999999999999999
+Air temperature=1 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,4,232,0.023,0.018,0.7916666666666666
+Air temperature=2 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,4,228,0.023,0.018,0.7916666666666666
+Air temperature=2 ∧ Torque=0 ∧ Type=M,3,367,0.037,0.029,0.7894736842105264
+Air temperature=2 ∧ Rotational speed=2 ∧ Type=M,3,368,0.037,0.029,0.7894736842105264
+Tool wear=2 ∧ Torque=0 ∧ Type=M,3,346,0.035,0.027,0.7777777777777777
+Tool wear=1 ∧ Type=M,2,1027,0.104,0.08,0.7714285714285715
+Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=M,5,116,0.012,0.009,0.769230769230769
+Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=M,5,117,0.012,0.009,0.769230769230769
+Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Type=M,4,115,0.012,0.009,0.769230769230769
+Rotational speed=0 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,4,122,0.012,0.009,0.769230769230769
+Process temperature=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=M,4,116,0.012,0.009,0.769230769230769
+Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=M,4,119,0.012,0.009,0.769230769230769
+Process temperature=2 ∧ Rotational speed=0 ∧ Torque=1 ∧ Type=L,4,122,0.012,0.009,0.769230769230769
+Air temperature=2 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,5,163,0.016,0.012,0.7647058823529412
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,5,162,0.016,0.012,0.7647058823529412
+Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,5,163,0.016,0.012,0.7647058823529412
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Type=L,5,158,0.016,0.012,0.7647058823529412
+Air temperature=1 ∧ Process temperature=0 ∧ Tool wear=1 ∧ Type=L,4,154,0.016,0.012,0.7647058823529412
+Air temperature=0 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=L,4,203,0.02,0.015,0.7619047619047619
+Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Type=L,4,198,0.02,0.015,0.7619047619047619
+Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,5,196,0.02,0.015,0.7619047619047619
+Air temperature=1 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,4,240,0.024,0.018,0.7599999999999999
+Process temperature=1 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=M,4,273,0.028,0.021,0.7586206896551725
+Process temperature=1 ∧ Type=H,2,355,0.036,0.027,0.7567567567567568
+Air temperature=1 ∧ Rotational speed=0 ∧ Type=M,3,355,0.036,0.027,0.7567567567567568
+Process temperature=2 ∧ Torque=0 ∧ Type=M,3,389,0.039,0.029,0.75
+Tool wear=0 ∧ Type=L,2,1993,0.201,0.15,0.7475247524752474
+Air temperature=0 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=L,4,517,0.052,0.038,0.7358490566037736
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Type=M,4,285,0.029,0.021,0.7333333333333334
+Air temperature=2 ∧ Process temperature=2 ∧ Torque=0 ∧ Type=M,4,291,0.029,0.021,0.7333333333333334
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=2 ∧ Type=M,4,245,0.025,0.018,0.7307692307692307
+Air temperature=1 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=L,5,171,0.017,0.012,0.7222222222222222
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,6,132,0.013,0.009,0.7142857142857143
+Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Type=M,4,133,0.013,0.009,0.7142857142857143
+Air temperature=1 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=M,4,124,0.013,0.009,0.7142857142857143
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Type=L,5,132,0.013,0.009,0.7142857142857143
+Air temperature=1 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=M,4,129,0.013,0.009,0.7142857142857143
+Process temperature=1 ∧ Tool wear=0 ∧ Type=L,3,667,0.067,0.047,0.7058823529411764
+Process temperature=2 ∧ Rotational speed=2 ∧ Type=M,3,382,0.039,0.027,0.7
+Air temperature=1 ∧ Torque=2 ∧ Type=M,3,344,0.035,0.024,0.6944444444444444
+Air temperature=0 ∧ Torque=0 ∧ Type=L,3,598,0.06,0.041,0.6885245901639345
+Process temperature=0 ∧ Tool wear=2 ∧ Type=M,3,306,0.031,0.021,0.6875
+Process temperature=1 ∧ Tool wear=0 ∧ Type=M,3,308,0.031,0.021,0.6875
+Air temperature=1 ∧ Process temperature=1 ∧ Torque=2 ∧ Type=M,4,178,0.018,0.012,0.6842105263157896
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Type=M,4,175,0.018,0.012,0.6842105263157896
+Air temperature=1 ∧ Process temperature=1 ∧ Torque=0 ∧ Type=M,4,174,0.018,0.012,0.6842105263157896
+Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,5,178,0.018,0.012,0.6842105263157896
+Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,5,182,0.018,0.012,0.6842105263157896
+Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,4,600,0.061,0.041,0.6774193548387097
+Tool wear=2 ∧ Torque=0 ∧ Type=L,3,692,0.07,0.047,0.676056338028169
+Rotational speed=1 ∧ Tool wear=2 ∧ Type=L,3,694,0.07,0.047,0.676056338028169
+Rotational speed=2 ∧ Tool wear=2 ∧ Type=M,3,352,0.036,0.024,0.6756756756756758
+Process temperature=1 ∧ Torque=0 ∧ Type=M,3,317,0.032,0.021,0.6666666666666667
+Process temperature=1 ∧ Rotational speed=2 ∧ Type=M,3,317,0.032,0.021,0.6666666666666667
+Air temperature=1 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=L,4,226,0.023,0.015,0.6666666666666666
+Process temperature=1 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,4,227,0.023,0.015,0.6666666666666666
+Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=M,4,134,0.014,0.009,0.6666666666666666
+Process temperature=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=M,4,135,0.014,0.009,0.6666666666666666
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=1 ∧ Type=L,4,480,0.049,0.032,0.66
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=L,5,415,0.042,0.027,0.6511627906976744
+Air temperature=1 ∧ Process temperature=1 ∧ Type=L,3,1098,0.111,0.071,0.6428571428571428
+Rotational speed=2 ∧ Tool wear=2 ∧ Type=L,3,683,0.069,0.044,0.6428571428571428
+Process temperature=2 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,4,235,0.024,0.015,0.64
+Air temperature=1 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,4,234,0.024,0.015,0.64
+Air temperature=1 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=L,4,239,0.024,0.015,0.64
+Air temperature=0 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=M,4,103,0.01,0.006,0.6363636363636365
+Air temperature=1 ∧ Process temperature=2 ∧ Type=M,3,289,0.029,0.018,0.6333333333333333
+Air temperature=1 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=M,4,286,0.029,0.018,0.6333333333333333
+Air temperature=0 ∧ Rotational speed=2 ∧ Type=L,3,605,0.061,0.038,0.6290322580645161
+Air temperature=1 ∧ Torque=0 ∧ Type=M,3,331,0.034,0.021,0.6285714285714286
+Rotational speed=1 ∧ Tool wear=2 ∧ Torque=0,3,147,0.015,0.009,0.6249999999999999
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,5,149,0.015,0.009,0.6249999999999999
+Air temperature=1 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Type=L,4,194,0.02,0.012,0.6190476190476191
+Air temperature=1 ∧ Process temperature=2 ∧ Torque=0 ∧ Type=L,4,194,0.02,0.012,0.6190476190476191
+Air temperature=1 ∧ Process temperature=2 ∧ Tool wear=0 ∧ Type=L,4,193,0.02,0.012,0.6190476190476191
+Air temperature=0 ∧ Tool wear=2 ∧ Type=M,3,298,0.03,0.018,0.6129032258064516
+Air temperature=0 ∧ Process temperature=0 ∧ Torque=0 ∧ Type=L,4,472,0.048,0.029,0.6122448979591837
+Type=H,1,1003,0.102,0.062,0.6116504854368933
+Process temperature=0 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=L,4,530,0.054,0.032,0.6
+Tool wear=0 ∧ Type=M,2,981,0.099,0.059,0.6
+Air temperature=1 ∧ Type=H,2,351,0.036,0.021,0.5945945945945947
+Process temperature=0 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,4,203,0.021,0.012,0.5909090909090909
+Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=L,4,211,0.021,0.012,0.5909090909090909
+Process temperature=1 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,4,204,0.021,0.012,0.5909090909090909
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Torque=2,5,160,0.016,0.009,0.588235294117647
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Torque=2,5,161,0.016,0.009,0.588235294117647
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=L,5,159,0.016,0.009,0.588235294117647
+Air temperature=2 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=M,5,106,0.011,0.006,0.5833333333333334
+Air temperature=2 ∧ Process temperature=1 ∧ Tool wear=2 ∧ Torque=0,4,105,0.011,0.006,0.5833333333333334
+Air temperature=1 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=M,4,108,0.011,0.006,0.5833333333333334
+Air temperature=0 ∧ Process temperature=0 ∧ Torque=1 ∧ Type=H,4,104,0.011,0.006,0.5833333333333334
+Air temperature=2 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=1,4,108,0.011,0.006,0.5833333333333334
+Air temperature=1 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=M,4,113,0.011,0.006,0.5833333333333334
+Process temperature=2 ∧ Tool wear=0 ∧ Type=H,3,107,0.011,0.006,0.5833333333333334
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,6,113,0.011,0.006,0.5833333333333334
+Tool wear=2 ∧ Torque=1 ∧ Type=H,3,113,0.011,0.006,0.5833333333333334
+Rotational speed=2 ∧ Tool wear=2 ∧ Type=H,3,108,0.011,0.006,0.5833333333333334
+Process temperature=0 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=M,4,105,0.011,0.006,0.5833333333333334
+Process temperature=0 ∧ Tool wear=2 ∧ Type=H,3,112,0.011,0.006,0.5833333333333334
+Air temperature=0 ∧ Tool wear=2 ∧ Type=H,3,110,0.011,0.006,0.5833333333333334
+Process temperature=0 ∧ Torque=0 ∧ Type=L,3,604,0.061,0.035,0.5806451612903226
+Process temperature=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,4,264,0.027,0.015,0.5714285714285714
+Rotational speed=1 ∧ Torque=2 ∧ Type=L,3,425,0.043,0.024,0.5681818181818182
+Rotational speed=2 ∧ Torque=0 ∧ Type=M,3,875,0.089,0.05,0.5666666666666668
+Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=L,4,213,0.022,0.012,0.5652173913043479
+Rotational speed=0 ∧ Torque=1 ∧ Type=M,3,212,0.022,0.012,0.5652173913043479
+Process temperature=0 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=L,4,219,0.022,0.012,0.5652173913043479
+Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,5,219,0.022,0.012,0.5652173913043479
+Process temperature=2 ∧ Tool wear=1 ∧ Type=L,3,672,0.068,0.038,0.5652173913043478
+Tool wear=1 ∧ Type=L,2,1961,0.199,0.112,0.565
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=2 ∧ Type=L,4,485,0.049,0.027,0.5599999999999999
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,6,167,0.017,0.009,0.5555555555555554
+Air temperature=1 ∧ Rotational speed=2 ∧ Type=M,3,332,0.034,0.018,0.5428571428571428
+Tool wear=1 ∧ Type=H,2,339,0.034,0.018,0.5428571428571428
+Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,5,231,0.023,0.012,0.5416666666666667
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Type=L,4,502,0.051,0.027,0.5384615384615385
+Process temperature=1 ∧ Tool wear=0 ∧ Type=H,3,119,0.012,0.006,0.5384615384615384
+Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=M,4,119,0.012,0.006,0.5384615384615384
+Air temperature=0 ∧ Process temperature=1 ∧ Tool wear=1 ∧ Type=L,4,119,0.012,0.006,0.5384615384615384
+Air temperature=1 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=M,4,122,0.012,0.006,0.5384615384615384
+Air temperature=1 ∧ Process temperature=0 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=L,5,115,0.012,0.006,0.5384615384615384
+Rotational speed=0 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,4,118,0.012,0.006,0.5384615384615384
+Air temperature=1 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=2,4,121,0.012,0.006,0.5384615384615384
+Air temperature=2 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Type=M,4,120,0.012,0.006,0.5384615384615384
+Air temperature=1 ∧ Process temperature=2 ∧ Rotational speed=0 ∧ Tool wear=1,4,115,0.012,0.006,0.5384615384615384
+Air temperature=2 ∧ Process temperature=1 ∧ Torque=1 ∧ Type=L,4,178,0.018,0.009,0.5263157894736842
+Torque=0 ∧ Type=M,2,1002,0.102,0.053,0.5242718446601942
+Process temperature=0 ∧ Rotational speed=2 ∧ Type=L,3,614,0.062,0.032,0.5238095238095238
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=1 ∧ Type=M,4,239,0.024,0.012,0.52
+Air temperature=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=M,4,123,0.013,0.006,0.5000000000000001
+Air temperature=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=M,4,124,0.013,0.006,0.5000000000000001
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,5,128,0.013,0.006,0.5000000000000001
+Process temperature=1 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=L,4,577,0.059,0.029,0.5000000000000001
+Process temperature=1 ∧ Rotational speed=0 ∧ Torque=1 ∧ Type=L,4,130,0.013,0.006,0.5000000000000001
+Air temperature=1 ∧ Process temperature=0 ∧ Rotational speed=2 ∧ Type=L,4,129,0.013,0.006,0.5000000000000001
+Air temperature=1 ∧ Process temperature=0 ∧ Torque=0 ∧ Type=L,4,132,0.013,0.006,0.5000000000000001
+Air temperature=0 ∧ Torque=1 ∧ Type=H,3,129,0.013,0.006,0.5000000000000001
+Air temperature=1 ∧ Process temperature=0 ∧ Rotational speed=1 ∧ Type=L,4,129,0.013,0.006,0.5000000000000001
+Process temperature=0 ∧ Torque=1 ∧ Type=H,3,125,0.013,0.006,0.5000000000000001
+Rotational speed=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=M,4,301,0.031,0.015,0.5
+Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Type=L,4,248,0.025,0.012,0.5
+Process temperature=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,4,243,0.025,0.012,0.5
+Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,5,182,0.019,0.009,0.4999999999999999
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Type=L,5,191,0.019,0.009,0.4999999999999999
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,5,183,0.019,0.009,0.4999999999999999
+Air temperature=1 ∧ Process temperature=1 ∧ Type=M,3,548,0.056,0.027,0.49122807017543857
+Rotational speed=2 ∧ Type=M,2,1009,0.103,0.05,0.4903846153846154
+Rotational speed=0 ∧ Torque=1 ∧ Type=L,3,374,0.038,0.018,0.48717948717948717
+Rotational speed=2 ∧ Torque=0 ∧ Type=L,3,1744,0.178,0.086,0.4860335195530726
+Air temperature=1 ∧ Type=M,2,1026,0.104,0.05,0.48571428571428577
+Tool wear=2 ∧ Torque=1 ∧ Type=L,3,659,0.067,0.032,0.4852941176470588
+Process temperature=1 ∧ Rotational speed=2 ∧ Type=L,3,663,0.067,0.032,0.4852941176470588
+Air temperature=1 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=L,4,613,0.062,0.029,0.4761904761904762
+Rotational speed=1 ∧ Torque=2 ∧ Type=M,3,197,0.02,0.009,0.4761904761904761
+Rotational speed=1 ∧ Tool wear=2 ∧ Type=M,3,325,0.033,0.015,0.47058823529411764
+Rotational speed=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,4,454,0.046,0.021,0.4680851063829788
+Air temperature=0 ∧ Process temperature=0 ∧ Type=M,3,743,0.076,0.035,0.4675324675324676
+Air temperature=1 ∧ Process temperature=0 ∧ Rotational speed=1 ∧ Torque=1,4,137,0.014,0.006,0.4666666666666667
+Air temperature=0 ∧ Process temperature=1 ∧ Tool wear=0 ∧ Type=L,4,138,0.014,0.006,0.4666666666666667
+Process temperature=0 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,5,136,0.014,0.006,0.4666666666666667
+Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Type=L,4,264,0.027,0.012,0.4642857142857143
+Air temperature=0 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=L,4,203,0.021,0.009,0.4545454545454544
+Process temperature=0 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,4,202,0.021,0.009,0.4545454545454544
+Air temperature=2 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,5,207,0.021,0.009,0.4545454545454544
+Air temperature=1 ∧ Rotational speed=2 ∧ Type=L,3,702,0.072,0.032,0.452054794520548
+Torque=0 ∧ Type=L,2,1993,0.203,0.091,0.4509803921568627
+Rotational speed=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=M,4,274,0.028,0.012,0.4482758620689655
+Rotational speed=2 ∧ Tool wear=1 ∧ Type=M,3,344,0.035,0.015,0.4444444444444444
+Process temperature=2 ∧ Rotational speed=1 ∧ Type=L,3,722,0.074,0.032,0.44000000000000006
+Rotational speed=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,4,547,0.056,0.024,0.4385964912280702
+Process temperature=0 ∧ Type=M,2,932,0.095,0.041,0.4375
+Rotational speed=2 ∧ Tool wear=2 ∧ Torque=1,3,144,0.015,0.006,0.4375
+Process temperature=2 ∧ Rotational speed=1 ∧ Torque=0,3,148,0.015,0.006,0.4375
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,6,146,0.015,0.006,0.4375
+Air temperature=2 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=L,5,148,0.015,0.006,0.4375
+Process temperature=1 ∧ Torque=0 ∧ Type=L,3,665,0.068,0.029,0.43478260869565216
+Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=L,4,218,0.022,0.009,0.4347826086956521
+Tool wear=1 ∧ Torque=0 ∧ Type=M,3,349,0.036,0.015,0.43243243243243246
+Rotational speed=2 ∧ Type=L,2,2007,0.205,0.088,0.43203883495145634
+Air temperature=0 ∧ Tool wear=0 ∧ Type=L,3,638,0.065,0.027,0.42424242424242425
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=0 ∧ Type=L,4,500,0.051,0.021,0.42307692307692313
+Air temperature=2 ∧ Rotational speed=1 ∧ Type=L,3,687,0.07,0.029,0.4225352112676056
+Air temperature=1 ∧ Torque=0 ∧ Type=L,3,694,0.071,0.029,0.41666666666666674
+Air temperature=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,4,230,0.023,0.009,0.4166666666666666
+Process temperature=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,4,225,0.023,0.009,0.4166666666666666
+Process temperature=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,4,222,0.023,0.009,0.4166666666666666
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Torque=0,5,157,0.016,0.006,0.4117647058823529
+Air temperature=1 ∧ Rotational speed=1 ∧ Torque=2 ∧ Type=L,4,158,0.016,0.006,0.4117647058823529
+Process temperature=0 ∧ Tool wear=1 ∧ Type=M,3,302,0.031,0.012,0.40625
+Tool wear=0 ∧ Torque=0 ∧ Type=M,3,307,0.031,0.012,0.40625
+Air temperature=2 ∧ Torque=1 ∧ Type=L,3,669,0.068,0.027,0.40579710144927533
+Air temperature=0 ∧ Type=M,2,939,0.096,0.038,0.4020618556701031
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Type=L,4,379,0.039,0.015,0.4
+Air temperature=2 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Type=L,4,236,0.024,0.009,0.3999999999999999
+Air temperature=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,4,233,0.024,0.009,0.3999999999999999
+Air temperature=0 ∧ Tool wear=1 ∧ Type=M,3,315,0.032,0.012,0.393939393939394
+Rotational speed=2 ∧ Tool wear=0 ∧ Type=M,3,313,0.032,0.012,0.393939393939394
+Process temperature=0 ∧ Tool wear=0 ∧ Type=L,3,621,0.063,0.024,0.390625
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,5,164,0.017,0.006,0.38888888888888884
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Type=L,5,168,0.017,0.006,0.38888888888888884
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,5,162,0.017,0.006,0.38888888888888884
+Air temperature=1 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,5,164,0.017,0.006,0.38888888888888884
+Air temperature=2 ∧ Process temperature=1 ∧ Torque=0 ∧ Type=L,4,171,0.017,0.006,0.38888888888888884
+Air temperature=2 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Type=L,4,164,0.017,0.006,0.38888888888888884
+Tool wear=1 ∧ Torque=0 ∧ Type=L,3,624,0.064,0.024,0.38461538461538464
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=L,5,327,0.033,0.012,0.3823529411764706
+Process temperature=2 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=L,4,637,0.065,0.024,0.3787878787878788
+Process temperature=2 ∧ Torque=0 ∧ Type=L,3,724,0.074,0.027,0.37333333333333335
+Rotational speed=2 ∧ Tool wear=1 ∧ Type=L,3,642,0.066,0.024,0.373134328358209
+Air temperature=2 ∧ Process temperature=2 ∧ Torque=1 ∧ Type=L,4,491,0.05,0.018,0.3725490196078431
+Tool wear=2 ∧ Torque=1 ∧ Type=M,3,333,0.034,0.012,0.37142857142857144
+Tool wear=0 ∧ Type=H,2,334,0.034,0.012,0.37142857142857144
+Air temperature=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,4,258,0.026,0.009,0.3703703703703703
+Air temperature=1 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=L,4,254,0.026,0.009,0.3703703703703703
+Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,5,179,0.018,0.006,0.368421052631579
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=L,5,172,0.018,0.006,0.368421052631579
+Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=M,4,100,0.01,0.003,0.36363636363636365
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=0 ∧ Torque=1 ∧ Type=L,5,102,0.01,0.003,0.36363636363636365
+Rotational speed=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=H,4,100,0.01,0.003,0.36363636363636365
+Air temperature=1 ∧ Torque=0 ∧ Type=H,3,102,0.01,0.003,0.36363636363636365
+Process temperature=2 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=H,4,100,0.01,0.003,0.36363636363636365
+Air temperature=1 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Torque=2,4,101,0.01,0.003,0.36363636363636365
+Process temperature=2 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=M,4,102,0.01,0.003,0.36363636363636365
+Air temperature=1 ∧ Process temperature=2 ∧ Tool wear=1 ∧ Type=M,4,100,0.01,0.003,0.36363636363636365
+Rotational speed=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,4,597,0.061,0.021,0.3548387096774194
+Air temperature=1 ∧ Tool wear=1 ∧ Type=L,3,687,0.07,0.024,0.352112676056338
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=1 ∧ Type=M,4,186,0.019,0.006,0.35
+Air temperature=0 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,5,184,0.019,0.006,0.35
+Air temperature=1 ∧ Process temperature=0 ∧ Type=M,3,189,0.019,0.006,0.35
+Air temperature=0 ∧ Process temperature=0 ∧ Type=H,3,271,0.028,0.009,0.34482758620689646
+Air temperature=1 ∧ Process temperature=1 ∧ Torque=0 ∧ Type=L,4,368,0.038,0.012,0.33333333333333337
+Process temperature=1 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=M,4,111,0.011,0.003,0.3333333333333333
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,5,192,0.02,0.006,0.3333333333333333
+Rotational speed=2 ∧ Tool wear=1 ∧ Type=H,3,110,0.011,0.003,0.3333333333333333
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,5,107,0.011,0.003,0.3333333333333333
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,5,104,0.011,0.003,0.3333333333333333
+Process temperature=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=M,4,105,0.011,0.003,0.3333333333333333
+Process temperature=1 ∧ Torque=0 ∧ Type=H,3,109,0.011,0.003,0.3333333333333333
+Air temperature=0 ∧ Rotational speed=0 ∧ Type=H,3,111,0.011,0.003,0.3333333333333333
+Air temperature=0 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=M,4,103,0.011,0.003,0.3333333333333333
+Air temperature=1 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=1,4,109,0.011,0.003,0.3333333333333333
+Tool wear=2 ∧ Torque=0 ∧ Type=H,3,109,0.011,0.003,0.3333333333333333
+Air temperature=1 ∧ Process temperature=2 ∧ Tool wear=1 ∧ Type=L,4,192,0.02,0.006,0.3333333333333333
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=L,5,107,0.011,0.003,0.3333333333333333
+Process temperature=1 ∧ Rotational speed=2 ∧ Type=H,3,109,0.011,0.003,0.3333333333333333
+Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=M,4,110,0.011,0.003,0.3333333333333333
+Air temperature=1 ∧ Process temperature=2 ∧ Tool wear=2 ∧ Torque=1,4,112,0.011,0.003,0.3333333333333333
+Air temperature=2 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=M,4,112,0.011,0.003,0.3333333333333333
+Air temperature=2 ∧ Torque=0 ∧ Type=H,3,107,0.011,0.003,0.3333333333333333
+Air temperature=2 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=2,4,104,0.011,0.003,0.3333333333333333
+Air temperature=0 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=M,4,105,0.011,0.003,0.3333333333333333
+Process temperature=0 ∧ Rotational speed=0 ∧ Type=H,3,107,0.011,0.003,0.3333333333333333
+Process temperature=0 ∧ Rotational speed=2 ∧ Type=H,3,104,0.011,0.003,0.3333333333333333
+Process temperature=0 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,4,200,0.02,0.006,0.3333333333333333
+Air temperature=0 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,4,198,0.02,0.006,0.3333333333333333
+Process temperature=0 ∧ Tool wear=1 ∧ Type=H,3,108,0.011,0.003,0.3333333333333333
+Process temperature=2 ∧ Torque=0 ∧ Type=H,3,109,0.011,0.003,0.3333333333333333
+Process temperature=0 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=M,4,103,0.011,0.003,0.3333333333333333
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Torque=0,4,112,0.011,0.003,0.3333333333333333
+Tool wear=1 ∧ Torque=0 ∧ Type=H,3,110,0.011,0.003,0.3333333333333333
+Air temperature=1 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,5,193,0.02,0.006,0.3333333333333333
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,6,106,0.011,0.003,0.3333333333333333
+Process temperature=2 ∧ Rotational speed=2 ∧ Type=L,3,730,0.075,0.024,0.32894736842105265
+Process temperature=0 ∧ Tool wear=1 ∧ Type=L,3,641,0.066,0.021,0.3283582089552239
+Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Type=L,4,205,0.021,0.006,0.3181818181818182
+Air temperature=1 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,5,206,0.021,0.006,0.3181818181818182
+Tool wear=0 ∧ Torque=0 ∧ Type=L,3,677,0.069,0.021,0.3142857142857143
+Process temperature=0 ∧ Rotational speed=1 ∧ Type=M,3,300,0.031,0.009,0.31249999999999994
+Rotational speed=2 ∧ Tool wear=0 ∧ Type=L,3,682,0.07,0.021,0.30985915492957744
+Process temperature=0 ∧ Rotational speed=1 ∧ Type=H,3,117,0.012,0.003,0.30769230769230765
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=0 ∧ Type=L,5,120,0.012,0.003,0.30769230769230765
+Air temperature=0 ∧ Tool wear=1 ∧ Type=H,3,119,0.012,0.003,0.30769230769230765
+Process temperature=0 ∧ Rotational speed=1 ∧ Torque=0,3,116,0.012,0.003,0.30769230769230765
+Air temperature=1 ∧ Process temperature=0 ∧ Tool wear=0 ∧ Type=L,4,121,0.012,0.003,0.30769230769230765
+Process temperature=2 ∧ Rotational speed=2 ∧ Type=H,3,116,0.012,0.003,0.30769230769230765
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=L,5,116,0.012,0.003,0.30769230769230765
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,6,121,0.012,0.003,0.30769230769230765
+Air temperature=1 ∧ Tool wear=0 ∧ Type=H,3,114,0.012,0.003,0.30769230769230765
+Rotational speed=1 ∧ Tool wear=2 ∧ Type=H,3,120,0.012,0.003,0.30769230769230765
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=2 ∧ Torque=1,4,113,0.012,0.003,0.30769230769230765
+Air temperature=2 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=M,4,114,0.012,0.003,0.30769230769230765
+Air temperature=1 ∧ Tool wear=1 ∧ Type=H,3,117,0.012,0.003,0.30769230769230765
+Process temperature=1 ∧ Tool wear=1 ∧ Type=H,3,120,0.012,0.003,0.30769230769230765
+Air temperature=0 ∧ Rotational speed=1 ∧ Type=H,3,116,0.012,0.003,0.30769230769230765
+Air temperature=0 ∧ Rotational speed=2 ∧ Type=H,3,116,0.012,0.003,0.30769230769230765
+Air temperature=2 ∧ Rotational speed=2 ∧ Type=H,3,116,0.012,0.003,0.30769230769230765
+Air temperature=1 ∧ Process temperature=0 ∧ Torque=1 ∧ Type=L,4,113,0.012,0.003,0.30769230769230765
+Air temperature=1 ∧ Tool wear=0 ∧ Type=L,3,689,0.071,0.021,0.30555555555555564
+Air temperature=0 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,4,213,0.022,0.006,0.30434782608695654
+Air temperature=2 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,4,217,0.022,0.006,0.30434782608695654
+Air temperature=0 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Type=L,4,212,0.022,0.006,0.30434782608695654
+Air temperature=2 ∧ Torque=0 ∧ Type=L,3,701,0.072,0.021,0.30136986301369867
+Process temperature=2 ∧ Torque=1 ∧ Type=L,3,701,0.072,0.021,0.30136986301369867
+Air temperature=2 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=L,4,614,0.063,0.018,0.296875
+Air temperature=0 ∧ Tool wear=0 ∧ Type=M,3,326,0.033,0.009,0.2941176470588235
+Process temperature=0 ∧ Tool wear=0 ∧ Type=M,3,324,0.033,0.009,0.2941176470588235
+Air temperature=1 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=L,4,221,0.023,0.006,0.2916666666666667
+Air temperature=2 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,5,222,0.023,0.006,0.2916666666666667
+Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=L,4,228,0.023,0.006,0.2916666666666667
+Air temperature=1 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Type=L,4,220,0.023,0.006,0.2916666666666667
+Air temperature=1 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,4,220,0.023,0.006,0.2916666666666667
+Air temperature=2 ∧ Process temperature=2 ∧ Torque=0 ∧ Type=L,4,530,0.054,0.015,0.2909090909090909
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,5,122,0.013,0.003,0.28571428571428575
+Air temperature=0 ∧ Rotational speed=1 ∧ Torque=2 ∧ Type=L,4,130,0.013,0.003,0.28571428571428575
+Air temperature=0 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,5,127,0.013,0.003,0.28571428571428575
+Air temperature=0 ∧ Rotational speed=1 ∧ Torque=0,3,128,0.013,0.003,0.28571428571428575
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,5,125,0.013,0.003,0.28571428571428575
+Process temperature=2 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=M,4,123,0.013,0.003,0.28571428571428575
+Process temperature=0 ∧ Rotational speed=0 ∧ Torque=1 ∧ Type=L,4,122,0.013,0.003,0.28571428571428575
+Air temperature=0 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Type=L,4,125,0.013,0.003,0.28571428571428575
+Air temperature=2 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=L,5,124,0.013,0.003,0.28571428571428575
+Rotational speed=1 ∧ Torque=0 ∧ Type=M,3,126,0.013,0.003,0.28571428571428575
+Air temperature=0 ∧ Rotational speed=0 ∧ Torque=1 ∧ Type=L,4,123,0.013,0.003,0.28571428571428575
+Process temperature=0 ∧ Type=H,2,328,0.034,0.009,0.28571428571428564
+Rotational speed=2 ∧ Type=H,2,329,0.034,0.009,0.28571428571428564
+Air temperature=1 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Type=L,4,234,0.024,0.006,0.27999999999999997
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=1 ∧ Type=M,4,237,0.024,0.006,0.27999999999999997
+Air temperature=1 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,4,234,0.024,0.006,0.27999999999999997
+Air temperature=0 ∧ Type=H,2,343,0.035,0.009,0.2777777777777777
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=L,5,339,0.035,0.009,0.2777777777777777
+Air temperature=1 ∧ Tool wear=1 ∧ Type=M,3,349,0.036,0.009,0.27027027027027023
+Air temperature=2 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Type=L,4,246,0.025,0.006,0.2692307692307692
+Air temperature=0 ∧ Rotational speed=2 ∧ Torque=1,3,138,0.014,0.003,0.26666666666666666
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=0 ∧ Torque=1,4,132,0.014,0.003,0.26666666666666666
+Process temperature=0 ∧ Rotational speed=1 ∧ Torque=2 ∧ Type=L,4,138,0.014,0.003,0.26666666666666666
+Air temperature=1 ∧ Rotational speed=1 ∧ Torque=0,3,136,0.014,0.003,0.26666666666666666
+Rotational speed=0 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,4,134,0.014,0.003,0.26666666666666666
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Type=L,5,140,0.014,0.003,0.26666666666666666
+Process temperature=1 ∧ Rotational speed=2 ∧ Torque=1,3,139,0.014,0.003,0.26666666666666666
+Rotational speed=1 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,4,137,0.014,0.003,0.26666666666666666
+Air temperature=1 ∧ Rotational speed=2 ∧ Torque=1,3,138,0.014,0.003,0.26666666666666666
+Process temperature=0 ∧ Rotational speed=2 ∧ Torque=1,3,134,0.014,0.003,0.26666666666666666
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,5,136,0.014,0.003,0.26666666666666666
+Process temperature=1 ∧ Rotational speed=1 ∧ Torque=2 ∧ Type=L,4,139,0.014,0.003,0.26666666666666666
+Air temperature=2 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=L,4,463,0.048,0.012,0.2653061224489796
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=L,5,466,0.048,0.012,0.2653061224489796
+Air temperature=2 ∧ Rotational speed=2 ∧ Type=L,3,700,0.072,0.018,0.2602739726027397
+Rotational speed=1 ∧ Torque=0 ∧ Type=L,3,249,0.026,0.006,0.25925925925925924
+Process temperature=2 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=L,4,487,0.05,0.012,0.2549019607843137
+Air temperature=0 ∧ Tool wear=1 ∧ Type=L,3,606,0.062,0.015,0.25396825396825395
+Air temperature=2 ∧ Process temperature=2 ∧ Torque=1 ∧ Type=M,4,264,0.027,0.006,0.25
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=0 ∧ Type=M,4,259,0.027,0.006,0.25
+Air temperature=2 ∧ Rotational speed=1 ∧ Torque=0,3,142,0.015,0.003,0.25
+Air temperature=1 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=L,5,148,0.015,0.003,0.25
+Rotational speed=1 ∧ Type=L,2,2019,0.207,0.05,0.2451923076923077
+Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=L,5,155,0.016,0.003,0.23529411764705882
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Type=L,4,536,0.055,0.012,0.23214285714285715
+Rotational speed=2 ∧ Torque=0 ∧ Type=H,3,293,0.03,0.006,0.22580645161290322
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,5,163,0.017,0.003,0.2222222222222222
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Torque=0 ∧ Type=L,6,166,0.017,0.003,0.2222222222222222
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,5,166,0.017,0.003,0.2222222222222222
+Process temperature=0 ∧ Torque=1 ∧ Type=M,3,310,0.032,0.006,0.21212121212121213
+Air temperature=0 ∧ Rotational speed=1 ∧ Type=M,3,310,0.032,0.006,0.21212121212121213
+Torque=0 ∧ Type=H,2,324,0.033,0.006,0.20588235294117646
+Torque=1 ∧ Type=L,2,1980,0.203,0.041,0.20588235294117646
+Air temperature=1 ∧ Tool wear=0 ∧ Type=M,3,325,0.033,0.006,0.20588235294117646
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Type=L,5,189,0.019,0.003,0.2
+Air temperature=2 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Type=L,4,185,0.019,0.003,0.2
+Air temperature=2 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,5,185,0.019,0.003,0.2
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=0 ∧ Type=M,4,182,0.019,0.003,0.2
+Process temperature=0 ∧ Rotational speed=1 ∧ Type=L,3,626,0.064,0.012,0.2
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=1 ∧ Type=L,4,487,0.05,0.009,0.196078431372549
+Air temperature=2 ∧ Torque=1 ∧ Type=M,3,336,0.035,0.006,0.19444444444444442
+Air temperature=1 ∧ Rotational speed=1 ∧ Type=M,3,339,0.035,0.006,0.19444444444444442
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=1 ∧ Type=L,4,341,0.035,0.006,0.19444444444444442
+Air temperature=0 ∧ Process temperature=1 ∧ Type=M,3,196,0.02,0.003,0.19047619047619047
+Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,5,199,0.02,0.003,0.19047619047619047
+Air temperature=1 ∧ Process temperature=1 ∧ Torque=1 ∧ Type=M,4,196,0.02,0.003,0.19047619047619047
+Process temperature=2 ∧ Rotational speed=1 ∧ Type=M,3,351,0.036,0.006,0.1891891891891892
+Torque=1 ∧ Type=H,2,354,0.036,0.006,0.1891891891891892
+Air temperature=1 ∧ Torque=1 ∧ Type=M,3,351,0.036,0.006,0.1891891891891892
+Process temperature=1 ∧ Torque=1 ∧ Type=L,3,659,0.068,0.012,0.18840579710144928
+Process temperature=2 ∧ Torque=1 ∧ Type=M,3,357,0.037,0.006,0.1842105263157895
+Process temperature=0 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=M,4,202,0.021,0.003,0.1818181818181818
+Rotational speed=1 ∧ Tool wear=2 ∧ Torque=1 ∧ Type=M,4,208,0.021,0.003,0.1818181818181818
+Air temperature=1 ∧ Rotational speed=1 ∧ Type=L,3,710,0.073,0.012,0.1756756756756757
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=0 ∧ Type=L,4,375,0.039,0.006,0.175
+Air temperature=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,4,213,0.022,0.003,0.17391304347826086
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=M,5,212,0.022,0.003,0.17391304347826086
+Air temperature=1 ∧ Process temperature=2 ∧ Torque=1 ∧ Type=L,4,210,0.022,0.003,0.17391304347826086
+Air temperature=2 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=L,4,218,0.022,0.003,0.17391304347826086
+Process temperature=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,4,209,0.022,0.003,0.17391304347826086
+Air temperature=1 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Type=L,4,227,0.023,0.003,0.16666666666666666
+Air temperature=2 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,4,224,0.023,0.003,0.16666666666666666
+Air temperature=1 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=M,4,233,0.024,0.003,0.16
+Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Type=L,4,234,0.024,0.003,0.16
+Process temperature=1 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=L,4,234,0.024,0.003,0.16
+Air temperature=0 ∧ Process temperature=0 ∧ Torque=0 ∧ Type=M,4,237,0.024,0.003,0.16
+Process temperature=2 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,4,232,0.024,0.003,0.16
+Process temperature=2 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,4,234,0.024,0.003,0.16
+Process temperature=1 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Type=L,4,229,0.024,0.003,0.16
+Process temperature=0 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=L,4,414,0.043,0.006,0.15909090909090912
+Rotational speed=1 ∧ Torque=1 ∧ Type=L,3,1345,0.138,0.021,0.15827338129496404
+Rotational speed=1 ∧ Type=M,2,977,0.101,0.015,0.1568627450980392
+Torque=1 ∧ Type=M,2,994,0.102,0.015,0.15533980582524273
+Process temperature=0 ∧ Torque=1 ∧ Type=L,3,620,0.064,0.009,0.15384615384615383
+Air temperature=0 ∧ Rotational speed=1 ∧ Type=L,3,622,0.064,0.009,0.15384615384615383
+Rotational speed=1 ∧ Torque=1 ∧ Type=H,3,238,0.025,0.003,0.15384615384615383
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=2 ∧ Type=M,4,250,0.026,0.003,0.14814814814814814
+Air temperature=0 ∧ Process temperature=0 ∧ Torque=1 ∧ Type=M,4,248,0.026,0.003,0.14814814814814814
+Rotational speed=2 ∧ Torque=1 ∧ Type=L,3,261,0.027,0.003,0.14285714285714285
+Process temperature=0 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=M,4,265,0.027,0.003,0.14285714285714285
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Type=M,4,258,0.027,0.003,0.14285714285714285
+Air temperature=1 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=L,4,471,0.049,0.006,0.13999999999999999
+Air temperature=1 ∧ Torque=1 ∧ Type=L,3,689,0.071,0.009,0.13888888888888887
+Air temperature=0 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=M,4,268,0.028,0.003,0.13793103448275862
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=1 ∧ Type=L,4,497,0.051,0.006,0.13461538461538464
+Air temperature=0 ∧ Process temperature=0 ∧ Torque=1 ∧ Type=L,4,507,0.052,0.006,0.1320754716981132
+Air temperature=0 ∧ Torque=0 ∧ Type=M,3,304,0.031,0.003,0.125
+Process temperature=0 ∧ Torque=0 ∧ Type=M,3,296,0.031,0.003,0.125
+Air temperature=0 ∧ Rotational speed=2 ∧ Type=M,3,309,0.032,0.003,0.12121212121212122
+Air temperature=0 ∧ Torque=1 ∧ Type=M,3,307,0.032,0.003,0.12121212121212122
+Process temperature=0 ∧ Rotational speed=2 ∧ Type=M,3,310,0.032,0.003,0.12121212121212122
+Tool wear=0 ∧ Torque=1 ∧ Type=M,3,320,0.033,0.003,0.11764705882352941
+Process temperature=1 ∧ Torque=1 ∧ Type=M,3,327,0.034,0.003,0.11428571428571428
+Air temperature=2 ∧ Rotational speed=1 ∧ Type=M,3,328,0.034,0.003,0.11428571428571428
+Rotational speed=1 ∧ Type=H,2,337,0.035,0.003,0.1111111111111111
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=L,5,335,0.035,0.003,0.1111111111111111
+Air temperature=0 ∧ Torque=1 ∧ Type=L,3,622,0.064,0.006,0.10769230769230768
+Tool wear=0 ∧ Torque=1 ∧ Type=L,3,648,0.067,0.006,0.10294117647058823
+Air temperature=1 ∧ Process temperature=1 ∧ Torque=1 ∧ Type=L,4,366,0.038,0.003,0.10256410256410256
+Process temperature=1 ∧ Rotational speed=1 ∧ Type=L,3,671,0.069,0.006,0.09999999999999999
+Air temperature=0 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=L,4,411,0.042,0.003,0.09302325581395349
+Rotational speed=1 ∧ Tool wear=1 ∧ Type=H,3,101,0.01,0.0,0.09090909090909091
+Air temperature=1 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=M,4,100,0.01,0.0,0.09090909090909091
+Process temperature=0 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=M,4,101,0.01,0.0,0.09090909090909091
+Process temperature=1 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=L,4,444,0.046,0.003,0.0851063829787234
+Process temperature=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=M,4,105,0.011,0.0,0.08333333333333333
+Air temperature=0 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Type=M,4,103,0.011,0.0,0.08333333333333333
+Air temperature=0 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Type=M,4,104,0.011,0.0,0.08333333333333333
+Air temperature=0 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=M,4,110,0.011,0.0,0.08333333333333333
+Air temperature=0 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Type=M,4,109,0.011,0.0,0.08333333333333333
+Air temperature=0 ∧ Rotational speed=2 ∧ Torque=0 ∧ Type=H,4,104,0.011,0.0,0.08333333333333333
+Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Type=M,4,107,0.011,0.0,0.08333333333333333
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=1 ∧ Torque=2 ∧ Type=L,5,105,0.011,0.0,0.08333333333333333
+Air temperature=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=M,4,110,0.011,0.0,0.08333333333333333
+Air temperature=1 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=M,4,110,0.011,0.0,0.08333333333333333
+Air temperature=0 ∧ Tool wear=0 ∧ Torque=0 ∧ Type=M,4,104,0.011,0.0,0.08333333333333333
+Tool wear=1 ∧ Torque=1 ∧ Type=H,3,103,0.011,0.0,0.08333333333333333
+Air temperature=2 ∧ Torque=1 ∧ Type=H,3,110,0.011,0.0,0.08333333333333333
+Rotational speed=2 ∧ Tool wear=0 ∧ Type=H,3,111,0.011,0.0,0.08333333333333333
+Air temperature=1 ∧ Process temperature=2 ∧ Tool wear=1 ∧ Torque=1,4,109,0.011,0.0,0.08333333333333333
+Air temperature=1 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Type=M,4,106,0.011,0.0,0.08333333333333333
+Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=M,4,103,0.011,0.0,0.08333333333333333
+Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Type=M,4,103,0.011,0.0,0.08333333333333333
+Process temperature=2 ∧ Torque=1 ∧ Type=H,3,106,0.011,0.0,0.08333333333333333
+Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=0 ∧ Type=M,4,107,0.011,0.0,0.08333333333333333
+Air temperature=1 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=0,4,109,0.011,0.0,0.08333333333333333
+Air temperature=1 ∧ Process temperature=2 ∧ Tool wear=1 ∧ Torque=0,4,105,0.011,0.0,0.08333333333333333
+Air temperature=1 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=1,4,103,0.011,0.0,0.08333333333333333
+Air temperature=1 ∧ Process temperature=2 ∧ Tool wear=0 ∧ Torque=1,4,108,0.011,0.0,0.08333333333333333
+Tool wear=0 ∧ Torque=0 ∧ Type=H,3,105,0.011,0.0,0.08333333333333333
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,6,111,0.011,0.0,0.08333333333333333
+Process temperature=0 ∧ Torque=0 ∧ Type=H,3,106,0.011,0.0,0.08333333333333333
+Process temperature=0 ∧ Rotational speed=2 ∧ Tool wear=2 ∧ Type=M,4,103,0.011,0.0,0.08333333333333333
+Process temperature=0 ∧ Tool wear=0 ∧ Type=H,3,108,0.011,0.0,0.08333333333333333
+Air temperature=0 ∧ Torque=0 ∧ Type=H,3,115,0.012,0.0,0.07692307692307691
+Rotational speed=1 ∧ Tool wear=0 ∧ Type=H,3,116,0.012,0.0,0.07692307692307691
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,6,112,0.012,0.0,0.07692307692307691
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,6,117,0.012,0.0,0.07692307692307691
+Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Type=M,4,120,0.012,0.0,0.07692307692307691
+Air temperature=2 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Type=M,4,115,0.012,0.0,0.07692307692307691
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Type=L,5,118,0.012,0.0,0.07692307692307691
+Air temperature=1 ∧ Torque=1 ∧ Type=H,3,115,0.012,0.0,0.07692307692307691
+Process temperature=0 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=M,4,113,0.012,0.0,0.07692307692307691
+Air temperature=0 ∧ Process temperature=1 ∧ Torque=1 ∧ Type=L,4,115,0.012,0.0,0.07692307692307691
+Air temperature=0 ∧ Tool wear=0 ∧ Type=H,3,114,0.012,0.0,0.07692307692307691
+Process temperature=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=M,4,117,0.012,0.0,0.07692307692307691
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Torque=1,4,117,0.012,0.0,0.07692307692307691
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,5,114,0.012,0.0,0.07692307692307691
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,6,115,0.012,0.0,0.07692307692307691
+Air temperature=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=M,4,118,0.012,0.0,0.07692307692307691
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Type=L,5,115,0.012,0.0,0.07692307692307691
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Torque=2,4,130,0.013,0.0,0.07142857142857144
+Air temperature=1 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Type=M,4,125,0.013,0.0,0.07142857142857144
+Rotational speed=2 ∧ Torque=1 ∧ Type=M,3,128,0.013,0.0,0.07142857142857144
+Rotational speed=1 ∧ Tool wear=0 ∧ Torque=0,3,124,0.013,0.0,0.07142857142857144
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Type=L,5,128,0.013,0.0,0.07142857142857144
+Air temperature=1 ∧ Rotational speed=1 ∧ Type=H,3,123,0.013,0.0,0.07142857142857144
+Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Type=M,4,125,0.013,0.0,0.07142857142857144
+Process temperature=1 ∧ Torque=1 ∧ Type=H,3,123,0.013,0.0,0.07142857142857144
+Process temperature=1 ∧ Rotational speed=1 ∧ Type=H,3,123,0.013,0.0,0.07142857142857144
+Air temperature=1 ∧ Process temperature=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,5,130,0.013,0.0,0.07142857142857144
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=M,5,121,0.013,0.0,0.07142857142857144
+Air temperature=2 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=M,4,132,0.014,0.0,0.06666666666666667
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,6,133,0.014,0.0,0.06666666666666667
+Tool wear=0 ∧ Torque=1 ∧ Type=H,3,138,0.014,0.0,0.06666666666666667
+Process temperature=0 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,5,134,0.014,0.0,0.06666666666666667
+Rotational speed=1 ∧ Tool wear=1 ∧ Torque=0,3,135,0.014,0.0,0.06666666666666667
+Process temperature=2 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=M,4,132,0.014,0.0,0.06666666666666667
+Air temperature=1 ∧ Rotational speed=0 ∧ Torque=1 ∧ Type=L,4,131,0.014,0.0,0.06666666666666667
+Rotational speed=1 ∧ Tool wear=0 ∧ Torque=2 ∧ Type=L,4,140,0.014,0.0,0.06666666666666667
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Torque=1,5,135,0.014,0.0,0.06666666666666667
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,6,131,0.014,0.0,0.06666666666666667
+Rotational speed=2 ∧ Tool wear=0 ∧ Torque=1,3,136,0.014,0.0,0.06666666666666667
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Torque=1,5,136,0.014,0.0,0.06666666666666667
+Air temperature=2 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,5,145,0.015,0.0,0.0625
+Process temperature=0 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,5,144,0.015,0.0,0.0625
+Air temperature=0 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,5,141,0.015,0.0,0.0625
+Process temperature=1 ∧ Rotational speed=1 ∧ Torque=0,3,142,0.015,0.0,0.0625
+Air temperature=0 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,5,143,0.015,0.0,0.0625
+Air temperature=2 ∧ Rotational speed=2 ∧ Torque=1,3,148,0.015,0.0,0.0625
+Rotational speed=2 ∧ Tool wear=1 ∧ Torque=1,3,144,0.015,0.0,0.0625
+Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,5,144,0.015,0.0,0.0625
+Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,5,145,0.015,0.0,0.0625
+Air temperature=1 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,5,148,0.015,0.0,0.0625
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=2 ∧ Torque=1,5,144,0.015,0.0,0.0625
+Air temperature=0 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Torque=1,4,141,0.015,0.0,0.0625
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Type=L,5,158,0.016,0.0,0.058823529411764705
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=M,5,158,0.016,0.0,0.058823529411764705
+Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,5,157,0.016,0.0,0.058823529411764705
+Air temperature=2 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,5,155,0.016,0.0,0.058823529411764705
+Air temperature=0 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,5,157,0.016,0.0,0.058823529411764705
+Air temperature=1 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,5,159,0.016,0.0,0.058823529411764705
+Process temperature=2 ∧ Rotational speed=2 ∧ Torque=1,3,151,0.016,0.0,0.058823529411764705
+Air temperature=2 ∧ Process temperature=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,5,155,0.016,0.0,0.058823529411764705
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=L,5,156,0.016,0.0,0.058823529411764705
+Rotational speed=1 ∧ Tool wear=1 ∧ Type=L,3,659,0.068,0.003,0.05797101449275362
+Rotational speed=1 ∧ Torque=1 ∧ Type=M,3,654,0.068,0.003,0.05797101449275362
+Tool wear=1 ∧ Torque=1 ∧ Type=L,3,673,0.07,0.003,0.05633802816901408
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,5,164,0.017,0.0,0.05555555555555555
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Type=L,5,167,0.017,0.0,0.05555555555555555
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Type=L,5,164,0.017,0.0,0.05555555555555555
+Air temperature=0 ∧ Process temperature=0 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=L,5,161,0.017,0.0,0.05555555555555555
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=M,5,166,0.017,0.0,0.05555555555555555
+Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,5,167,0.017,0.0,0.05555555555555555
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,5,169,0.017,0.0,0.05555555555555555
+Air temperature=2 ∧ Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Type=L,5,170,0.018,0.0,0.052631578947368425
+Air temperature=0 ∧ Process temperature=0 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,5,174,0.018,0.0,0.052631578947368425
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Type=M,4,183,0.019,0.0,0.05
+Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,5,187,0.019,0.0,0.05
+Air temperature=0 ∧ Rotational speed=0 ∧ Tool wear=1 ∧ Type=L,4,196,0.02,0.0,0.047619047619047616
+Process temperature=0 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Type=L,4,195,0.02,0.0,0.047619047619047616
+Air temperature=0 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Type=L,4,207,0.021,0.0,0.04545454545454545
+Air temperature=0 ∧ Tool wear=1 ∧ Torque=2 ∧ Type=L,4,201,0.021,0.0,0.04545454545454545
+Air temperature=0 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=M,4,206,0.021,0.0,0.04545454545454545
+Process temperature=0 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,4,205,0.021,0.0,0.04545454545454545
+Air temperature=2 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=M,4,215,0.022,0.0,0.043478260869565216
+Process temperature=0 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Type=L,4,212,0.022,0.0,0.043478260869565216
+Rotational speed=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=M,4,210,0.022,0.0,0.043478260869565216
+Process temperature=0 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,4,213,0.022,0.0,0.043478260869565216
+Process temperature=2 ∧ Tool wear=1 ∧ Torque=0 ∧ Type=L,4,217,0.022,0.0,0.043478260869565216
+Air temperature=0 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,4,214,0.022,0.0,0.043478260869565216
+Air temperature=0 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,4,210,0.022,0.0,0.043478260869565216
+Air temperature=0 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Type=L,4,212,0.022,0.0,0.043478260869565216
+Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Type=L,4,213,0.022,0.0,0.043478260869565216
+Air temperature=2 ∧ Rotational speed=1 ∧ Tool wear=1 ∧ Type=L,4,225,0.023,0.0,0.041666666666666664
+Air temperature=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,4,221,0.023,0.0,0.041666666666666664
+Process temperature=1 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=M,4,218,0.023,0.0,0.041666666666666664
+Process temperature=2 ∧ Rotational speed=2 ∧ Tool wear=1 ∧ Type=L,4,218,0.023,0.0,0.041666666666666664
+Air temperature=2 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Type=L,4,225,0.023,0.0,0.041666666666666664
+Process temperature=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,4,228,0.024,0.0,0.04
+Process temperature=1 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Type=L,4,230,0.024,0.0,0.04
+Air temperature=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,4,235,0.024,0.0,0.04
+Process temperature=2 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=M,4,234,0.024,0.0,0.04
+Air temperature=1 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Type=L,4,229,0.024,0.0,0.04
+Rotational speed=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=M,4,236,0.024,0.0,0.04
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Torque=1 ∧ Type=L,5,244,0.025,0.0,0.03846153846153846
+Process temperature=2 ∧ Rotational speed=1 ∧ Tool wear=0 ∧ Type=L,4,241,0.025,0.0,0.03846153846153846
+Rotational speed=1 ∧ Tool wear=0 ∧ Type=M,3,308,0.032,0.0,0.030303030303030304
+Process temperature=1 ∧ Rotational speed=1 ∧ Type=M,3,326,0.034,0.0,0.02857142857142857
+Tool wear=1 ∧ Torque=1 ∧ Type=M,3,341,0.035,0.0,0.027777777777777776
+Rotational speed=1 ∧ Tool wear=1 ∧ Type=M,3,344,0.036,0.0,0.02702702702702703
+Air temperature=1 ∧ Process temperature=1 ∧ Rotational speed=1 ∧ Type=L,4,361,0.037,0.0,0.026315789473684213
+Rotational speed=1 ∧ Tool wear=0 ∧ Torque=1 ∧ Type=L,4,446,0.046,0.0,0.02127659574468085
+Rotational speed=1 ∧ Tool wear=1 ∧ Torque=1 ∧ Type=L,4,445,0.046,0.0,0.02127659574468085
+Rotational speed=1 ∧ Tool wear=0 ∧ Type=L,3,666,0.069,0.0,0.014285714285714285

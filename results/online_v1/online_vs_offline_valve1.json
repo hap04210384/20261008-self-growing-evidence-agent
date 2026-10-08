@@ -1,0 +1,27 @@
+{
+  "0-20%窗口": {
+    "files": 16,
+    "windows": 239,
+    "item_agreement": 0.3656
+  },
+  "20-40%窗口": {
+    "files": 16,
+    "windows": 237,
+    "item_agreement": 0.3898
+  },
+  "40-60%窗口": {
+    "files": 16,
+    "windows": 238,
+    "item_agreement": 0.3939
+  },
+  "60-80%窗口": {
+    "files": 16,
+    "windows": 237,
+    "item_agreement": 0.4562
+  },
+  "80-100%窗口": {
+    "files": 16,
+    "windows": 236,
+    "item_agreement": 0.4391
+  }
+}

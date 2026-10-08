@@ -1,0 +1,54 @@
+==================================================================
+GPU 0: NVIDIA GeForce RTX 3060 Ti
+     Multi-Processor Count: 38
+     Max Threads Per Multi-Processor: 1536
+     Warp Size: 32
+     Max Threads Per Block: 1024
+     Compute Capability: 8.6
+     Number of Multi-Processors: 38
+     Number of CUDA Cores Per SM: 128
+     Total Number of CUDA Cores: 4864
+
+CPU: 12th Gen Intel(R) Core(TM) i9-12900
+     Number of Physical Cores: 16
+     Number of Logical Cores: 24
+
+Visual Studio: 2022 (v143), MSC_VER: 1944
+CUDA Version: 12.5
+==================================================================
+transSetFile: E:\20261003-paper-application of AnyFIM and TensorFIM-03\kimi_word\data\fimi\cmapss.txt
+dimension: 49
+transNum: 1917
+itemIDmin: 1
+itemIDmax: 16
+transLengthMin: 21
+transLengthMax: 21
+transLengthMean: 21
+
+supportThreshold: 0.4
+
+dimensionReduced: 17
+transNumReduced: 1917
+transLengthReducedMin: 7
+transLengthReducedMax: 17
+transLengthReducedMean: 11.5952
+
+GPUtaskPercentage: 0.0576475%
+==================================================================
+preprocessing_time(s): 0
+computation_time(s): 0.0011583
+total_time(s): 0.0011583
+
+MFIsNumber: 10
+============================List of MFIs:=============================
+1th: 8 { 19 18 17 16 10 6 5 1 }   support: 0.519562  frequency: 996
+2th: 8 { 33 19 18 16 10 6 5 1 }   support: 0.497131  frequency: 953
+3th: 8 { 30 19 18 16 10 6 5 1 }   support: 0.492436  frequency: 944
+4th: 8 { 19 18 16 10 9 6 5 1 }   support: 0.476787  frequency: 914
+5th: 8 { 19 18 16 10 6 5 3 1 }   support: 0.476265  frequency: 913
+6th: 8 { 25 19 18 16 10 6 5 1 }   support: 0.452791  frequency: 868
+7th: 8 { 24 19 18 16 10 6 5 1 }   support: 0.437141  frequency: 838
+8th: 8 { 29 19 18 16 10 6 5 1 }   support: 0.432447  frequency: 829
+9th: 8 { 28 19 18 16 10 6 5 1 }   support: 0.406886  frequency: 780
+10th: 8 { 27 19 18 16 10 6 5 1 }   support: 0.403756  frequency: 774
+==================================================================

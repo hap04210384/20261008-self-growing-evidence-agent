@@ -1,0 +1,56 @@
+==================================================================
+GPU 0: NVIDIA GeForce RTX 3060 Ti
+     Multi-Processor Count: 38
+     Max Threads Per Multi-Processor: 1536
+     Warp Size: 32
+     Max Threads Per Block: 1024
+     Compute Capability: 8.6
+     Number of Multi-Processors: 38
+     Number of CUDA Cores Per SM: 128
+     Total Number of CUDA Cores: 4864
+
+CPU: 12th Gen Intel(R) Core(TM) i9-12900
+     Number of Physical Cores: 16
+     Number of Logical Cores: 24
+
+Visual Studio: 2022 (v143), MSC_VER: 1944
+CUDA Version: 12.5
+==================================================================
+transSetFile: E:\20261003-paper-application of AnyFIM and TensorFIM-03\kimi_word\data\fimi\skab_valve2.txt
+dimension: 22
+transNum: 282
+itemIDmin: 1
+itemIDmax: 12
+transLengthMin: 8
+transLengthMax: 8
+transLengthMean: 8
+
+supportThreshold: 0.308511
+
+dimensionReduced: 12
+transNumReduced: 282
+transLengthReducedMin: 4
+transLengthReducedMax: 8
+transLengthReducedMean: 6.60638
+
+GPUtaskPercentage: 0.0600798%
+==================================================================
+preprocessing_time(s): 0
+computation_time(s): 0.0007391
+total_time(s): 0.0007391
+
+MFIsNumber: 12
+============================List of MFIs:=============================
+1th: 4 { 11 9 7 4 }   support: 0.567376  frequency: 160
+2th: 3 { 14 7 4 }   support: 0.390071  frequency: 110
+3th: 4 { 11 10 7 4 }   support: 0.35461  frequency: 100
+4th: 2 { 6 4 }   support: 0.329787  frequency: 93
+5th: 2 { 21 4 }   support: 0.326241  frequency: 92
+6th: 3 { 16 7 4 }   support: 0.326241  frequency: 92
+7th: 3 { 15 7 4 }   support: 0.326241  frequency: 92
+8th: 2 { 5 4 }   support: 0.322695  frequency: 91
+9th: 3 { 14 11 4 }   support: 0.322695  frequency: 91
+10th: 4 { 10 9 7 4 }   support: 0.319149  frequency: 90
+11th: 3 { 12 7 4 }   support: 0.308511  frequency: 87
+12th: 3 { 14 9 4 }   support: 0.308511  frequency: 87
+==================================================================

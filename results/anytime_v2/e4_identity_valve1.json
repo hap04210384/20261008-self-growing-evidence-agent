@@ -1,0 +1,168 @@
+{
+ "identical_stages": 23,
+ "total_stages": 23,
+ "note": "AnyFIM uses >= count threshold; TensorFIM uses >, differing exactly on the activating item's singleton (verified separately).",
+ "rows": [
+  {
+   "stage": 1,
+   "min_count": 1186,
+   "anyfim": 1,
+   "exact": 1,
+   "identical": true
+  },
+  {
+   "stage": 2,
+   "min_count": 1121,
+   "anyfim": 2,
+   "exact": 2,
+   "identical": true
+  },
+  {
+   "stage": 3,
+   "min_count": 914,
+   "anyfim": 2,
+   "exact": 2,
+   "identical": true
+  },
+  {
+   "stage": 4,
+   "min_count": 699,
+   "anyfim": 2,
+   "exact": 2,
+   "identical": true
+  },
+  {
+   "stage": 5,
+   "min_count": 577,
+   "anyfim": 4,
+   "exact": 4,
+   "identical": true
+  },
+  {
+   "stage": 6,
+   "min_count": 497,
+   "anyfim": 3,
+   "exact": 3,
+   "identical": true
+  },
+  {
+   "stage": 7,
+   "min_count": 426,
+   "anyfim": 5,
+   "exact": 5,
+   "identical": true
+  },
+  {
+   "stage": 8,
+   "min_count": 406,
+   "anyfim": 6,
+   "exact": 6,
+   "identical": true
+  },
+  {
+   "stage": 9,
+   "min_count": 391,
+   "anyfim": 6,
+   "exact": 6,
+   "identical": true
+  },
+  {
+   "stage": 10,
+   "min_count": 390,
+   "anyfim": 7,
+   "exact": 7,
+   "identical": true
+  },
+  {
+   "stage": 11,
+   "min_count": 386,
+   "anyfim": 8,
+   "exact": 8,
+   "identical": true
+  },
+  {
+   "stage": 12,
+   "min_count": 375,
+   "anyfim": 10,
+   "exact": 10,
+   "identical": true
+  },
+  {
+   "stage": 13,
+   "min_count": 356,
+   "anyfim": 10,
+   "exact": 10,
+   "identical": true
+  },
+  {
+   "stage": 14,
+   "min_count": 334,
+   "anyfim": 13,
+   "exact": 13,
+   "identical": true
+  },
+  {
+   "stage": 15,
+   "min_count": 308,
+   "anyfim": 15,
+   "exact": 15,
+   "identical": true
+  },
+  {
+   "stage": 16,
+   "min_count": 302,
+   "anyfim": 16,
+   "exact": 16,
+   "identical": true
+  },
+  {
+   "stage": 17,
+   "min_count": 256,
+   "anyfim": 17,
+   "exact": 17,
+   "identical": true
+  },
+  {
+   "stage": 18,
+   "min_count": 232,
+   "anyfim": 17,
+   "exact": 17,
+   "identical": true
+  },
+  {
+   "stage": 19,
+   "min_count": 141,
+   "anyfim": 42,
+   "exact": 42,
+   "identical": true
+  },
+  {
+   "stage": 20,
+   "min_count": 132,
+   "anyfim": 48,
+   "exact": 48,
+   "identical": true
+  },
+  {
+   "stage": 21,
+   "min_count": 36,
+   "anyfim": 187,
+   "exact": 187,
+   "identical": true
+  },
+  {
+   "stage": 22,
+   "min_count": 30,
+   "anyfim": 221,
+   "exact": 221,
+   "identical": true
+  },
+  {
+   "stage": 23,
+   "min_count": 1,
+   "anyfim": 401,
+   "exact": 401,
+   "identical": true
+  }
+ ]
+}

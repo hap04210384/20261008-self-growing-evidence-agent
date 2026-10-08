@@ -1,0 +1,4 @@
+# TensorFIM USB one-click validation package — quick-mode configuration (about 30 minutes)
+mushrooms.txt 0.3
+chess.txt 0.8
+pumsb_x256.txt 0.8

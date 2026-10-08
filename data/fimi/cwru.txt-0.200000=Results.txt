@@ -1,0 +1,49 @@
+==================================================================
+GPU 0: NVIDIA GeForce RTX 3060 Ti
+     Multi-Processor Count: 38
+     Max Threads Per Multi-Processor: 1536
+     Warp Size: 32
+     Max Threads Per Block: 1024
+     Compute Capability: 8.6
+     Number of Multi-Processors: 38
+     Number of CUDA Cores Per SM: 128
+     Total Number of CUDA Cores: 4864
+
+CPU: 12th Gen Intel(R) Core(TM) i9-12900
+     Number of Physical Cores: 16
+     Number of Logical Cores: 24
+
+Visual Studio: 2022 (v143), MSC_VER: 1944
+CUDA Version: 12.5
+==================================================================
+transSetFile: E:\20261003-paper-application of AnyFIM and TensorFIM-03\kimi_word\data\fimi\cwru.txt
+dimension: 69
+transNum: 1114
+itemIDmin: 1
+itemIDmax: 5
+transLengthMin: 2
+transLengthMax: 10
+transLengthMean: 5.12478
+
+supportThreshold: 0.2
+
+dimensionReduced: 6
+transNumReduced: 470
+transLengthReducedMin: 2
+transLengthReducedMax: 6
+transLengthReducedMean: 3.82979
+
+GPUtaskPercentage: 0.0401424%
+==================================================================
+preprocessing_time(s): 0
+computation_time(s): 0.0002858
+total_time(s): 0.0002858
+
+MFIsNumber: 5
+============================List of MFIs:=============================
+1th: 1 { 63 }   support: 0.27289  frequency: 304
+2th: 1 { 61 }   support: 0.271095  frequency: 302
+3th: 1 { 58 }   support: 0.251346  frequency: 280
+4th: 1 { 62 }   support: 0.24237  frequency: 270
+5th: 2 { 60 59 }   support: 0.206463  frequency: 230
+==================================================================

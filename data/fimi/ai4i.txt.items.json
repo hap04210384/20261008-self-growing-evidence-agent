@@ -1,0 +1,20 @@
+{
+ "Type=M": 1,
+ "Air temperature=0": 2,
+ "Process temperature=0": 3,
+ "Rotational speed=1": 4,
+ "Torque=1": 5,
+ "Tool wear=0": 6,
+ "Type=L": 7,
+ "Rotational speed=0": 8,
+ "Torque=2": 9,
+ "Rotational speed=2": 10,
+ "Torque=0": 11,
+ "Type=H": 12,
+ "Process temperature=1": 13,
+ "Air temperature=1": 14,
+ "Tool wear=1": 15,
+ "Tool wear=2": 16,
+ "Air temperature=2": 17,
+ "Process temperature=2": 18
+}

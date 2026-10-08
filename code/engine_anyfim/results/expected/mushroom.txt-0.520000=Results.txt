@@ -1,0 +1,55 @@
+==================================================================
+GPU 0: NVIDIA GeForce RTX 3060 Ti
+     Multi-Processor Count: 38
+     Max Threads Per Multi-Processor: 1536
+     Warp Size: 32
+     Max Threads Per Block: 1024
+     Compute Capability: 8.6
+     Number of Multi-Processors: 38
+     Number of CUDA Cores Per SM: 128
+     Total Number of CUDA Cores: 4864
+
+CPU: 12th Gen Intel(R) Core(TM) i9-12900
+     Number of Physical Cores: 16
+     Number of Logical Cores: 24
+
+Visual Studio: 2022 (v143), MSC_VER: 1944
+CUDA Version: 12.5
+==================================================================
+transSetFile: ..\TransactionSets\mushroom.txt
+dimension: 119
+transNum: 8124
+itemIDmin: 1
+itemIDmax: 119
+transLengthMin: 23
+transLengthMax: 23
+transLengthMean: 23
+
+supportThreshold: 0.52
+
+dimensionReduced: 12
+transNumReduced: 8124
+transLengthReducedMin: 4
+transLengthReducedMax: 11
+transLengthReducedMean: 8.88602
+
+GPUtaskPercentage: 0.172705%
+==================================================================
+preprocessing_time(s): 0
+computation_time(s): 0.0004015
+total_time(s): 0.0004015
+
+MFIsNumber: 11
+============================List of MFIs:=============================
+1th: 5 { 90 86 85 36 34 }   support: 0.772033  frequency: 6272
+2th: 5 { 90 86 85 39 34 }   support: 0.588872  frequency: 4784
+3th: 5 { 90 86 85 53 34 }   support: 0.567208  frequency: 4608
+4th: 5 { 90 86 85 59 34 }   support: 0.55933  frequency: 4544
+5th: 4 { 86 85 34 24 }   support: 0.557607  frequency: 4530
+6th: 4 { 86 85 67 34 }   support: 0.549483  frequency: 4464
+7th: 3 { 90 85 24 }   support: 0.54259  frequency: 4408
+8th: 4 { 86 85 76 34 }   support: 0.539636  frequency: 4384
+9th: 5 { 86 85 39 36 34 }   support: 0.534958  frequency: 4346
+10th: 5 { 90 86 85 63 34 }   support: 0.529788  frequency: 4304
+11th: 5 { 86 85 59 36 34 }   support: 0.520926  frequency: 4232
+==================================================================

@@ -1,0 +1,65 @@
+==================================================================
+GPU 0: NVIDIA GeForce RTX 3060 Ti
+     Multi-Processor Count: 38
+     Max Threads Per Multi-Processor: 1536
+     Warp Size: 32
+     Max Threads Per Block: 1024
+     Compute Capability: 8.6
+     Number of Multi-Processors: 38
+     Number of CUDA Cores Per SM: 128
+     Total Number of CUDA Cores: 4864
+
+CPU: 12th Gen Intel(R) Core(TM) i9-12900
+     Number of Physical Cores: 16
+     Number of Logical Cores: 24
+
+Visual Studio: 2022 (v143), MSC_VER: 1944
+CUDA Version: 12.5
+==================================================================
+transSetFile: E:\20261003-paper-application of AnyFIM and TensorFIM-03\kimi_word\data\fimi\cwru.txt
+dimension: 69
+transNum: 1114
+itemIDmin: 1
+itemIDmax: 17
+transLengthMin: 2
+transLengthMax: 10
+transLengthMean: 5.12478
+
+supportThreshold: 0.1
+
+dimensionReduced: 18
+transNumReduced: 706
+transLengthReducedMin: 2
+transLengthReducedMax: 10
+transLengthReducedMean: 5.06374
+
+GPUtaskPercentage: 0.0689076%
+==================================================================
+preprocessing_time(s): 0
+computation_time(s): 0.0003469
+total_time(s): 0.0003469
+
+MFIsNumber: 21
+============================List of MFIs:=============================
+1th: 2 { 63 62 }   support: 0.147217  frequency: 164
+2th: 2 { 63 61 }   support: 0.141831  frequency: 158
+3th: 1 { 64 }   support: 0.138241  frequency: 154
+4th: 1 { 6 }   support: 0.133752  frequency: 149
+5th: 1 { 4 }   support: 0.132855  frequency: 148
+6th: 1 { 65 }   support: 0.131059  frequency: 146
+7th: 1 { 2 }   support: 0.131059  frequency: 146
+8th: 1 { 66 }   support: 0.126571  frequency: 141
+9th: 1 { 1 }   support: 0.125673  frequency: 140
+10th: 3 { 60 59 58 }   support: 0.125673  frequency: 140
+11th: 3 { 63 60 59 }   support: 0.123878  frequency: 138
+12th: 1 { 69 }   support: 0.121185  frequency: 135
+13th: 3 { 61 60 59 }   support: 0.120287  frequency: 134
+14th: 1 { 67 }   support: 0.11939  frequency: 133
+15th: 2 { 68 60 }   support: 0.108618  frequency: 121
+16th: 3 { 62 61 60 }   support: 0.10772  frequency: 120
+17th: 2 { 5 3 }   support: 0.104129  frequency: 116
+18th: 3 { 63 59 58 }   support: 0.104129  frequency: 116
+19th: 3 { 63 60 58 }   support: 0.104129  frequency: 116
+20th: 3 { 62 60 59 }   support: 0.102334  frequency: 114
+21th: 3 { 61 60 58 }   support: 0.102334  frequency: 114
+==================================================================

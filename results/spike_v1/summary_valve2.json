@@ -1,0 +1,42 @@
+[
+  {
+    "file": "0.csv",
+    "rows": 1125,
+    "windows": 74,
+    "anom_windows": 28,
+    "n_mfi": 317,
+    "anom_base_rate": 0.378,
+    "top_lift": 928571429.57,
+    "top_pattern": "Pressure=1 ∧ Volume Flow RateRMS=0"
+  },
+  {
+    "file": "1.csv",
+    "rows": 1063,
+    "windows": 69,
+    "anom_windows": 24,
+    "n_mfi": 371,
+    "anom_base_rate": 0.348,
+    "top_lift": 791666667.67,
+    "top_pattern": "Pressure=1 ∧ Volume Flow RateRMS=0"
+  },
+  {
+    "file": "2.csv",
+    "rows": 1129,
+    "windows": 74,
+    "anom_windows": 28,
+    "n_mfi": 368,
+    "anom_base_rate": 0.378,
+    "top_lift": 785714286.71,
+    "top_pattern": "Pressure=1 ∧ Volume Flow RateRMS=0"
+  },
+  {
+    "file": "3.csv",
+    "rows": 995,
+    "windows": 65,
+    "anom_windows": 28,
+    "n_mfi": 354,
+    "anom_base_rate": 0.431,
+    "top_lift": 714285715.29,
+    "top_pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0"
+  }
+]

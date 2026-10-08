@@ -1,0 +1,293 @@
+{
+ "n_truth": 57,
+ "base_rate": 0.3783,
+ "lift_cap": 2.644,
+ "practical_depth": 22,
+ "truth": {
+  "Accelerometer1RMS=1 & Accelerometer2RMS=0 & Pressure=1 & Volume Flow RateRMS=0": {
+   "cnt": 34,
+   "pos": 34,
+   "lift": 2.644
+  },
+  "Pressure=1 & Temperature=0 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 43,
+   "pos": 43,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 152,
+   "pos": 151,
+   "lift": 2.626
+  },
+  "Accelerometer1RMS=1 & Current=2 & Pressure=1 & Thermocouple=1 & Volume Flow RateRMS=0": {
+   "cnt": 33,
+   "pos": 33,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Current=2 & Pressure=1 & Temperature=1 & Volume Flow RateRMS=0": {
+   "cnt": 36,
+   "pos": 36,
+   "lift": 2.644
+  },
+  "Current=1 & Pressure=1 & Temperature=2 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 36,
+   "pos": 35,
+   "lift": 2.57
+  },
+  "Accelerometer1RMS=1 & Current=2 & Pressure=1 & Temperature=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 34,
+   "pos": 34,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Pressure=1 & Temperature=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 38,
+   "pos": 38,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=2 & Pressure=1 & Temperature=0 & Volume Flow RateRMS=0": {
+   "cnt": 36,
+   "pos": 36,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Pressure=1 & Temperature=1 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 49,
+   "pos": 49,
+   "lift": 2.644
+  },
+  "Current=0 & Pressure=1 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 37,
+   "pos": 37,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Pressure=1 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 62,
+   "pos": 62,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Pressure=1 & Temperature=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 40,
+   "pos": 40,
+   "lift": 2.644
+  },
+  "Pressure=1 & Temperature=2 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 31,
+   "pos": 31,
+   "lift": 2.644
+  },
+  "Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 150,
+   "pos": 150,
+   "lift": 2.644
+  },
+  "Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 312,
+   "pos": 310,
+   "lift": 2.627
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=2 & Pressure=1 & Temperature=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 34,
+   "pos": 34,
+   "lift": 2.644
+  },
+  "Current=2 & Pressure=1 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 34,
+   "pos": 34,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Current=1 & Pressure=1 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 53,
+   "pos": 53,
+   "lift": 2.644
+  },
+  "Pressure=1 & Temperature=2 & Thermocouple=0 & Volume Flow RateRMS=0": {
+   "cnt": 36,
+   "pos": 36,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Pressure=1 & Temperature=0 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 31,
+   "pos": 31,
+   "lift": 2.644
+  },
+  "Pressure=1 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 139,
+   "pos": 139,
+   "lift": 2.644
+  },
+  "Pressure=1 & Volume Flow RateRMS=0": {
+   "cnt": 334,
+   "pos": 332,
+   "lift": 2.628
+  },
+  "Accelerometer1RMS=1 & Pressure=1 & Volume Flow RateRMS=0": {
+   "cnt": 266,
+   "pos": 265,
+   "lift": 2.634
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Current=0 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 39,
+   "pos": 39,
+   "lift": 2.644
+  },
+  "Current=2 & Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 38,
+   "pos": 38,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Current=1 & Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 40,
+   "pos": 40,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=2 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 41,
+   "pos": 40,
+   "lift": 2.579
+  },
+  "Accelerometer2RMS=2 & Pressure=1 & Temperature=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 47,
+   "pos": 47,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Current=2 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 42,
+   "pos": 42,
+   "lift": 2.644
+  },
+  "Pressure=1 & Temperature=2 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 34,
+   "pos": 34,
+   "lift": 2.644
+  },
+  "Pressure=1 & Temperature=1 & Volume Flow RateRMS=0": {
+   "cnt": 139,
+   "pos": 139,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Current=1 & Pressure=1 & Temperature=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 32,
+   "pos": 32,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Current=0 & Pressure=1 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 31,
+   "pos": 31,
+   "lift": 2.644
+  },
+  "Current=0 & Pressure=1 & Temperature=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 30,
+   "pos": 30,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Pressure=1 & Temperature=2 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 46,
+   "pos": 45,
+   "lift": 2.586
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=2 & Pressure=1 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 37,
+   "pos": 37,
+   "lift": 2.644
+  },
+  "Current=1 & Pressure=1 & Temperature=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 42,
+   "pos": 42,
+   "lift": 2.644
+  },
+  "Current=0 & Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 30,
+   "pos": 30,
+   "lift": 2.644
+  },
+  "Current=2 & Pressure=1 & Temperature=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 36,
+   "pos": 36,
+   "lift": 2.644
+  },
+  "Accelerometer2RMS=1 & Pressure=1 & Temperature=1 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 30,
+   "pos": 30,
+   "lift": 2.644
+  },
+  "Accelerometer2RMS=1 & Current=1 & Pressure=1 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 34,
+   "pos": 34,
+   "lift": 2.644
+  },
+  "Accelerometer2RMS=1 & Current=1 & Pressure=1 & Temperature=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 41,
+   "pos": 41,
+   "lift": 2.644
+  },
+  "Current=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 159,
+   "pos": 158,
+   "lift": 2.627
+  },
+  "Accelerometer1RMS=1 & Current=2 & Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 35,
+   "pos": 35,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=2 & Current=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 33,
+   "pos": 33,
+   "lift": 2.644
+  },
+  "Pressure=1 & Temperature=2 & Thermocouple=1 & Volume Flow RateRMS=0": {
+   "cnt": 36,
+   "pos": 36,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Current=1 & Pressure=1 & Temperature=0 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 38,
+   "pos": 38,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=2 & Current=1 & Pressure=1 & Volume Flow RateRMS=0": {
+   "cnt": 37,
+   "pos": 37,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Pressure=1 & Temperature=0 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 39,
+   "pos": 39,
+   "lift": 2.644
+  },
+  "Accelerometer2RMS=0 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 41,
+   "pos": 41,
+   "lift": 2.644
+  },
+  "Pressure=1 & Thermocouple=1 & Volume Flow RateRMS=0": {
+   "cnt": 150,
+   "pos": 150,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Current=1 & Pressure=1 & Temperature=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 33,
+   "pos": 33,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 246,
+   "pos": 245,
+   "lift": 2.633
+  },
+  "Current=2 & Pressure=1 & Thermocouple=1 & Volume Flow RateRMS=0": {
+   "cnt": 39,
+   "pos": 39,
+   "lift": 2.644
+  },
+  "Accelerometer2RMS=2 & Current=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 46,
+   "pos": 46,
+   "lift": 2.644
+  },
+  "Accelerometer1RMS=1 & Current=1 & Pressure=1 & Temperature=1 & Voltage=1 & Volume Flow RateRMS=0": {
+   "cnt": 51,
+   "pos": 51,
+   "lift": 2.644
+  }
+ }
+}

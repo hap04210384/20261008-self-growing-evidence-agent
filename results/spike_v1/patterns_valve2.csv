@@ -1,0 +1,1411 @@
+﻿pattern,len,sup_anom,sup_norm,lift,pct_of_anom_covered_rank,file
+Pressure=1 ∧ Volume Flow RateRMS=0,2,0.929,0.0,928571429.57,1,0.csv
+Volume Flow RateRMS=0,1,0.929,0.0,928571429.57,2,0.csv
+Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.821,0.0,821428572.43,3,0.csv
+Voltage=1 ∧ Volume Flow RateRMS=0,2,0.821,0.0,821428572.43,4,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,3,0.607,0.0,607142858.14,5,0.csv
+Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0,2,0.607,0.0,607142858.14,6,0.csv
+Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,3,0.571,0.0,571428572.43,7,0.csv
+Thermocouple=0 ∧ Volume Flow RateRMS=0,2,0.571,0.0,571428572.43,8,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,3,0.536,0.0,535714286.71,9,0.csv
+Accelerometer2RMS=1 ∧ Volume Flow RateRMS=0,2,0.536,0.0,535714286.71,10,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.5,0.0,500000001.0,11,0.csv
+Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.5,0.0,500000001.0,12,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.5,0.0,500000001.0,13,0.csv
+Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.5,0.0,500000001.0,14,0.csv
+Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.5,0.0,500000001.0,15,0.csv
+Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,3,0.5,0.0,500000001.0,16,0.csv
+Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.5,0.0,500000001.0,17,0.csv
+Temperature=2 ∧ Volume Flow RateRMS=0,2,0.5,0.0,500000001.0,18,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.464,0.0,464285715.29,19,0.csv
+Accelerometer1RMS=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,3,0.464,0.0,464285715.29,20,0.csv
+Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.464,0.0,464285715.29,21,0.csv
+Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,3,0.464,0.0,464285715.29,22,0.csv
+Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.464,0.0,464285715.29,23,0.csv
+Current=1 ∧ Volume Flow RateRMS=0,2,0.464,0.0,464285715.29,24,0.csv
+Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.464,0.0,464285715.29,25,0.csv
+Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.464,0.0,464285715.29,26,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,4,0.429,0.0,428571429.57,27,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Volume Flow RateRMS=0,3,0.429,0.0,428571429.57,28,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.393,0.0,392857143.86,29,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.393,0.0,392857143.86,30,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.393,0.0,392857143.86,31,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=0,4,0.393,0.0,392857143.86,32,0.csv
+Accelerometer1RMS=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.393,0.0,392857143.86,33,0.csv
+Accelerometer1RMS=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=0,3,0.393,0.0,392857143.86,34,0.csv
+Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.393,0.0,392857143.86,35,0.csv
+Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=0,3,0.393,0.0,392857143.86,36,0.csv
+Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,3,0.393,0.0,392857143.86,37,0.csv
+Temperature=0 ∧ Volume Flow RateRMS=0,2,0.393,0.0,392857143.86,38,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.357,0.0,357142858.14,39,0.csv
+Accelerometer1RMS=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.357,0.0,357142858.14,40,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.357,0.0,357142858.14,41,0.csv
+Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,3,0.357,0.0,357142858.14,42,0.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,3,0.357,0.0,357142858.14,43,0.csv
+Accelerometer2RMS=2 ∧ Volume Flow RateRMS=0,2,0.357,0.0,357142858.14,44,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.321,0.0,321428572.43,45,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.321,0.0,321428572.43,46,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.321,0.0,321428572.43,47,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,4,0.321,0.0,321428572.43,48,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.321,0.0,321428572.43,49,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=0,3,0.321,0.0,321428572.43,50,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.321,0.0,321428572.43,51,0.csv
+Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.321,0.0,321428572.43,52,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,53,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,54,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,55,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,56,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,57,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,58,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,59,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,60,0.csv
+Accelerometer1RMS=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,61,0.csv
+Accelerometer1RMS=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,62,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,63,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,64,0.csv
+Accelerometer2RMS=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,65,0.csv
+Accelerometer2RMS=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=0,3,0.286,0.0,285714286.71,66,0.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,67,0.csv
+Accelerometer2RMS=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.286,0.0,285714286.71,68,0.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,69,0.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,70,0.csv
+Current=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,71,0.csv
+Current=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,3,0.286,0.0,285714286.71,72,0.csv
+Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,73,0.csv
+Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,74,0.csv
+Pressure=1 ∧ Temperature=2 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,75,0.csv
+Pressure=1 ∧ Temperature=2 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,76,0.csv
+Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,77,0.csv
+Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,3,0.286,0.0,285714286.71,78,0.csv
+Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,79,0.csv
+Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.286,0.0,285714286.71,80,0.csv
+Temperature=2 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,81,0.csv
+Temperature=2 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,3,0.286,0.0,285714286.71,82,0.csv
+Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.286,0.0,285714286.71,83,0.csv
+Thermocouple=1 ∧ Volume Flow RateRMS=0,2,0.286,0.0,285714286.71,84,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1,6,0.25,0.043,5.75,85,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1,5,0.25,0.043,5.75,86,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1,5,0.25,0.043,5.75,87,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=0 ∧ Voltage=1,4,0.25,0.043,5.75,88,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1,5,0.25,0.043,5.75,89,0.csv
+Accelerometer2RMS=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1,4,0.25,0.043,5.75,90,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1,5,0.214,0.043,4.93,91,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=0 ∧ Voltage=1,4,0.214,0.043,4.93,92,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1,4,0.25,0.065,3.83,93,0.csv
+Accelerometer2RMS=1 ∧ Temperature=0 ∧ Voltage=1,3,0.25,0.065,3.83,94,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1,4,0.214,0.065,3.29,95,0.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Voltage=1,3,0.214,0.065,3.29,96,0.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=1 ∧ Voltage=1,5,0.179,0.065,2.74,97,0.csv
+Current=1 ∧ Temperature=2 ∧ Thermocouple=1 ∧ Voltage=1,4,0.179,0.065,2.74,98,0.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1,4,0.25,0.109,2.3,99,0.csv
+Current=1 ∧ Thermocouple=0 ∧ Voltage=1,3,0.25,0.109,2.3,100,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=0,4,0.179,0.087,2.05,101,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=2 ∧ Thermocouple=0,3,0.179,0.087,2.05,102,0.csv
+Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1,4,0.179,0.087,2.05,103,0.csv
+Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Voltage=1,3,0.179,0.087,2.05,104,0.csv
+Accelerometer1RMS=2 ∧ Pressure=1 ∧ Voltage=1,3,0.179,0.087,2.05,105,0.csv
+Accelerometer1RMS=2 ∧ Voltage=1,2,0.179,0.087,2.05,106,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1,4,0.25,0.13,1.92,107,0.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Voltage=1,3,0.25,0.13,1.92,108,0.csv
+Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1,4,0.179,0.109,1.64,109,0.csv
+Accelerometer2RMS=2 ∧ Current=1 ∧ Voltage=1,3,0.179,0.109,1.64,110,0.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1,5,0.179,0.109,1.64,111,0.csv
+Current=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1,4,0.179,0.109,1.64,112,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=2 ∧ Pressure=1,4,0.143,0.087,1.64,113,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0,5,0.143,0.087,1.64,114,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1,4,0.143,0.087,1.64,115,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=2 ∧ Temperature=0 ∧ Thermocouple=0,4,0.143,0.087,1.64,116,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=2 ∧ Voltage=1,3,0.143,0.087,1.64,117,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2,4,0.143,0.087,1.64,118,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=2,3,0.143,0.087,1.64,119,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=1 ∧ Voltage=1,5,0.143,0.087,1.64,120,0.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Thermocouple=1 ∧ Voltage=1,4,0.143,0.087,1.64,121,0.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Voltage=1,4,0.143,0.087,1.64,122,0.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Voltage=1,3,0.143,0.087,1.64,123,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=1,4,0.143,0.087,1.64,124,0.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Thermocouple=1,3,0.143,0.087,1.64,125,0.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1,4,0.179,0.13,1.37,126,0.csv
+Current=1 ∧ Temperature=0 ∧ Voltage=1,3,0.179,0.13,1.37,127,0.csv
+Accelerometer1RMS=0 ∧ Pressure=1 ∧ Voltage=1,3,0.143,0.109,1.31,128,0.csv
+Accelerometer1RMS=0 ∧ Voltage=1,2,0.143,0.109,1.31,129,0.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1,4,0.179,0.152,1.17,130,0.csv
+Accelerometer2RMS=2 ∧ Thermocouple=0 ∧ Voltage=1,3,0.179,0.152,1.17,131,0.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.179,0.152,1.17,132,0.csv
+Current=1 ∧ Thermocouple=1 ∧ Voltage=1,3,0.179,0.152,1.17,133,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1,5,0.25,0.239,1.05,134,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Voltage=1,4,0.25,0.239,1.05,135,0.csv
+Current=2 ∧ Pressure=1 ∧ Voltage=1,3,0.214,0.239,0.9,136,0.csv
+Current=2 ∧ Voltage=1,2,0.214,0.239,0.9,137,0.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1,4,0.25,0.283,0.88,138,0.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Voltage=1,3,0.25,0.283,0.88,139,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.143,0.196,0.73,140,0.csv
+Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Voltage=1,3,0.143,0.196,0.73,141,0.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Voltage=1,4,0.143,0.217,0.66,142,0.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Voltage=1,3,0.143,0.217,0.66,143,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,5,0.107,0.174,0.62,144,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.107,0.174,0.62,145,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.143,0.261,0.55,146,0.csv
+Accelerometer1RMS=1 ∧ Thermocouple=1 ∧ Voltage=1,3,0.143,0.261,0.55,147,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,5,0.071,0.13,0.55,148,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.071,0.13,0.55,149,0.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,5,0.071,0.13,0.55,150,0.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.071,0.13,0.55,151,0.csv
+Current=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,3,0.071,0.13,0.55,152,0.csv
+Current=0 ∧ Volume Flow RateRMS=1,2,0.071,0.13,0.55,153,0.csv
+Accelerometer1RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Voltage=1,4,0.107,0.217,0.49,154,0.csv
+Accelerometer1RMS=1 ∧ Current=0 ∧ Voltage=1,3,0.107,0.217,0.49,155,0.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1,5,0.071,0.152,0.47,156,0.csv
+Accelerometer2RMS=2 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1,4,0.071,0.152,0.47,157,0.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1,4,0.071,0.174,0.41,158,0.csv
+Accelerometer2RMS=2 ∧ Temperature=0 ∧ Voltage=1,3,0.071,0.174,0.41,159,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.071,0.261,0.27,160,0.csv
+Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.071,0.261,0.27,161,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,3,0.071,0.304,0.23,162,0.csv
+Accelerometer1RMS=1 ∧ Volume Flow RateRMS=1,2,0.071,0.304,0.23,163,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=0 ∧ Pressure=1 ∧ Voltage=1,4,0.036,0.152,0.23,164,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,4,0.036,0.152,0.23,165,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=0 ∧ Voltage=1,3,0.036,0.152,0.23,166,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=0 ∧ Volume Flow RateRMS=1,3,0.036,0.152,0.23,167,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1,5,0.036,0.152,0.23,168,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Voltage=1,4,0.036,0.152,0.23,169,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=1,4,0.036,0.152,0.23,170,0.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=1,3,0.036,0.152,0.23,171,0.csv
+Current=0 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1,4,0.036,0.152,0.23,172,0.csv
+Current=0 ∧ Thermocouple=2 ∧ Voltage=1,3,0.036,0.152,0.23,173,0.csv
+Current=2 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1,4,0.036,0.152,0.23,174,0.csv
+Current=2 ∧ Temperature=1 ∧ Voltage=1,3,0.036,0.152,0.23,175,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=1,4,0.036,0.174,0.21,176,0.csv
+Accelerometer1RMS=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=1,3,0.036,0.174,0.21,177,0.csv
+Accelerometer2RMS=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.036,0.174,0.21,178,0.csv
+Accelerometer2RMS=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.036,0.174,0.21,179,0.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1,4,0.036,0.174,0.21,180,0.csv
+Current=1 ∧ Thermocouple=2 ∧ Voltage=1,3,0.036,0.174,0.21,181,0.csv
+Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=1,3,0.036,0.174,0.21,182,0.csv
+Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.036,0.174,0.21,183,0.csv
+Temperature=2 ∧ Volume Flow RateRMS=1,2,0.036,0.174,0.21,184,0.csv
+Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.036,0.174,0.21,185,0.csv
+Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.071,0.37,0.19,186,0.csv
+Voltage=1 ∧ Volume Flow RateRMS=1,2,0.071,0.37,0.19,187,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Voltage=1,5,0.036,0.196,0.18,188,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=0 ∧ Voltage=1,4,0.036,0.196,0.18,189,0.csv
+Accelerometer2RMS=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,3,0.036,0.196,0.18,190,0.csv
+Accelerometer2RMS=0 ∧ Volume Flow RateRMS=1,2,0.036,0.196,0.18,191,0.csv
+Pressure=1 ∧ Volume Flow RateRMS=1,2,0.071,0.413,0.17,192,0.csv
+Volume Flow RateRMS=1,1,0.071,0.413,0.17,193,0.csv
+Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=1,3,0.036,0.217,0.16,194,0.csv
+Thermocouple=1 ∧ Volume Flow RateRMS=1,2,0.036,0.217,0.16,195,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1,6,0.0,0.217,0.0,196,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=1 ∧ Voltage=1,5,0.0,0.217,0.0,197,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,7,0.0,0.217,0.0,198,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,6,0.0,0.217,0.0,199,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.326,0.0,200,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,5,0.0,0.326,0.0,201,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.217,0.0,202,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.217,0.0,203,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.391,0.0,204,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.0,0.391,0.0,205,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.217,0.0,206,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.217,0.0,207,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.326,0.0,208,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,4,0.0,0.326,0.0,209,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.217,0.0,210,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.217,0.0,211,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.391,0.0,212,0.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Volume Flow RateRMS=2,3,0.0,0.391,0.0,213,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1,5,0.0,0.217,0.0,214,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.196,0.0,215,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.0,0.196,0.0,216,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=1 ∧ Voltage=1,4,0.0,0.217,0.0,217,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.196,0.0,218,0.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=2,3,0.0,0.196,0.0,219,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1,5,0.0,0.174,0.0,220,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.239,0.0,221,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.239,0.0,222,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.348,0.0,223,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,4,0.0,0.348,0.0,224,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.239,0.0,225,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,226,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.5,0.0,227,0.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.0,0.5,0.0,228,0.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.0,0.174,0.0,229,0.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.239,0.0,230,0.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,231,0.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.348,0.0,232,0.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,3,0.0,0.348,0.0,233,0.csv
+Accelerometer1RMS=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,234,0.csv
+Accelerometer1RMS=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.0,0.239,0.0,235,0.csv
+Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.5,0.0,236,0.csv
+Accelerometer1RMS=1 ∧ Volume Flow RateRMS=2,2,0.0,0.5,0.0,237,0.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.174,0.0,238,0.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.0,0.174,0.0,239,0.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.174,0.0,240,0.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Volume Flow RateRMS=2,3,0.0,0.174,0.0,241,0.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1,5,0.0,0.217,0.0,242,0.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=1 ∧ Voltage=1,4,0.0,0.217,0.0,243,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.239,0.0,244,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.239,0.0,245,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.348,0.0,246,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,4,0.0,0.348,0.0,247,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.239,0.0,248,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,249,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.0,0.174,0.0,250,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.413,0.0,251,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,3,0.0,0.196,0.0,252,0.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.0,0.413,0.0,253,0.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.239,0.0,254,0.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,255,0.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.348,0.0,256,0.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,3,0.0,0.348,0.0,257,0.csv
+Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,258,0.csv
+Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.0,0.239,0.0,259,0.csv
+Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.0,0.174,0.0,260,0.csv
+Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.413,0.0,261,0.csv
+Accelerometer2RMS=1 ∧ Volume Flow RateRMS=1,2,0.0,0.196,0.0,262,0.csv
+Accelerometer2RMS=1 ∧ Volume Flow RateRMS=2,2,0.0,0.413,0.0,263,0.csv
+Current=0 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1,4,0.0,0.174,0.0,264,0.csv
+Current=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.174,0.0,265,0.csv
+Current=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.0,0.174,0.0,266,0.csv
+Current=0 ∧ Temperature=1 ∧ Voltage=1,3,0.0,0.174,0.0,267,0.csv
+Current=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.174,0.0,268,0.csv
+Current=0 ∧ Volume Flow RateRMS=2,2,0.0,0.174,0.0,269,0.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1,4,0.0,0.217,0.0,270,0.csv
+Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.0,0.174,0.0,271,0.csv
+Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.261,0.0,272,0.csv
+Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,3,0.0,0.196,0.0,273,0.csv
+Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.0,0.261,0.0,274,0.csv
+Current=1 ∧ Temperature=1 ∧ Voltage=1,3,0.0,0.217,0.0,275,0.csv
+Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.0,0.174,0.0,276,0.csv
+Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.261,0.0,277,0.csv
+Current=1 ∧ Volume Flow RateRMS=1,2,0.0,0.196,0.0,278,0.csv
+Current=1 ∧ Volume Flow RateRMS=2,2,0.0,0.261,0.0,279,0.csv
+Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.196,0.0,280,0.csv
+Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=2,4,0.0,0.196,0.0,281,0.csv
+Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.196,0.0,282,0.csv
+Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,3,0.0,0.196,0.0,283,0.csv
+Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.0,0.174,0.0,284,0.csv
+Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.261,0.0,285,0.csv
+Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.261,0.0,286,0.csv
+Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.0,0.174,0.0,287,0.csv
+Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.37,0.0,288,0.csv
+Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=1,3,0.0,0.174,0.0,289,0.csv
+Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,3,0.0,0.37,0.0,290,0.csv
+Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.196,0.0,291,0.csv
+Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=2,3,0.0,0.196,0.0,292,0.csv
+Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.0,0.196,0.0,293,0.csv
+Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.261,0.0,294,0.csv
+Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,3,0.0,0.196,0.0,295,0.csv
+Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.0,0.261,0.0,296,0.csv
+Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.587,0.0,297,0.csv
+Pressure=1 ∧ Volume Flow RateRMS=2,2,0.0,0.587,0.0,298,0.csv
+Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.196,0.0,299,0.csv
+Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=2,3,0.0,0.196,0.0,300,0.csv
+Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.196,0.0,301,0.csv
+Temperature=0 ∧ Volume Flow RateRMS=2,2,0.0,0.196,0.0,302,0.csv
+Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1,3,0.0,0.174,0.0,303,0.csv
+Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.261,0.0,304,0.csv
+Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.0,0.261,0.0,305,0.csv
+Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.0,0.174,0.0,306,0.csv
+Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.37,0.0,307,0.csv
+Temperature=1 ∧ Volume Flow RateRMS=1,2,0.0,0.174,0.0,308,0.csv
+Temperature=1 ∧ Volume Flow RateRMS=2,2,0.0,0.37,0.0,309,0.csv
+Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.196,0.0,310,0.csv
+Thermocouple=0 ∧ Volume Flow RateRMS=2,2,0.0,0.196,0.0,311,0.csv
+Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.0,0.196,0.0,312,0.csv
+Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.261,0.0,313,0.csv
+Thermocouple=2 ∧ Volume Flow RateRMS=1,2,0.0,0.196,0.0,314,0.csv
+Thermocouple=2 ∧ Volume Flow RateRMS=2,2,0.0,0.261,0.0,315,0.csv
+Voltage=1 ∧ Volume Flow RateRMS=2,2,0.0,0.587,0.0,316,0.csv
+Volume Flow RateRMS=2,1,0.0,0.587,0.0,317,0.csv
+Pressure=1 ∧ Volume Flow RateRMS=0,2,0.792,0.0,791666667.67,1,1.csv
+Volume Flow RateRMS=0,1,0.792,0.0,791666667.67,2,1.csv
+Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.75,0.0,750000001.0,3,1.csv
+Voltage=1 ∧ Volume Flow RateRMS=0,2,0.75,0.0,750000001.0,4,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,3,0.667,0.0,666666667.67,5,1.csv
+Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0,2,0.667,0.0,666666667.67,6,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.625,0.0,625000001.0,7,1.csv
+Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.625,0.0,625000001.0,8,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.625,0.0,625000001.0,9,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,3,0.625,0.0,625000001.0,10,1.csv
+Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.625,0.0,625000001.0,11,1.csv
+Accelerometer2RMS=1 ∧ Volume Flow RateRMS=0,2,0.625,0.0,625000001.0,12,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.542,0.0,541666667.67,13,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,4,0.542,0.0,541666667.67,14,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.542,0.0,541666667.67,15,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Volume Flow RateRMS=0,3,0.542,0.0,541666667.67,16,1.csv
+Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,3,0.542,0.0,541666667.67,17,1.csv
+Thermocouple=1 ∧ Volume Flow RateRMS=0,2,0.542,0.0,541666667.67,18,1.csv
+Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.5,0.0,500000001.0,19,1.csv
+Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.5,0.0,500000001.0,20,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,4,0.458,0.0,458333334.33,21,1.csv
+Accelerometer1RMS=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,3,0.458,0.0,458333334.33,22,1.csv
+Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.458,0.0,458333334.33,23,1.csv
+Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,3,0.458,0.0,458333334.33,24,1.csv
+Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.458,0.0,458333334.33,25,1.csv
+Temperature=2 ∧ Volume Flow RateRMS=0,2,0.458,0.0,458333334.33,26,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.417,0.0,416666667.67,27,1.csv
+Accelerometer1RMS=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.417,0.0,416666667.67,28,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.375,0.0,375000001.0,29,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,4,0.375,0.0,375000001.0,30,1.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.375,0.0,375000001.0,31,1.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,3,0.375,0.0,375000001.0,32,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.375,0.0,375000001.0,33,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,4,0.375,0.0,375000001.0,34,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.375,0.0,375000001.0,35,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,4,0.375,0.0,375000001.0,36,1.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.375,0.0,375000001.0,37,1.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,3,0.375,0.0,375000001.0,38,1.csv
+Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.375,0.0,375000001.0,39,1.csv
+Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,3,0.375,0.0,375000001.0,40,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.333,0.0,333333334.33,41,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,5,0.333,0.0,333333334.33,42,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.333,0.0,333333334.33,43,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,5,0.333,0.0,333333334.33,44,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.333,0.0,333333334.33,45,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,4,0.333,0.0,333333334.33,46,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.333,0.0,333333334.33,47,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,4,0.333,0.0,333333334.33,48,1.csv
+Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.333,0.0,333333334.33,49,1.csv
+Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,3,0.333,0.0,333333334.33,50,1.csv
+Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.333,0.0,333333334.33,51,1.csv
+Current=1 ∧ Volume Flow RateRMS=0,2,0.333,0.0,333333334.33,52,1.csv
+Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0,3,0.333,0.0,333333334.33,53,1.csv
+Temperature=1 ∧ Volume Flow RateRMS=0,2,0.333,0.0,333333334.33,54,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.292,0.0,291666667.67,55,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,4,0.292,0.0,291666667.67,56,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.292,0.0,291666667.67,57,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=0,3,0.292,0.0,291666667.67,58,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0,4,0.292,0.0,291666667.67,59,1.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0,3,0.292,0.0,291666667.67,60,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.292,0.0,291666667.67,61,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,4,0.292,0.0,291666667.67,62,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.292,0.0,291666667.67,63,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=0,3,0.292,0.0,291666667.67,64,1.csv
+Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.292,0.0,291666667.67,65,1.csv
+Pressure=1 ∧ Temperature=2 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.292,0.0,291666667.67,66,1.csv
+Pressure=1 ∧ Temperature=2 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,4,0.292,0.0,291666667.67,67,1.csv
+Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.292,0.0,291666667.67,68,1.csv
+Temperature=2 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.292,0.0,291666667.67,69,1.csv
+Temperature=2 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,3,0.292,0.0,291666667.67,70,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1,4,0.25,0.022,11.25,71,1.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Thermocouple=1,3,0.25,0.022,11.25,72,1.csv
+Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1,3,0.25,0.022,11.25,73,1.csv
+Temperature=1 ∧ Thermocouple=1,2,0.25,0.022,11.25,74,1.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1,5,0.208,0.044,4.69,75,1.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Temperature=1 ∧ Voltage=1,4,0.208,0.044,4.69,76,1.csv
+Current=0 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1,4,0.208,0.044,4.69,77,1.csv
+Current=0 ∧ Temperature=1 ∧ Voltage=1,3,0.208,0.044,4.69,78,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1,5,0.25,0.089,2.81,79,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Voltage=1,4,0.25,0.089,2.81,80,1.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1,4,0.25,0.089,2.81,81,1.csv
+Current=1 ∧ Temperature=2 ∧ Voltage=1,3,0.25,0.089,2.81,82,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=2 ∧ Pressure=1,3,0.167,0.067,2.5,83,1.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,5,0.167,0.067,2.5,84,1.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Thermocouple=1 ∧ Voltage=1,4,0.167,0.067,2.5,85,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0,4,0.167,0.067,2.5,86,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=0,3,0.167,0.067,2.5,87,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1,6,0.208,0.089,2.34,88,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Voltage=1,5,0.208,0.089,2.34,89,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1,5,0.208,0.089,2.34,90,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Voltage=1,4,0.208,0.089,2.34,91,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=1 ∧ Voltage=1,5,0.208,0.089,2.34,92,1.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Thermocouple=1 ∧ Voltage=1,4,0.208,0.089,2.34,93,1.csv
+Current=2 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.208,0.089,2.34,94,1.csv
+Current=2 ∧ Thermocouple=1 ∧ Voltage=1,3,0.208,0.089,2.34,95,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=1 ∧ Voltage=1,5,0.208,0.111,1.87,96,1.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Thermocouple=1 ∧ Voltage=1,4,0.208,0.111,1.87,97,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=1 ∧ Voltage=1,6,0.167,0.089,1.87,98,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=2 ∧ Thermocouple=1 ∧ Voltage=1,5,0.167,0.089,1.87,99,1.csv
+Current=2 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1,4,0.167,0.089,1.87,100,1.csv
+Current=2 ∧ Temperature=2 ∧ Voltage=1,3,0.167,0.089,1.87,101,1.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.208,0.133,1.56,102,1.csv
+Current=1 ∧ Thermocouple=1 ∧ Voltage=1,3,0.208,0.133,1.56,103,1.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1,3,0.167,0.111,1.5,104,1.csv
+Accelerometer2RMS=2 ∧ Voltage=1,2,0.167,0.111,1.5,105,1.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1,5,0.125,0.089,1.41,106,1.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Temperature=2 ∧ Voltage=1,4,0.125,0.089,1.41,107,1.csv
+Accelerometer1RMS=2 ∧ Pressure=1 ∧ Voltage=1,3,0.125,0.089,1.41,108,1.csv
+Accelerometer1RMS=2 ∧ Voltage=1,2,0.125,0.089,1.41,109,1.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,5,0.125,0.089,1.41,110,1.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Thermocouple=1 ∧ Voltage=1,4,0.125,0.089,1.41,111,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,5,0.167,0.133,1.25,112,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.167,0.133,1.25,113,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,5,0.167,0.133,1.25,114,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.167,0.133,1.25,115,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1,5,0.125,0.111,1.12,116,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=0 ∧ Voltage=1,4,0.125,0.111,1.12,117,1.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,5,0.125,0.111,1.12,118,1.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,4,0.125,0.111,1.12,119,1.csv
+Current=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,4,0.125,0.111,1.12,120,1.csv
+Current=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,3,0.125,0.111,1.12,121,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,6,0.125,0.133,0.94,122,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=1 ∧ Voltage=1,5,0.125,0.133,0.94,123,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1,6,0.083,0.111,0.75,124,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1,5,0.083,0.111,0.75,125,1.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1,5,0.083,0.111,0.75,126,1.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Thermocouple=0 ∧ Voltage=1,4,0.083,0.111,0.75,127,1.csv
+Current=0 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1,4,0.083,0.111,0.75,128,1.csv
+Current=0 ∧ Thermocouple=0 ∧ Voltage=1,3,0.083,0.111,0.75,129,1.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.083,0.111,0.75,130,1.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.083,0.111,0.75,131,1.csv
+Current=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.083,0.111,0.75,132,1.csv
+Current=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.083,0.111,0.75,133,1.csv
+Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,4,0.125,0.2,0.63,134,1.csv
+Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,3,0.125,0.2,0.63,135,1.csv
+Accelerometer1RMS=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,3,0.083,0.156,0.54,136,1.csv
+Accelerometer1RMS=0 ∧ Volume Flow RateRMS=1,2,0.083,0.156,0.54,137,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,5,0.083,0.156,0.54,138,1.csv
+Accelerometer2RMS=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,4,0.083,0.156,0.54,139,1.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,4,0.125,0.244,0.51,140,1.csv
+Current=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,3,0.125,0.244,0.51,141,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.083,0.178,0.47,142,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,5,0.083,0.178,0.47,143,1.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.083,0.178,0.47,144,1.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,4,0.083,0.178,0.47,145,1.csv
+Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,3,0.125,0.289,0.43,146,1.csv
+Thermocouple=0 ∧ Volume Flow RateRMS=1,2,0.125,0.289,0.43,147,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.083,0.2,0.42,148,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=1,4,0.083,0.2,0.42,149,1.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.083,0.2,0.42,150,1.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=1,3,0.083,0.2,0.42,151,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,5,0.083,0.2,0.42,152,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,4,0.083,0.2,0.42,153,1.csv
+Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.083,0.2,0.42,154,1.csv
+Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.083,0.2,0.42,155,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,4,0.083,0.244,0.34,156,1.csv
+Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,3,0.083,0.244,0.34,157,1.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.083,0.244,0.34,158,1.csv
+Current=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.083,0.244,0.34,159,1.csv
+Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,3,0.125,0.4,0.31,160,1.csv
+Temperature=0 ∧ Volume Flow RateRMS=1,2,0.125,0.4,0.31,161,1.csv
+Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.083,0.267,0.31,162,1.csv
+Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,4,0.083,0.267,0.31,163,1.csv
+Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.083,0.267,0.31,164,1.csv
+Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,3,0.083,0.267,0.31,165,1.csv
+Accelerometer1RMS=0 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,4,0.042,0.133,0.31,166,1.csv
+Accelerometer1RMS=0 ∧ Accelerometer2RMS=1 ∧ Volume Flow RateRMS=1,3,0.042,0.133,0.31,167,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.042,0.133,0.31,168,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,5,0.042,0.133,0.31,169,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.133,0.31,170,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=0 ∧ Volume Flow RateRMS=1,4,0.042,0.133,0.31,171,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,7,0.042,0.133,0.31,172,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,6,0.042,0.133,0.31,173,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.042,0.133,0.31,174,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=1,5,0.042,0.133,0.31,175,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.042,0.133,0.31,176,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,5,0.042,0.133,0.31,177,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.133,0.31,178,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=1,4,0.042,0.133,0.31,179,1.csv
+Accelerometer1RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.133,0.31,180,1.csv
+Accelerometer1RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,4,0.042,0.133,0.31,181,1.csv
+Accelerometer1RMS=1 ∧ Current=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.042,0.133,0.31,182,1.csv
+Accelerometer1RMS=1 ∧ Current=0 ∧ Volume Flow RateRMS=1,3,0.042,0.133,0.31,183,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.042,0.133,0.31,184,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,5,0.042,0.133,0.31,185,1.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.133,0.31,186,1.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,4,0.042,0.133,0.31,187,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.083,0.289,0.29,188,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,4,0.083,0.289,0.29,189,1.csv
+Accelerometer1RMS=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.083,0.289,0.29,190,1.csv
+Accelerometer1RMS=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,3,0.083,0.289,0.29,191,1.csv
+Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.083,0.289,0.29,192,1.csv
+Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.083,0.289,0.29,193,1.csv
+Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.083,0.311,0.27,194,1.csv
+Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=1,3,0.083,0.311,0.27,195,1.csv
+Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.083,0.311,0.27,196,1.csv
+Temperature=1 ∧ Volume Flow RateRMS=1,2,0.083,0.311,0.27,197,1.csv
+Accelerometer1RMS=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.042,0.156,0.27,198,1.csv
+Accelerometer1RMS=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.042,0.156,0.27,199,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,7,0.042,0.156,0.27,200,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,6,0.042,0.156,0.27,201,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.042,0.156,0.27,202,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,5,0.042,0.156,0.27,203,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.042,0.156,0.27,204,1.csv
+Accelerometer2RMS=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.156,0.27,205,1.csv
+Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,3,0.125,0.533,0.23,206,1.csv
+Current=1 ∧ Volume Flow RateRMS=1,2,0.125,0.533,0.23,207,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,4,0.083,0.356,0.23,208,1.csv
+Accelerometer2RMS=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,3,0.083,0.356,0.23,209,1.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.178,0.23,210,1.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,4,0.042,0.178,0.23,211,1.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.042,0.178,0.23,212,1.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Volume Flow RateRMS=1,3,0.042,0.178,0.23,213,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.042,0.178,0.23,214,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,5,0.042,0.178,0.23,215,1.csv
+Accelerometer1RMS=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.178,0.23,216,1.csv
+Accelerometer1RMS=1 ∧ Temperature=0 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,4,0.042,0.178,0.23,217,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.178,0.23,218,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=1,4,0.042,0.178,0.23,219,1.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.042,0.178,0.23,220,1.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=1,3,0.042,0.178,0.23,221,1.csv
+Pressure=1 ∧ Volume Flow RateRMS=1,2,0.208,1.0,0.21,222,1.csv
+Volume Flow RateRMS=1,1,0.208,1.0,0.21,223,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,4,0.083,0.4,0.21,224,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=1,3,0.083,0.4,0.21,225,1.csv
+Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.083,0.4,0.21,226,1.csv
+Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.083,0.4,0.21,227,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.042,0.2,0.21,228,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,5,0.042,0.2,0.21,229,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.2,0.21,230,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,4,0.042,0.2,0.21,231,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.042,0.2,0.21,232,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,5,0.042,0.2,0.21,233,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.2,0.21,234,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,4,0.042,0.2,0.21,235,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.042,0.2,0.21,236,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.2,0.21,237,1.csv
+Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.083,0.444,0.19,238,1.csv
+Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,3,0.083,0.444,0.19,239,1.csv
+Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.083,0.444,0.19,240,1.csv
+Thermocouple=2 ∧ Volume Flow RateRMS=1,2,0.083,0.444,0.19,241,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.042,0.222,0.19,242,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,5,0.042,0.222,0.19,243,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.222,0.19,244,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,4,0.042,0.222,0.19,245,1.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.222,0.19,246,1.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,4,0.042,0.222,0.19,247,1.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.042,0.222,0.19,248,1.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Volume Flow RateRMS=1,3,0.042,0.222,0.19,249,1.csv
+Current=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.042,0.222,0.19,250,1.csv
+Current=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,3,0.042,0.222,0.19,251,1.csv
+Current=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.042,0.222,0.19,252,1.csv
+Current=0 ∧ Volume Flow RateRMS=1,2,0.042,0.222,0.19,253,1.csv
+Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.167,1.0,0.17,254,1.csv
+Voltage=1 ∧ Volume Flow RateRMS=1,2,0.167,1.0,0.17,255,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.125,0.756,0.17,256,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,3,0.125,0.756,0.17,257,1.csv
+Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.125,0.756,0.17,258,1.csv
+Accelerometer1RMS=1 ∧ Volume Flow RateRMS=1,2,0.125,0.756,0.17,259,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.244,0.17,260,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,4,0.042,0.244,0.17,261,1.csv
+Accelerometer1RMS=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.042,0.244,0.17,262,1.csv
+Accelerometer1RMS=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=1,3,0.042,0.244,0.17,263,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.244,0.17,264,1.csv
+Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.042,0.244,0.17,265,1.csv
+Current=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.042,0.244,0.17,266,1.csv
+Current=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,3,0.042,0.244,0.17,267,1.csv
+Current=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.042,0.244,0.17,268,1.csv
+Current=2 ∧ Volume Flow RateRMS=1,2,0.042,0.244,0.17,269,1.csv
+Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.083,0.533,0.16,270,1.csv
+Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.083,0.533,0.16,271,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.042,0.267,0.16,272,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,5,0.042,0.267,0.16,273,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.267,0.16,274,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,4,0.042,0.267,0.16,275,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,3,0.125,0.822,0.15,276,1.csv
+Accelerometer2RMS=1 ∧ Volume Flow RateRMS=1,2,0.125,0.822,0.15,277,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.083,0.644,0.13,278,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,4,0.083,0.644,0.13,279,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.083,0.644,0.13,280,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Volume Flow RateRMS=1,3,0.083,0.644,0.13,281,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.311,0.13,282,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,4,0.042,0.311,0.13,283,1.csv
+Accelerometer1RMS=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.042,0.311,0.13,284,1.csv
+Accelerometer1RMS=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=1,3,0.042,0.311,0.13,285,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.311,0.13,286,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,4,0.042,0.311,0.13,287,1.csv
+Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.042,0.311,0.13,288,1.csv
+Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,3,0.042,0.311,0.13,289,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.042,0.356,0.12,290,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,5,0.042,0.356,0.12,291,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.356,0.12,292,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=1,4,0.042,0.356,0.12,293,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.356,0.12,294,1.csv
+Accelerometer2RMS=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.042,0.356,0.12,295,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.083,0.822,0.1,296,1.csv
+Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.083,0.822,0.1,297,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.4,0.1,298,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.042,0.4,0.1,299,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.042,0.444,0.09,300,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,4,0.042,0.444,0.09,301,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.042,0.444,0.09,302,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=1,3,0.042,0.444,0.09,303,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,7,0.0,0.156,0.0,304,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,6,0.0,0.156,0.0,305,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.0,0.156,0.0,306,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,5,0.0,0.156,0.0,307,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.0,0.156,0.0,308,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,5,0.0,0.156,0.0,309,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.0,0.156,0.0,310,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=2 ∧ Volume Flow RateRMS=1,4,0.0,0.156,0.0,311,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.0,0.244,0.0,312,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=1,5,0.0,0.244,0.0,313,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.0,0.222,0.0,314,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=1,5,0.0,0.222,0.0,315,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.0,0.244,0.0,316,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=1,4,0.0,0.244,0.0,317,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.0,0.222,0.0,318,1.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=1,4,0.0,0.222,0.0,319,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.0,0.156,0.0,320,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=1,5,0.0,0.156,0.0,321,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.0,0.2,0.0,322,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,5,0.0,0.2,0.0,323,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.0,0.156,0.0,324,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=1,4,0.0,0.156,0.0,325,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.0,0.2,0.0,326,1.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,4,0.0,0.2,0.0,327,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.0,0.244,0.0,328,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=1,4,0.0,0.244,0.0,329,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.0,0.222,0.0,330,1.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=1,4,0.0,0.222,0.0,331,1.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.0,0.244,0.0,332,1.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=1,3,0.0,0.244,0.0,333,1.csv
+Accelerometer1RMS=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.0,0.222,0.0,334,1.csv
+Accelerometer1RMS=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=1,3,0.0,0.222,0.0,335,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.0,0.2,0.0,336,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,5,0.0,0.2,0.0,337,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.0,0.2,0.0,338,1.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,4,0.0,0.2,0.0,339,1.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.0,0.2,0.0,340,1.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=1,4,0.0,0.2,0.0,341,1.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.0,0.2,0.0,342,1.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Volume Flow RateRMS=1,3,0.0,0.2,0.0,343,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.0,0.289,0.0,344,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=1,4,0.0,0.289,0.0,345,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.0,0.267,0.0,346,1.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=1,4,0.0,0.267,0.0,347,1.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.0,0.289,0.0,348,1.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=1,3,0.0,0.289,0.0,349,1.csv
+Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.0,0.267,0.0,350,1.csv
+Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=1,3,0.0,0.267,0.0,351,1.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,6,0.0,0.178,0.0,352,1.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,5,0.0,0.178,0.0,353,1.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.0,0.2,0.0,354,1.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=1,4,0.0,0.2,0.0,355,1.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.0,0.289,0.0,356,1.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,4,0.0,0.289,0.0,357,1.csv
+Current=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,5,0.0,0.178,0.0,358,1.csv
+Current=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,4,0.0,0.178,0.0,359,1.csv
+Current=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.0,0.2,0.0,360,1.csv
+Current=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=1,3,0.0,0.2,0.0,361,1.csv
+Current=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.0,0.289,0.0,362,1.csv
+Current=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=1,3,0.0,0.289,0.0,363,1.csv
+Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.0,0.289,0.0,364,1.csv
+Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=1,3,0.0,0.289,0.0,365,1.csv
+Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,4,0.0,0.267,0.0,366,1.csv
+Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=1,3,0.0,0.267,0.0,367,1.csv
+Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.0,0.289,0.0,368,1.csv
+Temperature=2 ∧ Volume Flow RateRMS=1,2,0.0,0.289,0.0,369,1.csv
+Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=1,3,0.0,0.267,0.0,370,1.csv
+Thermocouple=1 ∧ Volume Flow RateRMS=1,2,0.0,0.267,0.0,371,1.csv
+Pressure=1 ∧ Volume Flow RateRMS=0,2,0.786,0.0,785714286.71,1,2.csv
+Volume Flow RateRMS=0,1,0.786,0.0,785714286.71,2,2.csv
+Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.679,0.0,678571429.57,3,2.csv
+Voltage=1 ∧ Volume Flow RateRMS=0,2,0.679,0.0,678571429.57,4,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,3,0.607,0.0,607142858.14,5,2.csv
+Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0,2,0.607,0.0,607142858.14,6,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.536,0.0,535714286.71,7,2.csv
+Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.536,0.0,535714286.71,8,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.464,0.0,464285715.29,9,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,3,0.464,0.0,464285715.29,10,2.csv
+Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.464,0.0,464285715.29,11,2.csv
+Accelerometer2RMS=1 ∧ Volume Flow RateRMS=0,2,0.464,0.0,464285715.29,12,2.csv
+Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,3,0.464,0.0,464285715.29,13,2.csv
+Current=1 ∧ Volume Flow RateRMS=0,2,0.464,0.0,464285715.29,14,2.csv
+Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,3,0.464,0.0,464285715.29,15,2.csv
+Thermocouple=0 ∧ Volume Flow RateRMS=0,2,0.464,0.0,464285715.29,16,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.429,0.0,428571429.57,17,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,4,0.429,0.0,428571429.57,18,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.429,0.0,428571429.57,19,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Volume Flow RateRMS=0,3,0.429,0.0,428571429.57,20,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,4,0.393,0.0,392857143.86,21,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=0,3,0.393,0.0,392857143.86,22,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.393,0.0,392857143.86,23,2.csv
+Accelerometer1RMS=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,3,0.393,0.0,392857143.86,24,2.csv
+Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.393,0.0,392857143.86,25,2.csv
+Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.393,0.0,392857143.86,26,2.csv
+Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0,3,0.393,0.0,392857143.86,27,2.csv
+Temperature=1 ∧ Volume Flow RateRMS=0,2,0.393,0.0,392857143.86,28,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.357,0.0,357142858.14,29,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.357,0.0,357142858.14,30,2.csv
+Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.357,0.0,357142858.14,31,2.csv
+Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,3,0.357,0.0,357142858.14,32,2.csv
+Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.357,0.0,357142858.14,33,2.csv
+Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=0,3,0.357,0.0,357142858.14,34,2.csv
+Pressure=1 ∧ Temperature=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.357,0.0,357142858.14,35,2.csv
+Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.357,0.0,357142858.14,36,2.csv
+Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.357,0.0,357142858.14,37,2.csv
+Temperature=0 ∧ Volume Flow RateRMS=0,2,0.357,0.0,357142858.14,38,2.csv
+Temperature=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,3,0.357,0.0,357142858.14,39,2.csv
+Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.357,0.0,357142858.14,40,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.321,0.0,321428572.43,41,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.321,0.0,321428572.43,42,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.321,0.0,321428572.43,43,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.321,0.0,321428572.43,44,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.321,0.0,321428572.43,45,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.321,0.0,321428572.43,46,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.321,0.0,321428572.43,47,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.321,0.0,321428572.43,48,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0,4,0.321,0.0,321428572.43,49,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.321,0.0,321428572.43,50,2.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0,3,0.321,0.0,321428572.43,51,2.csv
+Accelerometer1RMS=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.321,0.0,321428572.43,52,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.321,0.0,321428572.43,53,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0,4,0.321,0.0,321428572.43,54,2.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.321,0.0,321428572.43,55,2.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0,3,0.321,0.0,321428572.43,56,2.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.321,0.0,321428572.43,57,2.csv
+Current=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,3,0.321,0.0,321428572.43,58,2.csv
+Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.321,0.0,321428572.43,59,2.csv
+Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.321,0.0,321428572.43,60,2.csv
+Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,3,0.321,0.0,321428572.43,61,2.csv
+Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.321,0.0,321428572.43,62,2.csv
+Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.321,0.0,321428572.43,63,2.csv
+Thermocouple=1 ∧ Volume Flow RateRMS=0,2,0.321,0.0,321428572.43,64,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,65,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,66,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,67,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,68,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,69,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,70,2.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,71,2.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,72,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,73,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,74,2.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,75,2.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,76,2.csv
+Pressure=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,77,2.csv
+Pressure=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,78,2.csv
+Pressure=1 ∧ Temperature=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,79,2.csv
+Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,80,2.csv
+Temperature=0 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0,3,0.286,0.0,285714286.71,81,2.csv
+Temperature=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,82,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=0 ∧ Voltage=1,6,0.25,0.022,11.5,83,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=0 ∧ Voltage=1,5,0.25,0.022,11.5,84,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=0 ∧ Voltage=1,5,0.25,0.022,11.5,85,2.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Thermocouple=0 ∧ Voltage=1,4,0.25,0.022,11.5,86,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1,6,0.25,0.043,5.75,87,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=0 ∧ Voltage=1,5,0.25,0.043,5.75,88,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1,5,0.25,0.065,3.83,89,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=0 ∧ Voltage=1,4,0.25,0.065,3.83,90,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1,5,0.25,0.065,3.83,91,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=0 ∧ Voltage=1,4,0.25,0.065,3.83,92,2.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1,5,0.321,0.087,3.7,93,2.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1,4,0.321,0.087,3.7,94,2.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.321,0.087,3.7,95,2.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1,3,0.321,0.087,3.7,96,2.csv
+Accelerometer2RMS=2 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1,4,0.321,0.087,3.7,97,2.csv
+Accelerometer2RMS=2 ∧ Temperature=0 ∧ Voltage=1,3,0.321,0.087,3.7,98,2.csv
+Accelerometer2RMS=2 ∧ Thermocouple=1 ∧ Voltage=1,3,0.321,0.087,3.7,99,2.csv
+Accelerometer2RMS=2 ∧ Voltage=1,2,0.321,0.087,3.7,100,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=1,4,0.214,0.065,3.29,101,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=1,3,0.214,0.065,3.29,102,2.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=1,3,0.214,0.065,3.29,103,2.csv
+Current=1 ∧ Temperature=1,2,0.214,0.065,3.29,104,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1,4,0.321,0.109,2.96,105,2.csv
+Accelerometer1RMS=1 ∧ Temperature=0 ∧ Voltage=1,3,0.321,0.109,2.96,106,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1,5,0.25,0.087,2.87,107,2.csv
+Accelerometer1RMS=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1,4,0.25,0.087,2.87,108,2.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1,4,0.25,0.087,2.87,109,2.csv
+Current=1 ∧ Thermocouple=0 ∧ Voltage=1,3,0.25,0.087,2.87,110,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=1,5,0.179,0.065,2.74,111,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=1,4,0.179,0.065,2.74,112,2.csv
+Accelerometer2RMS=0 ∧ Pressure=1 ∧ Thermocouple=0,3,0.179,0.065,2.74,113,2.csv
+Accelerometer2RMS=0 ∧ Thermocouple=0,2,0.179,0.065,2.74,114,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=1,4,0.179,0.065,2.74,115,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=1,3,0.179,0.065,2.74,116,2.csv
+Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1,6,0.214,0.087,2.46,117,2.csv
+Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1,5,0.214,0.087,2.46,118,2.csv
+Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,5,0.214,0.087,2.46,119,2.csv
+Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1,4,0.214,0.087,2.46,120,2.csv
+Accelerometer2RMS=2 ∧ Current=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1,5,0.214,0.087,2.46,121,2.csv
+Accelerometer2RMS=2 ∧ Current=1 ∧ Temperature=0 ∧ Voltage=1,4,0.214,0.087,2.46,122,2.csv
+Accelerometer2RMS=2 ∧ Current=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.214,0.087,2.46,123,2.csv
+Accelerometer2RMS=2 ∧ Current=1 ∧ Voltage=1,3,0.214,0.087,2.46,124,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1,5,0.179,0.087,2.05,125,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=0 ∧ Voltage=1,4,0.179,0.087,2.05,126,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1,4,0.179,0.109,1.64,127,2.csv
+Accelerometer2RMS=1 ∧ Temperature=0 ∧ Voltage=1,3,0.179,0.109,1.64,128,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1,5,0.143,0.087,1.64,129,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=0 ∧ Voltage=1,4,0.143,0.087,1.64,130,2.csv
+Accelerometer1RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1,5,0.143,0.087,1.64,131,2.csv
+Accelerometer1RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1,4,0.143,0.087,1.64,132,2.csv
+Accelerometer1RMS=2 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.143,0.087,1.64,133,2.csv
+Accelerometer1RMS=2 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1,4,0.143,0.087,1.64,134,2.csv
+Accelerometer1RMS=2 ∧ Temperature=0 ∧ Voltage=1,3,0.143,0.087,1.64,135,2.csv
+Accelerometer1RMS=2 ∧ Thermocouple=1 ∧ Voltage=1,3,0.143,0.087,1.64,136,2.csv
+Accelerometer1RMS=2 ∧ Pressure=1 ∧ Voltage=1,3,0.143,0.13,1.1,137,2.csv
+Accelerometer1RMS=2 ∧ Voltage=1,2,0.143,0.13,1.1,138,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,5,0.107,0.152,0.7,139,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.107,0.152,0.7,140,2.csv
+Pressure=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.107,0.174,0.62,141,2.csv
+Pressure=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,4,0.107,0.174,0.62,142,2.csv
+Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.107,0.174,0.62,143,2.csv
+Temperature=0 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,3,0.107,0.174,0.62,144,2.csv
+Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.107,0.196,0.55,145,2.csv
+Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,3,0.107,0.196,0.55,146,2.csv
+Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.107,0.196,0.55,147,2.csv
+Temperature=0 ∧ Volume Flow RateRMS=2,2,0.107,0.196,0.55,148,2.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.071,0.13,0.55,149,2.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,5,0.071,0.13,0.55,150,2.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.13,0.55,151,2.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,4,0.071,0.13,0.55,152,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=2,5,0.071,0.13,0.55,153,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.13,0.55,154,2.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=2,4,0.071,0.13,0.55,155,2.csv
+Accelerometer1RMS=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.13,0.55,156,2.csv
+Current=2 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.13,0.55,157,2.csv
+Current=2 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,4,0.071,0.13,0.55,158,2.csv
+Current=2 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.13,0.55,159,2.csv
+Current=2 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,3,0.071,0.13,0.55,160,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=2,4,0.071,0.152,0.47,161,2.csv
+Accelerometer1RMS=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=2,3,0.071,0.152,0.47,162,2.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.071,0.152,0.47,163,2.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,5,0.071,0.152,0.47,164,2.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.152,0.47,165,2.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,4,0.071,0.152,0.47,166,2.csv
+Current=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.152,0.47,167,2.csv
+Current=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,4,0.071,0.152,0.47,168,2.csv
+Current=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.152,0.47,169,2.csv
+Current=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,3,0.071,0.152,0.47,170,2.csv
+Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.152,0.47,171,2.csv
+Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.152,0.47,172,2.csv
+Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.107,0.261,0.41,173,2.csv
+Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,3,0.107,0.261,0.41,174,2.csv
+Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.107,0.261,0.41,175,2.csv
+Thermocouple=1 ∧ Volume Flow RateRMS=2,2,0.107,0.261,0.41,176,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.174,0.41,177,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,4,0.071,0.174,0.41,178,2.csv
+Accelerometer1RMS=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.174,0.41,179,2.csv
+Accelerometer1RMS=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,3,0.071,0.174,0.41,180,2.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.174,0.41,181,2.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,4,0.071,0.174,0.41,182,2.csv
+Current=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.174,0.41,183,2.csv
+Current=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,3,0.071,0.174,0.41,184,2.csv
+Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=2,4,0.071,0.174,0.41,185,2.csv
+Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=2,3,0.071,0.174,0.41,186,2.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.196,0.37,187,2.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.071,0.196,0.37,188,2.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.196,0.37,189,2.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Volume Flow RateRMS=2,3,0.071,0.196,0.37,190,2.csv
+Current=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.196,0.37,191,2.csv
+Current=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.071,0.196,0.37,192,2.csv
+Current=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.071,0.196,0.37,193,2.csv
+Current=2 ∧ Volume Flow RateRMS=2,2,0.071,0.196,0.37,194,2.csv
+Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.196,0.37,195,2.csv
+Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.071,0.196,0.37,196,2.csv
+Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=2,3,0.071,0.217,0.33,197,2.csv
+Thermocouple=0 ∧ Volume Flow RateRMS=2,2,0.071,0.217,0.33,198,2.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Temperature=1,4,0.036,0.152,0.23,199,2.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Temperature=1,3,0.036,0.152,0.23,200,2.csv
+Current=0 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1,4,0.036,0.152,0.23,201,2.csv
+Current=0 ∧ Temperature=1 ∧ Voltage=1,3,0.036,0.152,0.23,202,2.csv
+Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.179,0.913,0.2,203,2.csv
+Voltage=1 ∧ Volume Flow RateRMS=2,2,0.179,0.913,0.2,204,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.143,0.717,0.2,205,2.csv
+Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.143,0.717,0.2,206,2.csv
+Pressure=1 ∧ Volume Flow RateRMS=2,2,0.179,1.0,0.18,207,2.csv
+Volume Flow RateRMS=2,1,0.179,1.0,0.18,208,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.143,0.804,0.18,209,2.csv
+Accelerometer1RMS=1 ∧ Volume Flow RateRMS=2,2,0.143,0.804,0.18,210,2.csv
+Accelerometer1RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.036,0.196,0.18,211,2.csv
+Accelerometer1RMS=1 ∧ Current=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.036,0.196,0.18,212,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.413,0.17,213,2.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.413,0.17,214,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,4,0.071,0.457,0.16,215,2.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,3,0.071,0.457,0.16,216,2.csv
+Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.435,0.16,217,2.csv
+Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.071,0.435,0.16,218,2.csv
+Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.457,0.16,219,2.csv
+Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.071,0.457,0.16,220,2.csv
+Accelerometer1RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.036,0.217,0.16,221,2.csv
+Accelerometer1RMS=1 ∧ Current=0 ∧ Volume Flow RateRMS=2,3,0.036,0.217,0.16,222,2.csv
+Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.071,0.5,0.14,223,2.csv
+Current=1 ∧ Volume Flow RateRMS=2,2,0.071,0.5,0.14,224,2.csv
+Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,3,0.071,0.5,0.14,225,2.csv
+Temperature=2 ∧ Volume Flow RateRMS=2,2,0.071,0.5,0.14,226,2.csv
+Current=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.036,0.283,0.13,227,2.csv
+Current=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.036,0.283,0.13,228,2.csv
+Current=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.036,0.304,0.12,229,2.csv
+Current=0 ∧ Volume Flow RateRMS=2,2,0.036,0.304,0.12,230,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.036,0.326,0.11,231,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.036,0.326,0.11,232,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.036,0.391,0.09,233,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=2,3,0.036,0.391,0.09,234,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.196,0.0,235,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,5,0.0,0.217,0.0,236,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.196,0.0,237,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=0 ∧ Volume Flow RateRMS=2,4,0.0,0.217,0.0,238,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,7,0.0,0.174,0.0,239,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,6,0.0,0.217,0.0,240,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,7,0.0,0.196,0.0,241,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,6,0.0,0.239,0.0,242,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.283,0.0,243,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,5,0.0,0.348,0.0,244,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.174,0.0,245,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,5,0.0,0.217,0.0,246,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.196,0.0,247,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.239,0.0,248,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.283,0.0,249,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=2,4,0.0,0.348,0.0,250,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.196,0.0,251,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,5,0.0,0.196,0.0,252,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.196,0.0,253,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=2 ∧ Volume Flow RateRMS=2,4,0.0,0.196,0.0,254,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.196,0.0,255,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,5,0.0,0.239,0.0,256,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,7,0.0,0.283,0.0,257,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,6,0.0,0.304,0.0,258,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.391,0.0,259,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,5,0.0,0.435,0.0,260,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.413,0.0,261,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.478,0.0,262,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.674,0.0,263,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.0,0.761,0.0,264,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.196,0.0,265,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,266,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=2 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.283,0.0,267,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=2 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.304,0.0,268,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.391,0.0,269,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,4,0.0,0.435,0.0,270,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.413,0.0,271,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.478,0.0,272,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.674,0.0,273,2.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Volume Flow RateRMS=2,3,0.0,0.761,0.0,274,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.196,0.0,275,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,5,0.0,0.239,0.0,276,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.196,0.0,277,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.239,0.0,278,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.196,0.0,279,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,280,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.196,0.0,281,2.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,282,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.196,0.0,283,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,284,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.283,0.0,285,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.304,0.0,286,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.413,0.0,287,2.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.478,0.0,288,2.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.196,0.0,289,2.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,3,0.0,0.239,0.0,290,2.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.283,0.0,291,2.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.304,0.0,292,2.csv
+Accelerometer1RMS=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.413,0.0,293,2.csv
+Accelerometer1RMS=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.0,0.478,0.0,294,2.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.174,0.0,295,2.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.239,0.0,296,2.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.0,0.261,0.0,297,2.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.174,0.0,298,2.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,299,2.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Volume Flow RateRMS=2,3,0.0,0.261,0.0,300,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.196,0.0,301,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,5,0.0,0.239,0.0,302,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.196,0.0,303,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.239,0.0,304,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.326,0.0,305,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.0,0.391,0.0,306,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.196,0.0,307,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,308,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.196,0.0,309,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,310,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.326,0.0,311,2.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=2,3,0.0,0.391,0.0,312,2.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.196,0.0,313,2.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.0,0.196,0.0,314,2.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.196,0.0,315,2.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Volume Flow RateRMS=2,3,0.0,0.196,0.0,316,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.196,0.0,317,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.239,0.0,318,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,4,0.0,0.283,0.0,319,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.283,0.0,320,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.304,0.0,321,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.413,0.0,322,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,4,0.0,0.457,0.0,323,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.174,0.0,324,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,4,0.0,0.174,0.0,325,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.457,0.0,326,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.522,0.0,327,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.761,0.0,328,2.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.0,0.848,0.0,329,2.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.196,0.0,330,2.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,331,2.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,3,0.0,0.283,0.0,332,2.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.283,0.0,333,2.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.304,0.0,334,2.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.413,0.0,335,2.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,3,0.0,0.457,0.0,336,2.csv
+Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.174,0.0,337,2.csv
+Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,3,0.0,0.174,0.0,338,2.csv
+Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.457,0.0,339,2.csv
+Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.0,0.522,0.0,340,2.csv
+Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.761,0.0,341,2.csv
+Accelerometer2RMS=1 ∧ Volume Flow RateRMS=2,2,0.0,0.848,0.0,342,2.csv
+Current=0 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,4,0.0,0.174,0.0,343,2.csv
+Current=0 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.174,0.0,344,2.csv
+Current=0 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,3,0.0,0.174,0.0,345,2.csv
+Current=0 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.0,0.174,0.0,346,2.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.217,0.0,347,2.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,4,0.0,0.261,0.0,348,2.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.196,0.0,349,2.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.239,0.0,350,2.csv
+Current=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.217,0.0,351,2.csv
+Current=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=2,3,0.0,0.261,0.0,352,2.csv
+Current=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.196,0.0,353,2.csv
+Current=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.0,0.239,0.0,354,2.csv
+Pressure=1 ∧ Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.196,0.0,355,2.csv
+Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.261,0.0,356,2.csv
+Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,3,0.0,0.304,0.0,357,2.csv
+Pressure=1 ∧ Temperature=2 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.283,0.0,358,2.csv
+Pressure=1 ∧ Temperature=2 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.304,0.0,359,2.csv
+Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.457,0.0,360,2.csv
+Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.0,0.522,0.0,361,2.csv
+Temperature=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.0,0.196,0.0,362,2.csv
+Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.261,0.0,363,2.csv
+Temperature=1 ∧ Volume Flow RateRMS=2,2,0.0,0.304,0.0,364,2.csv
+Temperature=2 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.283,0.0,365,2.csv
+Temperature=2 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.0,0.304,0.0,366,2.csv
+Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.457,0.0,367,2.csv
+Thermocouple=2 ∧ Volume Flow RateRMS=2,2,0.0,0.522,0.0,368,2.csv
+Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.714,0.0,714285715.29,1,3.csv
+Pressure=1 ∧ Volume Flow RateRMS=0,2,0.714,0.0,714285715.29,2,3.csv
+Voltage=1 ∧ Volume Flow RateRMS=0,2,0.714,0.0,714285715.29,3,3.csv
+Volume Flow RateRMS=0,1,0.714,0.0,714285715.29,4,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.643,0.0,642857143.86,5,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,3,0.643,0.0,642857143.86,6,3.csv
+Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.643,0.0,642857143.86,7,3.csv
+Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0,2,0.643,0.0,642857143.86,8,3.csv
+Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.643,0.0,642857143.86,9,3.csv
+Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,3,0.643,0.0,642857143.86,10,3.csv
+Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.643,0.0,642857143.86,11,3.csv
+Temperature=2 ∧ Volume Flow RateRMS=0,2,0.643,0.0,642857143.86,12,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.571,0.0,571428572.43,13,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,4,0.571,0.0,571428572.43,14,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.571,0.0,571428572.43,15,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Volume Flow RateRMS=0,3,0.571,0.0,571428572.43,16,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.571,0.0,571428572.43,17,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,4,0.571,0.0,571428572.43,18,3.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.571,0.0,571428572.43,19,3.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,3,0.571,0.0,571428572.43,20,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.571,0.0,571428572.43,21,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,3,0.571,0.0,571428572.43,22,3.csv
+Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.571,0.0,571428572.43,23,3.csv
+Accelerometer2RMS=1 ∧ Volume Flow RateRMS=0,2,0.571,0.0,571428572.43,24,3.csv
+Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.571,0.0,571428572.43,25,3.csv
+Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.571,0.0,571428572.43,26,3.csv
+Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.571,0.0,571428572.43,27,3.csv
+Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,3,0.571,0.0,571428572.43,28,3.csv
+Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.571,0.0,571428572.43,29,3.csv
+Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,3,0.571,0.0,571428572.43,30,3.csv
+Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.571,0.0,571428572.43,31,3.csv
+Thermocouple=0 ∧ Volume Flow RateRMS=0,2,0.571,0.0,571428572.43,32,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.536,0.0,535714286.71,33,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,5,0.536,0.0,535714286.71,34,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.536,0.0,535714286.71,35,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,4,0.536,0.0,535714286.71,36,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.536,0.0,535714286.71,37,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,4,0.536,0.0,535714286.71,38,3.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.536,0.0,535714286.71,39,3.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,3,0.536,0.0,535714286.71,40,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,7,0.5,0.0,500000001.0,41,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,6,0.5,0.0,500000001.0,42,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.5,0.0,500000001.0,43,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.5,0.0,500000001.0,44,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.5,0.0,500000001.0,45,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.5,0.0,500000001.0,46,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.5,0.0,500000001.0,47,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.5,0.0,500000001.0,48,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.5,0.0,500000001.0,49,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.5,0.0,500000001.0,50,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.5,0.0,500000001.0,51,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.5,0.0,500000001.0,52,3.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.5,0.0,500000001.0,53,3.csv
+Accelerometer1RMS=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.5,0.0,500000001.0,54,3.csv
+Accelerometer1RMS=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.5,0.0,500000001.0,55,3.csv
+Accelerometer1RMS=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,3,0.5,0.0,500000001.0,56,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.5,0.0,500000001.0,57,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.5,0.0,500000001.0,58,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.5,0.0,500000001.0,59,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.5,0.0,500000001.0,60,3.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.5,0.0,500000001.0,61,3.csv
+Accelerometer2RMS=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.5,0.0,500000001.0,62,3.csv
+Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.5,0.0,500000001.0,63,3.csv
+Accelerometer2RMS=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,3,0.5,0.0,500000001.0,64,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,8,0.286,0.0,285714286.71,65,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,7,0.286,0.0,285714286.71,66,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,7,0.286,0.0,285714286.71,67,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,68,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,7,0.286,0.0,285714286.71,69,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,70,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,71,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,72,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,7,0.286,0.0,285714286.71,73,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,74,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,75,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,76,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,77,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,78,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,79,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,80,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,7,0.286,0.0,285714286.71,81,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,82,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,83,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,84,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,85,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,86,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,87,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,88,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,89,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,90,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,91,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,92,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,93,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,94,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,95,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=0,3,0.286,0.0,285714286.71,96,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,7,0.286,0.0,285714286.71,97,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,98,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,99,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,100,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,101,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,102,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,103,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,104,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,105,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,106,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,107,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,108,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,109,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,110,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,111,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=0,3,0.286,0.0,285714286.71,112,3.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,6,0.286,0.0,285714286.71,113,3.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,114,3.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,115,3.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,116,3.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,117,3.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,118,3.csv
+Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,119,3.csv
+Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0,3,0.286,0.0,285714286.71,120,3.csv
+Current=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,5,0.286,0.0,285714286.71,121,3.csv
+Current=1 ∧ Temperature=2 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,122,3.csv
+Current=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,123,3.csv
+Current=1 ∧ Temperature=2 ∧ Volume Flow RateRMS=0,3,0.286,0.0,285714286.71,124,3.csv
+Current=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,4,0.286,0.0,285714286.71,125,3.csv
+Current=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0,3,0.286,0.0,285714286.71,126,3.csv
+Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0,3,0.286,0.0,285714286.71,127,3.csv
+Current=1 ∧ Volume Flow RateRMS=0,2,0.286,0.0,285714286.71,128,3.csv
+Accelerometer2RMS=0 ∧ Pressure=1 ∧ Voltage=1,3,0.179,0.054,3.3,129,3.csv
+Accelerometer2RMS=0 ∧ Voltage=1,2,0.179,0.054,3.3,130,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Voltage=1,5,0.179,0.081,2.2,131,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=2 ∧ Voltage=1,4,0.179,0.081,2.2,132,3.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Voltage=1,4,0.214,0.108,1.98,133,3.csv
+Accelerometer1RMS=1 ∧ Current=2 ∧ Voltage=1,3,0.214,0.108,1.98,134,3.csv
+Accelerometer1RMS=0 ∧ Pressure=1 ∧ Voltage=1,3,0.143,0.081,1.76,135,3.csv
+Accelerometer1RMS=0 ∧ Voltage=1,2,0.143,0.081,1.76,136,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Voltage=1,5,0.179,0.108,1.65,137,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=0 ∧ Voltage=1,4,0.179,0.108,1.65,138,3.csv
+Accelerometer1RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.135,0.53,139,3.csv
+Accelerometer1RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.071,0.135,0.53,140,3.csv
+Accelerometer1RMS=1 ∧ Current=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.135,0.53,141,3.csv
+Accelerometer1RMS=1 ∧ Current=0 ∧ Volume Flow RateRMS=2,3,0.071,0.135,0.53,142,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=1,4,0.071,0.135,0.53,143,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=1,4,0.071,0.135,0.53,144,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=1,3,0.071,0.135,0.53,145,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=1,3,0.071,0.135,0.53,146,3.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.135,0.53,147,3.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.071,0.135,0.53,148,3.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.135,0.53,149,3.csv
+Accelerometer2RMS=1 ∧ Current=0 ∧ Volume Flow RateRMS=2,3,0.071,0.135,0.53,150,3.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.135,0.53,151,3.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.135,0.53,152,3.csv
+Current=0 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.135,0.53,153,3.csv
+Current=0 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,4,0.071,0.135,0.53,154,3.csv
+Current=0 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1,4,0.071,0.135,0.53,155,3.csv
+Current=0 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.135,0.53,156,3.csv
+Current=0 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,3,0.071,0.135,0.53,157,3.csv
+Current=0 ∧ Thermocouple=1 ∧ Voltage=1,3,0.071,0.135,0.53,158,3.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=1,3,0.071,0.135,0.53,159,3.csv
+Current=1 ∧ Temperature=1,2,0.071,0.135,0.53,160,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.107,0.243,0.44,161,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.107,0.243,0.44,162,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.107,0.243,0.44,163,3.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.107,0.243,0.44,164,3.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.071,0.162,0.44,165,3.csv
+Accelerometer2RMS=1 ∧ Current=2 ∧ Volume Flow RateRMS=2,3,0.071,0.162,0.44,166,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,5,0.107,0.27,0.4,167,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,4,0.107,0.27,0.4,168,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,4,0.107,0.27,0.4,169,3.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,3,0.107,0.27,0.4,170,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.107,0.27,0.4,171,3.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.107,0.27,0.4,172,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.214,0.568,0.38,173,3.csv
+Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.214,0.568,0.38,174,3.csv
+Current=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.189,0.38,175,3.csv
+Current=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.071,0.189,0.38,176,3.csv
+Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.107,0.297,0.36,177,3.csv
+Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.107,0.297,0.36,178,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.214,0.622,0.34,179,3.csv
+Accelerometer2RMS=1 ∧ Volume Flow RateRMS=2,2,0.214,0.622,0.34,180,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,4,0.107,0.324,0.33,181,3.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,3,0.107,0.324,0.33,182,3.csv
+Current=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.216,0.33,183,3.csv
+Current=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.071,0.216,0.33,184,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.143,0.459,0.31,185,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.143,0.459,0.31,186,3.csv
+Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=2,3,0.107,0.351,0.3,187,3.csv
+Temperature=1 ∧ Volume Flow RateRMS=2,2,0.107,0.351,0.3,188,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.143,0.486,0.29,189,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Volume Flow RateRMS=2,3,0.143,0.486,0.29,190,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.071,0.243,0.29,191,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.243,0.29,192,3.csv
+Current=0 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.071,0.243,0.29,193,3.csv
+Current=0 ∧ Volume Flow RateRMS=2,2,0.071,0.243,0.29,194,3.csv
+Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.214,0.811,0.26,195,3.csv
+Voltage=1 ∧ Volume Flow RateRMS=2,2,0.214,0.811,0.26,196,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.143,0.541,0.26,197,3.csv
+Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.143,0.541,0.26,198,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.071,0.27,0.26,199,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.27,0.26,200,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.071,0.27,0.26,201,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.071,0.27,0.26,202,3.csv
+Current=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.071,0.27,0.26,203,3.csv
+Current=2 ∧ Volume Flow RateRMS=2,2,0.071,0.27,0.26,204,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,5,0.071,0.297,0.24,205,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=2,4,0.071,0.297,0.24,206,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.297,0.24,207,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.297,0.24,208,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.297,0.24,209,3.csv
+Accelerometer1RMS=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.297,0.24,210,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.297,0.24,211,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.297,0.24,212,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.071,0.297,0.24,213,3.csv
+Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.297,0.24,214,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.143,0.622,0.23,215,3.csv
+Accelerometer1RMS=1 ∧ Volume Flow RateRMS=2,2,0.143,0.622,0.23,216,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.071,0.324,0.22,217,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=2,3,0.071,0.324,0.22,218,3.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.036,0.162,0.22,219,3.csv
+Current=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.036,0.162,0.22,220,3.csv
+Pressure=1 ∧ Volume Flow RateRMS=2,2,0.214,1.0,0.21,221,3.csv
+Volume Flow RateRMS=2,1,0.214,1.0,0.21,222,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.071,0.351,0.2,223,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Volume Flow RateRMS=2,3,0.071,0.351,0.2,224,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.071,0.351,0.2,225,3.csv
+Accelerometer1RMS=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.071,0.351,0.2,226,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.071,0.351,0.2,227,3.csv
+Accelerometer2RMS=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.071,0.351,0.2,228,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,7,0.036,0.189,0.19,229,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,6,0.036,0.189,0.19,230,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.036,0.189,0.19,231,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,5,0.036,0.189,0.19,232,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.036,0.189,0.19,233,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,5,0.036,0.189,0.19,234,3.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.036,0.189,0.19,235,3.csv
+Accelerometer1RMS=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,4,0.036,0.189,0.19,236,3.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,4,0.036,0.189,0.19,237,3.csv
+Current=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,3,0.036,0.189,0.19,238,3.csv
+Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.405,0.18,239,3.csv
+Current=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.071,0.405,0.18,240,3.csv
+Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.071,0.405,0.18,241,3.csv
+Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.071,0.405,0.18,242,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.036,0.216,0.17,243,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,5,0.036,0.216,0.17,244,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.036,0.216,0.17,245,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,4,0.036,0.216,0.17,246,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.036,0.216,0.17,247,3.csv
+Accelerometer1RMS=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.036,0.216,0.17,248,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.036,0.216,0.17,249,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,5,0.036,0.216,0.17,250,3.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.036,0.216,0.17,251,3.csv
+Accelerometer2RMS=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,4,0.036,0.216,0.17,252,3.csv
+Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.071,0.486,0.15,253,3.csv
+Current=1 ∧ Volume Flow RateRMS=2,2,0.071,0.486,0.15,254,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,4,0.036,0.243,0.15,255,3.csv
+Accelerometer1RMS=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,3,0.036,0.243,0.15,256,3.csv
+Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.036,0.243,0.15,257,3.csv
+Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,4,0.036,0.243,0.15,258,3.csv
+Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.036,0.243,0.15,259,3.csv
+Temperature=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,3,0.036,0.243,0.15,260,3.csv
+Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.071,0.541,0.13,261,3.csv
+Thermocouple=2 ∧ Volume Flow RateRMS=2,2,0.071,0.541,0.13,262,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.036,0.27,0.13,263,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,4,0.036,0.27,0.13,264,3.csv
+Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.036,0.27,0.13,265,3.csv
+Accelerometer2RMS=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,3,0.036,0.27,0.13,266,3.csv
+Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.036,0.378,0.09,267,3.csv
+Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.036,0.378,0.09,268,3.csv
+Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,3,0.036,0.432,0.08,269,3.csv
+Thermocouple=1 ∧ Volume Flow RateRMS=2,2,0.036,0.432,0.08,270,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,6,0.0,0.189,0.0,271,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.189,0.0,272,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,7,0.0,0.189,0.0,273,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,6,0.0,0.189,0.0,274,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.216,0.0,275,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,5,0.0,0.216,0.0,276,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.189,0.0,277,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.189,0.0,278,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.216,0.0,279,3.csv
+Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,4,0.0,0.216,0.0,280,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,5,0.0,0.189,0.0,281,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.189,0.0,282,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,4,0.0,0.189,0.0,283,3.csv
+Accelerometer1RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.189,0.0,284,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.243,0.0,285,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.27,0.0,286,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.27,0.0,287,3.csv
+Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,4,0.0,0.324,0.0,288,3.csv
+Accelerometer1RMS=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.243,0.0,289,3.csv
+Accelerometer1RMS=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.27,0.0,290,3.csv
+Accelerometer1RMS=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.27,0.0,291,3.csv
+Accelerometer1RMS=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,3,0.0,0.324,0.0,292,3.csv
+Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,5,0.0,0.216,0.0,293,3.csv
+Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,4,0.0,0.216,0.0,294,3.csv
+Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,4,0.0,0.216,0.0,295,3.csv
+Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2,3,0.0,0.216,0.0,296,3.csv
+Accelerometer1RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.189,0.0,297,3.csv
+Accelerometer1RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,4,0.0,0.27,0.0,298,3.csv
+Accelerometer1RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.189,0.0,299,3.csv
+Accelerometer1RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.0,0.27,0.0,300,3.csv
+Accelerometer1RMS=2 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.189,0.0,301,3.csv
+Accelerometer1RMS=2 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,3,0.0,0.27,0.0,302,3.csv
+Accelerometer1RMS=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.189,0.0,303,3.csv
+Accelerometer1RMS=2 ∧ Volume Flow RateRMS=2,2,0.0,0.27,0.0,304,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.189,0.0,305,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,5,0.0,0.189,0.0,306,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.189,0.0,307,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.189,0.0,308,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,4,0.0,0.189,0.0,309,3.csv
+Accelerometer2RMS=1 ∧ Current=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.189,0.0,310,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.243,0.0,311,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.243,0.0,312,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.297,0.0,313,3.csv
+Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,4,0.0,0.297,0.0,314,3.csv
+Accelerometer2RMS=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.243,0.0,315,3.csv
+Accelerometer2RMS=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.243,0.0,316,3.csv
+Accelerometer2RMS=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.297,0.0,317,3.csv
+Accelerometer2RMS=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,3,0.0,0.297,0.0,318,3.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.189,0.0,319,3.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.189,0.0,320,3.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,4,0.0,0.324,0.0,321,3.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.189,0.0,322,3.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.189,0.0,323,3.csv
+Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2,3,0.0,0.324,0.0,324,3.csv
+Accelerometer2RMS=2 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.189,0.0,325,3.csv
+Accelerometer2RMS=2 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.189,0.0,326,3.csv
+Accelerometer2RMS=2 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,3,0.0,0.324,0.0,327,3.csv
+Accelerometer2RMS=2 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.0,0.189,0.0,328,3.csv
+Accelerometer2RMS=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.189,0.0,329,3.csv
+Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2,2,0.0,0.324,0.0,330,3.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,6,0.0,0.189,0.0,331,3.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,5,0.0,0.216,0.0,332,3.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.27,0.0,333,3.csv
+Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,4,0.0,0.324,0.0,334,3.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.216,0.0,335,3.csv
+Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.27,0.0,336,3.csv
+Current=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.189,0.0,337,3.csv
+Current=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.216,0.0,338,3.csv
+Current=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.27,0.0,339,3.csv
+Current=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,3,0.0,0.324,0.0,340,3.csv
+Current=1 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.216,0.0,341,3.csv
+Current=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.0,0.27,0.0,342,3.csv
+Current=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,4,0.0,0.189,0.0,343,3.csv
+Current=2 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,3,0.0,0.189,0.0,344,3.csv
+Pressure=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,4,0.0,0.189,0.0,345,3.csv
+Pressure=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,5,0.0,0.351,0.0,346,3.csv
+Pressure=1 ∧ Temperature=0 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,4,0.0,0.432,0.0,347,3.csv
+Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.486,0.0,348,3.csv
+Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=2,3,0.0,0.622,0.0,349,3.csv
+Temperature=0 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=2,3,0.0,0.189,0.0,350,3.csv
+Temperature=0 ∧ Thermocouple=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,4,0.0,0.351,0.0,351,3.csv
+Temperature=0 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2,3,0.0,0.432,0.0,352,3.csv
+Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=2,3,0.0,0.486,0.0,353,3.csv
+Temperature=0 ∧ Volume Flow RateRMS=2,2,0.0,0.622,0.0,354,3.csv

@@ -1,0 +1,15 @@
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.exe
+*.exp
+*.lib
+*.pdb
+*.ipdb
+*.iobj
+*.obj
+*.tlog
+*.recipe
+__pycache__/

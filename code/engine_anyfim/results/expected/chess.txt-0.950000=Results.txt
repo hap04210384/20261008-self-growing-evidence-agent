@@ -1,0 +1,57 @@
+==================================================================
+GPU 0: NVIDIA GeForce RTX 3060 Ti
+     Multi-Processor Count: 38
+     Max Threads Per Multi-Processor: 1536
+     Warp Size: 32
+     Max Threads Per Block: 1024
+     Compute Capability: 8.6
+     Number of Multi-Processors: 38
+     Number of CUDA Cores Per SM: 128
+     Total Number of CUDA Cores: 4864
+
+CPU: 12th Gen Intel(R) Core(TM) i9-12900
+     Number of Physical Cores: 16
+     Number of Logical Cores: 24
+
+Visual Studio: 2022 (v143), MSC_VER: 1944
+CUDA Version: 12.5
+==================================================================
+transSetFile: ..\TransactionSets\chess.txt
+dimension: 75
+transNum: 3196
+itemIDmin: 1
+itemIDmax: 75
+transLengthMin: 37
+transLengthMax: 37
+transLengthMean: 37
+
+supportThreshold: 0.95
+
+dimensionReduced: 9
+transNumReduced: 3196
+transLengthReducedMin: 5
+transLengthReducedMax: 9
+transLengthReducedMean: 8.80945
+
+GPUtaskPercentage: 0%
+==================================================================
+preprocessing_time(s): 0
+computation_time(s): 0.0049947
+expansion_evaluations: 77
+avg_time_per_evaluation(ms): 0.0648662
+total_time(s): 0.0049947
+
+MFIsNumber: 11
+============================List of MFIs:=============================
+1th: 5 { 60 58 52 40 29 }   support: 0.96965  frequency: 3099
+2th: 4 { 58 52 29 7 }   support: 0.956508  frequency: 3057
+3th: 3 { 62 58 52 }   support: 0.954005  frequency: 3049
+4th: 5 { 58 52 40 36 29 }   support: 0.953066  frequency: 3046
+5th: 3 { 62 58 40 }   support: 0.952753  frequency: 3045
+6th: 3 { 62 58 29 }   support: 0.952753  frequency: 3045
+7th: 4 { 58 40 29 7 }   support: 0.951815  frequency: 3042
+8th: 4 { 60 58 52 36 }   support: 0.951189  frequency: 3040
+9th: 2 { 58 34 }   support: 0.950876  frequency: 3039
+10th: 4 { 60 58 36 29 }   support: 0.950563  frequency: 3038
+11th: 4 { 58 52 40 7 }   support: 0.950563  frequency: 3038
+==================================================================

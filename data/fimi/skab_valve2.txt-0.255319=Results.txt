@@ -1,0 +1,63 @@
+==================================================================
+GPU 0: NVIDIA GeForce RTX 3060 Ti
+     Multi-Processor Count: 38
+     Max Threads Per Multi-Processor: 1536
+     Warp Size: 32
+     Max Threads Per Block: 1024
+     Compute Capability: 8.6
+     Number of Multi-Processors: 38
+     Number of CUDA Cores Per SM: 128
+     Total Number of CUDA Cores: 4864
+
+CPU: 12th Gen Intel(R) Core(TM) i9-12900
+     Number of Physical Cores: 16
+     Number of Logical Cores: 24
+
+Visual Studio: 2022 (v143), MSC_VER: 1944
+CUDA Version: 12.5
+==================================================================
+transSetFile: E:\20261003-paper-application of AnyFIM and TensorFIM-03\kimi_word\data\fimi\skab_valve2.txt
+dimension: 22
+transNum: 282
+itemIDmin: 1
+itemIDmax: 15
+transLengthMin: 8
+transLengthMax: 8
+transLengthMean: 8
+
+supportThreshold: 0.255319
+
+dimensionReduced: 15
+transNumReduced: 282
+transLengthReducedMin: 5
+transLengthReducedMax: 8
+transLengthReducedMean: 7.38298
+
+GPUtaskPercentage: 0.0622959%
+==================================================================
+preprocessing_time(s): 0
+computation_time(s): 0.0005313
+total_time(s): 0.0005313
+
+MFIsNumber: 19
+============================List of MFIs:=============================
+1th: 3 { 15 7 4 }   support: 0.326241  frequency: 92
+2th: 3 { 7 6 4 }   support: 0.301418  frequency: 85
+3th: 3 { 21 7 4 }   support: 0.297872  frequency: 84
+4th: 4 { 14 11 7 4 }   support: 0.297872  frequency: 84
+5th: 3 { 7 5 4 }   support: 0.29078  frequency: 82
+6th: 5 { 11 10 9 7 4 }   support: 0.29078  frequency: 82
+7th: 4 { 14 9 7 4 }   support: 0.287234  frequency: 81
+8th: 3 { 18 7 4 }   support: 0.283688  frequency: 80
+9th: 3 { 12 9 4 }   support: 0.265957  frequency: 75
+10th: 4 { 14 11 9 4 }   support: 0.265957  frequency: 75
+11th: 2 { 8 4 }   support: 0.262411  frequency: 74
+12th: 2 { 13 4 }   support: 0.258865  frequency: 73
+13th: 3 { 9 6 4 }   support: 0.258865  frequency: 73
+14th: 4 { 16 11 7 4 }   support: 0.258865  frequency: 73
+15th: 2 { 4 3 }   support: 0.255319  frequency: 72
+16th: 3 { 21 11 4 }   support: 0.255319  frequency: 72
+17th: 3 { 16 9 4 }   support: 0.255319  frequency: 72
+18th: 3 { 11 6 4 }   support: 0.255319  frequency: 72
+19th: 4 { 12 11 7 4 }   support: 0.255319  frequency: 72
+==================================================================

@@ -1,0 +1,25 @@
+﻿config,dataset,threshold,MFIs,mode,mode_def,nodes,run1_s,run2_s,run3_s,mean_s,GPUpercentage_run1
+acc056,Accidents,0.56,110,0,"A serial(recursive,P-core,CPU bitmap)",3530,0.149464,0.147470,0.151521,0.149485,
+acc056,Accidents,0.56,110,1,"B GPU-only(recursive,GPU count)",3530,0.201483,0.171472,0.168541,0.180499,
+acc056,Accidents,0.56,110,2,D full-collab(stack+splitter),3530,0.017744,0.017648,0.018410,0.017934,12.7093
+acc056,Accidents,0.56,110,3,C task-stack+GPU,3530,0.088763,0.098004,0.110338,0.099035,
+acc048,Accidents,0.48,282,0,"A serial(recursive,P-core,CPU bitmap)",10362,0.510540,0.513749,0.514489,0.512926,
+acc048,Accidents,0.48,282,1,"B GPU-only(recursive,GPU count)",10362,0.509688,0.505458,0.520106,0.511751,
+acc048,Accidents,0.48,282,2,D full-collab(stack+splitter),10362,0.060039,0.060242,0.064338,0.061539,13.6469
+acc048,Accidents,0.48,282,3,C task-stack+GPU,10362,0.252464,0.257802,0.253943,0.254736,
+acc040,Accidents,0.4,762,0,"A serial(recursive,P-core,CPU bitmap)",32528,4.103690,3.980630,3.851710,3.978677,
+acc040,Accidents,0.4,762,1,"B GPU-only(recursive,GPU count)",32528,1.908710,1.796000,1.878960,1.861223,
+acc040,Accidents,0.4,762,2,D full-collab(stack+splitter),32528,0.208192,0.205966,0.211588,0.208582,13.85
+acc040,Accidents,0.4,762,3,C task-stack+GPU,32528,0.889108,0.890633,0.815445,0.865062,
+pu086,Pumsb,0.86,825,0,"A serial(recursive,P-core,CPU bitmap)",13599,0.104331,0.102422,0.099677,0.102143,
+pu086,Pumsb,0.86,825,1,"B GPU-only(recursive,GPU count)",13599,0.465630,0.452244,0.448991,0.455622,
+pu086,Pumsb,0.86,825,2,D full-collab(stack+splitter),13599,0.019491,0.029793,0.016565,0.021950,2.33909
+pu086,Pumsb,0.86,825,3,C task-stack+GPU,13599,0.280729,0.262860,0.273028,0.272206,
+pu082,Pumsb,0.82,2093,0,"A serial(recursive,P-core,CPU bitmap)",67903,0.572974,0.548983,0.568303,0.563420,
+pu082,Pumsb,0.82,2093,1,"B GPU-only(recursive,GPU count)",67903,2.266150,2.314210,2.281470,2.287277,
+pu082,Pumsb,0.82,2093,2,D full-collab(stack+splitter),67903,0.088027,0.084692,0.097181,0.089967,2.53238
+pu082,Pumsb,0.82,2093,3,C task-stack+GPU,67903,1.315380,1.274210,1.338970,1.309520,
+pu078,Pumsb,0.78,4503,0,"A serial(recursive,P-core,CPU bitmap)",272336,2.533910,2.652660,2.630550,2.605707,
+pu078,Pumsb,0.78,4503,1,"B GPU-only(recursive,GPU count)",272336,11.947800,11.620600,11.504900,11.691100,
+pu078,Pumsb,0.78,4503,2,D full-collab(stack+splitter),272336,0.343346,0.360260,0.354231,0.352612,2.40499
+pu078,Pumsb,0.78,4503,3,C task-stack+GPU,272336,7.488310,7.695750,7.986770,7.723610,

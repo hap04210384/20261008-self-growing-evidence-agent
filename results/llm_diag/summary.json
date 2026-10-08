@@ -1,0 +1,36 @@
+{
+ "n_calls": 360,
+ "unparsed": 1,
+ "models": {
+  "deepseek-chat": {
+   "acc_without_library": 0.5333,
+   "acc_with_library": 0.8333,
+   "n_without_library": 60,
+   "n_with_library": 60,
+   "citation_faithfulness": 1.0,
+   "citations_total": 102,
+   "condA_hallucinated_citations": 0,
+   "condA_n": 60
+  },
+  "qwen-plus": {
+   "acc_without_library": 0.5667,
+   "acc_with_library": 0.8136,
+   "n_without_library": 60,
+   "n_with_library": 59,
+   "citation_faithfulness": 1.0,
+   "citations_total": 116,
+   "condA_hallucinated_citations": 0,
+   "condA_n": 60
+  },
+  "glm-4-air": {
+   "acc_without_library": 0.6,
+   "acc_with_library": 0.6667,
+   "n_without_library": 60,
+   "n_with_library": 60,
+   "citation_faithfulness": 0.9928,
+   "citations_total": 139,
+   "condA_hallucinated_citations": 32,
+   "condA_n": 60
+  }
+ }
+}

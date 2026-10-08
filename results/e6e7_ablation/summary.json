@@ -1,0 +1,122 @@
+{
+ "E6_discretizer": {
+  "valve1": {
+   "p2_online": {
+    "n_windows": 1209,
+    "n_anom_windows": 449,
+    "anom_base_rate": 0.3714,
+    "n_mfi": 6,
+    "n_discriminative": 2,
+    "fault_coverage_topk": 0.7617,
+    "empty_bins": 8
+   },
+   "equal_width": {
+    "n_windows": 1209,
+    "n_anom_windows": 449,
+    "anom_base_rate": 0.3714,
+    "n_mfi": 18,
+    "n_discriminative": 4,
+    "fault_coverage_topk": 0.2361,
+    "empty_bins": 5
+   },
+   "equal_freq": {
+    "n_windows": 1209,
+    "n_anom_windows": 449,
+    "anom_base_rate": 0.3714,
+    "n_mfi": 122,
+    "n_discriminative": 23,
+    "fault_coverage_topk": 0.5145,
+    "empty_bins": 1
+   }
+  },
+  "valve2": {
+   "p2_online": {
+    "n_windows": 286,
+    "n_anom_windows": 109,
+    "anom_base_rate": 0.3811,
+    "n_mfi": 22,
+    "n_discriminative": 3,
+    "fault_coverage_topk": 0.3211,
+    "empty_bins": 8
+   },
+   "equal_width": {
+    "n_windows": 286,
+    "n_anom_windows": 109,
+    "anom_base_rate": 0.3811,
+    "n_mfi": 20,
+    "n_discriminative": 6,
+    "fault_coverage_topk": 0.4495,
+    "empty_bins": 5
+   },
+   "equal_freq": {
+    "n_windows": 286,
+    "n_anom_windows": 109,
+    "anom_base_rate": 0.3811,
+    "n_mfi": 138,
+    "n_discriminative": 30,
+    "fault_coverage_topk": 0.4771,
+    "empty_bins": 1
+   }
+  }
+ },
+ "E7_window": {
+  "valve1": {
+   "w15": {
+    "n_windows": 2593,
+    "n_anom_windows": 931,
+    "anom_base_rate": 0.359,
+    "n_mfi": 7,
+    "n_discriminative": 2,
+    "fault_coverage_topk": 0.724,
+    "empty_bins": 6
+   },
+   "w30": {
+    "n_windows": 1209,
+    "n_anom_windows": 449,
+    "anom_base_rate": 0.3714,
+    "n_mfi": 6,
+    "n_discriminative": 2,
+    "fault_coverage_topk": 0.7617,
+    "empty_bins": 8
+   },
+   "w60": {
+    "n_windows": 604,
+    "n_anom_windows": 241,
+    "anom_base_rate": 0.399,
+    "n_mfi": 6,
+    "n_discriminative": 2,
+    "fault_coverage_topk": 0.7386,
+    "empty_bins": 9
+   }
+  },
+  "valve2": {
+   "w15": {
+    "n_windows": 614,
+    "n_anom_windows": 224,
+    "anom_base_rate": 0.3648,
+    "n_mfi": 42,
+    "n_discriminative": 1,
+    "fault_coverage_topk": 0.1429,
+    "empty_bins": 4
+   },
+   "w30": {
+    "n_windows": 286,
+    "n_anom_windows": 109,
+    "anom_base_rate": 0.3811,
+    "n_mfi": 22,
+    "n_discriminative": 3,
+    "fault_coverage_topk": 0.3211,
+    "empty_bins": 8
+   },
+   "w60": {
+    "n_windows": 142,
+    "n_anom_windows": 57,
+    "anom_base_rate": 0.4014,
+    "n_mfi": 11,
+    "n_discriminative": 1,
+    "fault_coverage_topk": 0.2632,
+    "empty_bins": 8
+   }
+  }
+ }
+}
