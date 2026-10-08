@@ -80,13 +80,15 @@ def _greedy_wrap(fig, text, fontsize, width_pt, linespacing=1.4):
     return "\n".join(lines)
 
 
-def add_footnote(fig, axes, text, fontsize=7.8, color=None, bottom=0.012,
-                 gap=0.022, linespacing=1.4, top=None):
-    """底部通栏脚注：按图区真实宽度实测换行，左右与主图区拉通。
+def add_footnote(fig, axes, text, fontsize=7.8, color=None, bottom=0.008,
+                 gap=0.006, linespacing=1.4, top=None):
+    """底部通栏脚注：按图区真实宽度实测换行，左右与主图区拉通，两端对齐。
 
     不用 matplotlib wrap=True（其换行边界比坐标区窄一截，右侧留大空），
-    改为渲染器实测字宽的贪心换行；再按实际行高用 tight_layout 给脚注
-    预留恰好高度，省下的底部留白自动回收。
+    改为渲染器实测字宽的贪心换行；除末行外逐词布点把词间空白拉开到
+    正好铺满行宽（两端对齐效果）。脚注与坐标区间的空隙由 gap 控制
+    （默认约上移半格行距），再按实际行高用 tight_layout 预留恰好高度，
+    省下的底部留白自动回收。
     """
     if color is None:
         color = SUB
@@ -95,21 +97,52 @@ def add_footnote(fig, axes, text, fontsize=7.8, color=None, bottom=0.012,
     fig_w_in, fig_h_in = fig.get_size_inches()
     fig.tight_layout(rect=[0, 0.02, 1, top_arg])
 
+    line_h = fontsize * linespacing
+
+    def _block_h(wrapped):
+        lines = wrapped.split("\n")
+        h_last = _measure_text_pt(fig, lines[-1], fontsize, linespacing)[1]
+        return 0.3 * fontsize + h_last + (len(lines) - 1) * line_h
+
     def _layout():
         pos0 = min(a.get_position().x0 for a in axes)
         pos1 = max(a.get_position().x1 for a in axes)
         width_pt = (pos1 - pos0) * fig_w_in * 72.0
         wrapped = _greedy_wrap(fig, text, fontsize, width_pt, linespacing)
-        _, h_pt = _measure_text_pt(fig, wrapped, fontsize, linespacing)
-        return pos0, pos1, wrapped, h_pt / 72.0 / fig_h_in
+        h = _block_h(wrapped) / 72.0 / fig_h_in
+        return pos0, pos1, wrapped, h
 
     fig.canvas.draw()
     pos0, pos1, wrapped, h = _layout()
     fig.tight_layout(rect=[0, bottom + h + gap, 1, top_arg])
     fig.canvas.draw()
     pos0, pos1, wrapped, h = _layout()   # 高度变化后图区宽度不变，重算稳妥
+    width_pt = (pos1 - pos0) * fig_w_in * 72.0
+    lines = wrapped.split("\n")
+    h_last = _measure_text_pt(fig, lines[-1], fontsize, linespacing)[1]
+    y_last = 0.15 * fontsize + h_last    # 末行顶：底部只留 0.15 字号余量
+    ys = [y_last + (len(lines) - 1 - i) * line_h for i in range(len(lines))]
+
     fax = fig.add_axes([pos0, bottom, pos1 - pos0, h])
+    fax.set_xlim(0, width_pt)
+    fax.set_ylim(0, ys[0] + 0.15 * fontsize)
     fax.axis("off")
-    fax.text(0, 0, wrapped, fontsize=fontsize, color=color, ha="left",
-             va="bottom", linespacing=linespacing)
+    for i, line in enumerate(lines):
+        y = ys[i]   # va="top"：行顶间距恰为 line_h
+        words = line.split(" ")
+        if i < len(lines) - 1 and len(words) > 1:
+            # 两端对齐：把行剩余宽度均摊到词间隙（末行保持左对齐）
+            space_w = _measure_text_pt(fig, " ", fontsize, linespacing)[0]
+            ws = [_measure_text_pt(fig, w, fontsize, linespacing)[0]
+                  for w in words]
+            natural = sum(ws) + (len(words) - 1) * space_w
+            extra = (width_pt - natural) / (len(words) - 1)
+            x = 0.0
+            for w, wd in zip(words, ws):
+                fax.text(x, y, w, fontsize=fontsize, color=color, ha="left",
+                         va="top")
+                x += wd + space_w + extra
+        else:
+            fax.text(0, y, line, fontsize=fontsize, color=color, ha="left",
+                     va="top", linespacing=linespacing)
     return fax
