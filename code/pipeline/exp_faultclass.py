@@ -27,8 +27,7 @@ ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, HERE)
 
 import skab_spike as spike                    # noqa: E402
-from engine_adapter import (decode_itemset, run_anyfim,  # noqa: E402
-                            write_fimi)
+from engine_adapter import run_anyfim, write_fimi  # noqa: E402
 
 DATA = os.path.join(ROOT, "data")
 OUT = os.path.join(ROOT, "results", "faultclass")
