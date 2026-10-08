@@ -10,7 +10,8 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
-from fig_style import BLUE, INK, SUB, ORANGE, apply_style, clean_spines
+from fig_style import (BLUE, INK, SUB, ORANGE, add_footnote, apply_style,
+                       clean_spines)
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -76,7 +77,15 @@ clean_spines(ax2)
 ax2.set_title("(b) window size sensitivity (hop = w/2)",
               fontsize=9.5, loc="left")
 
-fig.tight_layout()
+# 底部通栏脚注：左右与图区拉通，按实际行数预留高度（多余留白自动回收）
+add_footnote(fig, [ax1, ax2],
+             "Protocol: identical mining and evaluation pipeline for every "
+             "discretizer (Sec. 3.8); the P$^2$ tracker is single-pass and "
+             "needs no prior statistics, equal-frequency is a two-pass offline "
+             "oracle, and equal-width is a fixed grid. Window sweep reuses the "
+             "default hop = $w$/2; coverage is the union of top-5 "
+             "discriminative MFIs per class across 8 SKAB fault classes.",
+             fontsize=7.8, color=SUB, linespacing=1.4)
 fig.savefig(OUT + ".svg", format="svg")
 fig.savefig(OUT + ".png", dpi=220)
 print("saved", OUT + ".png")
