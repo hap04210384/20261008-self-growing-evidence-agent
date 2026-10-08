@@ -76,7 +76,7 @@ print(json.dumps(summary, ensure_ascii=False, indent=1))
 
 # ---------- Figure 5 ----------
 apply_style()
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(6.9, 4.0),
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(6.9, 2.8),
                                gridspec_kw={"width_ratios": [1.55, 1]})
 
 x = np.arange(len(MODEL_ORDER))
@@ -95,14 +95,14 @@ for xi, v in zip(x, a_lib):
                  fontsize=8.5, color=ORANGE, fontweight="bold")
 # 提升幅度写在青色柱内（白字），避免与图例争抢顶部空间
 for xi, (a, b) in enumerate(zip(a_nolib, a_lib)):
-    ax1.annotate(f"+{(b - a) * 100:.0f} pp", xy=(xi + w / 2, b - 0.07),
+    ax1.annotate(f"+{(b - a) * 100:.0f} pp", xy=(xi + w / 2, b - 0.16),
                  ha="center", fontsize=8.5, color="white", fontweight="bold")
 
 ax1.set_xticks(x)
 ax1.set_xticklabels([MODEL_LABEL[m] for m in MODEL_ORDER])
 ax1.set_xlim(-0.95, 2.55)
 ax1.set_ylabel("Window diagnosis accuracy")
-ax1.set_ylim(0, 1.24)
+ax1.set_ylim(0, 1.36)
 ax1.set_yticks([0.0, 0.25, 0.5, 0.75, 1.0])
 ax1.axhline(0.5, color=SUB, lw=0.8, ls=":")  # chance level
 ax1.text(-0.88, 0.512, "chance\n(0.5)", fontsize=7.2, color=SUB, ha="left",
@@ -112,7 +112,7 @@ ax1.legend(loc="upper left", fontsize=8.5, handlelength=1.5)
 clean_spines(ax1)
 
 # 右上说明框：增益来自证据质量而非提示词长度
-ax1.text(2.45, 1.17, "largest gain on the strongest\nmodel — evidence quality,\n"
+ax1.text(2.45, 1.31, "largest gain on the strongest\nmodel — evidence quality,\n"
          "not prompt size, drives it",
          fontsize=7.8, color=ORANGE, ha="right", va="top", linespacing=1.35,
          bbox=dict(boxstyle="round,pad=0.45", fc=PANEL, ec=ORANGE, lw=0.9))
