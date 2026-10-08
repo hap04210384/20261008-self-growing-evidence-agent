@@ -1,36 +1,36 @@
 {
- "n_calls": 360,
- "unparsed": 1,
+ "n_calls": 1188,
+ "unparsed": 0,
  "models": {
   "deepseek-chat": {
-   "acc_without_library": 0.5333,
-   "acc_with_library": 0.8333,
-   "n_without_library": 60,
-   "n_with_library": 60,
+   "acc_without_library": 0.5808,
+   "acc_with_library": 0.8131,
+   "n_without_library": 198,
+   "n_with_library": 198,
    "citation_faithfulness": 1.0,
-   "citations_total": 102,
+   "citations_total": 376,
    "condA_hallucinated_citations": 0,
-   "condA_n": 60
+   "condA_n": 198
   },
   "qwen-plus": {
-   "acc_without_library": 0.5667,
-   "acc_with_library": 0.8136,
-   "n_without_library": 60,
-   "n_with_library": 59,
+   "acc_without_library": 0.5657,
+   "acc_with_library": 0.8182,
+   "n_without_library": 198,
+   "n_with_library": 198,
    "citation_faithfulness": 1.0,
-   "citations_total": 116,
+   "citations_total": 461,
    "condA_hallucinated_citations": 0,
-   "condA_n": 60
+   "condA_n": 198
   },
   "glm-4-air": {
-   "acc_without_library": 0.6,
-   "acc_with_library": 0.6667,
-   "n_without_library": 60,
-   "n_with_library": 60,
-   "citation_faithfulness": 0.9928,
-   "citations_total": 139,
-   "condA_hallucinated_citations": 32,
-   "condA_n": 60
+   "acc_without_library": 0.5404,
+   "acc_with_library": 0.5859,
+   "n_without_library": 198,
+   "n_with_library": 198,
+   "citation_faithfulness": 1.0,
+   "citations_total": 498,
+   "condA_hallucinated_citations": 114,
+   "condA_n": 198
   }
  }
 }

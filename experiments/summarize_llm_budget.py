@@ -226,7 +226,7 @@ ax.annotate("chance = 0.50", (-0.55, 0.485), va="top", fontsize=8,
 ax.set_xticks(list(KS))
 ax.set_xticklabels(["0\n(no library)", "1", "2", "3", "5", "8\n(full)"])
 ax.set_xlabel("Number of attached library patterns  k")
-ax.set_ylabel("Diagnosis accuracy on 60 windows")
+ax.set_ylabel("Diagnosis accuracy on 198 windows")
 ax.set_ylim(0.40, 1.00)
 ax.set_xlim(-0.7, 9.0)
 ax.grid(axis="y")
@@ -235,7 +235,7 @@ ax.legend(loc="upper left", bbox_to_anchor=(0.015, 0.985), ncol=1,
           handlelength=1.8)
 # 底部通栏脚注：左右与图区拉通，按实际行数预留高度（多余留白自动回收）
 add_footnote(fig, [ax],
-             "60 balanced SKAB windows per model · frozen prompts, decoding "
+             "198 balanced SKAB windows per model · frozen prompts, decoding "
              "temperature 0 · whiskers: Wilson 95% CI · dashed line: chance "
              "(0.5) · p: paired McNemar, peak vs. k = 0",
              fontsize=7.4, color=SUB, linespacing=1.5)

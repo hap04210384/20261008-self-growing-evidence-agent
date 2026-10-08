@@ -1,0 +1,279 @@
+{
+ "n_calls": 1188,
+ "unparsed": 0,
+ "models": {
+  "deepseek-chat": {
+   "per_condition": {
+    "False": {
+     "correct": 115,
+     "n": 198,
+     "acc": 0.5808,
+     "wilson95": [
+      0.5112,
+      0.6474
+     ]
+    },
+    "True": {
+     "correct": 161,
+     "n": 198,
+     "acc": 0.8131,
+     "wilson95": [
+      0.7531,
+      0.8613
+     ]
+    }
+   },
+   "per_group": {
+    "other-fault": {
+     "False": {
+      "correct": 34,
+      "n": 66,
+      "acc": 0.5152,
+      "wilson95": [
+       0.3971,
+       0.6315
+      ]
+     },
+     "True": {
+      "correct": 42,
+      "n": 66,
+      "acc": 0.6364,
+      "wilson95": [
+       0.5158,
+       0.7419
+      ]
+     }
+    },
+    "valve-1": {
+     "False": {
+      "correct": 38,
+      "n": 66,
+      "acc": 0.5758,
+      "wilson95": [
+       0.4556,
+       0.6876
+      ]
+     },
+     "True": {
+      "correct": 62,
+      "n": 66,
+      "acc": 0.9394,
+      "wilson95": [
+       0.8543,
+       0.9762
+      ]
+     }
+    },
+    "valve-2": {
+     "False": {
+      "correct": 43,
+      "n": 66,
+      "acc": 0.6515,
+      "wilson95": [
+       0.5311,
+       0.7552
+      ]
+     },
+     "True": {
+      "correct": 57,
+      "n": 66,
+      "acc": 0.8636,
+      "wilson95": [
+       0.7607,
+       0.9266
+      ]
+     }
+    }
+   },
+   "mcnemar": {
+    "n_paired": 198,
+    "lib_only_correct": 55,
+    "nolib_only_correct": 9,
+    "chi2": 31.641,
+    "p": 0.0
+   }
+  },
+  "qwen-plus": {
+   "per_condition": {
+    "False": {
+     "correct": 112,
+     "n": 198,
+     "acc": 0.5657,
+     "wilson95": [
+      0.496,
+      0.6328
+     ]
+    },
+    "True": {
+     "correct": 162,
+     "n": 198,
+     "acc": 0.8182,
+     "wilson95": [
+      0.7586,
+      0.8657
+     ]
+    }
+   },
+   "per_group": {
+    "other-fault": {
+     "False": {
+      "correct": 36,
+      "n": 66,
+      "acc": 0.5455,
+      "wilson95": [
+       0.4261,
+       0.6598
+      ]
+     },
+     "True": {
+      "correct": 42,
+      "n": 66,
+      "acc": 0.6364,
+      "wilson95": [
+       0.5158,
+       0.7419
+      ]
+     }
+    },
+    "valve-1": {
+     "False": {
+      "correct": 35,
+      "n": 66,
+      "acc": 0.5303,
+      "wilson95": [
+       0.4116,
+       0.6457
+      ]
+     },
+     "True": {
+      "correct": 63,
+      "n": 66,
+      "acc": 0.9545,
+      "wilson95": [
+       0.8747,
+       0.9844
+      ]
+     }
+    },
+    "valve-2": {
+     "False": {
+      "correct": 41,
+      "n": 66,
+      "acc": 0.6212,
+      "wilson95": [
+       0.5006,
+       0.7285
+      ]
+     },
+     "True": {
+      "correct": 57,
+      "n": 66,
+      "acc": 0.8636,
+      "wilson95": [
+       0.7607,
+       0.9266
+      ]
+     }
+    }
+   },
+   "mcnemar": {
+    "n_paired": 198,
+    "lib_only_correct": 60,
+    "nolib_only_correct": 10,
+    "chi2": 34.3,
+    "p": 0.0
+   }
+  },
+  "glm-4-air": {
+   "per_condition": {
+    "False": {
+     "correct": 107,
+     "n": 198,
+     "acc": 0.5404,
+     "wilson95": [
+      0.4709,
+      0.6084
+     ]
+    },
+    "True": {
+     "correct": 116,
+     "n": 198,
+     "acc": 0.5859,
+     "wilson95": [
+      0.5162,
+      0.6522
+     ]
+    }
+   },
+   "per_group": {
+    "other-fault": {
+     "False": {
+      "correct": 39,
+      "n": 66,
+      "acc": 0.5909,
+      "wilson95": [
+       0.4705,
+       0.7013
+      ]
+     },
+     "True": {
+      "correct": 33,
+      "n": 66,
+      "acc": 0.5,
+      "wilson95": [
+       0.3827,
+       0.6173
+      ]
+     }
+    },
+    "valve-1": {
+     "False": {
+      "correct": 33,
+      "n": 66,
+      "acc": 0.5,
+      "wilson95": [
+       0.3827,
+       0.6173
+      ]
+     },
+     "True": {
+      "correct": 33,
+      "n": 66,
+      "acc": 0.5,
+      "wilson95": [
+       0.3827,
+       0.6173
+      ]
+     }
+    },
+    "valve-2": {
+     "False": {
+      "correct": 35,
+      "n": 66,
+      "acc": 0.5303,
+      "wilson95": [
+       0.4116,
+       0.6457
+      ]
+     },
+     "True": {
+      "correct": 50,
+      "n": 66,
+      "acc": 0.7576,
+      "wilson95": [
+       0.6419,
+       0.8449
+      ]
+     }
+    }
+   },
+   "mcnemar": {
+    "n_paired": 198,
+    "lib_only_correct": 46,
+    "nolib_only_correct": 37,
+    "chi2": 0.771,
+    "p": 0.37988
+   }
+  }
+ }
+}

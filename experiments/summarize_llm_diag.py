@@ -136,7 +136,7 @@ clean_spines(ax2)
 # GLM-4-Air 的 0.7% 缺口标注：文字放右上方空白区（文字已点名 GLM-4-Air，无需箭头）
 glm_faith = summary["models"]["glm-4-air"]["citation_faithfulness"]
 glm_ncite = summary["models"]["glm-4-air"]["citations_total"]
-ax2.annotate(f"GLM-4-Air: ≈{round((1 - glm_faith) * glm_ncite)} of {glm_ncite} "
+ax2.annotate(f"GLM-4-Air: {round((1 - glm_faith) * glm_ncite)} of {glm_ncite} "
              "citations\nnot verbatim in the library",
              xy=(2.52, 1.15), fontsize=7.4, color=ORANGE,
              ha="right", va="top", linespacing=1.35)
@@ -146,12 +146,12 @@ ax1.set_title("(a) evidence improves diagnosis", fontsize=9.5, loc="left")
 
 # 底部通栏脚注：左右与双面板拉通，按实际行数预留高度
 add_footnote(fig, [ax1, ax2],
-             "60 balanced windows per condition (normal/faulty; ten per class "
+             "198 balanced windows per condition (normal/faulty; 33 per class "
              "from SKAB valve-1, valve-2, and other-fault runs); frozen prompts, "
              "decoding temperature 0. +pp = percentage-point gain of the same "
              "model with vs. without the mined library. Without the library, "
-             "GLM-4-Air fabricated citations in 32/60 windows; with the library, "
-             "the single unverifiable citation is annotated in panel (b).",
+             "GLM-4-Air fabricated citations in 114/198 windows; with the "
+             "library, not a single unverifiable citation occurred.",
              fontsize=7.3, color=SUB, linespacing=1.35)
 fig.savefig(FIG + ".svg", format="svg")
 fig.savefig(FIG + ".png", dpi=220)

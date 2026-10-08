@@ -72,24 +72,34 @@ class P2Quantile:
 
 
 class OnlineBinner:
-    """一路传感器：两个 P² 估计器（1/3、2/3 分位）→ 动态边界，3 分箱。"""
+    """一路传感器：n_bins-1 个 P² 估计器（分位 i/n_bins, i=1..n_bins-1）
+    → 动态边界，n_bins 分箱（默认 3，与原实现完全一致）。"""
 
-    def __init__(self):
-        self.est = [P2Quantile(q) for q in (1 / 3, 2 / 3)]
+    def __init__(self, n_bins=3):
+        self.n_bins = n_bins
+        self.est = [P2Quantile(q) for q in
+                    (i / n_bins for i in range(1, n_bins))]
 
     def add(self, x):
         for e in self.est:
             e.add(x)
 
     def edges(self, min_gap=None):
-        q1, q2 = sorted(e.value() for e in self.est)
-        iqr = max(q2 - q1, 1e-9)
+        q = sorted(e.value() for e in self.est)
+        span = max(q[-1] - q[0], 1e-9)
         if min_gap is None:
-            min_gap = 0.05 * iqr          # 最小箱宽：防退化分布下边界重合
-        if q2 - q1 < min_gap:
-            mid = (q1 + q2) / 2
-            q1, q2 = mid - min_gap / 2, mid + min_gap / 2
-        return np.array([q1 - iqr, q1, q2, q2 + iqr])  # 与离线 3 分箱同结构
+            min_gap = 0.05 * span          # 最小箱宽：防退化分布下边界重合
+        if self.n_bins == 3:
+            # 原实现路径（保证与既有实验逐位一致）：内边界对整体居中
+            if q[1] - q[0] < min_gap:
+                mid = (q[0] + q[1]) / 2
+                q[0], q[1] = mid - min_gap / 2, mid + min_gap / 2
+        else:
+            # 多边界推广：从前向后保证相邻间距（只上移，不动前序边界）
+            for i in range(1, len(q)):
+                if q[i] < q[i - 1] + min_gap:
+                    q[i] = q[i - 1] + min_gap
+        return np.array([q[0] - span] + q + [q[-1] + span])  # n_bins+1 边界
 
 
 def bin_index(value, edges):

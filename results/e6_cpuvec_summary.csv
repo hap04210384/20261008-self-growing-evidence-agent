@@ -1,0 +1,12 @@
+﻿dataset,thr,med_comp_s,reps_ok,ok
+ai4i,0.01,0.096095,5,True
+ai4i,0.05,0.021197,5,True
+cmapss,0.3,0.271237,5,True
+cmapss,0.4,0.029073,5,True
+cwru,0.1,0.006793,5,True
+cwru,0.2,0.000151,5,True
+hai,0.1,,0,timeout
+hai,0.2,0.636452,5,True
+skab_valve1,0.05,0.021863,5,True
+skab_valve1,0.1,0.007407,5,True
+skab_valve1,0.2,0.002079,5,True

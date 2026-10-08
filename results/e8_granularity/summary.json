@@ -1,0 +1,126 @@
+{
+ "valve1": {
+  "n_bins=3": {
+   "p2_online": {
+    "n_windows": 1209,
+    "n_anom_windows": 449,
+    "anom_base_rate": 0.3714,
+    "n_mfi": 6,
+    "n_discriminative": 2,
+    "fault_coverage_topk": 0.7617,
+    "empty_bins": 8
+   },
+   "equal_freq": {
+    "n_windows": 1209,
+    "n_anom_windows": 449,
+    "anom_base_rate": 0.3714,
+    "n_mfi": 122,
+    "n_discriminative": 23,
+    "fault_coverage_topk": 0.5145,
+    "empty_bins": null
+   }
+  },
+  "n_bins=5": {
+   "p2_online": {
+    "n_windows": 1209,
+    "n_anom_windows": 449,
+    "anom_base_rate": 0.3714,
+    "n_mfi": 6,
+    "n_discriminative": 2,
+    "fault_coverage_topk": 0.7617,
+    "empty_bins": 24
+   },
+   "equal_freq": {
+    "n_windows": 1209,
+    "n_anom_windows": 449,
+    "anom_base_rate": 0.3714,
+    "n_mfi": 151,
+    "n_discriminative": 11,
+    "fault_coverage_topk": 0.4633,
+    "empty_bins": null
+   }
+  },
+  "n_bins=7": {
+   "p2_online": {
+    "n_windows": 1209,
+    "n_anom_windows": 449,
+    "anom_base_rate": 0.3714,
+    "n_mfi": 6,
+    "n_discriminative": 2,
+    "fault_coverage_topk": 0.7617,
+    "empty_bins": 40
+   },
+   "equal_freq": {
+    "n_windows": 1209,
+    "n_anom_windows": 449,
+    "anom_base_rate": 0.3714,
+    "n_mfi": 103,
+    "n_discriminative": 4,
+    "fault_coverage_topk": 0.5367,
+    "empty_bins": null
+   }
+  }
+ },
+ "valve2": {
+  "n_bins=3": {
+   "p2_online": {
+    "n_windows": 286,
+    "n_anom_windows": 109,
+    "anom_base_rate": 0.3811,
+    "n_mfi": 22,
+    "n_discriminative": 3,
+    "fault_coverage_topk": 0.3211,
+    "empty_bins": 8
+   },
+   "equal_freq": {
+    "n_windows": 286,
+    "n_anom_windows": 109,
+    "anom_base_rate": 0.3811,
+    "n_mfi": 138,
+    "n_discriminative": 30,
+    "fault_coverage_topk": 0.4771,
+    "empty_bins": null
+   }
+  },
+  "n_bins=5": {
+   "p2_online": {
+    "n_windows": 286,
+    "n_anom_windows": 109,
+    "anom_base_rate": 0.3811,
+    "n_mfi": 22,
+    "n_discriminative": 3,
+    "fault_coverage_topk": 0.3211,
+    "empty_bins": 24
+   },
+   "equal_freq": {
+    "n_windows": 286,
+    "n_anom_windows": 109,
+    "anom_base_rate": 0.3811,
+    "n_mfi": 157,
+    "n_discriminative": 22,
+    "fault_coverage_topk": 0.6147,
+    "empty_bins": null
+   }
+  },
+  "n_bins=7": {
+   "p2_online": {
+    "n_windows": 286,
+    "n_anom_windows": 109,
+    "anom_base_rate": 0.3811,
+    "n_mfi": 22,
+    "n_discriminative": 3,
+    "fault_coverage_topk": 0.3211,
+    "empty_bins": 40
+   },
+   "equal_freq": {
+    "n_windows": 286,
+    "n_anom_windows": 109,
+    "anom_base_rate": 0.3811,
+    "n_mfi": 100,
+    "n_discriminative": 10,
+    "fault_coverage_topk": 0.5963,
+    "empty_bins": null
+   }
+  }
+ }
+}
