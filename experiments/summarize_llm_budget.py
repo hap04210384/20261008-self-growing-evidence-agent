@@ -129,8 +129,26 @@ json.dump(stats, open(OUTJSON, "w", encoding="utf-8"),
           ensure_ascii=False, indent=1)
 
 # ---------- Figure 7 ----------
+# 峰值 vs k=0 的 McNemar p（Qwen 峰在 k=8，需补算 k0_vs_k8）
+PEAK_K = {"deepseek-chat": 5, "qwen-plus": 8, "glm-4-air": 3}
+peak_p = {}
+for m in MODEL_ORDER:
+    kp = PEAK_K[m]
+    keys = {ck for (mm, kk, ck) in correct if mm == m}
+    b = c = 0
+    for ck in keys:
+        a = correct.get((m, 0, ck))
+        bq = correct.get((m, kp, ck))
+        if a is None or bq is None:
+            continue
+        if bq == 1 and a == 0:
+            b += 1
+        elif bq == 0 and a == 1:
+            c += 1
+    peak_p[m] = mcnemar(b, c)[1]
+
 apply_style()
-fig, ax = plt.subplots(figsize=(7.0, 4.2))
+fig, ax = plt.subplots(figsize=(7.2, 4.9))
 DATA = {}
 for m in MODEL_ORDER:
     xs, ys, lo_e, hi_e = [], [], [], []
@@ -146,6 +164,38 @@ for m in MODEL_ORDER:
                 marker=MODEL_MARK[m], ms=6.5, lw=1.6,
                 elinewidth=1.0, capsize=2.5, capthick=0.9,
                 label=MODEL_LABEL[m], zorder=3)
+
+# 小预算区间底纹：k = 3–5 已含大部分可提取信号（标签放带内底部空旷区）
+ax.axvspan(2.62, 5.38, color=SUB, alpha=0.075, zorder=0)
+ax.annotate("small budget suffices:\nk = 3\u20135 captures most of the signal",
+            (4.0, 0.428), ha="center", va="bottom", fontsize=8.2,
+            color=INK, zorder=4)
+
+# 峰值大圈高亮 + 峰值旁直接标注（避免顶部汇总框与曲线/圈相交）
+for m in MODEL_ORDER:
+    i = KS.index(PEAK_K[m])
+    x, y = DATA[m][0][i], DATA[m][1][i]
+    acc = agg[(m, PEAK_K[m])]["acc"]
+    gain = acc - agg[(m, 0)]["acc"]
+    ax.plot([x], [y], marker="o", ms=13.5, mfc="none",
+            mec=MODEL_COLOR[m], mew=1.5, zorder=4)
+    if m == "deepseek-chat":
+        ax.annotate(f"peak {acc:.2f} (\u0394 +{gain:.2f})\nMcNemar p = {peak_p[m]:.4f}",
+                    (x, y), textcoords="offset points", xytext=(2, 15),
+                    ha="center", fontsize=8, color=MODEL_COLOR[m], zorder=5)
+    elif m == "qwen-plus":
+        ax.annotate(f"peak {acc:.2f} (\u0394 +{gain:.2f}), p = {peak_p[m]:.3f}",
+                    (x, y), textcoords="offset points", xytext=(-12, -4),
+                    ha="right", fontsize=8, color=MODEL_COLOR[m], zorder=5)
+    else:
+        ax.annotate(f"peak {acc:.2f} (\u0394 +{gain:.2f})\np = {peak_p[m]:.3f}",
+                    (x, y), textcoords="offset points", xytext=(10, 4),
+                    ha="left", fontsize=8, color=MODEL_COLOR[m], zorder=5)
+
+# GLM-4-Air 过峰后退化提示
+ax.annotate("GLM-4-Air degrades\npast its peak", (8.5, 0.705),
+            ha="right", va="top", fontsize=8, color=TEAL_DARK,
+            style="italic", zorder=4)
 
 # 端点 + 关键峰标注（中部拥挤点不标，避免互相压盖）
 def lab(m, i, txt, dy):
@@ -167,8 +217,7 @@ for m in MODEL_ORDER:
                     textcoords="offset points", xytext=(6, 8),
                     ha="left", fontsize=8, color=SUB)
     lab(m, -1, f"{DATA[m][1][-1]:.2f}", 10 if m != "qwen-plus" else -16)
-lab("deepseek-chat", 4, f"{DATA['deepseek-chat'][1][4]:.2f}", 10)   # k=5 峰
-lab("glm-4-air", 3, f"{DATA['glm-4-air'][1][3]:.2f}", -16)           # k=3 峰
+lab("glm-4-air", 3, f"{DATA['glm-4-air'][1][3]:.2f}", -20)           # k=3 峰
 
 ax.axhline(0.5, color=SUB, lw=0.9, ls=(0, (4, 3)), zorder=1)
 ax.annotate("chance = 0.50", (-0.55, 0.485), va="top", fontsize=8,
@@ -183,7 +232,11 @@ ax.grid(axis="y")
 clean_spines(ax)
 ax.legend(loc="upper left", bbox_to_anchor=(0.015, 0.985), ncol=1,
           handlelength=1.8)
-fig.tight_layout()
+fig.tight_layout(rect=(0, 0.075, 1, 1))
+fig.text(0.055, 0.018,
+         "60 balanced SKAB windows per model \u00b7 frozen prompts, decoding temperature 0\n"
+         "whiskers: Wilson 95% CI \u00b7 dashed line: chance (0.5) \u00b7 p: paired McNemar, peak vs. k = 0",
+         fontsize=7.4, color=SUB, ha="left", va="bottom", linespacing=1.5)
 fig.savefig(os.path.join(FIGDIR, "fig7_llm_budget.png"), dpi=300)
 print("saved", os.path.join(FIGDIR, "fig7_llm_budget.png"))
 
