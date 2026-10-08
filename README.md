@@ -38,8 +38,8 @@ data/                exported FIMI transactions + download instructions
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/self-growing-evidence.git
-cd self-growing-evidence
+git clone https://github.com/YOUR-USERNAME/20261008-self-growing-evidence-agent.git
+cd 20261008-self-growing-evidence-agent
 pip install -r requirements.txt
 ```
 
