@@ -17,11 +17,13 @@ from fig_style import (AMBER, INK, PANEL, SUB, TEAL, TEAL_DARK, apply_style,
 import matplotlib.pyplot as plt
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RES = os.path.join(ROOT, "results", "e5_efficiency.csv")
+RES = os.path.join(ROOT, "results", "e5_runs.csv")
 OUT = os.path.join(ROOT, "figures", "fig_threshold_sensitivity")
 
-df = pd.read_csv(RES, encoding="utf-8-sig")
-base = df[(df["engine"] == "baseline") & (df["med_total_s"] > 0)]
+runs = pd.read_csv(RES)
+base = (runs[runs["engine"] == "baseline"]
+        .groupby(["dataset", "thr"])["secs"].median()
+        .reset_index().rename(columns={"secs": "med_total_s"}))
 
 STYLE = {
     "hai": ("HAI", AMBER, "o"),
@@ -62,9 +64,9 @@ for key, (lbl, color, mk) in STYLE.items():
     ax.annotate(txt, xy=(x0, y0), xytext=off, textcoords="offset points",
                 ha=ha, fontsize=7.6, color=color, linespacing=1.25)
 
-# HAI 的极端不稳定标注：阈值 0.1→0.2（2×），耗时 18.3s→0.038s（≈480×）
-ax.annotate("2× threshold → ≈480× time\n(18.3 s → 0.038 s)",
-            xy=(0.1, 18.33), xytext=(0.016, 3.2),
+# HAI 的极端不稳定标注：阈值 0.1→0.2（2×），耗时 18.8s→0.039s（≈490×）
+ax.annotate("2× threshold → ≈490× time\n(18.8 s → 0.039 s)",
+            xy=(0.1, 18.82), xytext=(0.016, 3.2),
             fontsize=8.5, color=AMBER, linespacing=1.3,
             arrowprops=dict(arrowstyle="->", color=AMBER, lw=1.1,
                             connectionstyle="arc3,rad=0.18"))

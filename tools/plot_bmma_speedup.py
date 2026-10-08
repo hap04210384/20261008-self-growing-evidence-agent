@@ -18,15 +18,30 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RES = os.path.join(ROOT, "results", "e5_efficiency.csv")
+RES = os.path.join(ROOT, "results", "e5_runs.csv")   # 逐次计时（含 IQR）
+OLD = os.path.join(ROOT, "results", "e5_efficiency.csv")  # 仅用于 n_mfis
 OUT = os.path.join(ROOT, "figures", "fig_bmma_speedup")
 
-df = pd.read_csv(RES, encoding="utf-8-sig")
-piv = df.pivot_table(index=["dataset", "thr"], columns="engine",
-                     values="med_total_s", aggfunc="first").reset_index()
-# 只保留 baseline 与 BMMA 均有数据的配置（11 个）
+runs = pd.read_csv(RES)
+# 每个配置 × 引擎的 median 与 IQR
+agg = runs.groupby(["dataset", "thr", "engine"])["secs"].agg(
+    ["median", lambda s: s.quantile(0.25), lambda s: s.quantile(0.75)])
+agg.columns = ["med", "q1", "q3"]
+agg = agg.reset_index()
+piv = agg.pivot_table(index=["dataset", "thr"], columns="engine",
+                      values="med").reset_index()
 piv = piv.dropna(subset=["baseline", "bmma"])
 piv = piv.sort_values("baseline", ascending=False).reset_index(drop=True)
+# IQR 与 n_mfis 并入 piv
+q1 = agg.pivot_table(index=["dataset", "thr"], columns="engine",
+                     values="q1").reset_index()
+q3 = agg.pivot_table(index=["dataset", "thr"], columns="engine",
+                     values="q3").reset_index()
+mfis = pd.read_csv(OLD, encoding="utf-8-sig")[
+    ["dataset", "thr", "n_mfis"]].drop_duplicates()
+piv = piv.merge(q1, on=["dataset", "thr"], suffixes=("", "_q1"))
+piv = piv.merge(q3, on=["dataset", "thr"], suffixes=("", "_q3"))
+piv = piv.merge(mfis, on=["dataset", "thr"], how="left")
 
 DS_LABEL = {
     "hai": "HAI",
@@ -66,9 +81,15 @@ for xi, h in zip(x, heavy):
         ax.axvspan(xi - 0.5, xi + 0.5, color=AMBER, alpha=0.08, zorder=0)
 
 b1 = ax.bar(x - w / 2, piv["baseline"], w, color=HAIR, edgecolor=SUB,
-            linewidth=0.6, label="baseline")
+            linewidth=0.6, label="baseline",
+            yerr=[piv["baseline"] - piv["baseline_q1"],
+                  piv["baseline_q3"] - piv["baseline"]],
+            error_kw=dict(elinewidth=0.8, capsize=2, ecolor=SUB))
 b2 = ax.bar(x + w / 2, piv["bmma"], w, color=AMBER, edgecolor="none",
-            label="BMMA (tensor cores)")
+            label="BMMA (tensor cores)",
+            yerr=[piv["bmma"] - piv["bmma_q1"],
+                  piv["bmma_q3"] - piv["bmma"]],
+            error_kw=dict(elinewidth=0.8, capsize=2, ecolor="#7B241C"))
 
 # 加速比标注：≥1 绿，<1 灰
 for xi, sp in zip(x, speedup):
@@ -97,22 +118,23 @@ ax.text(len(piv) - 0.55, 0.0115, "10 ms — heavy-config cutoff",
 ax.set_yscale("log")
 ax.set_ylabel("Median mining time (s)")
 ax.set_xticks(x)
-ax.set_xticklabels(labels, fontsize=8)
+ax.set_xticklabels(labels, fontsize=7.2)
 ax.set_ylim(5e-5, 300)
 ax.grid(True, axis="y")
 ax.legend(loc="upper right")
 clean_spines(ax)
 
-# HAI@0.10：位图内存压力反转收益
+# HAI@0.10：最重输出下 BMMA 依旧更快且更稳
 i_heavy0 = int(piv.index[piv["dataset"] == "hai"][0])
-ax.annotate("995 MFIs — bitmap memory\npressure reverses the gain (0.6×)",
-            xy=(i_heavy0 + w / 2, piv.loc[i_heavy0, "bmma"] * 1.15),
-            xytext=(i_heavy0 + 0.9, 90), fontsize=8.2, color=AMBER,
+ax.annotate("995 MFIs — heaviest output: BMMA 2.1×\nfaster and steadier "
+            "(IQR 8.8–9.1 s vs 18.2–26.6 s)",
+            xy=(i_heavy0 + w / 2, piv.loc[i_heavy0, "bmma"] * 1.3),
+            xytext=(i_heavy0 + 1.0, 70), fontsize=8.2, color=AMBER,
             arrowprops=dict(arrowstyle="->", color=AMBER, lw=1.0,
                             connectionstyle="arc3,rad=0.2"))
 
 # 轻配置：固定内核启动开销主导
-ax.annotate("light configs: fixed kernel-setup\noverhead dominates (0.3–1.0×)",
+ax.annotate("light configs: fixed kernel-setup\noverhead dominates (0.3–1.1×)",
             xy=(len(piv) - 1.5, 3e-4), xytext=(len(piv) - 4.6, 0.004),
             fontsize=8.2, color=SUB,
             arrowprops=dict(arrowstyle="->", color=SUB, lw=1.0,
@@ -127,9 +149,9 @@ ax.annotate(f"heavy configs (baseline ≥ 10 ms):\nmedian ×{med_heavy:.1f}",
 
 fig.tight_layout(rect=[0, 0.052, 1, 1])
 fig.text(0.065, 0.012,
-         "Bars: median of five runs per configuration; bold ×N: BMMA speedup vs. baseline of the same "
-         "configuration (green = faster,\ngray = slower). Seconds annotated on heavy configurations. "
-         "Highlighted bands: baseline ≥ 10 ms.",
+         "Bars: median over ≥5 runs per configuration (13 for HAI@0.10); whiskers: IQR. Bold ×N: BMMA speedup vs. "
+         "baseline of\nthe same configuration (green = faster, gray = slower). Seconds annotated on heavy "
+         "configurations (baseline ≥ 10 ms).",
          fontsize=7.8, color=SUB, ha="left", va="bottom", linespacing=1.4)
 fig.savefig(OUT + ".svg", format="svg")
 fig.savefig(OUT + ".png", dpi=220)
