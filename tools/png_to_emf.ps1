@@ -1,12 +1,15 @@
-﻿# png_to_emf.ps1 —— 用 PowerPoint COM 把 PNG 导出为 Word 兼容的 EMF
-# 用法: powershell -ExecutionPolicy Bypass -File png_to_emf.ps1 <输入.png> <输出目录>
-# 产出: <输出目录>/幻灯片1.EMF（单页幻灯片与图同尺寸，图铺满页面）
-# 背景: LibreOffice --convert-to emf 产出的 EMF 会让 Word 打开文档时崩溃
-#       （2026-10-07 实测），Office 自家导出的 EMF 无此问题。
+# png_to_emf.ps1 -- export PNG to Word-compatible EMF via PowerPoint COM
+# usage: powershell -ExecutionPolicy Bypass -File png_to_emf.ps1 <input.png> <output_dir>
+# output: <output_dir>/slide1.emf (single-slide deck sized to the image)
+# note: LibreOffice --convert-to emf produces EMFs that crash Word (2026-10-07);
+#       Office-exported EMFs are safe. PowerPoint COM rejects forward slashes
+#       in AddPicture/SaveAs paths (2026-10-08), so normalize to backslashes.
 param(
     [Parameter(Mandatory = $true)][string]$PngPath,
     [Parameter(Mandatory = $true)][string]$OutDir
 )
+$PngPath = $PngPath -replace '/', '\'
+$OutDir  = $OutDir  -replace '/', '\'
 $job = Start-Job -ScriptBlock {
     param($png, $outDir)
     Add-Type -AssemblyName System.Drawing

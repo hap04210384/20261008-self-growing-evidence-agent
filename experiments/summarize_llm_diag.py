@@ -152,7 +152,7 @@ add_footnote(fig, [ax1, ax2],
              "model with vs. without the mined library. Without the library, "
              "GLM-4-Air fabricated citations in 32/60 windows; with the library, "
              "the single unverifiable citation is annotated in panel (b).",
-             fontsize=7.3, color=SUB, linespacing=1.35, top=0.95)
+             fontsize=7.3, color=SUB, linespacing=1.35)
 fig.savefig(FIG + ".svg", format="svg")
 fig.savefig(FIG + ".png", dpi=220)
 print("saved", FIG + ".png")

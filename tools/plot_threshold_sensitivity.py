@@ -99,7 +99,7 @@ add_footnote(fig, [ax],
              "fixed threshold is a safe default across industrial deployments. "
              "Annotations give the threshold-ratio → runtime-ratio measured for "
              "each dataset.",
-             fontsize=7.8, color=SUB, linespacing=1.4, top=0.945)
+             fontsize=7.8, color=SUB, linespacing=1.4)
 fig.savefig(OUT + ".svg", format="svg")
 fig.savefig(OUT + ".png", dpi=220)
 print("saved", OUT + ".png")
