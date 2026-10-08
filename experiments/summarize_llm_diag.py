@@ -84,14 +84,14 @@ a_nolib = [summary["models"][m]["acc_without_library"] for m in MODEL_ORDER]
 a_lib = [summary["models"][m]["acc_with_library"] for m in MODEL_ORDER]
 
 b1 = ax1.bar(x - w / 2, a_nolib, w, color=SUB, label="without pattern library")
-b2 = ax1.bar(x + w / 2, a_lib, w, color=TEAL,
+b2 = ax1.bar(x + w / 2, a_lib, w, color=AMBER,
              label="with mined pattern library")
 for xi, v in zip(x, a_nolib):
     ax1.annotate(f"{v:.2f}", xy=(xi - w / 2, v + 0.02), ha="center",
                  fontsize=8.5, color=SUB)
 for xi, v in zip(x, a_lib):
     ax1.annotate(f"{v:.2f}", xy=(xi + w / 2, v + 0.02), ha="center",
-                 fontsize=8.5, color=TEAL_DARK, fontweight="bold")
+                 fontsize=8.5, color=AMBER, fontweight="bold")
 # 提升幅度写在青色柱内（白字），避免与图例争抢顶部空间
 for xi, (a, b) in enumerate(zip(a_nolib, a_lib)):
     ax1.annotate(f"+{(b - a) * 100:.0f} pp", xy=(xi + w / 2, b - 0.07),
@@ -113,8 +113,8 @@ clean_spines(ax1)
 # 右上说明框：增益来自证据质量而非提示词长度
 ax1.text(2.45, 1.17, "largest gain on the strongest\nmodel — evidence quality,\n"
          "not prompt size, drives it",
-         fontsize=7.8, color=TEAL_DARK, ha="right", va="top", linespacing=1.35,
-         bbox=dict(boxstyle="round,pad=0.45", fc=PANEL, ec=TEAL, lw=0.9))
+         fontsize=7.8, color=AMBER, ha="right", va="top", linespacing=1.35,
+         bbox=dict(boxstyle="round,pad=0.45", fc=PANEL, ec=AMBER, lw=0.9))
 
 faith_v = [summary["models"][m]["citation_faithfulness"] for m in MODEL_ORDER]
 bars = ax2.bar(x, faith_v, 0.5, color=AMBER)
