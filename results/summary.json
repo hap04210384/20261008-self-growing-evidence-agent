@@ -1,0 +1,202 @@
+{
+ "Valve closure (inlet)": {
+  "n_windows": 1187,
+  "n_anomaly": 449,
+  "pool_mfis": 820,
+  "n_scored": 96,
+  "top": [
+   {
+    "pattern": "Pressure=1 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 150,
+    "pos": 150,
+    "cov": 0.3341,
+    "norm_occ": 0.0,
+    "lift": 2.64
+   },
+   {
+    "pattern": "Pressure=1 & Thermocouple=1 & Volume Flow RateRMS=0",
+    "cnt": 150,
+    "pos": 150,
+    "cov": 0.3341,
+    "norm_occ": 0.0,
+    "lift": 2.64
+   }
+  ],
+  "top5_union_cov": 0.6837
+ },
+ "Valve closure (outlet)": {
+  "n_windows": 282,
+  "n_anomaly": 108,
+  "pool_mfis": 327,
+  "n_scored": 114,
+  "top": [
+   {
+    "pattern": "Pressure=1 & Volume Flow RateRMS=0",
+    "cnt": 87,
+    "pos": 87,
+    "cov": 0.8056,
+    "norm_occ": 0.0,
+    "lift": 2.61
+   },
+   {
+    "pattern": "Pressure=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 80,
+    "pos": 80,
+    "cov": 0.7407,
+    "norm_occ": 0.0,
+    "lift": 2.61
+   }
+  ],
+  "top5_union_cov": 0.8056
+ },
+ "Fluid leak/addition": {
+  "n_windows": 251,
+  "n_anomaly": 95,
+  "pool_mfis": 504,
+  "n_scored": 159,
+  "top": [
+   {
+    "pattern": "Accelerometer1RMS=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 45,
+    "pos": 45,
+    "cov": 0.4737,
+    "norm_occ": 0.0,
+    "lift": 2.64
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Pressure=1 & Volume Flow RateRMS=0",
+    "cnt": 42,
+    "pos": 42,
+    "cov": 0.4421,
+    "norm_occ": 0.0,
+    "lift": 2.64
+   }
+  ],
+  "top5_union_cov": 0.6211
+ },
+ "Rotor imbalance": {
+  "n_windows": 372,
+  "n_anomaly": 138,
+  "pool_mfis": 419,
+  "n_scored": 87,
+  "top": [
+   {
+    "pattern": "Accelerometer1RMS=2 & Accelerometer2RMS=2 & Pressure=1 & Thermocouple=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 17,
+    "pos": 17,
+    "cov": 0.1232,
+    "norm_occ": 0.0,
+    "lift": 2.7
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 & Accelerometer2RMS=2 & Pressure=1 & Temperature=0 & Thermocouple=1 & Voltage=1",
+    "cnt": 15,
+    "pos": 15,
+    "cov": 0.1087,
+    "norm_occ": 0.0,
+    "lift": 2.7
+   }
+  ],
+  "top5_union_cov": 0.3623
+ },
+ "Water increase": {
+  "n_windows": 165,
+  "n_anomaly": 73,
+  "pool_mfis": 238,
+  "n_scored": 65,
+  "top": [
+   {
+    "pattern": "Pressure=1 & Volume Flow RateRMS=2",
+    "cnt": 50,
+    "pos": 50,
+    "cov": 0.6849,
+    "norm_occ": 0.0,
+    "lift": 2.26
+   },
+   {
+    "pattern": "Pressure=1 & Voltage=1 & Volume Flow RateRMS=2",
+    "cnt": 49,
+    "pos": 49,
+    "cov": 0.6712,
+    "norm_occ": 0.0,
+    "lift": 2.26
+   }
+  ],
+  "top5_union_cov": 0.7397
+ },
+ "Cavitation (draining)": {
+  "n_windows": 68,
+  "n_anomaly": 23,
+  "pool_mfis": 156,
+  "n_scored": 51,
+  "top": [
+   {
+    "pattern": "Accelerometer1RMS=2 & Accelerometer2RMS=2 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 14,
+    "pos": 14,
+    "cov": 0.6087,
+    "norm_occ": 0.0,
+    "lift": 2.96
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 & Current=1 & Pressure=1 & Voltage=1 & Volume Flow RateRMS=0",
+    "cnt": 14,
+    "pos": 14,
+    "cov": 0.6087,
+    "norm_occ": 0.0,
+    "lift": 2.96
+   }
+  ],
+  "top5_union_cov": 0.6522
+ },
+ "Two-phase flow": {
+  "n_windows": 60,
+  "n_anomaly": 19,
+  "pool_mfis": 144,
+  "n_scored": 69,
+  "top": [
+   {
+    "pattern": "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Pressure=1 & Thermocouple=0 & Voltage=1",
+    "cnt": 11,
+    "pos": 11,
+    "cov": 0.5789,
+    "norm_occ": 0.0,
+    "lift": 3.16
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 & Accelerometer2RMS=1 & Current=1 & Pressure=1 & Temperature=2 & Thermocouple=0 & Voltage=1 & Volume Flow RateRMS=2",
+    "cnt": 5,
+    "pos": 5,
+    "cov": 0.2632,
+    "norm_occ": 0.0,
+    "lift": 3.16
+   }
+  ],
+  "top5_union_cov": 0.6842
+ },
+ "Hot water supply": {
+  "n_windows": 59,
+  "n_anomaly": 22,
+  "pool_mfis": 183,
+  "n_scored": 40,
+  "top": [
+   {
+    "pattern": "Accelerometer2RMS=2 & Pressure=1 & Volume Flow RateRMS=2",
+    "cnt": 20,
+    "pos": 20,
+    "cov": 0.9091,
+    "norm_occ": 0.0,
+    "lift": 2.68
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 & Pressure=1 & Thermocouple=2 & Volume Flow RateRMS=2",
+    "cnt": 19,
+    "pos": 19,
+    "cov": 0.8636,
+    "norm_occ": 0.0,
+    "lift": 2.68
+   }
+  ],
+  "top5_union_cov": 0.9091
+ }
+}
