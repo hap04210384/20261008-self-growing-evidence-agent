@@ -65,7 +65,7 @@ for off, grp, color, lbl in ((-w / 2, "valve1", TEAL, "SKAB valve-1"),
 ax2.axvline(1, color=SUB, lw=0.8, ls=":")
 ax2.annotate("default w = 30", xy=(1, 0.87), fontsize=8, color=SUB,
              ha="center",
-             bbox=dict(fc="#FBFAF7", ec="none", pad=1.2))
+             bbox=dict(fc="#FFFFFF", ec="none", pad=1.2))
 ax2.set_xticks(x2)
 ax2.set_xticklabels(["w = 15", "w = 30", "w = 60"], fontsize=8.5)
 ax2.set_ylabel("Fault coverage (top-5 patterns)")

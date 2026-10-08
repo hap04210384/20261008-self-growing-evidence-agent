@@ -11,9 +11,9 @@ import matplotlib.pyplot as plt
 
 INK = "#20242B"
 SUB = "#5A6270"
-HAIR = "#D8D5CE"
-PAPER = "#FBFAF7"
-PANEL = "#F3F1EB"
+HAIR = "#D8DEE6"
+PAPER = "#FFFFFF"
+PANEL = "#EDF1F5"
 TEAL = "#0F6B5C"
 TEAL_DARK = "#0B4A40"
 AMBER = "#B96A14"
