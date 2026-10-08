@@ -134,7 +134,7 @@ ax.annotate("995 MFIs — heaviest output: BMMA 2.1×\nfaster and steadier "
                             connectionstyle="arc3,rad=0.2"))
 
 # 轻配置：固定内核启动开销主导
-ax.annotate("light configs: fixed kernel-setup\noverhead dominates (0.3–1.1×)",
+ax.annotate("light configs: fixed kernel-setup\noverhead dominates (0.4–0.9×)",
             xy=(len(piv) - 1.5, 3e-4), xytext=(len(piv) - 4.6, 0.004),
             fontsize=8.2, color=SUB,
             arrowprops=dict(arrowstyle="->", color=SUB, lw=1.0,

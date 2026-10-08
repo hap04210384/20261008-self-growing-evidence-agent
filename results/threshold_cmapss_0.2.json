@@ -1,0 +1,9 @@
+{
+ "engine": "baseline",
+ "dataset": "cmapss",
+ "min_sup": 0.2,
+ "comp_s_rep1": 0.646997,
+ "n_mfis": 955,
+ "measured": "2026-10-09",
+ "purpose": "verify threshold-instability sentence in Sec 4.3"
+}
