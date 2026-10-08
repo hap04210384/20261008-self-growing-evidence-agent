@@ -11,7 +11,7 @@ import sys
 import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from fig_style import (AMBER, BLUE, INK, PANEL, SUB, TEAL, TEAL_DARK,
+from fig_style import (AMBER, BLUE, INK, ORANGE, PANEL, SUB, TEAL, TEAL_DARK,
                        apply_style, clean_spines)
 
 import matplotlib.pyplot as plt
@@ -30,7 +30,7 @@ ax.text(9.2, 0.87, "normal-operation states only — coverage 0",
         ha="center", fontsize=8.4, color=SUB)
 
 dfs = {}
-for group, color, off in (("valve1", TEAL, (-8, 10)), ("valve2", AMBER, (-66, 10))):
+for group, color, off in (("valve1", BLUE, (-8, 10)), ("valve2", ORANGE, (-66, 10))):
     df = pd.read_csv(os.path.join(RES, f"e4_coverage_{group}.csv"))
     dfs[group] = df
     lbl = "SKAB valve-1" if group == "valve1" else "SKAB valve-2"
@@ -55,15 +55,15 @@ v2 = dfs["valve2"]
 lift = int(v2[v2["coverage"] > 0].iloc[0]["stage"])
 ax.annotate(f"fault-characteristic states\nenter the stream ($k$={lift})",
             xy=(lift, 0.015), xytext=(lift - 4.8, 0.40),
-            fontsize=8.3, color=AMBER, ha="left", va="center",
-            arrowprops=dict(arrowstyle="->", color=AMBER, lw=1.0,
+            fontsize=8.3, color=ORANGE, ha="left", va="center",
+            arrowprops=dict(arrowstyle="->", color=ORANGE, lw=1.0,
                             connectionstyle="arc3,rad=-0.25"))
 
 # anytime 语义框（左下零覆盖区内的空白带）
 ax.text(1.0, 0.05,
         "AnyFIM anytime semantics:\nthe library is correct at ANY\ninterruption stage $k$",
-        fontsize=8.3, color=TEAL_DARK, va="bottom", ha="left", linespacing=1.35,
-        bbox=dict(boxstyle="round,pad=0.5", fc=PANEL, ec=TEAL, lw=0.9))
+        fontsize=8.3, color=BLUE, va="bottom", ha="left", linespacing=1.35,
+        bbox=dict(boxstyle="round,pad=0.5", fc=PANEL, ec=BLUE, lw=0.9))
 
 ax.set_xlabel("Anytime stage $k$ (sensor states activated)")
 ax.set_ylabel("Fault-pattern coverage")

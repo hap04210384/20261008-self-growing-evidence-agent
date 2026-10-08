@@ -10,7 +10,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
-from fig_style import AMBER, INK, SUB, TEAL, apply_style, clean_spines
+from fig_style import BLUE, INK, SUB, ORANGE, apply_style, clean_spines
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -30,8 +30,8 @@ fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(6.9, 3.2))
 # ---------- (a) 离散化消融 ----------
 x = np.arange(len(DISC))
 w = 0.36
-for off, grp, color, lbl in ((-w / 2, "valve1", TEAL, "SKAB valve-1"),
-                             (w / 2, "valve2", AMBER, "SKAB valve-2")):
+for off, grp, color, lbl in ((-w / 2, "valve1", BLUE, "SKAB valve-1"),
+                             (w / 2, "valve2", ORANGE, "SKAB valve-2")):
     cov = [SUM["E6_discretizer"][grp][k]["fault_coverage_topk"] for k, _ in DISC]
     ax1.bar(x + off, cov, w, color=color, label=lbl)
     for xi, c in enumerate(cov):
@@ -55,8 +55,8 @@ ax1.set_title("(a) discretizer ablation (equal pattern budget)",
 
 # ---------- (b) 窗口敏感性 ----------
 x2 = np.arange(len(WINS))
-for off, grp, color, lbl in ((-w / 2, "valve1", TEAL, "SKAB valve-1"),
-                             (w / 2, "valve2", AMBER, "SKAB valve-2")):
+for off, grp, color, lbl in ((-w / 2, "valve1", BLUE, "SKAB valve-1"),
+                             (w / 2, "valve2", ORANGE, "SKAB valve-2")):
     cov = [SUM["E7_window"][grp][k]["fault_coverage_topk"] for k in WINS]
     ax2.bar(x2 + off, cov, w, color=color, label=lbl)
     for xi, c in enumerate(cov):
