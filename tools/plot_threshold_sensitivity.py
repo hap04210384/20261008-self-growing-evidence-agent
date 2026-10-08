@@ -11,7 +11,7 @@ import sys
 import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from fig_style import (AMBER, INK, SUB, TEAL, TEAL_DARK, apply_style,
+from fig_style import (AMBER, INK, PANEL, SUB, TEAL, TEAL_DARK, apply_style,
                        clean_spines)
 
 import matplotlib.pyplot as plt
@@ -32,7 +32,10 @@ STYLE = {
 }
 
 apply_style()
-fig, ax = plt.subplots(figsize=(6.9, 3.6))
+fig, ax = plt.subplots(figsize=(6.9, 4.0))
+
+# 低阈值危险区
+ax.axvspan(0.008, 0.05, color=AMBER, alpha=0.07, zorder=0)
 
 for key, (lbl, color, mk) in STYLE.items():
     sub = base[base["dataset"] == key].sort_values("thr")
@@ -42,11 +45,40 @@ for key, (lbl, color, mk) in STYLE.items():
             color=color, label=lbl, markerfacecolor=color,
             markeredgecolor="white", markeredgewidth=0.6)
 
+# 每条数据集线段首点旁标注「阈值倍数 → 耗时倍数」（由真实数据计算）
+for key, (lbl, color, mk) in STYLE.items():
+    sub = base[base["dataset"] == key].sort_values("thr")
+    if len(sub) < 2 or key == "hai":   # HAI 已有专项标注
+        continue
+    t_ratio = sub.iloc[-1]["thr"] / sub.iloc[0]["thr"]
+    r_ratio = sub.iloc[-1]["med_total_s"] / sub.iloc[0]["med_total_s"]
+    x0, y0 = sub.iloc[0]["thr"], sub.iloc[0]["med_total_s"]
+    if max(sub["med_total_s"]) / min(sub["med_total_s"]) < 1.5:
+        txt = "runtime-insensitive\n(trivial load)"
+        off, ha = (-4, -18), "right"
+    else:
+        txt = f"{t_ratio:.2g}× thr → {r_ratio:.2g}× time"
+        off, ha = (2, 8), "left"
+    ax.annotate(txt, xy=(x0, y0), xytext=off, textcoords="offset points",
+                ha=ha, fontsize=7.6, color=color, linespacing=1.25)
+
 # HAI 的极端不稳定标注：阈值 0.1→0.2（2×），耗时 18.3s→0.038s（≈480×）
 ax.annotate("2× threshold → ≈480× time\n(18.3 s → 0.038 s)",
-            xy=(0.1, 18.33), xytext=(0.017, 3.2),
-            fontsize=8.5, color=AMBER,
-            arrowprops=dict(arrowstyle="->", color=AMBER, lw=1.1))
+            xy=(0.1, 18.33), xytext=(0.016, 3.2),
+            fontsize=8.5, color=AMBER, linespacing=1.3,
+            arrowprops=dict(arrowstyle="->", color=AMBER, lw=1.1,
+                            connectionstyle="arc3,rad=0.18"))
+
+# 1 s 在线更新预算参考线
+ax.axhline(1.0, color=INK, lw=0.8, ls=(0, (4, 3)), alpha=0.5)
+ax.text(0.58, 1.18, "1 s — online-update budget", fontsize=8.3, color=INK,
+        ha="right")
+
+# ours 卖点框（左下，危险区旁）
+ax.text(0.011, 0.62,
+        "AnyFIM: threshold-free —\nno min-sup to set (Sec. 3.3)",
+        fontsize=8.6, color=TEAL_DARK, va="top", linespacing=1.35,
+        bbox=dict(boxstyle="round,pad=0.5", fc=PANEL, ec=TEAL, lw=0.9))
 
 ax.set_xscale("log")
 ax.set_yscale("log")
@@ -55,9 +87,15 @@ ax.set_ylabel("Median mining time (s, baseline)")
 ax.set_xlim(0.008, 0.6)
 ax.set_ylim(5e-5, 60)
 ax.grid(True, which="both")
-ax.legend(loc="upper right", ncol=2)
+ax.legend(loc="lower center", bbox_to_anchor=(0.5, 1.005), ncol=5,
+          columnspacing=1.4, handlelength=1.6)
 clean_spines(ax)
-fig.tight_layout()
+fig.tight_layout(rect=[0, 0.052, 1, 0.945])
+fig.text(0.065, 0.012,
+         "Shaded band: low-threshold regime — runtime swings of orders of magnitude within a single 2×\n"
+         "threshold step; with no plateau, no fixed threshold is a safe default across industrial deployments.\n"
+         "Annotations give the threshold-ratio → runtime-ratio measured for each dataset.",
+         fontsize=7.8, color=SUB, ha="left", va="bottom", linespacing=1.4)
 fig.savefig(OUT + ".svg", format="svg")
 fig.savefig(OUT + ".png", dpi=220)
 print("saved", OUT + ".png")

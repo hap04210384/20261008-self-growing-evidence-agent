@@ -12,7 +12,7 @@ from collections import defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT := os.path.dirname(
     os.path.dirname(os.path.abspath(__file__))), "tools"))
-from fig_style import AMBER, INK, SUB, TEAL, TEAL_DARK, apply_style, clean_spines
+from fig_style import AMBER, INK, PANEL, SUB, TEAL, TEAL_DARK, apply_style, clean_spines
 from exp_llm_diagnosis import GROUPS, parse_json, load_group
 
 import matplotlib.pyplot as plt
@@ -75,7 +75,7 @@ print(json.dumps(summary, ensure_ascii=False, indent=1))
 
 # ---------- Figure 5 ----------
 apply_style()
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(6.9, 3.2),
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(6.9, 4.0),
                                gridspec_kw={"width_ratios": [1.55, 1]})
 
 x = np.arange(len(MODEL_ORDER))
@@ -99,29 +99,58 @@ for xi, (a, b) in enumerate(zip(a_nolib, a_lib)):
 
 ax1.set_xticks(x)
 ax1.set_xticklabels([MODEL_LABEL[m] for m in MODEL_ORDER])
+ax1.set_xlim(-0.95, 2.55)
 ax1.set_ylabel("Window diagnosis accuracy")
-ax1.set_ylim(0, 1.18)
+ax1.set_ylim(0, 1.24)
 ax1.set_yticks([0.0, 0.25, 0.5, 0.75, 1.0])
-ax1.axhline(0.5, color=SUB, lw=0.8, ls=":")  # chance level，含义见题注
+ax1.axhline(0.5, color=SUB, lw=0.8, ls=":")  # chance level
+ax1.text(-0.88, 0.512, "chance\n(0.5)", fontsize=7.2, color=SUB, ha="left",
+         va="bottom", linespacing=1.25)
 ax1.grid(True, axis="y")
-ax1.legend(loc="upper right", fontsize=8.5)
+ax1.legend(loc="upper left", fontsize=8.5, handlelength=1.5)
 clean_spines(ax1)
+
+# 右上说明框：增益来自证据质量而非提示词长度
+ax1.text(2.45, 1.17, "largest gain on the strongest\nmodel — evidence quality,\n"
+         "not prompt size, drives it",
+         fontsize=7.8, color=TEAL_DARK, ha="right", va="top", linespacing=1.35,
+         bbox=dict(boxstyle="round,pad=0.45", fc=PANEL, ec=TEAL, lw=0.9))
 
 faith_v = [summary["models"][m]["citation_faithfulness"] for m in MODEL_ORDER]
 bars = ax2.bar(x, faith_v, 0.5, color=AMBER)
 for xi, v in zip(x, faith_v):
-    ax2.annotate(f"{v * 100:.1f}%", xy=(xi, v + 0.015), ha="center",
+    ax2.annotate(f"{v * 100:.1f}%", xy=(xi, v + 0.012), ha="center",
                  fontsize=8.5, color=INK, fontweight="bold")
 ax2.set_xticks(x)
-ax2.set_xticklabels([MODEL_LABEL[m] for m in MODEL_ORDER], fontsize=8.5)
+ax2.set_xticklabels([MODEL_LABEL[m] for m in MODEL_ORDER], fontsize=7.2)
+ax2.set_xlim(-0.95, 2.55)
 ax2.set_ylabel("Citation faithfulness")
-ax2.set_ylim(0.8, 1.02)
+ax2.set_ylim(0.55, 1.16)
+ax2.axhline(1.0, color=INK, lw=0.8, ls=(0, (4, 3)), alpha=0.5)
+ax2.text(-0.88, 0.985, "perfect\nfaithfulness", fontsize=7.2, color=INK,
+         ha="left", va="center", linespacing=1.25)
 ax2.grid(True, axis="y")
 clean_spines(ax2)
+
+# GLM-4-Air 的 0.7% 缺口标注：文字放右上方空白区（文字已点名 GLM-4-Air，无需箭头）
+glm_faith = summary["models"]["glm-4-air"]["citation_faithfulness"]
+glm_ncite = summary["models"]["glm-4-air"]["citations_total"]
+ax2.annotate(f"GLM-4-Air: ≈{round((1 - glm_faith) * glm_ncite)} of {glm_ncite} "
+             "citations\nnot verbatim in the library",
+             xy=(2.52, 1.15), fontsize=7.4, color=AMBER,
+             ha="right", va="top", linespacing=1.35)
+
 ax2.set_title("(b) every claim auditable", fontsize=9.5, loc="left")
 ax1.set_title("(a) evidence improves diagnosis", fontsize=9.5, loc="left")
 
-fig.tight_layout()
+fig.tight_layout(rect=[0, 0.11, 1, 0.95])
+fig.text(0.065, 0.014,
+         "60 balanced windows per condition (normal/faulty; ten per class from SKAB valve-1, valve-2, "
+         "and other-fault runs); frozen\nprompts, decoding temperature 0. +pp = percentage-point gain "
+         "of the same model with vs. without the mined library. Without the library,\nGLM-4-Air "
+         "fabricated citations in 32/60 windows; with the library, the single unverifiable citation "
+         "is annotated in panel (b).",
+         fontsize=7.3, color=SUB, ha="left", va="bottom", linespacing=1.35)
 fig.savefig(FIG + ".svg", format="svg")
 fig.savefig(FIG + ".png", dpi=220)
 print("saved", FIG + ".png")
