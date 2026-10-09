@@ -1,0 +1,800 @@
+{
+ "comment": "SHA-256 of local benchmark copies; public datasets must be downloaded from original sources per data/README.md",
+ "files": [
+  {
+   "file": "data/README.md",
+   "sha256": "f9bb92f765de85a30b14f2b06175ad11bd211af98da1f58af9b009bb823a2590",
+   "bytes": 2247
+  },
+  {
+   "file": "data/SKAB_manifest.sha256",
+   "sha256": "5d13a8689eb093e57472c709120d9c14a55389156b447dc121f314697df059c8",
+   "bytes": 3379
+  },
+  {
+   "file": "data/cwru_hashes_new.txt",
+   "sha256": "f5b44d33c4f7b5e206e7b5084c532d676ab2c9805d19fb1fc98f77fb7de93c5b",
+   "bytes": 717
+  },
+  {
+   "file": "data/manifest_all.sha256",
+   "sha256": "c822faa15899370ef8cf194bc36f2ef1b0a2381485fe87790e4c9d5e8156d237",
+   "bytes": 2543
+  },
+  {
+   "file": "data/fimi/ai4i.txt-0.010000=Results.txt",
+   "sha256": "0b1edd4370d98bf4878d4e931e7912c527b1eb81675c4ad417641f5fda8210d9",
+   "bytes": 19351
+  },
+  {
+   "file": "data/fimi/ai4i.txt-0.050000=Results.txt",
+   "sha256": "6003414e82c0931bce34b49ac6bd03c9b10b647e80f7fb3041b5c0eb611d0a79",
+   "bytes": 6421
+  },
+  {
+   "file": "data/fimi/ai4i.txt.items.json",
+   "sha256": "a398a234cd89eb06540e33e6f3ee30c218d7c921a4a49cee3c01609e90745c3f",
+   "bytes": 417
+  },
+  {
+   "file": "data/fimi/ai4i.txt.labels.json",
+   "sha256": "14a0f8c1af9e15bc814b81c6dc16c3a8cfeab24cf617fb8c67cf5973d6118421",
+   "bytes": 50000
+  },
+  {
+   "file": "data/fimi/cmapss.txt-0.300000=Results.txt",
+   "sha256": "9cdf29213a319a8082fcd03ce851cad8c695f8fd6ef44b364f523985e2ec4cb0",
+   "bytes": 5023
+  },
+  {
+   "file": "data/fimi/cmapss.txt-0.400000=Results.txt",
+   "sha256": "17c74b698e167a5b756838d17818ca6f99835406348d45bc4f956c8b48b8d770",
+   "bytes": 2038
+  },
+  {
+   "file": "data/fimi/cmapss.txt.items.json",
+   "sha256": "9c5dbe673ff6f3e3273a63af2efaf3e7ac47555d05874480b58e6b7e114ad716",
+   "bytes": 708
+  },
+  {
+   "file": "data/fimi/cmapss.txt.labels.json",
+   "sha256": "1e6aa33164f43668c8b9b67ebe853d79b1fbf45881628b287819aacc3ed49210",
+   "bytes": 9585
+  },
+  {
+   "file": "data/fimi/cwru.txt-0.100000=Results.txt",
+   "sha256": "9c9507b6a9d5127cc68c566fcf24e51b5486d30615e966700afdfe02e9391edd",
+   "bytes": 2485
+  },
+  {
+   "file": "data/fimi/cwru.txt-0.200000=Results.txt",
+   "sha256": "0f9f1f1d9f6fd4a02c97a3fd1d4a05f1c10c743093c23cb1b75a706ffdeb4c5b",
+   "bytes": 1602
+  },
+  {
+   "file": "data/fimi/cwru.txt-0.300000=Results.txt",
+   "sha256": "ecab816752054af44b6d354eda89b8a1dea7b413d4d0ca080a4617586e70f46b",
+   "bytes": 1352
+  },
+  {
+   "file": "data/fimi/cwru.txt.items.json",
+   "sha256": "58441be0380f20614eafd900e6ef0c05694ea640061d870ab128dfae0c7d1f17",
+   "bytes": 1305
+  },
+  {
+   "file": "data/fimi/cwru.txt.labels.json",
+   "sha256": "c1491d22c5b8e7f78800c815708774c1935d3bf004529ac1334cbfdc4e0b5a52",
+   "bytes": 10792
+  },
+  {
+   "file": "data/fimi/hai.txt-0.100000=Results.txt",
+   "sha256": "fdaa558c503d271436769803807fec06907bfa3313c4d7439f0d8aba4d763cac",
+   "bytes": 74977
+  },
+  {
+   "file": "data/fimi/hai.txt-0.200000=Results.txt",
+   "sha256": "b5aeb1501a231bfbb404f82de50466c2078714e8bdac0b5a7bc91b32231044e0",
+   "bytes": 11652
+  },
+  {
+   "file": "data/fimi/hai.txt.items.json",
+   "sha256": "b68f576371cb4b3811452a6807ca59fed40571b015739a3f4983d48d11592f10",
+   "bytes": 1432
+  },
+  {
+   "file": "data/fimi/hai.txt.labels.json",
+   "sha256": "47c75018924b8e125b7f77251f8ce444bff7d3b2de4ddfca5aae64e6802eb00a",
+   "bytes": 2495
+  },
+  {
+   "file": "data/fimi/skab_other.txt",
+   "sha256": "b84de21d816c66f03aa47f3e5fe2446c179951d4e147b439f623e53dc2cd2f57",
+   "bytes": 20024
+  },
+  {
+   "file": "data/fimi/skab_other.txt-23-stages=Results.txt",
+   "sha256": "d4670b3bf4ee6da1382c5dad8548399c2b84ccb137ac33e2072a83dfdb45013d",
+   "bytes": 71388
+  },
+  {
+   "file": "data/fimi/skab_other.txt.items.json",
+   "sha256": "9b440aa4fb7bb59fc6e07ef99dc63856dbd9b750531423699545ab1fef06b3d4",
+   "bytes": 556
+  },
+  {
+   "file": "data/fimi/skab_other.txt.labels.json",
+   "sha256": "2dfcedcbe9b322bc5db07458850355967174b29531ed5740ce296dc48123c0f0",
+   "bytes": 4875
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt",
+   "sha256": "324b8dc7e6b34400de1a652a3938e05e11cdba171c35ffb863b94d21a0429de5",
+   "bytes": 24856
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.000842=Results.txt",
+   "sha256": "01ca1814d77a6db5b83ac5666904cbc8a6861ca26da9c5a3f8751f09760fad69",
+   "bytes": 29227
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.025274=Results.txt",
+   "sha256": "eecba35e2acd96d032c27ea7735a5471d4da8b19fc1108e67a8cc91d8a966f34",
+   "bytes": 15158
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.030329=Results.txt",
+   "sha256": "9d057d8d122dabbaff200710dbe26f02787400b0e92de1bfe5699d05663faa29",
+   "bytes": 12951
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.050000=Results.txt",
+   "sha256": "35b420bf438f28b5c6efa41d6573c079f9de1f6bacea954e056fd48ebe1f682f",
+   "bytes": 9051
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.100000=Results.txt",
+   "sha256": "05f73e99f4c4e35a9d1eda44f89dd7806464a3fda8747c3c2687903a9e1c84cd",
+   "bytes": 4976
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.111205=Results.txt",
+   "sha256": "535177f25ebe9b89da4de6b913ce4c1d6fb33471711925178bdbcfb916978ade",
+   "bytes": 4134
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.118787=Results.txt",
+   "sha256": "8b1d318818095a88111ef78c16ef0d101c32e583e6a210a251f439a33a2d9131",
+   "bytes": 3828
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.195451=Results.txt",
+   "sha256": "aef52b0cdb868ba42a13c45f16aa782b64530b645a9e2a433eedd60d0c43c6b5",
+   "bytes": 2273
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.200000=Results.txt",
+   "sha256": "a09fd746a53727b88234038ff2daa97c12c27134422685ae24fe337990e6978f",
+   "bytes": 2213
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.215670=Results.txt",
+   "sha256": "c69c4b4239cb1f860baf0b6923207b92ffdf85771ebdfbbf97e28698dae85b78",
+   "bytes": 2264
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.254423=Results.txt",
+   "sha256": "2d5bfb7f8735b4eebb152cd845b40eec6ac02626de83ae733f53048e94b752c4",
+   "bytes": 2193
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.259478=Results.txt",
+   "sha256": "7445b51b709f83a7592eb65cff70b9726d85a12bd14f530444370209d91182cf",
+   "bytes": 2140
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.281382=Results.txt",
+   "sha256": "c5cdfbff2ae65f5c4557739ca8ef9227e4cf39e2d89c97a3fa397fa4f1eb5b3d",
+   "bytes": 2024
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.299916=Results.txt",
+   "sha256": "7eec640ae384a7c4a6f4b5593565d2fa2d04a2303b2bc586b6fb93b47c96ca32",
+   "bytes": 1853
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.315922=Results.txt",
+   "sha256": "2e09532d671494d5de689931b6b4a49af4ed1de98144abd69ff3018d83218713",
+   "bytes": 1847
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.325190=Results.txt",
+   "sha256": "53604d9e4cb9e0a0f067654dcd0d820c4303d89cca17ff0dfcf1bd8c83157569",
+   "bytes": 1736
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.328559=Results.txt",
+   "sha256": "daba698fc85e452e92932043d847c4436b87f7cc6edf7a8527b32f700f1578b0",
+   "bytes": 1683
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.329402=Results.txt",
+   "sha256": "b3d170007ce9dab0678bb549b5169e48891d4b2163c310d213bd14b910029da3",
+   "bytes": 1630
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.342039=Results.txt",
+   "sha256": "31ddae165fee9e6c02261c3fc1ef892c984784ef11afff0b58e3b6817d606678",
+   "bytes": 1628
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.358888=Results.txt",
+   "sha256": "062780fa9fcbdf50af248cf4e8a5b8631ab2d0d0fac55aeed41335464fd8c9c4",
+   "bytes": 1575
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.418703=Results.txt",
+   "sha256": "270ff8766b7a59a407175c7afa370dc064d8085ae31c8139ffba4ac1a750b742",
+   "bytes": 1464
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.486099=Results.txt",
+   "sha256": "71c5039189b7e726a59ec0f9ba482327478066e4f8cb5d32df39286b94282495",
+   "bytes": 1514
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.588880=Results.txt",
+   "sha256": "2500769b791328f2af7bd8b9d7c2f8b99e102c534a268872ea72491a054fbbd0",
+   "bytes": 1406
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.770008=Results.txt",
+   "sha256": "2a6650d6f9c6e24aaf515ae2b149ec0f126df1f2af148c4a4f9aba574d47bd1d",
+   "bytes": 1401
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.944398=Results.txt",
+   "sha256": "5ea0b244d5063dbe45e772dd0ee94a469a7b6d710950ae431c2efb82c847a507",
+   "bytes": 1403
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-0.999158=Results.txt",
+   "sha256": "9f3be2510893953b548f7c6b139acf7ea06993b1f8715551ee562b29269f4e89",
+   "bytes": 1341
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt-23-stages=Results.txt",
+   "sha256": "78f27c24f7220e57c7079d19b442b2ced930856f71ccd1f62b03c0aa5aa2b524",
+   "bytes": 71319
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt.items.json",
+   "sha256": "01474af3f980ce637d0722b42da7e76a15af0fd0854e43f24ad02a1e8d74223e",
+   "bytes": 556
+  },
+  {
+   "file": "data/fimi/skab_valve1.txt.labels.json",
+   "sha256": "5e47a6f1e8bc3b65e6598686e2febe1fd544ae47f88e36835cd851fbd16408fa",
+   "bytes": 5935
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt",
+   "sha256": "42d6075e499c310545b53e5196bb442f00feeebff84d2e0a5a6b3d1f8fe36fdf",
+   "bytes": 5917
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.035461=Results.txt",
+   "sha256": "aba8ad7d4aec2811fef5a5947a14f0f18e4f130d52ab54b79ed9f3c7c87c9bf9",
+   "bytes": 9931
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.039007=Results.txt",
+   "sha256": "f97062d1140e57d9d91111e1017d27bd5404a0315438fece241711f0e23de841",
+   "bytes": 9501
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.109929=Results.txt",
+   "sha256": "a8ba1d5709b7c6639ae3af2e658f4ea223dad51f978994a56580db482ce8bb83",
+   "bytes": 3990
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.113475=Results.txt",
+   "sha256": "04fd906b638b4ff4390130ce6b4e8ca8f4d72d005942dfb9061ac933d634d667",
+   "bytes": 3758
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.127660=Results.txt",
+   "sha256": "41ec651f7741751e6c91e3160ea158fa52300057798ed2482a96d560ce3e19e2",
+   "bytes": 3275
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.191489=Results.txt",
+   "sha256": "01cf06d6c8d1495d777a383ea24d094cea4aaf95cc3b952c451349452418c474",
+   "bytes": 2540
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.255319=Results.txt",
+   "sha256": "a606341b6d2626f7a45a6607116cdf816d4fbb913b04bd307fbcc717f3053390",
+   "bytes": 2396
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.258865=Results.txt",
+   "sha256": "66fa60da179a5a88930ceb9b15d6926a741be72953e11137e885b756473ea698",
+   "bytes": 2177
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.262411=Results.txt",
+   "sha256": "3c6e9d7fc2718c33965d88985cd6bb7eef8f87d3932b8b35ea37857468ef4f8b",
+   "bytes": 2128
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.308511=Results.txt",
+   "sha256": "311bce3f623e22ad53044b4ba56082dad6395caae28df7bb7d4c9a2683591193",
+   "bytes": 2006
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.322695=Results.txt",
+   "sha256": "f0b583cca24f0a8052b65425f779b05c0d86833c192aefc6375343686c8c908f",
+   "bytes": 1895
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.326241=Results.txt",
+   "sha256": "0193af1b0340aa1987383c9e277bf444afef2cc8888330789c799e1820254e86",
+   "bytes": 1781
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.329787=Results.txt",
+   "sha256": "0d2f8fa449d2a87d6429b3af47cfd41642e2a018762e5258a9a6a7409e461b81",
+   "bytes": 1729
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.333333=Results.txt",
+   "sha256": "c8b57d0d6c16cfde565ee77222c1c44ea82a818256cb8d567f1a4a1cf5e1e80d",
+   "bytes": 1677
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.343972=Results.txt",
+   "sha256": "cb26f5e944fa430c7013be2d953cc5bab1332d1d04c39c3ed6034b91de9dbe89",
+   "bytes": 1519
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.429078=Results.txt",
+   "sha256": "5ae5487b587f2759cb15fa7ea674bd833d5bbd5aaa8dbb333aec2e28ab494d8c",
+   "bytes": 1460
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.485816=Results.txt",
+   "sha256": "eee6abcc7db28343dc680fcfc4412a34e73f76a02d70954e66a57f28e9cb7a70",
+   "bytes": 1407
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.698582=Results.txt",
+   "sha256": "06e5274ce6fd8e0ff4259cb4f6a0814df98b6e919388916eed346d6d9faa8519",
+   "bytes": 1405
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.758865=Results.txt",
+   "sha256": "9401f03fe1ceaebb715481ac53657ef0a7ba1095bde361b47dba346cb6c22fc1",
+   "bytes": 1401
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-0.925532=Results.txt",
+   "sha256": "cb57d1e8bb940c5efaf70a45aa353556823ae21d3b81f7fa9df393bf7607d605",
+   "bytes": 1350
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-1.000000=Results.txt",
+   "sha256": "c8b54812cbf255e3022f2ab8510b2a0f6b029f33048b7db3561adb15d0b90e7b",
+   "bytes": 1332
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt-22-stages=Results.txt",
+   "sha256": "867a88ddbeecf3ca1500469a4d5851bc2f540c91c2ee6f41a861d38f50d426f8",
+   "bytes": 35913
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt.items.json",
+   "sha256": "4c899400cb1b0a8cbc7c312f70a56ddbc19156b9acfab8cea33931df3b963c46",
+   "bytes": 536
+  },
+  {
+   "file": "data/fimi/skab_valve2.txt.labels.json",
+   "sha256": "b880976a15183a7aeedb27d9ca8f4b86b0e726b1f1fd12d885edfff6718a2453",
+   "bytes": 1410
+  },
+  {
+   "file": "data/SKAB_raw/.gitignore",
+   "sha256": "0be3ebda49677176f4c9c5f746437f1f0adf82417774815c70704bfcea7e971e",
+   "bytes": 1053
+  },
+  {
+   "file": "data/SKAB_raw/.pre-commit-config.yaml",
+   "sha256": "7b997f7a85f48236a4b224d17c6a2fc6764da9fb7ca1d6258ae7d7581d3b7a48",
+   "bytes": 2805
+  },
+  {
+   "file": "data/SKAB_raw/LICENSE",
+   "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+   "bytes": 35149
+  },
+  {
+   "file": "data/SKAB_raw/README.md",
+   "sha256": "238f1a345a8fccd67540f16bce10c26dbfd7912f196832d5c165f73b8779c222",
+   "bytes": 10712
+  },
+  {
+   "file": "data/SKAB_raw/poetry.lock",
+   "sha256": "71e5f6ff8d4dead677c5f1dd3b65e82099fb569ace3d9c30f6b1cea0ad90a8fe",
+   "bytes": 221265
+  },
+  {
+   "file": "data/SKAB_raw/pyproject.toml",
+   "sha256": "aa3780a99239916725b1af9bbc6e86d365b96f191435616c541f3455ac36c60e",
+   "bytes": 593
+  },
+  {
+   "file": "data/SKAB_raw/core/Conv_AE.py",
+   "sha256": "cf453f7482c8c5169cfc2e0c77ddd44d7548817490261e1cd79fad8946f7a8b4",
+   "bytes": 3453
+  },
+  {
+   "file": "data/SKAB_raw/core/Isolation_Forest.py",
+   "sha256": "9c3f1dae2f9ae0a81afe29ad670d5f31965001b8b19762b66129c4cf37bc45c8",
+   "bytes": 2302
+  },
+  {
+   "file": "data/SKAB_raw/core/LSTM_AE.py",
+   "sha256": "856ecfc0aee7bd74b78c0f7032119f5fc2970d3cfb4e8dde08bfb88016a43952",
+   "bytes": 3021
+  },
+  {
+   "file": "data/SKAB_raw/core/LSTM_VAE.py",
+   "sha256": "f3b7d7399796e090ec847f3b5f0064db06a120edbb369762c3128f9a2f297eb2",
+   "bytes": 5604
+  },
+  {
+   "file": "data/SKAB_raw/core/MSCRED.py",
+   "sha256": "08825c5b35431254f535381f41db80c3b80a58d05b9e3572a71528267da7575f",
+   "bytes": 10560
+  },
+  {
+   "file": "data/SKAB_raw/core/MSET.py",
+   "sha256": "e532327279fc9dd0f08708a7c3b34514d8bcfec950c16b18c0709408caa58769",
+   "bytes": 4525
+  },
+  {
+   "file": "data/SKAB_raw/core/Vanilla_AE.py",
+   "sha256": "8382012630ba47708b22ac96a9f4293a4a9ca4624691125bf0c537d88bd466e2",
+   "bytes": 4096
+  },
+  {
+   "file": "data/SKAB_raw/core/Vanilla_LSTM.py",
+   "sha256": "9146823c59e1eb22f90519d26a3001449a93d35585b968b00776e57a7b77d550",
+   "bytes": 2826
+  },
+  {
+   "file": "data/SKAB_raw/core/__init.py__",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "file": "data/SKAB_raw/core/metrics.py",
+   "sha256": "9d08a1bc655a044d911c7bb8bf258c59d43949b81532c84f5754ca0bee6ac7e7",
+   "bytes": 29845
+  },
+  {
+   "file": "data/SKAB_raw/core/t2.py",
+   "sha256": "21191cea771431d0a1942980476677889b0da3516d9750ac16795614dcd8cb2f",
+   "bytes": 12423
+  },
+  {
+   "file": "data/SKAB_raw/core/utils.py",
+   "sha256": "d7ccd58f6c575c0892b31f74537195a9b16dd432b1f83da3eefc68637d2dd071",
+   "bytes": 2399
+  },
+  {
+   "file": "data/SKAB_raw/data/README.md",
+   "sha256": "5696f68f1ceb4db1a7616f1a27e3675c6a9b63b123c8cbbc5390a0faff58b39b",
+   "bytes": 2462
+  },
+  {
+   "file": "data/SKAB_raw/data/anomaly-free/anomaly-free.csv",
+   "sha256": "7641a8742957100ef424dd97adfb3eeab27d4d180645fe2b3c49b7f7146ae9a6",
+   "bytes": 814703
+  },
+  {
+   "file": "data/SKAB_raw/data/other/1.csv",
+   "sha256": "3beaf861bdfe9b4f4eff8e7567c1dd3f506fbd0ce667fc9399d04bd2dc70623d",
+   "bytes": 70326
+  },
+  {
+   "file": "data/SKAB_raw/data/other/10.csv",
+   "sha256": "72683644f6f17689f619076a66a9ec02cbc0502bd669924c4c33951d1bdad9b0",
+   "bytes": 124516
+  },
+  {
+   "file": "data/SKAB_raw/data/other/11.csv",
+   "sha256": "98a2fff3b6516205ae2e12f2dd30d7f08465fe4321a1bd5cf823396985ecb37b",
+   "bytes": 112720
+  },
+  {
+   "file": "data/SKAB_raw/data/other/12.csv",
+   "sha256": "b0882efbcf2669223ae78bee61c9f10074a9b2375f0e86b8957ae5ce4aad1e72",
+   "bytes": 99534
+  },
+  {
+   "file": "data/SKAB_raw/data/other/13.csv",
+   "sha256": "b3f1da02064d11234836a9fa1a2536bb0d3b6c6998ab60b0b71869b98e94d860",
+   "bytes": 87634
+  },
+  {
+   "file": "data/SKAB_raw/data/other/14.csv",
+   "sha256": "c7f361e55397cc9efd4a76b6876111eda79b650d10aeb007342ca5972152eaef",
+   "bytes": 85828
+  },
+  {
+   "file": "data/SKAB_raw/data/other/2.csv",
+   "sha256": "951c326bf36366fa7615b8f28d22f80b3878036069a690f42b3e223737a6a8d1",
+   "bytes": 73661
+  },
+  {
+   "file": "data/SKAB_raw/data/other/3.csv",
+   "sha256": "f3c19a89f74f62a475c246b9263f161f7a734dd88304de803939cebaa55c7ebd",
+   "bytes": 107404
+  },
+  {
+   "file": "data/SKAB_raw/data/other/4.csv",
+   "sha256": "56ca23f4eb61d1347d079eb9a35c60a59b8b64e160c00dd0c2ec69e0df0b2a4b",
+   "bytes": 112334
+  },
+  {
+   "file": "data/SKAB_raw/data/other/5.csv",
+   "sha256": "7347b326df3a92c0810c69add0e5621939af7a1c1cb4755081d088e72d36920f",
+   "bytes": 108203
+  },
+  {
+   "file": "data/SKAB_raw/data/other/6.csv",
+   "sha256": "eb8f05622a62c855040ea358b87be35fb1a4a3720ba0610569bab384db4b6e04",
+   "bytes": 107422
+  },
+  {
+   "file": "data/SKAB_raw/data/other/7.csv",
+   "sha256": "1bee14f49bfc817ba2c335fb427baa71153d8f8ab52e72652f15f74e4b77daec",
+   "bytes": 102054
+  },
+  {
+   "file": "data/SKAB_raw/data/other/8.csv",
+   "sha256": "12c138ed99c198e0a7ece886fe01bfd16bbdde206fad6c5d74322b6b9d6488d0",
+   "bytes": 107600
+  },
+  {
+   "file": "data/SKAB_raw/data/other/9.csv",
+   "sha256": "11c4514b0bc706acff637fea6707ad9258ac878fe9dff3d0b11d2b618d94d8ea",
+   "bytes": 108481
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/0.csv",
+   "sha256": "16af3f71313a23dd33d9b7b8065d836d05c3f9257588881cc7fbe07c076d9dc8",
+   "bytes": 110346
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/1.csv",
+   "sha256": "fe4493bf805baef4e6dfb864094275d8cc2ea80a16b3735e2752b18b6aefd812",
+   "bytes": 110330
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/10.csv",
+   "sha256": "ee16be8e4b870c779491e3d1dc9e0ecbfaf29eb013e032abff7a33f2cbbfe2ad",
+   "bytes": 110623
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/11.csv",
+   "sha256": "89660fae4ed5c918db014409bbbc29f498fd99c7e956fab2620d18dea700a973",
+   "bytes": 110166
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/12.csv",
+   "sha256": "90adfa9bc86d4556e6a4ce734436fd5685af79c189cd9828f8df75a7f468ce07",
+   "bytes": 110061
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/13.csv",
+   "sha256": "d6cb6a97437215d3066a87e1fcc5fa4e68017629c043c5315920e3cf1060841c",
+   "bytes": 110455
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/14.csv",
+   "sha256": "5f0bb9bc33c5e6c259263e32e25915c4d24c82b0a94554d48808626da05c1d71",
+   "bytes": 110181
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/15.csv",
+   "sha256": "75cc86ab25d7091eee024739fa06d048753480d5d7d1507077231cab4f1b7a7e",
+   "bytes": 111352
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/2.csv",
+   "sha256": "90492413469261886c8896c327241448df5da73fd7739cabfec8dd82de3c0ce4",
+   "bytes": 103507
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/3.csv",
+   "sha256": "cb6afea108eddfd8447307e405f86bbb764b8d8e9130d7849a46e1303e19b8b2",
+   "bytes": 110534
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/4.csv",
+   "sha256": "983aed9dc09991a57911091373c580e1b86d06aa983cd51678f108fd8d709654",
+   "bytes": 105634
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/5.csv",
+   "sha256": "78974991ec87b7f9b9b6b2944f4b525468a9beb36c59b06cd7650d9a15eca14a",
+   "bytes": 111575
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/6.csv",
+   "sha256": "97469c0e0c9c0e0ee5d30794f1f36c6785df5816a112a8b16c59637e8c894685",
+   "bytes": 111676
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/7.csv",
+   "sha256": "ca2c9c6d6fa302c642acec6fbedac495bd12fececeee0a755d45a54e340e0f30",
+   "bytes": 105941
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/8.csv",
+   "sha256": "0c4afb92248b5b35b4c9d734a91ed8318346901f04579074903730569e60416c",
+   "bytes": 110305
+  },
+  {
+   "file": "data/SKAB_raw/data/valve1/9.csv",
+   "sha256": "2aa1ae1b2ff505caecda24802b877dc686924bbbeeb7e7db4faa261efb5ed5bd",
+   "bytes": 110586
+  },
+  {
+   "file": "data/SKAB_raw/data/valve2/0.csv",
+   "sha256": "a6670e7a68c7c6ba62c649bd9d350633e80db624578e9529f2b736ced5e32bde",
+   "bytes": 109156
+  },
+  {
+   "file": "data/SKAB_raw/data/valve2/1.csv",
+   "sha256": "b35d27f664eb0851ab73e5eb06633404c7eeaf532edff7e40c68eb9379f2012b",
+   "bytes": 102680
+  },
+  {
+   "file": "data/SKAB_raw/data/valve2/2.csv",
+   "sha256": "2c3005cf28b88db715b7f4694e826ff252cba4dbb1eba679b040961f80477e60",
+   "bytes": 109005
+  },
+  {
+   "file": "data/SKAB_raw/data/valve2/3.csv",
+   "sha256": "86927555d5c523e587d41500bd5dee4e2468289ec1b988ac17755aeae697d7f8",
+   "bytes": 96048
+  },
+  {
+   "file": "data/SKAB_raw/docs/contributing.md",
+   "sha256": "8f045a04a746004b24b84f7ede505c3b0e1234d48b0ea74198fdea035b3ccc58",
+   "bytes": 631
+  },
+  {
+   "file": "data/SKAB_raw/docs/pictures/nab-metric.jpg",
+   "sha256": "6c699c167ec7b973089efa72d0e0f0cd8dc58beb5d814ca2aa1e32be8c5e3e04",
+   "bytes": 32764
+  },
+  {
+   "file": "data/SKAB_raw/docs/pictures/skab.png",
+   "sha256": "59eed45077de9fc0631eb6c3d3930c73b2f8a8bf88cc676759e62a3bffa97700",
+   "bytes": 85613
+  },
+  {
+   "file": "data/SKAB_raw/docs/pictures/testbed.png",
+   "sha256": "42c9a97a8ac21f5163f485fb3d2e23c60e760104e0f4aeac03b07204969537f9",
+   "bytes": 2607316
+  },
+  {
+   "file": "data/SKAB_raw/notebooks/ArimaFD.ipynb",
+   "sha256": "0790b65bf7a4af6cfa7a1976c6659d3f0dbc49753d1c0b6802c59bffa8101dac",
+   "bytes": 32238
+  },
+  {
+   "file": "data/SKAB_raw/notebooks/Conv_AE.ipynb",
+   "sha256": "b6d2a112776472426428cb56fa26b0b5cb532c9d2f8cb39c8a2b5a5893345ce1",
+   "bytes": 55473
+  },
+  {
+   "file": "data/SKAB_raw/notebooks/LSTM_AE.ipynb",
+   "sha256": "ef72f700546404b3f1288200005eb55d56aa831214ad5868c77160879c39e5af",
+   "bytes": 58761
+  },
+  {
+   "file": "data/SKAB_raw/notebooks/MSET.ipynb",
+   "sha256": "3dcd9582763c714af161607cd7c99e1a8ee8ddab5529ed83ed1e975ff4187ff1",
+   "bytes": 57347
+  },
+  {
+   "file": "data/SKAB_raw/notebooks/README.md",
+   "sha256": "fe9f7a97fada53602e702e6b4ad461ae1ea36462689e0ea015fff906e5a6ffd4",
+   "bytes": 6368
+  },
+  {
+   "file": "data/SKAB_raw/notebooks/Vanilla_AE.ipynb",
+   "sha256": "58475164e147a4907dc5fccf0a46e1b699eb421c731380440bcbeb6fea0384e3",
+   "bytes": 50406
+  },
+  {
+   "file": "data/SKAB_raw/notebooks/Vanilla_LSTM.ipynb",
+   "sha256": "0bd2b1c8af04dd96a94e4e000d67aefdd9ffd1f6cf4f21120aa8507db18453e9",
+   "bytes": 98863
+  },
+  {
+   "file": "data/SKAB_raw/notebooks/isolation_forest.ipynb",
+   "sha256": "563d9d4458448126994f8b40bb6300461654eeba8bdd7e1f365775a3ad9c7e96",
+   "bytes": 62087
+  },
+  {
+   "file": "data/SKAB_raw/notebooks/mscred.ipynb",
+   "sha256": "52fa2f56114d72eff9b4ef8075a72274bfb87a71f8b1baebcbb5befbd4aaa3bf",
+   "bytes": 81467
+  },
+  {
+   "file": "data/SKAB_raw/notebooks/t2_SKAB.ipynb",
+   "sha256": "d90cd0b868df3ca9f6d136cef85b051b580bfc890c5e86d26e1509ef52e1068f",
+   "bytes": 54259
+  },
+  {
+   "file": "data/SKAB_raw/notebooks/t2_with_q_SKAB.ipynb",
+   "sha256": "569b76f4298685b9adca7f68382baab9a7729785588e6d628f5cb070f86ff6ff",
+   "bytes": 54507
+  },
+  {
+   "file": "data/SKAB_raw/results/results-Arima_anomaly_detection.pkl",
+   "sha256": "bbf8c028a853a62530b4c5be6e5c5328ab6e6c6d8f1594684bcd4c748c7e0efd",
+   "bytes": 585308
+  },
+  {
+   "file": "data/SKAB_raw/results/results-Conv_AE.pkl",
+   "sha256": "702d6b76426c9bea7ef6cafc36addca74b06e0c3635abe12d7f49d0396a95b9b",
+   "bytes": 585308
+  },
+  {
+   "file": "data/SKAB_raw/results/results-Isolation_Forest.pkl",
+   "sha256": "e057be6d71e5406383c3be0c0dd3cdcfb18c5282ca17c2b288267b2ee6fe004a",
+   "bytes": 585308
+  },
+  {
+   "file": "data/SKAB_raw/results/results-LSTM_AE.pkl",
+   "sha256": "18917e64f6ba844cd3a4a041ceca94962488edb0822078031299f08b0e24206f",
+   "bytes": 585308
+  },
+  {
+   "file": "data/SKAB_raw/results/results-MSCRED.pkl",
+   "sha256": "87506f791c49395824811a17fcf5b6ce067c050ed881167facd1005b8fa0179d",
+   "bytes": 553484
+  },
+  {
+   "file": "data/SKAB_raw/results/results-MSET.pkl",
+   "sha256": "c44da184614f2f7865bd85349c798ac3488d16d06f8035078a2704f21af00364",
+   "bytes": 585308
+  },
+  {
+   "file": "data/SKAB_raw/results/results-T2-q.pkl",
+   "sha256": "a756e42455d5554dabebaac8739e2dcc06a5c8ac5c570cacf6cdd3c506d45c52",
+   "bytes": 585344
+  },
+  {
+   "file": "data/SKAB_raw/results/results-T2.pkl",
+   "sha256": "38f2eeed1f42e3393729f7fe53ea3f18dc7e2e34340b267d6af9001d1f39a501",
+   "bytes": 585308
+  },
+  {
+   "file": "data/SKAB_raw/results/results-Vanilla_AE.pkl",
+   "sha256": "9b2399a5673e0f4221a1d3b1c1fdc1205bf2fe8e1f250ff43b5b5501435eba01",
+   "bytes": 585308
+  },
+  {
+   "file": "data/SKAB_raw/results/results-Vanilla_LSTM.pkl",
+   "sha256": "2574c4192b7adc5c14525b0b7066ee47ee8eb5cdd9ce3214008662eff9399bc3",
+   "bytes": 581228
+  }
+ ]
+}
