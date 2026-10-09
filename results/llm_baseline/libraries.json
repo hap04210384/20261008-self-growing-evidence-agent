@@ -1,0 +1,260 @@
+{
+ "valve1": {
+  "minsup": [
+   {
+    "pattern": "Thermocouple=0 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.350",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.350",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Thermocouple=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.334",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.334",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.334",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.334",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Temperature=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.310",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.310",
+    "lift": "inf"
+   }
+  ],
+  "random": [
+   {
+    "pattern": "Accelerometer2RMS=0 ∧ Accelerometer2RMS=1 ∧ Current=2 ∧ Volume Flow RateRMS=2",
+    "sup_anom": "0.000",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Current=2 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.029",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Current=0 ∧ Volume Flow RateRMS=2",
+    "sup_anom": "0.022",
+    "lift": "0.2"
+   },
+   {
+    "pattern": "Thermocouple=1 ∧ Voltage=2 ∧ Volume Flow RateRMS=1",
+    "sup_anom": "0.004",
+    "lift": "3.3"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=1 ∧ Voltage=1",
+    "sup_anom": "0.056",
+    "lift": "1.4"
+   },
+   {
+    "pattern": "Current=0 ∧ Pressure=1 ∧ Voltage=2",
+    "sup_anom": "0.002",
+    "lift": "1.6"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=2",
+    "sup_anom": "0.127",
+    "lift": "0.9"
+   },
+   {
+    "pattern": "Accelerometer2RMS=0 ∧ Accelerometer2RMS=2 ∧ Current=2",
+    "sup_anom": "0.000",
+    "lift": "inf"
+   }
+  ]
+ },
+ "valve2": {
+  "minsup": [
+   {
+    "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.806",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.741",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.741",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.630",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.630",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.574",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.574",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer2RMS=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.546",
+    "lift": "inf"
+   }
+  ],
+  "random": [
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Thermocouple=1 ∧ Voltage=0",
+    "sup_anom": "0.000",
+    "lift": "0.0"
+   },
+   {
+    "pattern": "Temperature=1 ∧ Volume Flow RateRMS=2",
+    "sup_anom": "0.028",
+    "lift": "0.1"
+   },
+   {
+    "pattern": "Temperature=2 ∧ Voltage=1",
+    "sup_anom": "0.463",
+    "lift": "1.9"
+   },
+   {
+    "pattern": "Accelerometer1RMS=0 ∧ Accelerometer2RMS=0 ∧ Temperature=1 ∧ Volume Flow RateRMS=1",
+    "sup_anom": "0.000",
+    "lift": "0.0"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Current=1",
+    "sup_anom": "0.380",
+    "lift": "1.0"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=0 ∧ Volume Flow RateRMS=1 ∧ Volume Flow RateRMS=2",
+    "sup_anom": "0.000",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Thermocouple=2 ∧ Volume Flow RateRMS=1",
+    "sup_anom": "0.019",
+    "lift": "0.1"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Pressure=1",
+    "sup_anom": "0.111",
+    "lift": "0.8"
+   }
+  ]
+ },
+ "other": {
+  "minsup": [
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Thermocouple=1",
+    "sup_anom": "0.124",
+    "lift": "9.4"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=1",
+    "sup_anom": "0.124",
+    "lift": "9.4"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Thermocouple=1 ∧ Voltage=1",
+    "sup_anom": "0.116",
+    "lift": "8.8"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1",
+    "sup_anom": "0.116",
+    "lift": "8.8"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.200",
+    "lift": "8.6"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.200",
+    "lift": "8.6"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Temperature=0",
+    "sup_anom": "0.222",
+    "lift": "8.4"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0",
+    "sup_anom": "0.222",
+    "lift": "8.4"
+   }
+  ],
+  "random": [
+   {
+    "pattern": "Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.176",
+    "lift": "5.3"
+   },
+   {
+    "pattern": "Accelerometer2RMS=0 ∧ Accelerometer2RMS=1 ∧ Pressure=0 ∧ Thermocouple=0",
+    "sup_anom": "0.000",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Voltage=0 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.019",
+    "lift": "1.9"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Volume Flow RateRMS=2",
+    "sup_anom": "0.065",
+    "lift": "1.2"
+   },
+   {
+    "pattern": "Pressure=0 ∧ Temperature=0 ∧ Temperature=1 ∧ Thermocouple=2",
+    "sup_anom": "0.000",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=1",
+    "sup_anom": "0.038",
+    "lift": "0.5"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Volume Flow RateRMS=2",
+    "sup_anom": "0.065",
+    "lift": "1.2"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2",
+    "sup_anom": "0.192",
+    "lift": "2.6"
+   }
+  ]
+ }
+}
