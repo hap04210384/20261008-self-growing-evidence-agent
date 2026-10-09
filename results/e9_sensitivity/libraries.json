@@ -1,0 +1,1514 @@
+{
+ "valve1|L1.5|S0.05": [
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve1|L1.5|S0.1": [
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve1|L1.5|S0.2": [
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve1|L2.0|S0.05": [
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve1|L2.0|S0.1": [
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve1|L2.0|S0.2": [
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve1|L3.0|S0.05": [
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve1|L3.0|S0.1": [
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve1|L3.0|S0.2": [
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve1|L4.0|S0.05": [
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve1|L4.0|S0.1": [
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve1|L4.0|S0.2": [
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.880",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.857",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve2|L1.5|S0.05": [
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve2|L1.5|S0.1": [
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve2|L1.5|S0.2": [
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve2|L2.0|S0.05": [
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve2|L2.0|S0.1": [
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve2|L2.0|S0.2": [
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve2|L3.0|S0.05": [
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve2|L3.0|S0.1": [
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve2|L3.0|S0.2": [
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve2|L4.0|S0.05": [
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve2|L4.0|S0.1": [
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "valve2|L4.0|S0.2": [
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.929",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.821",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.667",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer1RMS=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.643",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "other|L1.5|S0.05": [
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "other|L1.5|S0.1": [
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "other|L1.5|S0.2": [
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "other|L2.0|S0.05": [
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "other|L2.0|S0.1": [
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "other|L2.0|S0.2": [
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "other|L3.0|S0.05": [
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "other|L3.0|S0.1": [
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "other|L3.0|S0.2": [
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "other|L4.0|S0.05": [
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "other|L4.0|S0.1": [
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ],
+ "other|L4.0|S0.2": [
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=2",
+   "sup_anom": "0.909",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Volume Flow RateRMS=0",
+   "sup_anom": "0.897",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  },
+  {
+   "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2",
+   "sup_anom": "0.864",
+   "lift": "inf (never occurs in normal windows)"
+  }
+ ]
+}
