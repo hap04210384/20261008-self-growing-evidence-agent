@@ -1,0 +1,1040 @@
+{
+ "valve1|0": {
+  "lib_runs": [
+   "4.csv",
+   "8.csv",
+   "13.csv",
+   "1.csv",
+   "3.csv",
+   "10.csv",
+   "11.csv",
+   "5.csv"
+  ],
+  "test_runs": [
+   "7.csv",
+   "15.csv",
+   "2.csv",
+   "12.csv",
+   "0.csv",
+   "14.csv",
+   "9.csv",
+   "6.csv"
+  ],
+  "loro": [
+   {
+    "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.812",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.744",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.673",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.614",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.372",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.359",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.350",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.318",
+    "lift": "inf"
+   }
+  ],
+  "in": [
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.334",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.334",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.310",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.310",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.138",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.118",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.114",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.109",
+    "lift": "inf"
+   }
+  ],
+  "loro_stats": {
+   "n_lib_windows": 597,
+   "n_lib_anom": 223,
+   "pool": 703,
+   "n_pass": 51,
+   "n_selected": 8
+  },
+  "in_stats": {
+   "n_lib_windows": 1187,
+   "n_lib_anom": 449,
+   "pool": 820,
+   "n_pass": 26,
+   "n_selected": 8
+  }
+ },
+ "valve1|1": {
+  "lib_runs": [
+   "10.csv",
+   "4.csv",
+   "0.csv",
+   "8.csv",
+   "14.csv",
+   "13.csv",
+   "11.csv",
+   "2.csv"
+  ],
+  "test_runs": [
+   "15.csv",
+   "5.csv",
+   "9.csv",
+   "1.csv",
+   "6.csv",
+   "7.csv",
+   "3.csv",
+   "12.csv"
+  ],
+  "loro": [
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.356",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.342",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.174",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Current=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.155",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.151",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.137",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Current=0 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.132",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.128",
+    "lift": "inf"
+   }
+  ],
+  "in": [
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.334",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.334",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.310",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.310",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.138",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.118",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.114",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.109",
+    "lift": "inf"
+   }
+  ],
+  "loro_stats": {
+   "n_lib_windows": 591,
+   "n_lib_anom": 219,
+   "pool": 760,
+   "n_pass": 43,
+   "n_selected": 8
+  },
+  "in_stats": {
+   "n_lib_windows": 1187,
+   "n_lib_anom": 449,
+   "pool": 820,
+   "n_pass": 26,
+   "n_selected": 8
+  }
+ },
+ "valve1|2": {
+  "lib_runs": [
+   "6.csv",
+   "5.csv",
+   "15.csv",
+   "7.csv",
+   "14.csv",
+   "0.csv",
+   "2.csv",
+   "11.csv"
+  ],
+  "test_runs": [
+   "3.csv",
+   "12.csv",
+   "4.csv",
+   "10.csv",
+   "13.csv",
+   "8.csv",
+   "9.csv",
+   "1.csv"
+  ],
+  "loro": [
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.142",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.111",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=0 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.111",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.518",
+    "lift": "188.4"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.491",
+    "lift": "178.8"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.699",
+    "lift": "127.2"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.673",
+    "lift": "122.4"
+   },
+   {
+    "pattern": "Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.429",
+    "lift": "78.1"
+   }
+  ],
+  "in": [
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.334",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.334",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.310",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.310",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.138",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.118",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.114",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.109",
+    "lift": "inf"
+   }
+  ],
+  "loro_stats": {
+   "n_lib_windows": 590,
+   "n_lib_anom": 226,
+   "pool": 488,
+   "n_pass": 17,
+   "n_selected": 8
+  },
+  "in_stats": {
+   "n_lib_windows": 1187,
+   "n_lib_anom": 449,
+   "pool": 820,
+   "n_pass": 26,
+   "n_selected": 8
+  }
+ },
+ "valve2|0": {
+  "lib_runs": [
+   "2.csv",
+   "0.csv"
+  ],
+  "test_runs": [
+   "1.csv",
+   "3.csv"
+  ],
+  "loro": [
+   {
+    "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.857",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.750",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.607",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.429",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.429",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.411",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.411",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.375",
+    "lift": "inf"
+   }
+  ],
+  "in": [
+   {
+    "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.806",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.741",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.574",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.537",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.481",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.398",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.370",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.343",
+    "lift": "inf"
+   }
+  ],
+  "loro_stats": {
+   "n_lib_windows": 148,
+   "n_lib_anom": 56,
+   "pool": 279,
+   "n_pass": 68,
+   "n_selected": 8
+  },
+  "in_stats": {
+   "n_lib_windows": 282,
+   "n_lib_anom": 108,
+   "pool": 327,
+   "n_pass": 52,
+   "n_selected": 8
+  }
+ },
+ "valve2|1": {
+  "lib_runs": [
+   "3.csv",
+   "0.csv"
+  ],
+  "test_runs": [
+   "2.csv",
+   "1.csv"
+  ],
+  "loro": [
+   {
+    "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.821",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.768",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.571",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.571",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=0 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.571",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer2RMS=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.554",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.482",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.429",
+    "lift": "inf"
+   }
+  ],
+  "in": [
+   {
+    "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.806",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.741",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.574",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.537",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.481",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.398",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.370",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.343",
+    "lift": "inf"
+   }
+  ],
+  "loro_stats": {
+   "n_lib_windows": 139,
+   "n_lib_anom": 56,
+   "pool": 323,
+   "n_pass": 55,
+   "n_selected": 8
+  },
+  "in_stats": {
+   "n_lib_windows": 282,
+   "n_lib_anom": 108,
+   "pool": 327,
+   "n_pass": 52,
+   "n_selected": 8
+  }
+ },
+ "valve2|2": {
+  "lib_runs": [
+   "1.csv",
+   "2.csv"
+  ],
+  "test_runs": [
+   "3.csv",
+   "0.csv"
+  ],
+  "loro": [
+   {
+    "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.788",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.712",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.481",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.404",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.365",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.365",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.346",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.327",
+    "lift": "inf"
+   }
+  ],
+  "in": [
+   {
+    "pattern": "Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.806",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.741",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.574",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.537",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.481",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=2 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.398",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.370",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer2RMS=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.343",
+    "lift": "inf"
+   }
+  ],
+  "loro_stats": {
+   "n_lib_windows": 143,
+   "n_lib_anom": 52,
+   "pool": 388,
+   "n_pass": 39,
+   "n_selected": 8
+  },
+  "in_stats": {
+   "n_lib_windows": 282,
+   "n_lib_anom": 108,
+   "pool": 327,
+   "n_pass": 52,
+   "n_selected": 8
+  }
+ },
+ "other|0": {
+  "lib_runs": [
+   "10.csv",
+   "6.csv",
+   "5.csv",
+   "14.csv",
+   "7.csv",
+   "11.csv",
+   "12.csv"
+  ],
+  "test_runs": [
+   "3.csv",
+   "4.csv",
+   "13.csv",
+   "1.csv",
+   "8.csv",
+   "2.csv",
+   "9.csv"
+  ],
+  "loro": [
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1",
+    "sup_anom": "0.305",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=2",
+    "sup_anom": "0.265",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=2 ∧ Voltage=1",
+    "sup_anom": "0.260",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.245",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=1 ∧ Voltage=1",
+    "sup_anom": "0.240",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=2",
+    "sup_anom": "0.225",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.225",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=0 ∧ Accelerometer2RMS=2 ∧ Pressure=1",
+    "sup_anom": "0.225",
+    "lift": "inf"
+   }
+  ],
+  "in": [
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.189",
+    "lift": "8.2"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1",
+    "sup_anom": "0.203",
+    "lift": "7.7"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0",
+    "sup_anom": "0.176",
+    "lift": "7.6"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.197",
+    "lift": "7.5"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0",
+    "sup_anom": "0.176",
+    "lift": "7.1"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.170",
+    "lift": "6.9"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.189",
+    "lift": "5.7"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.176",
+    "lift": "5.3"
+   }
+  ],
+  "loro_stats": {
+   "n_lib_windows": 514,
+   "n_lib_anom": 200,
+   "pool": 430,
+   "n_pass": 50,
+   "n_selected": 8
+  },
+  "in_stats": {
+   "n_lib_windows": 975,
+   "n_lib_anom": 370,
+   "pool": 910,
+   "n_pass": 35,
+   "n_selected": 8
+  }
+ },
+ "other|1": {
+  "lib_runs": [
+   "9.csv",
+   "6.csv",
+   "1.csv",
+   "8.csv",
+   "2.csv",
+   "14.csv",
+   "12.csv"
+  ],
+  "test_runs": [
+   "4.csv",
+   "3.csv",
+   "7.csv",
+   "13.csv",
+   "10.csv",
+   "5.csv",
+   "11.csv"
+  ],
+  "loro": [
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.118",
+    "lift": "inf"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.243",
+    "lift": "22.8"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1",
+    "sup_anom": "0.172",
+    "lift": "12.1"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1",
+    "sup_anom": "0.166",
+    "lift": "9.3"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.249",
+    "lift": "7.8"
+   },
+   {
+    "pattern": "Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.201",
+    "lift": "6.3"
+   },
+   {
+    "pattern": "Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.183",
+    "lift": "5.7"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.219",
+    "lift": "4.7"
+   }
+  ],
+  "in": [
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.189",
+    "lift": "8.2"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1",
+    "sup_anom": "0.203",
+    "lift": "7.7"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0",
+    "sup_anom": "0.176",
+    "lift": "7.6"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.197",
+    "lift": "7.5"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0",
+    "sup_anom": "0.176",
+    "lift": "7.1"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.170",
+    "lift": "6.9"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.189",
+    "lift": "5.7"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.176",
+    "lift": "5.3"
+   }
+  ],
+  "loro_stats": {
+   "n_lib_windows": 451,
+   "n_lib_anom": 169,
+   "pool": 700,
+   "n_pass": 30,
+   "n_selected": 8
+  },
+  "in_stats": {
+   "n_lib_windows": 975,
+   "n_lib_anom": 370,
+   "pool": 910,
+   "n_pass": 35,
+   "n_selected": 8
+  }
+ },
+ "other|2": {
+  "lib_runs": [
+   "5.csv",
+   "12.csv",
+   "2.csv",
+   "8.csv",
+   "6.csv",
+   "3.csv",
+   "4.csv"
+  ],
+  "test_runs": [
+   "13.csv",
+   "11.csv",
+   "14.csv",
+   "7.csv",
+   "10.csv",
+   "1.csv",
+   "9.csv"
+  ],
+  "loro": [
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.194",
+    "lift": "29.6"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.173",
+    "lift": "26.4"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.152",
+    "lift": "23.2"
+   },
+   {
+    "pattern": "Accelerometer1RMS=1 ∧ Accelerometer2RMS=1 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.173",
+    "lift": "17.6"
+   },
+   {
+    "pattern": "Current=1 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.115",
+    "lift": "17.6"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.162",
+    "lift": "16.6"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.168",
+    "lift": "12.8"
+   },
+   {
+    "pattern": "Current=1 ∧ Pressure=1 ∧ Thermocouple=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.126",
+    "lift": "12.8"
+   }
+  ],
+  "in": [
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.189",
+    "lift": "8.2"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0 ∧ Voltage=1",
+    "sup_anom": "0.203",
+    "lift": "7.7"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Temperature=0",
+    "sup_anom": "0.176",
+    "lift": "7.6"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Pressure=1 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.197",
+    "lift": "7.5"
+   },
+   {
+    "pattern": "Accelerometer1RMS=2 ∧ Accelerometer2RMS=2 ∧ Pressure=1 ∧ Temperature=0",
+    "sup_anom": "0.176",
+    "lift": "7.1"
+   },
+   {
+    "pattern": "Accelerometer2RMS=2 ∧ Current=1 ∧ Pressure=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.170",
+    "lift": "6.9"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=0 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.189",
+    "lift": "5.7"
+   },
+   {
+    "pattern": "Pressure=1 ∧ Temperature=0 ∧ Voltage=1 ∧ Volume Flow RateRMS=0",
+    "sup_anom": "0.176",
+    "lift": "5.3"
+   }
+  ],
+  "loro_stats": {
+   "n_lib_windows": 497,
+   "n_lib_anom": 191,
+   "pool": 791,
+   "n_pass": 49,
+   "n_selected": 8
+  },
+  "in_stats": {
+   "n_lib_windows": 975,
+   "n_lib_anom": 370,
+   "pool": 910,
+   "n_pass": 35,
+   "n_selected": 8
+  }
+ }
+}
