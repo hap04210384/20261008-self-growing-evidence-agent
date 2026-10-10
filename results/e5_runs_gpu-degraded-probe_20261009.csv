@@ -1,0 +1,11 @@
+dataset,thr,engine,rep,secs
+hai,0.1,baseline,0,17.900400
+hai,0.1,baseline,1,17.698200
+hai,0.1,baseline,2,18.238100
+hai,0.1,baseline,3,18.628600
+hai,0.1,baseline,4,18.212300
+hai,0.1,bmma,0,34.712300
+hai,0.1,bmma,1,30.754000
+hai,0.1,bmma,2,37.114800
+hai,0.1,bmma,3,35.484800
+hai,0.1,bmma,4,34.500500
