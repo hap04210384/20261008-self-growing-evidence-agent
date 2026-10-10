@@ -1,0 +1,95 @@
+{
+ "insample": {
+  "rows": [
+   {
+    "pattern": "P1_FCV01D=1 ∧ P1_FCV02D=0 ∧ P1_TIT01=2",
+    "sup_anom": "0.526",
+    "lift": "3.3"
+   },
+   {
+    "pattern": "P1_B3004=2 ∧ P1_B4002=2 ∧ P1_B400B=1 ∧ P1_FCV01D=1 ∧ P1_FCV02D=0 ∧ P1_FT02=1 ∧ P1_FT02Z=1",
+    "sup_anom": "0.368",
+    "lift": "2.6"
+   },
+   {
+    "pattern": "P1_B3004=2 ∧ P1_B4002=2 ∧ P1_B4005=1 ∧ P1_FCV01D=1 ∧ P1_FCV02D=0 ∧ P1_FCV03D=0",
+    "sup_anom": "0.368",
+    "lift": "2.5"
+   },
+   {
+    "pattern": "P1_B4005=1 ∧ P1_FCV01D=1 ∧ P1_FCV02D=0 ∧ P1_LCV01Z=2 ∧ P1_PIT02=1",
+    "sup_anom": "0.368",
+    "lift": "2.5"
+   },
+   {
+    "pattern": "P1_B3004=2 ∧ P1_B4002=2 ∧ P1_FCV01D=1 ∧ P1_FCV02D=0 ∧ P1_FT01=0 ∧ P1_FT01Z=0",
+    "sup_anom": "0.368",
+    "lift": "2.5"
+   },
+   {
+    "pattern": "P1_B3004=2 ∧ P1_B4002=2 ∧ P1_B400B=1 ∧ P1_FCV01D=1 ∧ P1_FCV02D=0 ∧ P1_FT02Z=1",
+    "sup_anom": "0.368",
+    "lift": "2.5"
+   },
+   {
+    "pattern": "P1_B3004=2 ∧ P1_B4002=2 ∧ P1_FCV01D=1 ∧ P1_FCV02D=0 ∧ P1_FT02=1 ∧ P1_FT02Z=1",
+    "sup_anom": "0.368",
+    "lift": "2.5"
+   },
+   {
+    "pattern": "P1_B3004=2 ∧ P1_B4002=2 ∧ P1_FCV02D=0 ∧ P1_FCV03D=0 ∧ P1_TIT01=2",
+    "sup_anom": "0.421",
+    "lift": "2.5"
+   }
+  ],
+  "random": [
+   {
+    "pattern": "P1_B400B=1 ∧ P1_FCV03D=0 ∧ P1_FCV03Z=1 ∧ P1_FT01=1",
+    "sup_anom": "0.000",
+    "lift": "0.0"
+   },
+   {
+    "pattern": "P1_B3005=2 ∧ P1_FCV01D=0 ∧ P1_FT03Z=0",
+    "sup_anom": "0.000",
+    "lift": "inf"
+   },
+   {
+    "pattern": "P1_FT02Z=1 ∧ P1_PCV01Z=2",
+    "sup_anom": "0.158",
+    "lift": "6.9"
+   },
+   {
+    "pattern": "P1_B3005=0 ∧ P1_FCV03D=1",
+    "sup_anom": "0.000",
+    "lift": "inf"
+   },
+   {
+    "pattern": "P1_LCV01Z=2 ∧ P1_PCV01D=0",
+    "sup_anom": "0.158",
+    "lift": "7.6"
+   },
+   {
+    "pattern": "P1_FCV02Z=1 ∧ P1_TIT01=0",
+    "sup_anom": "0.158",
+    "lift": "0.7"
+   },
+   {
+    "pattern": "P1_PCV01D=2 ∧ P1_TIT01=1",
+    "sup_anom": "0.158",
+    "lift": "1.2"
+   },
+   {
+    "pattern": "P1_FCV03Z=1 ∧ P1_FT01=1",
+    "sup_anom": "0.105",
+    "lift": "0.4"
+   }
+  ],
+  "stats": {
+   "n_lib_windows": 499,
+   "n_lib_anom": 19,
+   "pool": 1076,
+   "n_pass": 36,
+   "n_selected": 8
+  }
+ }
+}

@@ -1,0 +1,232 @@
+{
+ "n_calls": 570,
+ "unparsed": 39,
+ "lib_stats": {
+  "insample": {
+   "n_lib_windows": 499,
+   "n_lib_anom": 19,
+   "pool": 1076,
+   "n_pass": 36,
+   "n_selected": 8
+  }
+ },
+ "arms": {
+  "insample": {
+   "deepseek-chat": {
+    "per_condition": {
+     "nolib": {
+      "correct": 19,
+      "n": 38,
+      "acc": 0.5,
+      "wilson95": [
+       0.3485,
+       0.6515
+      ]
+     },
+     "mined": {
+      "correct": 21,
+      "n": 32,
+      "acc": 0.6562,
+      "wilson95": [
+       0.4831,
+       0.7959
+      ]
+     },
+     "random": {
+      "correct": 19,
+      "n": 38,
+      "acc": 0.5,
+      "wilson95": [
+       0.3485,
+       0.6515
+      ]
+     }
+    },
+    "mcnemar_mined_vs_nolib": {
+     "n_paired": 32,
+     "b": 13,
+     "c": 10,
+     "chi2": 0.174,
+     "p": 0.67666
+    },
+    "citation_faithfulness_mined": 0.9804,
+    "citations_mined": 51,
+    "faithfulness_random": 1.0,
+    "cond_nolib_hallu": 0,
+    "cond_nolib_n": 38
+   },
+   "qwen-plus": {
+    "per_condition": {
+     "nolib": {
+      "correct": 16,
+      "n": 38,
+      "acc": 0.4211,
+      "wilson95": [
+       0.2785,
+       0.5781
+      ]
+     },
+     "mined": {
+      "correct": 17,
+      "n": 35,
+      "acc": 0.4857,
+      "wilson95": [
+       0.3299,
+       0.6443
+      ]
+     },
+     "random": {
+      "correct": 20,
+      "n": 38,
+      "acc": 0.5263,
+      "wilson95": [
+       0.3726,
+       0.6752
+      ]
+     }
+    },
+    "mcnemar_mined_vs_nolib": {
+     "n_paired": 35,
+     "b": 10,
+     "c": 9,
+     "chi2": 0.0,
+     "p": 1.0
+    },
+    "citation_faithfulness_mined": 1.0,
+    "citations_mined": 29,
+    "faithfulness_random": 1.0,
+    "cond_nolib_hallu": 0,
+    "cond_nolib_n": 38
+   },
+   "glm-4-air": {
+    "per_condition": {
+     "nolib": {
+      "correct": 18,
+      "n": 38,
+      "acc": 0.4737,
+      "wilson95": [
+       0.3248,
+       0.6274
+      ]
+     },
+     "mined": {
+      "correct": 18,
+      "n": 36,
+      "acc": 0.5,
+      "wilson95": [
+       0.3447,
+       0.6553
+      ]
+     },
+     "random": {
+      "correct": 24,
+      "n": 38,
+      "acc": 0.6316,
+      "wilson95": [
+       0.4728,
+       0.7662
+      ]
+     }
+    },
+    "mcnemar_mined_vs_nolib": {
+     "n_paired": 36,
+     "b": 18,
+     "c": 17,
+     "chi2": 0.0,
+     "p": 1.0
+    },
+    "citation_faithfulness_mined": 0.9688,
+    "citations_mined": 64,
+    "faithfulness_random": 1.0,
+    "cond_nolib_hallu": 1,
+    "cond_nolib_n": 38
+   },
+   "glm-4-flash": {
+    "per_condition": {
+     "nolib": {
+      "correct": 19,
+      "n": 38,
+      "acc": 0.5,
+      "wilson95": [
+       0.3485,
+       0.6515
+      ]
+     },
+     "mined": {
+      "correct": 16,
+      "n": 33,
+      "acc": 0.4848,
+      "wilson95": [
+       0.325,
+       0.6478
+      ]
+     },
+     "random": {
+      "correct": 19,
+      "n": 38,
+      "acc": 0.5,
+      "wilson95": [
+       0.3485,
+       0.6515
+      ]
+     }
+    },
+    "mcnemar_mined_vs_nolib": {
+     "n_paired": 33,
+     "b": 0,
+     "c": 0,
+     "chi2": 0.0,
+     "p": 1.0
+    },
+    "citation_faithfulness_mined": 0.9434,
+    "citations_mined": 53,
+    "faithfulness_random": 1.0,
+    "cond_nolib_hallu": 38,
+    "cond_nolib_n": 38
+   },
+   "qwen-turbo": {
+    "per_condition": {
+     "nolib": {
+      "correct": 19,
+      "n": 38,
+      "acc": 0.5,
+      "wilson95": [
+       0.3485,
+       0.6515
+      ]
+     },
+     "mined": {
+      "correct": 8,
+      "n": 15,
+      "acc": 0.5333,
+      "wilson95": [
+       0.3012,
+       0.7519
+      ]
+     },
+     "random": {
+      "correct": 19,
+      "n": 38,
+      "acc": 0.5,
+      "wilson95": [
+       0.3485,
+       0.6515
+      ]
+     }
+    },
+    "mcnemar_mined_vs_nolib": {
+     "n_paired": 15,
+     "b": 0,
+     "c": 0,
+     "chi2": 0.0,
+     "p": 1.0
+    },
+    "citation_faithfulness_mined": 0.8636,
+    "citations_mined": 44,
+    "faithfulness_random": 0.8033,
+    "cond_nolib_hallu": 36,
+    "cond_nolib_n": 38
+   }
+  }
+ }
+}

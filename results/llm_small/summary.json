@@ -1,0 +1,54 @@
+{
+ "n_calls": 792,
+ "unparsed": 4,
+ "models": {
+  "glm-4-flash": {
+   "acc_without_library": 0.6465,
+   "acc_with_library": 0.5,
+   "n": 198,
+   "wilson95_without": [
+    0.5777,
+    0.7097
+   ],
+   "wilson95_with": [
+    0.431,
+    0.569
+   ],
+   "mcnemar": {
+    "n_paired": 0,
+    "lib_only_correct": 0,
+    "nolib_only_correct": 0,
+    "chi2": 0.0,
+    "p": 1.0
+   },
+   "citation_faithfulness": 0.976,
+   "citations_total": 1001,
+   "condA_hallucinated_citations": 168,
+   "condA_n": 198
+  },
+  "qwen-turbo": {
+   "acc_without_library": 0.5464,
+   "acc_with_library": 0.4899,
+   "n": 194,
+   "wilson95_without": [
+    0.4761,
+    0.6149
+   ],
+   "wilson95_with": [
+    0.4211,
+    0.5591
+   ],
+   "mcnemar": {
+    "n_paired": 0,
+    "lib_only_correct": 0,
+    "nolib_only_correct": 0,
+    "chi2": 0.0,
+    "p": 1.0
+   },
+   "citation_faithfulness": 0.9934,
+   "citations_total": 1068,
+   "condA_hallucinated_citations": 153,
+   "condA_n": 194
+  }
+ }
+}
