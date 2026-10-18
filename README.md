@@ -1,6 +1,6 @@
 # Self-Growing Sensor Evidence for Interpretable IIoT Fault Diagnosis
 
-Reproducibility package for the manuscript submitted to *Entropy* (MDPI).
+Reproducibility package for a manuscript currently under peer review.
 
 Industrial IoT sensor networks generate massive multivariate telemetry, yet
 diagnosis pipelines that exploit cross-sensor co-occurrence patterns remain
