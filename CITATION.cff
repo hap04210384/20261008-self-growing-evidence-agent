@@ -3,15 +3,15 @@ message: "If you use this code, please cite the accompanying paper."
 authors:
   - family-names: Zhang
     given-names: Xinjiang
-  - family-names: Yang
-    given-names: Jun
   - family-names: Yu
     given-names: Wei
+  - family-names: Yang
+    given-names: Jun
   - family-names: Zhang
     given-names: Yalong
-title: "Self-Growing Sensor Evidence for Interpretable IIoT Fault Diagnosis: Anytime Threshold-Free Pattern Mining with Evidence-Grounded LLM Attribution"
+title: "Fault Diagnosis of Industrial Sensor Streams Based on Self-Growing Frequent-Pattern Evidence: Anytime Threshold-Free Mining and LLM Grounding"
 type: article
-journal: "Sensors (MDPI)"
+journal: "Entropy (MDPI)"
 year: 2026
 note: "Manuscript submitted for peer review. Code repository released for reproducibility."
-url: "https://github.com/YOUR-USERNAME/20261008-self-growing-evidence-agent"
+url: "https://github.com/hap04210384/20261008-self-growing-evidence-agent"

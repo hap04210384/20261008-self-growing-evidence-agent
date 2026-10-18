@@ -1,6 +1,6 @@
 # Self-Growing Sensor Evidence for Interpretable IIoT Fault Diagnosis
 
-Reproducibility package for the manuscript submitted to *Sensors* (MDPI).
+Reproducibility package for the manuscript submitted to *Entropy* (MDPI).
 
 Industrial IoT sensor networks generate massive multivariate telemetry, yet
 diagnosis pipelines that exploit cross-sensor co-occurrence patterns remain
@@ -38,7 +38,7 @@ data/                exported FIMI transactions + download instructions
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/20261008-self-growing-evidence-agent.git
+git clone https://github.com/hap04210384/20261008-self-growing-evidence-agent.git
 cd 20261008-self-growing-evidence-agent
 pip install -r requirements.txt
 ```
