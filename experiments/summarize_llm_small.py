@@ -5,7 +5,7 @@
 - 准确率（valid diagnosis 且与真值一致）；
 - 引用忠实度：with_lib 条件下引用模式是否逐字存在于该组所附库（top-8）；
 - 无库条件幻觉率（condA 中引用非空的比例）；
-- 有库 vs 无库的配对 McNemar（按 case_key 配对，连续性校正）+ Wilson 95% CI。
+- 有库 vs 无库的配对 McNemar（按 case_key 配对，精确双边）+ Wilson 95% CI。
 
 产出：results/llm_small/summary.json
 """
@@ -39,10 +39,14 @@ def wilson(k, n, z=1.96):
 
 
 def mcnemar(b, c):
-    if b + c == 0:
+    """精确双边 McNemar：2*min(P(X<=b), P(X>=b))，X~Bin(b+c,1/2)，cap 1。"""
+    n = b + c
+    if n == 0:
         return (0.0, 1.0)
-    chi2 = (abs(b - c) - 1) ** 2 / (b + c)
-    return (chi2, math.erfc(math.sqrt(chi2 / 2)))
+    k = min(b, c)
+    p = min(1.0, 2.0 * sum(math.comb(n, i) for i in range(0, k + 1))
+             / 2.0 ** n)
+    return (float(b - c), p)
 
 
 recs = [json.loads(l) for l in open(CALLS, encoding="utf-8")]
@@ -58,11 +62,15 @@ for r in recs:
         unparsed += 1
         continue
     diag = str(j.get("diagnosis", "")).strip().lower()
-    correct[(r["model"], r["with_lib"], r["case_key"])] = \
+    # 2026-11-24 修订：with_lib 在记录中是字符串 "True"/"False"；
+    # case_key 带 "|lib"/"|nolib" 后缀，配对前必须剥掉（此前 n_paired=0 的 bug）
+    lib_cond = str(r["with_lib"]) == "True"
+    ck = r["case_key"].rsplit("|", 1)[0]
+    correct[(r["model"], lib_cond, ck)] = \
         int(diag in ("normal", "faulty") and
             (diag == "faulty") == (r["truth"] == "faulty"))
     cites = j.get("cited_patterns") or []
-    if r["with_lib"]:
+    if lib_cond:
         for c in cites:
             faith[r["model"]][1] += 1
             faith[r["model"]][0] += int(c.strip() in libs[r["group"]])

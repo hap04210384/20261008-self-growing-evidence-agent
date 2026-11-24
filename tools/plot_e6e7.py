@@ -26,7 +26,7 @@ DISC = [("p2_online", "P² online\n(ours)"),
 WINS = ["w15", "w30", "w60"]
 
 apply_style()
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(6.9, 3.2))
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(6.21, 2.88))  # 画布缩至 0.9×，字号不动；Word 内按 0.9 倍宽嵌入，文字渲染尺寸不变
 
 # ---------- (a) 离散化消融 ----------
 x = np.arange(len(DISC))
@@ -51,7 +51,7 @@ ax1.set_yticks([0.0, 0.25, 0.5, 0.75])
 ax1.grid(True, axis="y")
 ax1.legend(loc="upper right", fontsize=8.5)
 clean_spines(ax1)
-ax1.set_title("(a) discretizer ablation (equal pattern budget)",
+ax1.set_title("(a) discretizer ablation (equal budget)",
               fontsize=9.5, loc="left")
 
 # ---------- (b) 窗口敏感性 ----------
@@ -85,7 +85,7 @@ add_footnote(fig, [ax1, ax2],
              "oracle, and equal-width is a fixed grid. Window sweep reuses the "
              "default hop = $w$/2; coverage is the union of top-5 "
              "discriminative MFIs per class across 8 SKAB fault classes.",
-             fontsize=7.8, color=SUB, linespacing=1.4)
+             fontsize=7.8, color=SUB, linespacing=1.12, gap=0.006)  # 双面板横轴两行刻度，脚注略离一点
 fig.savefig(OUT + ".svg", format="svg")
-fig.savefig(OUT + ".png", dpi=220)
+fig.savefig(OUT + ".png", dpi=300)
 print("saved", OUT + ".png")

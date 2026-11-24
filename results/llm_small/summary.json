@@ -15,11 +15,11 @@
     0.569
    ],
    "mcnemar": {
-    "n_paired": 0,
-    "lib_only_correct": 0,
-    "nolib_only_correct": 0,
-    "chi2": 0.0,
-    "p": 1.0
+    "n_paired": 198,
+    "lib_only_correct": 26,
+    "nolib_only_correct": 55,
+    "chi2": -29.0,
+    "p": 0.00169
    },
    "citation_faithfulness": 0.976,
    "citations_total": 1001,
@@ -39,11 +39,11 @@
     0.5591
    ],
    "mcnemar": {
-    "n_paired": 0,
-    "lib_only_correct": 0,
-    "nolib_only_correct": 0,
-    "chi2": 0.0,
-    "p": 1.0
+    "n_paired": 194,
+    "lib_only_correct": 20,
+    "nolib_only_correct": 32,
+    "chi2": -12.0,
+    "p": 0.12635
    },
    "citation_faithfulness": 0.9934,
    "citations_total": 1068,

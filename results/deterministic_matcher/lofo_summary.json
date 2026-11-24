@@ -1,0 +1,30 @@
+{
+ "per_heldout": {
+  "IR007": {
+   "force_normal": 1.0,
+   "abstain_novel": 1.0,
+   "misattributed_known": 0.0
+  },
+  "B007": {
+   "force_normal": 1.0,
+   "abstain_novel": 1.0,
+   "misattributed_known": 0.0
+  },
+  "OR007": {
+   "force_normal": 1.0,
+   "abstain_novel": 1.0,
+   "misattributed_known": 0.0
+  },
+  "IR014": {
+   "force_normal": 1.0,
+   "abstain_novel": 1.0,
+   "misattributed_known": 0.0
+  },
+  "IR021": {
+   "force_normal": 1.0,
+   "abstain_novel": 1.0,
+   "misattributed_known": 0.0
+  }
+ },
+ "note": "LLM reference (exp_cwru_lofo): novel=1.00, misattributed=0.00 in all 15 cells"
+}

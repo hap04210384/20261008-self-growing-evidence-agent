@@ -68,6 +68,9 @@ exact outputs reported in the manuscript; every command regenerates them.
 | Fig. 6 evidence-budget ablation + Table 4 | E-LLM budget | see below |
 | Fig. 7 discretizer & window ablation | E6/E7 | `python experiments/exp_e6e7_ablation.py` then `python tools/plot_e6e7.py` |
 | Table 5 discretization-granularity ablation | E8 | `python experiments/exp_e8_granularity.py` |
+| §4.14 deterministic matching baseline (SKAB 60/198 windows) | matcher | `python experiments/exp_deterministic_matcher.py` |
+| §4.14 deterministic matcher, CWRU leave-one-fault-class-out | matcher LOFO | `python experiments/exp_deterministic_matcher_lofo.py` |
+| exact two-sided McNemar p-values (all experiments) | stats | `python experiments/exact_mcnemar_all.py` |
 | Fig. 1 framework schematic | — | design source under the manuscript workspace (`figures/fig1_framework/`) |
 
 Auxiliary: `python code/pipeline/exp_export_datasets.py` re-exports the raw

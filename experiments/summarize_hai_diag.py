@@ -5,7 +5,7 @@
 - 准确率 + Wilson 95% CI（窗口极少，区间会很宽——如实报告）；
 - 引用忠实度：mined 条件的引用对挖掘库、random 条件的引用对随机库逐字核验；
 - 无库条件幻觉率；
-- mined vs nolib 的配对 McNemar（按 case_key 配对，连续性校正）。
+- mined vs nolib 的配对 McNemar（按 case_key 配对，精确双边）。
 
 产出：results/hai_diag/summary.json
 """
@@ -42,10 +42,15 @@ def wilson(k, n, z=1.96):
 
 
 def mcnemar(b, c):
-    if b + c == 0:
+    """精确双边 McNemar：2*min(P(X<=b), P(X>=b))，X~Bin(b+c,1/2)，cap 1。
+    （2026-11-24 修订：替换原连续性校正渐近卡方，与手稿 3.8 口径一致。）"""
+    n = b + c
+    if n == 0:
         return (0.0, 1.0)
-    chi2 = (abs(b - c) - 1) ** 2 / (b + c)
-    return (chi2, math.erfc(math.sqrt(chi2 / 2)))
+    k = min(b, c)
+    p = min(1.0, 2.0 * sum(math.comb(n, i) for i in range(0, k + 1))
+             / 2.0 ** n)
+    return (float(b - c), p)
 
 
 recs = [json.loads(l) for l in open(CALLS, encoding="utf-8")]
@@ -109,12 +114,12 @@ for arm in ARMS:
             both += 1
             b += (w == 1 and wo == 0)
             c += (w == 0 and wo == 1)
-        chi2, p = mcnemar(b, c)
+        diff, p = mcnemar(b, c)
         f, h = faith[(m, "mined")], hallu[m]
         arm_out[m] = {
             "per_condition": per,
             "mcnemar_mined_vs_nolib": {"n_paired": both, "b": b, "c": c,
-                                       "chi2": round(chi2, 3),
+                                       "b_minus_c": round(diff, 3),
                                        "p": round(p, 5)},
             "citation_faithfulness_mined":
                 round(f[0] / max(f[1], 1), 4), "citations_mined": f[1],

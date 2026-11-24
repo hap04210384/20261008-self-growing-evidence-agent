@@ -76,7 +76,7 @@ print(json.dumps(summary, ensure_ascii=False, indent=1))
 
 # ---------- Figure 5 ----------
 apply_style()
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(6.9, 2.8),
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(6.21, 2.52),  # 画布缩至 0.9×，字号不动；Word 内按 0.9 倍宽嵌入，文字渲染尺寸不变
                                gridspec_kw={"width_ratios": [1.55, 1]})
 
 x = np.arange(len(MODEL_ORDER))
@@ -84,9 +84,9 @@ w = 0.36
 a_nolib = [summary["models"][m]["acc_without_library"] for m in MODEL_ORDER]
 a_lib = [summary["models"][m]["acc_with_library"] for m in MODEL_ORDER]
 
-b1 = ax1.bar(x - w / 2, a_nolib, w, color=SUB, label="without pattern library")
+b1 = ax1.bar(x - w / 2, a_nolib, w, color=SUB, label="no pattern library")
 b2 = ax1.bar(x + w / 2, a_lib, w, color=ORANGE,
-             label="with mined pattern library")
+             label="with mined library")
 for xi, v in zip(x, a_nolib):
     ax1.annotate(f"{v:.2f}", xy=(xi - w / 2, v + 0.02), ha="center",
                  fontsize=8.5, color=SUB)
@@ -100,9 +100,9 @@ for xi, (a, b) in enumerate(zip(a_nolib, a_lib)):
 
 ax1.set_xticks(x)
 ax1.set_xticklabels([MODEL_LABEL[m] for m in MODEL_ORDER])
-ax1.set_xlim(-0.95, 2.55)
+ax1.set_xlim(-0.95, 2.64)
 ax1.set_ylabel("Window diagnosis accuracy")
-ax1.set_ylim(0, 1.36)
+ax1.set_ylim(0, 1.44)
 ax1.set_yticks([0.0, 0.25, 0.5, 0.75, 1.0])
 ax1.axhline(0.5, color=SUB, lw=0.8, ls=":")  # chance level
 ax1.text(-0.88, 0.512, "chance\n(0.5)", fontsize=7.2, color=SUB, ha="left",
@@ -111,11 +111,11 @@ ax1.grid(True, axis="y")
 ax1.legend(loc="upper left", fontsize=8.5, handlelength=1.5)
 clean_spines(ax1)
 
-# 右上说明框：增益来自证据质量而非提示词长度
-ax1.text(2.45, 1.31, "largest gain on the strongest\nmodel — evidence quality,\n"
+# 右上说明框：增益来自证据质量而非提示词长度（置顶右带，避开图例与柱顶标签）
+ax1.text(2.61, 1.40, "largest gain on the strongest\nmodel — evidence quality,\n"
          "not prompt size, drives it",
-         fontsize=7.8, color=ORANGE, ha="right", va="top", linespacing=1.35,
-         bbox=dict(boxstyle="round,pad=0.45", fc=PANEL, ec=ORANGE, lw=0.9))
+         fontsize=7.5, color=ORANGE, ha="right", va="top", linespacing=1.25,
+         bbox=dict(boxstyle="round,pad=0.3", fc=PANEL, ec=ORANGE, lw=0.9))
 
 faith_v = [summary["models"][m]["citation_faithfulness"] for m in MODEL_ORDER]
 bars = ax2.bar(x, faith_v, 0.5, color=ORANGE)
@@ -123,12 +123,12 @@ for xi, v in zip(x, faith_v):
     ax2.annotate(f"{v * 100:.1f}%", xy=(xi, v + 0.012), ha="center",
                  fontsize=8.5, color=INK, fontweight="bold")
 ax2.set_xticks(x)
-ax2.set_xticklabels([MODEL_LABEL[m] for m in MODEL_ORDER], fontsize=7.2)
+ax2.set_xticklabels([MODEL_LABEL[m] for m in MODEL_ORDER], fontsize=6.5)
 ax2.set_xlim(-0.95, 2.55)
 ax2.set_ylabel("Citation faithfulness")
 ax2.set_ylim(0.55, 1.16)
 ax2.axhline(1.0, color=INK, lw=0.8, ls=(0, (4, 3)), alpha=0.5)
-ax2.text(-0.88, 0.985, "perfect\nfaithfulness", fontsize=7.2, color=INK,
+ax2.text(-0.92, 0.965, "perfect\nfaithfulness", fontsize=7.2, color=INK,
          ha="left", va="center", linespacing=1.25)
 ax2.grid(True, axis="y")
 clean_spines(ax2)
@@ -152,7 +152,7 @@ add_footnote(fig, [ax1, ax2],
              "model with vs. without the mined library. Without the library, "
              "GLM-4-Air fabricated citations in 114/198 windows; with the "
              "library, not a single unverifiable citation occurred.",
-             fontsize=7.3, color=SUB, linespacing=1.35)
+             fontsize=7.3, color=SUB, linespacing=1.08)
 fig.savefig(FIG + ".svg", format="svg")
-fig.savefig(FIG + ".png", dpi=220)
+fig.savefig(FIG + ".png", dpi=300)
 print("saved", FIG + ".png")

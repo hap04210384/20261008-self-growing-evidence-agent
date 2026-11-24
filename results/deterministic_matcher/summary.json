@@ -1,0 +1,2134 @@
+{
+ "protocols": [
+  {
+   "name": "60win",
+   "n_windows": 60,
+   "overall": {
+    "strict": 0.8167,
+    "vote": 0.8167
+   },
+   "per_group": {
+    "valve1": {
+     "n": 20,
+     "acc_strict": 0.9,
+     "acc_vote": 0.9,
+     "no_match_on_faulty": 2,
+     "no_match_on_normal": 10
+    },
+    "valve2": {
+     "n": 20,
+     "acc_strict": 0.85,
+     "acc_vote": 0.85,
+     "no_match_on_faulty": 3,
+     "no_match_on_normal": 10
+    },
+    "other": {
+     "n": 20,
+     "acc_strict": 0.7,
+     "acc_vote": 0.7,
+     "no_match_on_faulty": 2,
+     "no_match_on_normal": 6
+    }
+   },
+   "detail": [
+    {
+     "case_key": "valve1#25",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#52",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#53",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 6,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#128",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#131",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#160",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#170",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#226",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#289",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#344",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#368",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#390",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#449",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#580",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#713",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#803",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#856",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#892",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#1046",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#1112",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#6",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#36",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#55",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#56",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#63",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#78",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#84",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#99",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#117",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#125",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#159",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#166",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#181",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#219",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#223",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#230",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#246",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#262",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#270",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#276",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#56",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#113",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 5,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#147",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#152",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#157",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#182",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 4,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#406",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#447",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#495",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#503",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#550",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#558",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#573",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#621",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#729",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#737",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#759",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#797",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#864",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#869",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    }
+   ]
+  },
+  {
+   "name": "198win",
+   "n_windows": 198,
+   "overall": {
+    "strict": 0.8081,
+    "vote": 0.8081
+   },
+   "per_group": {
+    "valve1": {
+     "n": 66,
+     "acc_strict": 0.9394,
+     "acc_vote": 0.9394,
+     "no_match_on_faulty": 4,
+     "no_match_on_normal": 33
+    },
+    "valve2": {
+     "n": 66,
+     "acc_strict": 0.8636,
+     "acc_vote": 0.8636,
+     "no_match_on_faulty": 9,
+     "no_match_on_normal": 33
+    },
+    "other": {
+     "n": 66,
+     "acc_strict": 0.6212,
+     "acc_vote": 0.6212,
+     "no_match_on_faulty": 6,
+     "no_match_on_normal": 14
+    }
+   },
+   "detail": [
+    {
+     "case_key": "valve1#6",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#25",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#27",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#30",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#32",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#59",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#124",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#131",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#133",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 6,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#136",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 6,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#145",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#151",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#160",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#170",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#194",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#210",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#226",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#247",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#288",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#315",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#335",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#360",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#365",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#368",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#378",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#390",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#414",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#422",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#449",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#452",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#490",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#492",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 6,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#494",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#501",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#503",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 6,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#511",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 6,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#512",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#580",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#644",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#680",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#683",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#729",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 6,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#739",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#783",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 6,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#796",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#822",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#857",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#864",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#869",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#892",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#908",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#951",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#966",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#967",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#979",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#1013",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#1030",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#1046",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#1057",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#1095",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#1112",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#1138",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve1#1153",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#1162",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#1170",
+     "group": "valve1",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve1#1182",
+     "group": "valve1",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#8",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#11",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#14",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#17",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#18",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#20",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#25",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#42",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#44",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#47",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#50",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#53",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#54",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#55",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#63",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#69",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#71",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#77",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#81",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#84",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#86",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#87",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#90",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#96",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#97",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#99",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#102",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#108",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#110",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#113",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#115",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 6,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#116",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#122",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#128",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#132",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#133",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#135",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#142",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#145",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#146",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#149",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#168",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#170",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#181",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#185",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#190",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#192",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#195",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#198",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#199",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#201",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#216",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#222",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#240",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#244",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#249",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#250",
+     "group": "valve2",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#255",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#256",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#260",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#264",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#265",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#266",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#271",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 8,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "valve2#277",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "valve2#280",
+     "group": "valve2",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#0",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 5,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#3",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 5,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#11",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 5,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#45",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#77",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#102",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 5,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#108",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 5,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#113",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 5,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#116",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 5,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#161",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#167",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#170",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#176",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 4,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#183",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 4,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#184",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 4,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#203",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#241",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#246",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#248",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#266",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#273",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#290",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#311",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#313",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#327",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#328",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#386",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 5,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#413",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#415",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#421",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#434",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#446",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 4,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#450",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#477",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#482",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#495",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#514",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#554",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#587",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#614",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#622",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#626",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#651",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#656",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#658",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#693",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#706",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#725",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#727",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#731",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#736",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#753",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#768",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#792",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 4,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#808",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#812",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#826",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#833",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#855",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#857",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 2,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#885",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#891",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#894",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#908",
+     "group": "other",
+     "truth": "normal",
+     "n_match": 0,
+     "pred_strict": "normal",
+     "pred_vote": "normal"
+    },
+    {
+     "case_key": "other#948",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    },
+    {
+     "case_key": "other#960",
+     "group": "other",
+     "truth": "faulty",
+     "n_match": 3,
+     "pred_strict": "faulty",
+     "pred_vote": "faulty"
+    }
+   ]
+  }
+ ]
+}

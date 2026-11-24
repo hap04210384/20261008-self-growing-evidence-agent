@@ -186,29 +186,29 @@
     "n_paired": 198,
     "hi_only_correct": 56,
     "lo_only_correct": 18,
-    "chi2": 18.5,
-    "p": 2e-05
+    "b_minus_c": 38.0,
+    "p": 1e-05
    },
    "k0_vs_k5": {
     "n_paired": 198,
     "hi_only_correct": 56,
     "lo_only_correct": 11,
-    "chi2": 28.896,
+    "b_minus_c": 45.0,
     "p": 0.0
    },
    "k3_vs_k5": {
     "n_paired": 198,
     "hi_only_correct": 12,
     "lo_only_correct": 5,
-    "chi2": 2.118,
-    "p": 0.14561
+    "b_minus_c": 7.0,
+    "p": 0.14346
    },
    "k5_vs_k8": {
     "n_paired": 198,
     "hi_only_correct": 11,
     "lo_only_correct": 11,
-    "chi2": 0.045,
-    "p": 0.83117
+    "b_minus_c": 0.0,
+    "p": 1.0
    }
   },
   "qwen-plus": {
@@ -216,29 +216,29 @@
     "n_paired": 197,
     "hi_only_correct": 52,
     "lo_only_correct": 14,
-    "chi2": 20.742,
-    "p": 1e-05
+    "b_minus_c": 38.0,
+    "p": 0.0
    },
    "k0_vs_k5": {
     "n_paired": 190,
     "hi_only_correct": 50,
     "lo_only_correct": 13,
-    "chi2": 20.571,
-    "p": 1e-05
+    "b_minus_c": 37.0,
+    "p": 0.0
    },
    "k3_vs_k5": {
     "n_paired": 189,
     "hi_only_correct": 16,
     "lo_only_correct": 12,
-    "chi2": 0.321,
-    "p": 0.57075
+    "b_minus_c": 4.0,
+    "p": 0.57159
    },
    "k5_vs_k8": {
     "n_paired": 190,
     "hi_only_correct": 7,
     "lo_only_correct": 0,
-    "chi2": 5.143,
-    "p": 0.02334
+    "b_minus_c": 7.0,
+    "p": 0.01562
    }
   },
   "glm-4-air": {
@@ -246,29 +246,29 @@
     "n_paired": 198,
     "hi_only_correct": 36,
     "lo_only_correct": 19,
-    "chi2": 4.655,
-    "p": 0.03097
+    "b_minus_c": 17.0,
+    "p": 0.03003
    },
    "k0_vs_k5": {
     "n_paired": 198,
     "hi_only_correct": 41,
     "lo_only_correct": 28,
-    "chi2": 2.087,
-    "p": 0.14856
+    "b_minus_c": 13.0,
+    "p": 0.14803
    },
    "k3_vs_k5": {
     "n_paired": 198,
     "hi_only_correct": 13,
     "lo_only_correct": 17,
-    "chi2": 0.3,
-    "p": 0.58388
+    "b_minus_c": -4.0,
+    "p": 0.58466
    },
    "k5_vs_k8": {
     "n_paired": 198,
     "hi_only_correct": 8,
     "lo_only_correct": 19,
-    "chi2": 3.704,
-    "p": 0.05429
+    "b_minus_c": -11.0,
+    "p": 0.05224
    }
   }
  }

@@ -50,10 +50,14 @@ DS_LABEL = {
     "cmapss": "C-MAPSS",
     "cwru": "CWRU",
 }
-labels = [f"{DS_LABEL[r['dataset']]}\n{round(r['thr'], 2)}" for _, r in piv.iterrows()]
+labels = []
+for i, r in piv.iterrows():
+    # 组首标数据集名，组内后续只标阈值，避免窄画布下相邻标签相碰
+    name = DS_LABEL[r['dataset']] if i == 0 or piv.loc[i - 1, 'dataset'] != r['dataset'] else ""
+    labels.append(f"{name}\n{round(r['thr'], 2)}" if name else f"\n{round(r['thr'], 2)}")
 
 apply_style()
-fig, ax = plt.subplots(figsize=(6.9, 3.9))
+fig, ax = plt.subplots(figsize=(5.52, 3.12))  # 画布缩至 0.8×，字号不动；Word 内按 0.8 倍宽嵌入，文字渲染尺寸不变
 
 x = np.arange(len(piv))
 w = 0.38
@@ -110,10 +114,10 @@ for xi, h in zip(x, heavy):
                     ha="center", va="center", fontsize=6.8, color="white",
                     fontweight="bold", rotation=90)
 
-# 10 ms 重配置分界参考线
+# 10 ms 重配置分界参考线（标签放线左上空带，避开右侧两行标注）
 ax.axhline(0.01, color=INK, lw=0.8, ls=(0, (4, 3)), alpha=0.5)
-ax.text(len(piv) - 0.55, 0.0115, "10 ms — heavy-config cutoff",
-        fontsize=7.6, color=INK, ha="right")
+ax.text(3.55, 0.0115, "10 ms — heavy-config cutoff",
+        fontsize=7.6, color=INK, ha="left")
 
 ax.set_yscale("log")
 ax.set_ylabel("Median mining time (s)")
@@ -133,12 +137,12 @@ ax.annotate("995 MFIs — heaviest output: BMMA 2.1×\nfaster and steadier "
             arrowprops=dict(arrowstyle="->", color=AMBER, lw=1.0,
                             connectionstyle="arc3,rad=0.2"))
 
-# 轻配置：固定内核启动开销主导
+# 轻配置：固定内核启动开销主导（置于中上部空区，箭头右下指向轻载柱簇）
 ax.annotate("light configs: fixed kernel-setup\noverhead dominates (0.4–0.9×)",
-            xy=(len(piv) - 1.5, 3e-4), xytext=(len(piv) - 4.6, 0.004),
+            xy=(8.4, 5.5e-4), xytext=(5.9, 0.028),
             fontsize=8.2, color=SUB,
             arrowprops=dict(arrowstyle="->", color=SUB, lw=1.0,
-                            connectionstyle="arc3,rad=-0.2"))
+                            connectionstyle="arc3,rad=-0.25"))
 
 # 重配置中位加速说明
 first_heavy = int(np.argmax(heavy.values))
@@ -153,8 +157,8 @@ add_footnote(fig, [ax],
              "whiskers: IQR. Bold ×N: BMMA speedup vs. baseline of the same "
              "configuration (green = faster, gray = slower). Seconds annotated "
              "on heavy configurations (baseline ≥ 10 ms).",
-             fontsize=7.8, color=SUB, linespacing=1.4)
+             fontsize=7.8, color=SUB, linespacing=1.12)
 fig.savefig(OUT + ".svg", format="svg")
-fig.savefig(OUT + ".png", dpi=220)
+fig.savefig(OUT + ".png", dpi=300)
 print("saved", OUT + ".png")
 print("heavy median speedup:", med_heavy)

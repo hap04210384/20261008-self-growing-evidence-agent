@@ -22,7 +22,7 @@ OUT = os.path.join(ROOT, "figures", "fig_anytime_engine")
 
 apply_style()
 
-fig, ax = plt.subplots(figsize=(6.9, 3.9))
+fig, ax = plt.subplots(figsize=(5.52, 3.12))  # 画布缩至 0.8×，字号不动；Word 内按 0.8 倍宽嵌入，文字渲染尺寸不变
 
 # 正常工况零覆盖区（两个 run 在 k<=13 均为 0）
 ax.axvspan(0.5, 13.5, color=SUB, alpha=0.07, zorder=0)
@@ -59,8 +59,8 @@ ax.annotate(f"fault-characteristic states\nenter the stream ($k$={lift})",
             arrowprops=dict(arrowstyle="->", color=ORANGE, lw=1.0,
                             connectionstyle="arc3,rad=-0.25"))
 
-# anytime 语义框（左下零覆盖区内的空白带）
-ax.text(1.0, 0.05,
+# anytime 语义框（左下零覆盖区内的空白带，上移避开曲线）
+ax.text(1.0, 0.10,
         "AnyFIM anytime semantics:\nthe library is correct at ANY\ninterruption stage $k$",
         fontsize=8.3, color=BLUE, va="bottom", ha="left", linespacing=1.35,
         bbox=dict(boxstyle="round,pad=0.5", fc=PANEL, ec=BLUE, lw=0.9))
@@ -81,7 +81,7 @@ add_footnote(fig, [ax],
              "bit-identical to exhaustive MFI mining at the per-stage support "
              "threshold (single exception: a tied-support stage — a direct "
              "illustration of anytime semantics).",
-             fontsize=7.8, color=SUB, linespacing=1.4)
+             fontsize=7.8, color=SUB, linespacing=1.12)
 fig.savefig(OUT + ".svg", format="svg")
-fig.savefig(OUT + ".png", dpi=220)
+fig.savefig(OUT + ".png", dpi=300)
 print("saved", OUT + ".png")

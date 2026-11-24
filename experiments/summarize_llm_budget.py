@@ -53,11 +53,15 @@ def wilson(k, n, z=1.96):
 
 
 def mcnemar(b, c):
-    if b + c == 0:
+    """精确双边 McNemar：2*min(P(X<=b), P(X>=b))，X~Bin(b+c,1/2)，cap 1。
+    （2026-11-24 修订：替换原连续性校正渐近卡方，与手稿 3.8 口径一致。）"""
+    n = b + c
+    if n == 0:
         return (0.0, 1.0)
-    chi2 = (abs(b - c) - 1) ** 2 / (b + c)
-    p = math.erfc(math.sqrt(chi2 / 2))
-    return (chi2, p)
+    k = min(b, c)
+    p = min(1.0, 2.0 * sum(math.comb(n, i) for i in range(0, k + 1))
+             / 2.0 ** n)
+    return (float(b - c), p)
 
 
 # ---------- 载入与判分 ----------
@@ -114,10 +118,10 @@ for m in MODEL_ORDER:
                 b += 1
             elif bq == 0 and a == 1:
                 c += 1
-        chi2, p = mcnemar(b, c)
+        diff, p = mcnemar(b, c)
         mc[m][f"k{k1}_vs_k{k2}"] = {
             "n_paired": paired, "hi_only_correct": b,
-            "lo_only_correct": c, "chi2": round(chi2, 3),
+            "lo_only_correct": c, "b_minus_c": round(diff, 3),
             "p": round(p, 5)}
 
 stats = {"n_budget_calls": sum(1 for r in recs if r["k"] != 0),

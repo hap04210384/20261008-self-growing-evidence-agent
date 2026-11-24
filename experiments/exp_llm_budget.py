@@ -6,9 +6,10 @@
 - 变量：附着到提示词的模式库条数 k ∈ {1, 2, 3, 5, 8}
   （k=0 即无证据条件，直接复用 results/llm_diag/calls.jsonl 中
    with_lib=false 的 60×3=180 条记录，不重复调用）
-- 排序口径：模式按 lift 降序截断 top-k（与手稿 3.5/4.5 的
-  "ranked by lift" 口径一致；lift 是 anomalous support 的严格
-  单调函数，故与引擎输出顺序一致）
+- 排序口径：模式按 anomalous-window support 降序截断 top-k（与
+  load_group 口径一致，即手稿 3.5 的"ranked by anomalous-window
+  support"；本批库入选模式的 sup_norm 均为 0，lift 与支持度同序，
+  两种口径给出同一批 top-k；lift 仅作为富集统计量随条目标注）
 - 模型：deepseek-chat / qwen-plus / glm-4-air（temperature=0）
 - 产物：results/llm_diag/budget.jsonl（逐次调用，断点续跑）
 - 用法：python exp_llm_budget.py [model]   （缺省跑全部）

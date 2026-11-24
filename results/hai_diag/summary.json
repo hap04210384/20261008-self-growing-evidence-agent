@@ -46,8 +46,8 @@
      "n_paired": 32,
      "b": 13,
      "c": 10,
-     "chi2": 0.174,
-     "p": 0.67666
+     "b_minus_c": 3.0,
+     "p": 0.67764
     },
     "citation_faithfulness_mined": 0.9804,
     "citations_mined": 51,
@@ -89,7 +89,7 @@
      "n_paired": 35,
      "b": 10,
      "c": 9,
-     "chi2": 0.0,
+     "b_minus_c": 1.0,
      "p": 1.0
     },
     "citation_faithfulness_mined": 1.0,
@@ -132,7 +132,7 @@
      "n_paired": 36,
      "b": 18,
      "c": 17,
-     "chi2": 0.0,
+     "b_minus_c": 1.0,
      "p": 1.0
     },
     "citation_faithfulness_mined": 0.9688,
@@ -175,7 +175,7 @@
      "n_paired": 33,
      "b": 0,
      "c": 0,
-     "chi2": 0.0,
+     "b_minus_c": 0.0,
      "p": 1.0
     },
     "citation_faithfulness_mined": 0.9434,
@@ -218,7 +218,7 @@
      "n_paired": 15,
      "b": 0,
      "c": 0,
-     "chi2": 0.0,
+     "b_minus_c": 0.0,
      "p": 1.0
     },
     "citation_faithfulness_mined": 0.8636,

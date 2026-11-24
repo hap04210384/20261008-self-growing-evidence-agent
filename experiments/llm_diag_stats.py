@@ -3,7 +3,7 @@
 
 基于 results/llm_diag/calls.jsonl 计算：
 1. 每个 (model, with_lib, group) 的准确率与 Wilson 95% 置信区间；
-2. 每个 model 有/无证据库的 McNemar 配对检验（按 case_key 配对，连续性校正）；
+2. 每个 model 有/无证据库的 McNemar 配对检验（按 case_key 配对，精确双边）；
 3. 按故障类（valve1 / valve2 / other）的分解准确率。
 
 产出: results/llm_diag/stats.json（并在 stdout 打印摘要）
@@ -40,12 +40,15 @@ def wilson(k, n, z=1.96):
 
 
 def mcnemar(b, c):
-    """连续性校正的 McNemar 卡方；返回 (chi2, p)。"""
-    if b + c == 0:
+    """精确双边 McNemar：2*min(P(X<=b), P(X>=b))，X~Bin(b+c,1/2)，cap 1。
+    （2026-11-24 修订：替换原连续性校正渐近卡方，与手稿 3.8 口径一致。）"""
+    n = b + c
+    if n == 0:
         return (0.0, 1.0)
-    chi2 = (abs(b - c) - 1) ** 2 / (b + c)
-    p = math.erfc(math.sqrt(chi2 / 2))  # chi2 df=1 的生存函数
-    return (chi2, p)
+    k = min(b, c)
+    p = min(1.0, 2.0 * sum(math.comb(n, i) for i in range(0, k + 1))
+             / 2.0 ** n)
+    return (float(b - c), p)
 
 
 recs = [json.loads(l) for l in open(CALLS, encoding="utf-8")]
@@ -104,10 +107,10 @@ for m in MODEL_ORDER:
             b += 1
         elif w == 0 and wo == 1:
             c += 1
-    chi2, p = mcnemar(b, c)
+    diff, p = mcnemar(b, c)
     mstat["mcnemar"] = {"n_paired": both, "lib_only_correct": b,
                         "nolib_only_correct": c,
-                        "chi2": round(chi2, 3), "p": round(p, 5)}
+                        "b_minus_c": round(diff, 3), "p": round(p, 5)}
     stats["models"][m] = mstat
 
 json.dump(stats, open(OUT, "w", encoding="utf-8"),
@@ -125,5 +128,5 @@ for m in MODEL_ORDER:
         print(f"  {lab:12s} {g:11s} w/o={a0:.2f}  with={a1:.2f}")
     mc = s["mcnemar"]
     print(f"  McNemar: b={mc['lib_only_correct']} c={mc['nolib_only_correct']} "
-          f"chi2={mc['chi2']} p={mc['p']}")
+          f"b-c={mc['b_minus_c']} p={mc['p']}")
 print("saved", OUT)

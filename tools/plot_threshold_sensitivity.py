@@ -34,7 +34,7 @@ STYLE = {
 }
 
 apply_style()
-fig, ax = plt.subplots(figsize=(6.9, 4.0))
+fig, ax = plt.subplots(figsize=(5.52, 3.2))  # 画布缩至 0.8×，字号不动；Word 内按 0.8 倍宽嵌入，文字渲染尺寸不变
 
 # 低阈值危险区
 ax.axvspan(0.008, 0.05, color=ORANGE, alpha=0.07, zorder=0)
@@ -58,6 +58,11 @@ for key, (lbl, color, mk) in STYLE.items():
     if max(sub["med_total_s"]) / min(sub["med_total_s"]) < 1.5:
         txt = "runtime-insensitive\n(trivial load)"
         off, ha = (-4, -18), "right"
+    elif key == "cwru":
+        # CWRU 标注挂末点、放到右下空区（ha=right 向左展开），避开 SKAB 曲线与轴刻度
+        txt = f"{t_ratio:.2g}× thr → {r_ratio:.2g}× time"
+        x0, y0 = sub.iloc[-1]["thr"], sub.iloc[-1]["med_total_s"]
+        off, ha = (-4, -16), "right"
     else:
         txt = f"{t_ratio:.2g}× thr → {r_ratio:.2g}× time"
         off, ha = (2, 8), "left"
@@ -99,7 +104,7 @@ add_footnote(fig, [ax],
              "fixed threshold is a safe default across industrial deployments. "
              "Annotations give the threshold-ratio → runtime-ratio measured for "
              "each dataset.",
-             fontsize=7.8, color=SUB, linespacing=1.4)
+             fontsize=7.8, color=SUB, linespacing=1.12)
 fig.savefig(OUT + ".svg", format="svg")
-fig.savefig(OUT + ".png", dpi=220)
+fig.savefig(OUT + ".png", dpi=300)
 print("saved", OUT + ".png")
