@@ -242,5 +242,20 @@
    "p_exact": 0.052238985896110535,
    "p_old": 0.054291828366854596
   }
+ },
+ "holm_families": {
+  "loro_six": {
+   "deepseek-chat|S5_loro_vs_nolib": 1.1980373253978052e-13,
+   "deepseek-chat|S5_loro_vs_insample": 0.01796436170116067,
+   "qwen-plus|S5_loro_vs_nolib": 4.608592804476017e-18,
+   "qwen-plus|S5_loro_vs_insample": 0.007281619742445143,
+   "glm-4-air|S5_loro_vs_nolib": 0.8523200309339878,
+   "glm-4-air|S5_loro_vs_insample": 0.8523200309339878
+  },
+  "budget_peak": {
+   "deepseek-chat|peak_k5_vs_k0": 4.2915920631667395e-08,
+   "qwen-plus|peak_k8_vs_k0": 4.646683608171314e-09,
+   "glm-4-air|peak_k3_vs_k0": 0.030028945411892494
+  }
  }
 }

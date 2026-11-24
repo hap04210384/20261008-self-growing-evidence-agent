@@ -205,6 +205,37 @@ for m in ("deepseek-chat", "qwen-plus", "glm-4-air"):
         "b": b, "c": c, "p_exact": exact_mcnemar(b, c),
         "p_old": corrected_mcnemar(b, c)}
 
+
+# ---- Holm 校正（3.8 节声明的两个检验族）----
+def holm(ps):
+    """Holm step-down，返回与输入同序的校正后 p 值。"""
+    m = len(ps)
+    order = sorted(range(m), key=lambda i: ps[i])
+    adj = [0.0] * m
+    prev = 0.0
+    for rank, i in enumerate(order):
+        val = min(1.0, (m - rank) * ps[i])
+        prev = max(prev, val)
+        adj[i] = prev
+    return adj
+
+# 族1：4.7 节 LORO 六个检验（3 模型 × {loro_vs_nolib, loro_vs_insample}）
+f1_keys = [(m, d) for m in ("deepseek-chat", "qwen-plus", "glm-4-air")
+           for d in ("S5_loro_vs_nolib", "S5_loro_vs_insample")]
+f1_ps = [res[d][m]["p_exact"] for m, d in f1_keys]
+f1_adj = holm(f1_ps)
+res["holm_families"] = {"loro_six": {}, "budget_peak": {}}
+for (m, d), a in zip(f1_keys, f1_adj):
+    res["holm_families"]["loro_six"][f"{m}|{d}"] = a
+
+# 族2：4.8 节峰值检验（3 模型的 peak vs k0）
+f2_keys = [("deepseek-chat", "k5"), ("qwen-plus", "k8"), ("glm-4-air", "k3")]
+f2_keys = [(m, k) for m, k in f2_keys]
+f2_ps = [res["S6_budget_pairs"][f"{m}_{k}_vs_k0"]["p_exact"] for m, k in f2_keys]
+f2_adj = holm(f2_ps)
+for (m, k), a in zip(f2_keys, f2_adj):
+    res["holm_families"]["budget_peak"][f"{m}|peak_{k}_vs_k0"] = a
+
 with open(OUT, "w", encoding="utf-8") as f:
     json.dump(res, f, ensure_ascii=False, indent=1)
 
@@ -212,6 +243,8 @@ with open(OUT, "w", encoding="utf-8") as f:
 for site, d in res.items():
     print(f"== {site}")
     for m, v in d.items():
+        if not isinstance(v, dict) or "b" not in v:
+            continue
         print(f"  {m:28s} b={v['b']:3d} c={v['c']:3d} "
               f"p_exact={v['p_exact']:.5f}  p_old={v['p_old']:.5f}")
 print("saved", OUT)
